@@ -1,0 +1,13 @@
+{
+  "date": "2026-08-01",
+  "update_time": "等待首次运行",
+  "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
+  "platforms": {
+    "douyin": { "count": 0, "items": [] },
+    "bilibili": { "count": 0, "items": [] },
+    "weibo": { "count": 0, "items": [] },
+    "xiaohongshu": { "count": 0, "items": [] }
+  },
+  "ai_rewrite": [],
+  "ai_status": "部署后请到 Actions 页面手动运行一次「Easylumi 每日热榜更新」"
+}
