@@ -1,1270 +1,2459 @@
-/* ============ 颜色变量 ============ */
-:root {
---bg-pink: #fff5f7;
---bg-cream: #fffaf2;
---bg-mint: #f0fbf4;
---bg-lavender: #f5f3ff;
---bg-peach: #fff3ec;
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Easylumi" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#ff7090" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="manifest" href="manifest.json" />
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+<link rel="icon" type="image/png" href="icons/icon-192.png" />
+<title>Easylumi 工作台</title>
+<style>
+  /* ============ 基础重置 ============ */
+  *, *::before, *::after { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+  body {
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: #4a3a3a;
+    background: linear-gradient(180deg, #fff5f7 0%, #fff8f0 50%, #f5fbf6 100%);
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    line-height: 1.65;
+    max-width: 100vw;
+  }
+  .content { overflow-x: hidden; max-width: 100%; }
+  .page { overflow-x: hidden; max-width: 100%; }
+  .section-card, .jing-card, .huangli-card, .hot-card, .feel-card, .quote-card, .news-item { overflow-x: hidden; max-width: 100%; }
+  .jing-original, .jing-explain, .huangli-tip, .hot-point, .hot-title, .news-title, .quote-text { overflow-wrap: break-word; word-break: break-word; max-width: 100%; }
+  button { font-family: inherit; cursor: pointer; border: none; background: none; padding: 0; color: inherit; }
+  input, textarea, select { font-family: inherit; outline: none; }
+  ul { list-style: none; padding: 0; margin: 0; }
+  a { color: inherit; text-decoration: none; }
+  ::-webkit-scrollbar { width: 0; height: 0; }
 
---pink-50:  #fff0f3;
---pink-100: #ffe0e8;
---pink-200: #ffc4d2;
---pink-300: #ffa5b9;
---pink-400: #ff8aa5;
---pink-500: #ff7090;
+  /* ============ 颜色变量 ============ */
+  :root {
+    --bg-pink: #fff5f7;
+    --bg-cream: #fffaf2;
+    --bg-mint: #f0fbf4;
+    --bg-lavender: #f5f3ff;
+    --bg-peach: #fff3ec;
 
---mint-50:  #ecfaf0;
---mint-100: #d6f4de;
---mint-200: #b8ebc5;
---mint-300: #94deaa;
+    --pink-50:  #fff0f3;
+    --pink-100: #ffe0e8;
+    --pink-200: #ffc4d2;
+    --pink-300: #ffa5b9;
+    --pink-400: #ff8aa5;
+    --pink-500: #ff7090;
 
---blue-50:  #ecf5ff;
---blue-100: #d6e9ff;
---blue-200: #b8d6ff;
---blue-300: #94c0ff;
+    --mint-50:  #ecfaf0;
+    --mint-100: #d6f4de;
+    --mint-200: #b8ebc5;
+    --mint-300: #94deaa;
 
---peach-50:  #fff3e8;
---peach-100: #ffe2cc;
---peach-200: #ffcf99;
+    --blue-50:  #ecf5ff;
+    --blue-100: #d6e9ff;
+    --blue-200: #b8d6ff;
+    --blue-300: #94c0ff;
 
---lav-50:  #f4f0ff;
---lav-100: #e6dcff;
---lav-200: #d2bfff;
+    --peach-50:  #fff3e8;
+    --peach-100: #ffe2cc;
+    --peach-200: #ffcf99;
 
---yellow-50:  #fff8e0;
---yellow-100: #ffefb8;
+    --lav-50:  #f4f0ff;
+    --lav-100: #e6dcff;
+    --lav-200: #d2bfff;
 
---gray-50:  #faf8f7;
---gray-100: #f3eeec;
---gray-200: #e6dfdc;
---gray-300: #d2c8c4;
---gray-400: #a89d99;
---gray-500: #7a6f6b;
---gray-600: #5a504c;
---gray-700: #3a322f;
+    --yellow-50:  #fff8e0;
+    --yellow-100: #ffefb8;
 
---shadow-sm: 0 2px 6px rgba(255, 180, 200, 0.08);
---shadow: 0 4px 16px rgba(255, 180, 200, 0.12);
---shadow-lg: 0 8px 28px rgba(255, 180, 200, 0.18);
+    --gray-50:  #faf8f7;
+    --gray-100: #f3eeec;
+    --gray-200: #e6dfdc;
+    --gray-300: #d2c8c4;
+    --gray-400: #a89d99;
+    --gray-500: #7a6f6b;
+    --gray-600: #5a504c;
+    --gray-700: #3a322f;
 
---radius-sm: 12px;
---radius: 18px;
---radius-lg: 24px;
---radius-xl: 32px;
-}
+    --shadow-sm: 0 2px 6px rgba(255, 180, 200, 0.08);
+    --shadow: 0 4px 16px rgba(255, 180, 200, 0.12);
+    --shadow-lg: 0 8px 28px rgba(255, 180, 200, 0.18);
 
-/* ============ 主布局 ============ */
-.app {
-display: flex;
-min-height: 100vh;
-position: relative;
-}
+    --radius-sm: 12px;
+    --radius: 18px;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
+  }
 
-/* ============ 左侧导航 ============ */
-.sidebar {
-position: fixed;
-top: 0;
-left: 0;
-width: 240px;
-height: 100vh;
-background: linear-gradient(180deg, #fffafd 0%, #fff5f7 100%);
-border-right: 1px solid var(--pink-100);
-z-index: 100;
-display: flex;
-flex-direction: column;
-padding: 24px 16px;
-transition: transform 0.32s cubic-bezier(.4,0,.2,1);
-overflow-y: auto;
-}
-.sidebar.hidden-mobile {
-transform: translateX(-100%);
-}
-.sidebar-title {
-font-size: 16px;
-font-weight: 600;
-color: var(--gray-700);
-padding: 8px 12px 20px;
-display: flex;
-align-items: center;
-gap: 8px;
-}
-.sidebar-title .bow { font-size: 22px; }
-.nav-list { display: flex; flex-direction: column; gap: 4px; }
-.nav-item {
-display: flex;
-align-items: center;
-gap: 12px;
-padding: 12px 14px;
-border-radius: var(--radius);
-cursor: pointer;
-transition: all 0.2s;
-color: var(--gray-600);
-font-size: 15px;
-font-weight: 500;
-user-select: none;
-}
-.nav-item:hover { background: var(--pink-50); }
-.nav-item.active {
-background: linear-gradient(135deg, var(--pink-100), var(--pink-50));
-color: var(--gray-700);
-box-shadow: var(--shadow-sm);
-}
-.nav-item .icon {
-width: 32px;
-height: 32px;
-border-radius: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 16px;
-background: var(--gray-50);
-flex-shrink: 0;
-}
-.nav-item.active .icon { background: white; }
+  /* ============ 主布局 ============ */
+  .app {
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+  }
 
-/* 颜色循环 */
-.nav-item:nth-child(1) .icon { background: var(--pink-50); }
-.nav-item:nth-child(2) .icon { background: var(--mint-50); }
-.nav-item:nth-child(3) .icon { background: var(--blue-50); }
-.nav-item:nth-child(4) .icon { background: var(--peach-50); }
-.nav-item:nth-child(5) .icon { background: var(--lav-50); }
-.nav-item:nth-child(6) .icon { background: var(--yellow-50); }
-.nav-item:nth-child(7) .icon { background: var(--mint-50); }
+  /* ============ 左侧导航 ============ */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100vh;
+    background: linear-gradient(180deg, #fffafd 0%, #fff5f7 100%);
+    border-right: 1px solid var(--pink-100);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+    transition: transform 0.32s cubic-bezier(.4,0,.2,1);
+    overflow-y: auto;
+  }
+  .sidebar.hidden-mobile {
+    transform: translateX(-100%);
+  }
+  .sidebar-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray-700);
+    padding: 8px 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sidebar-title .bow { font-size: 22px; }
+  .nav-list { display: flex; flex-direction: column; gap: 4px; }
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 14px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--gray-600);
+    font-size: 15px;
+    font-weight: 500;
+    user-select: none;
+  }
+  .nav-item:hover { background: var(--pink-50); }
+  .nav-item.active {
+    background: linear-gradient(135deg, var(--pink-100), var(--pink-50));
+    color: var(--gray-700);
+    box-shadow: var(--shadow-sm);
+  }
+  .nav-item .icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background: var(--gray-50);
+    flex-shrink: 0;
+  }
+  .nav-item.active .icon { background: white; }
 
-/* ============ 主内容区 ============ */
-.main {
-flex: 1;
-margin-left: 240px;
-min-height: 100vh;
-padding: 0;
-transition: margin-left 0.3s;
-}
+  /* 颜色循环 */
+  .nav-item:nth-child(1) .icon { background: var(--pink-50); }
+  .nav-item:nth-child(2) .icon { background: var(--mint-50); }
+  .nav-item:nth-child(3) .icon { background: var(--blue-50); }
+  .nav-item:nth-child(4) .icon { background: var(--peach-50); }
+  .nav-item:nth-child(5) .icon { background: var(--lav-50); }
+  .nav-item:nth-child(6) .icon { background: var(--yellow-50); }
+  .nav-item:nth-child(7) .icon { background: var(--mint-50); }
 
-/* ============ 顶部栏 ============ */
-.topbar {
-position: sticky;
-top: 0;
-z-index: 50;
-background: rgba(255, 245, 247, 0.85);
-backdrop-filter: saturate(180%) blur(20px);
--webkit-backdrop-filter: saturate(180%) blur(20px);
-border-bottom: 1px solid rgba(255, 192, 203, 0.15);
-padding: 14px 20px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-.topbar-left { display: flex; align-items: center; gap: 12px; }
-.menu-btn {
-width: 40px;
-height: 40px;
-border-radius: 12px;
-background: white;
-box-shadow: var(--shadow-sm);
-display: none;
-align-items: center;
-justify-content: center;
-font-size: 18px;
-}
-.topbar-title { font-size: 16px; font-weight: 600; color: var(--gray-700); }
-.topbar-actions { display: flex; align-items: center; gap: 8px; }
-.topbar-action-btn {
-width: 36px; height: 36px; border-radius: 50%;
-background: white; box-shadow: var(--shadow-sm);
-display: flex; align-items: center; justify-content: center;
-font-size: 14px;
-}
+  /* ============ 主内容区 ============ */
+  .main {
+    flex: 1;
+    margin-left: 240px;
+    min-height: 100vh;
+    padding: 0;
+    transition: margin-left 0.3s;
+  }
 
-/* ============ 内容容器 ============ */
-.content {
-padding: 24px;
-max-width: 720px;
-margin: 0 auto;
-}
-.page { display: none; animation: fadeIn 0.4s ease; }
-.page.active { display: block; }
-@keyframes fadeIn {
-from { opacity: 0; transform: translateY(8px); }
-to { opacity: 1; transform: translateY(0); }
-}
+  /* ============ 顶部栏 ============ */
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(255, 245, 247, 0.85);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid rgba(255, 192, 203, 0.15);
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topbar-left { display: flex; align-items: center; gap: 12px; }
+  .menu-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: var(--shadow-sm);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .topbar-title { font-size: 16px; font-weight: 600; color: var(--gray-700); }
+  .topbar-actions { display: flex; align-items: center; gap: 8px; }
+  .topbar-action-btn {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: white; box-shadow: var(--shadow-sm);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+  }
 
-/* ============ 首页 ============ */
-.hero {
-text-align: center;
-padding: 24px 16px 32px;
-}
-.greeting { font-size: 26px; font-weight: 700; color: var(--gray-700); margin: 0; }
-.greeting-suffix { color: var(--pink-500); }
-.slogan-line {
-margin: 8px 0 4px;
-color: var(--gray-500);
-font-size: 13px;
-}
-.slogan-pill {
-display: inline-block;
-margin-top: 8px;
-padding: 6px 14px;
-background: linear-gradient(135deg, var(--pink-100), var(--peach-50));
-border-radius: 999px;
-color: var(--gray-600);
-font-size: 12px;
-font-weight: 500;
-}
-.big-emoji {
-font-size: 64px;
-margin: 24px 0 8px;
-line-height: 1;
-display: inline-block;
-animation: float 3s ease-in-out infinite;
-}
-@keyframes float {
-0%, 100% { transform: translateY(0); }
-50% { transform: translateY(-6px); }
-}
-.workspace-title { font-size: 22px; font-weight: 700; color: var(--gray-700); margin: 8px 0 4px; }
-.workspace-sub { color: var(--gray-500); font-size: 13px; }
-.workspace-tagline {
-margin-top: 6px;
-color: var(--gray-400);
-font-size: 12px;
-}
+  /* ============ 内容容器 ============ */
+  .content {
+    padding: 24px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .page { display: none; animation: fadeIn 0.4s ease; }
+  .page.active { display: block; }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 
-/* 日期时间 */
-.datetime-card {
-background: white;
-border-radius: var(--radius-lg);
-padding: 20px;
-box-shadow: var(--shadow);
-margin: 20px 0;
-}
-.datetime-time { font-size: 42px; font-weight: 200; color: var(--gray-700); letter-spacing: -1px; }
-.datetime-date { color: var(--gray-500); font-size: 13px; margin-top: 4px; }
-.datetime-weather { display: flex; align-items: center; gap: 6px; margin-top: 8px; color: var(--gray-500); font-size: 12px; }
+  /* ============ 首页 ============ */
+  .hero {
+    text-align: center;
+    padding: 24px 16px 32px;
+  }
+  .greeting { font-size: 26px; font-weight: 700; color: var(--gray-700); margin: 0; }
+  .greeting-suffix { color: var(--pink-500); }
+  .slogan-line {
+    margin: 8px 0 4px;
+    color: var(--gray-500);
+    font-size: 13px;
+  }
+  .slogan-pill {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 6px 14px;
+    background: linear-gradient(135deg, var(--pink-100), var(--peach-50));
+    border-radius: 999px;
+    color: var(--gray-600);
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .big-emoji {
+    font-size: 64px;
+    margin: 24px 0 8px;
+    line-height: 1;
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+  .workspace-title { font-size: 22px; font-weight: 700; color: var(--gray-700); margin: 8px 0 4px; }
+  .workspace-sub { color: var(--gray-500); font-size: 13px; }
+  .workspace-tagline {
+    margin-top: 6px;
+    color: var(--gray-400);
+    font-size: 12px;
+  }
 
-/* 名言卡片 */
-.quote-card {
-border-radius: var(--radius-lg);
-padding: 18px 20px;
-margin: 12px 0;
-display: flex;
-align-items: center;
-gap: 12px;
-box-shadow: var(--shadow-sm);
-}
-.quote-card.green { background: linear-gradient(135deg, #e8f7ed, #d6f4de); }
-.quote-card.pink { background: linear-gradient(135deg, #fff0f3, #ffe0e8); }
-.quote-icon { font-size: 22px; flex-shrink: 0; }
-.quote-body { flex: 1; }
-.quote-text { color: var(--gray-700); font-size: 15px; font-weight: 500; }
-.quote-translation { color: var(--gray-500); font-size: 11px; font-style: italic; margin-top: 2px; }
-.quote-source { color: var(--gray-400); font-size: 11px; margin-top: 2px; }
-.quote-change-btn {
-background: white;
-border-radius: 999px;
-padding: 6px 12px;
-font-size: 11px;
-color: var(--gray-500);
-box-shadow: var(--shadow-sm);
-}
+  /* 日期时间 */
+  .datetime-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 20px;
+    box-shadow: var(--shadow);
+    margin: 20px 0;
+  }
+  .datetime-time { font-size: 42px; font-weight: 200; color: var(--gray-700); letter-spacing: -1px; }
+  .datetime-date { color: var(--gray-500); font-size: 13px; margin-top: 4px; }
+  .datetime-weather { display: flex; align-items: center; gap: 6px; margin-top: 8px; color: var(--gray-500); font-size: 12px; }
 
-/* 三块统计 */
-.stats-grid {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 12px;
-margin: 20px 0;
-}
-.stat-card {
-border-radius: var(--radius-lg);
-padding: 20px 12px;
-text-align: center;
-box-shadow: var(--shadow-sm);
-}
-.stat-card.green { background: linear-gradient(135deg, #e8f7ed, #d6f4de); }
-.stat-card.blue { background: linear-gradient(135deg, #e6f0ff, #d6e9ff); }
-.stat-card.peach { background: linear-gradient(135deg, #fff3e8, #ffe2cc); }
-.stat-number { font-size: 30px; font-weight: 700; color: var(--gray-700); }
-.stat-label { font-size: 11px; color: var(--gray-500); margin-top: 4px; }
+  /* 名言卡片 */
+  .quote-card {
+    border-radius: var(--radius-lg);
+    padding: 18px 20px;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: var(--shadow-sm);
+  }
+  .quote-card.green { background: linear-gradient(135deg, #e8f7ed, #d6f4de); }
+  .quote-card.pink { background: linear-gradient(135deg, #fff0f3, #ffe0e8); }
+  .quote-icon { font-size: 22px; flex-shrink: 0; }
+  .quote-body { flex: 1; }
+  .quote-text { color: var(--gray-700); font-size: 15px; font-weight: 500; }
+  .quote-translation { color: var(--gray-500); font-size: 11px; font-style: italic; margin-top: 2px; }
+  .quote-source { color: var(--gray-400); font-size: 11px; margin-top: 2px; }
+  .quote-change-btn {
+    background: white;
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 11px;
+    color: var(--gray-500);
+    box-shadow: var(--shadow-sm);
+  }
 
-/* 快捷打卡 */
-.quick-card {
-background: white;
-border-radius: var(--radius-lg);
-padding: 16px 20px;
-box-shadow: var(--shadow);
-margin: 12px 0;
-}
-.quick-title { font-size: 15px; font-weight: 600; color: var(--gray-700); margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
-.quick-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.quick-btn {
-padding: 14px;
-border-radius: var(--radius);
-color: white;
-font-weight: 600;
-font-size: 13px;
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 6px;
-box-shadow: var(--shadow-sm);
-}
-.quick-btn.lang { background: linear-gradient(135deg, #b8ebc5, #94deaa); }
-.quick-btn.workout { background: linear-gradient(135deg, #b8d6ff, #94c0ff); }
+  /* 三块统计 */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+  }
+  .stat-card {
+    border-radius: var(--radius-lg);
+    padding: 20px 12px;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+  }
+  .stat-card.green { background: linear-gradient(135deg, #e8f7ed, #d6f4de); }
+  .stat-card.blue  { background: linear-gradient(135deg, #e6f0ff, #d6e9ff); }
+  .stat-card.peach { background: linear-gradient(135deg, #fff3e8, #ffe2cc); }
+  .stat-number { font-size: 30px; font-weight: 700; color: var(--gray-700); }
+  .stat-label { font-size: 11px; color: var(--gray-500); margin-top: 4px; }
 
-/* ============ 通用卡片 ============ */
-.section-card {
-background: white;
-border-radius: var(--radius-lg);
-padding: 18px 20px;
-box-shadow: var(--shadow);
-margin: 12px 0;
-}
-.section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
-.section-title { font-size: 16px; font-weight: 600; color: var(--gray-700); display: flex; align-items: center; gap: 8px; }
-.section-title .em { font-size: 18px; }
-.section-action { font-size: 12px; color: var(--gray-400); }
-.section-action.active { color: var(--pink-500); }
+  /* 快捷打卡 */
+  .quick-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 16px 20px;
+    box-shadow: var(--shadow);
+    margin: 12px 0;
+  }
+  .quick-title { font-size: 15px; font-weight: 600; color: var(--gray-700); margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+  .quick-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .quick-btn {
+    padding: 14px;
+    border-radius: var(--radius);
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    box-shadow: var(--shadow-sm);
+  }
+  .quick-btn.lang { background: linear-gradient(135deg, #b8ebc5, #94deaa); }
+  .quick-btn.workout { background: linear-gradient(135deg, #b8d6ff, #94c0ff); }
 
-/* ============ 今日计划 ============ */
-.progress-bar {
-width: 100%;
-height: 8px;
-background: var(--gray-100);
-border-radius: 999px;
-overflow: hidden;
-margin: 8px 0 4px;
-}
-.progress-fill {
-height: 100%;
-background: linear-gradient(90deg, var(--pink-300), var(--pink-500));
-border-radius: 999px;
-transition: width 0.4s;
-}
-.progress-text { font-size: 11px; color: var(--gray-400); text-align: right; }
+  /* ============ 通用卡片 ============ */
+  .section-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 18px 20px;
+    box-shadow: var(--shadow);
+    margin: 12px 0;
+  }
+  .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+  .section-title { font-size: 16px; font-weight: 600; color: var(--gray-700); display: flex; align-items: center; gap: 8px; }
+  .section-title .em { font-size: 18px; }
+  .section-action { font-size: 12px; color: var(--gray-400); }
+  .section-action.active { color: var(--pink-500); }
 
-.todo-item {
-display: flex;
-align-items: center;
-gap: 12px;
-padding: 12px 0;
-border-bottom: 1px solid var(--gray-50);
-}
-.todo-item:last-child { border-bottom: none; }
-.todo-check {
-width: 22px; height: 22px;
-border-radius: 50%;
-border: 2px solid var(--gray-200);
-background: white;
-flex-shrink: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-transition: all 0.2s;
-}
-.todo-check.checked {
-background: var(--mint-200);
-border-color: var(--mint-200);
-}
-.todo-check.checked::after {
-content: "✓";
-color: white;
-font-size: 13px;
-font-weight: 700;
-}
-.todo-text { flex: 1; font-size: 15px; color: var(--gray-700); }
-.todo-text.done { text-decoration: line-through; color: var(--gray-400); }
-.todo-delete {
-color: var(--gray-300);
-font-size: 16px;
-padding: 4px;
-transition: color 0.2s;
-}
-.todo-delete:hover { color: var(--pink-500); }
-.sub-check-row {
-display: flex;
-gap: 12px;
-margin-top: 4px;
-padding-left: 0;
-}
-.sub-check {
-display: flex;
-align-items: center;
-gap: 4px;
-font-size: 12px;
-color: var(--gray-500);
-}
-.sub-check .todo-check { width: 18px; height: 18px; }
-.sub-check .todo-check.checked::after { font-size: 11px; }
+  /* ============ 今日计划 ============ */
+  .progress-bar {
+    width: 100%;
+    height: 8px;
+    background: var(--gray-100);
+    border-radius: 999px;
+    overflow: hidden;
+    margin: 8px 0 4px;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--pink-300), var(--pink-500));
+    border-radius: 999px;
+    transition: width 0.4s;
+  }
+  .progress-text { font-size: 11px; color: var(--gray-400); text-align: right; }
 
-.add-input-row {
-display: flex;
-gap: 8px;
-margin-top: 12px;
-padding-top: 12px;
-border-top: 1px dashed var(--gray-100);
-}
-.add-input {
-flex: 1;
-padding: 10px 14px;
-background: var(--gray-50);
-border-radius: 999px;
-border: none;
-font-size: 13px;
-color: var(--gray-700);
-}
-.add-input::placeholder { color: var(--gray-400); }
-.add-btn {
-width: 36px; height: 36px;
-border-radius: 50%;
-background: linear-gradient(135deg, var(--pink-300), var(--pink-400));
-color: white;
-font-size: 18px;
-display: flex;
-align-items: center;
-justify-content: center;
-box-shadow: var(--shadow-sm);
-}
+  .todo-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--gray-50);
+  }
+  .todo-item:last-child { border-bottom: none; }
+  .todo-check {
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    border: 2px solid var(--gray-200);
+    background: white;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+  .todo-check.checked {
+    background: var(--mint-200);
+    border-color: var(--mint-200);
+  }
+  .todo-check.checked::after {
+    content: "✓";
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .todo-text { flex: 1; font-size: 15px; color: var(--gray-700); }
+  .todo-text.done { text-decoration: line-through; color: var(--gray-400); }
+  .todo-delete {
+    color: var(--gray-300);
+    font-size: 16px;
+    padding: 4px;
+    transition: color 0.2s;
+  }
+  .todo-delete:hover { color: var(--pink-500); }
+  .sub-check-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 4px;
+    padding-left: 0;
+  }
+  .sub-check {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    color: var(--gray-500);
+  }
+  .sub-check .todo-check { width: 18px; height: 18px; }
+  .sub-check .todo-check.checked::after { font-size: 11px; }
 
-/* ============ 运动塑形 ============ */
-.tab-row {
-display: flex;
-gap: 8px;
-margin-bottom: 16px;
-overflow-x: auto;
-padding: 4px 0;
-}
-.tab-row::-webkit-scrollbar { display: none; }
-.tab {
-padding: 8px 18px;
-border-radius: 999px;
-background: white;
-color: var(--gray-500);
-font-size: 14px;
-font-weight: 500;
-white-space: nowrap;
-box-shadow: var(--shadow-sm);
-transition: all 0.2s;
-}
-.tab.active {
-background: linear-gradient(135deg, var(--mint-200), var(--mint-100));
-color: var(--gray-700);
-}
-.tab-content { display: none; }
-.tab-content.active { display: block; }
+  .add-input-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--gray-100);
+  }
+  .add-input {
+    flex: 1;
+    padding: 10px 14px;
+    background: var(--gray-50);
+    border-radius: 999px;
+    border: none;
+    font-size: 13px;
+    color: var(--gray-700);
+  }
+  .add-input::placeholder { color: var(--gray-400); }
+  .add-btn {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--pink-300), var(--pink-400));
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-sm);
+  }
 
-.exercise-grid {
-display: grid;
-grid-template-columns: 1fr;
-gap: 10px;
-}
-.exercise-item {
-background: white;
-border-radius: var(--radius);
-padding: 14px 16px;
-display: flex;
-align-items: center;
-gap: 12px;
-box-shadow: var(--shadow-sm);
-}
-.exercise-item .todo-text { font-size: 14px; }
+  /* ============ 运动塑形 ============ */
+  .tab-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    overflow-x: auto;
+    padding: 4px 0;
+  }
+  .tab-row::-webkit-scrollbar { display: none; }
+  .tab {
+    padding: 8px 18px;
+    border-radius: 999px;
+    background: white;
+    color: var(--gray-500);
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s;
+  }
+  .tab.active {
+    background: linear-gradient(135deg, var(--mint-200), var(--mint-100));
+    color: var(--gray-700);
+  }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
 
-.record-form {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 12px;
-margin-top: 12px;
-}
-.field { display: flex; flex-direction: column; gap: 6px; }
-.field label { font-size: 12px; color: var(--gray-500); }
-.field input {
-padding: 10px 14px;
-background: var(--gray-50);
-border-radius: var(--radius-sm);
-border: 1px solid transparent;
-font-size: 13px;
-color: var(--gray-700);
-transition: border-color 0.2s;
-}
-.field input:focus { border-color: var(--pink-200); background: white; }
+  .exercise-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .exercise-item {
+    background: white;
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: var(--shadow-sm);
+  }
+  .exercise-item .todo-text { font-size: 14px; }
 
-/* ============ 新闻资讯 ============ */
-.golden-quote {
-background: linear-gradient(135deg, var(--peach-50), var(--pink-50));
-border-radius: var(--radius-lg);
-padding: 24px 20px;
-text-align: center;
-margin-bottom: 16px;
-position: relative;
-}
-.gq-text { font-size: 18px; font-weight: 600; color: var(--gray-700); line-height: 1.5; }
-.gq-source { color: var(--gray-500); font-size: 12px; margin-top: 8px; }
-.gq-actions { display: flex; justify-content: center; gap: 8px; margin-top: 14px; }
-.gq-btn {
-padding: 8px 16px;
-border-radius: 999px;
-background: white;
-color: var(--gray-600);
-font-size: 12px;
-font-weight: 500;
-box-shadow: var(--shadow-sm);
-display: inline-flex;
-align-items: center;
-gap: 4px;
-}
-.gq-btn.primary {
-background: linear-gradient(135deg, var(--pink-300), var(--pink-400));
-color: white;
-}
+  .record-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  .field label { font-size: 12px; color: var(--gray-500); }
+  .field input {
+    padding: 10px 14px;
+    background: var(--gray-50);
+    border-radius: var(--radius-sm);
+    border: 1px solid transparent;
+    font-size: 13px;
+    color: var(--gray-700);
+    transition: border-color 0.2s;
+  }
+  .field input:focus { border-color: var(--pink-200); background: white; }
 
-.source-tabs { gap: 8px; }
-.source-tab {
-padding: 6px 14px;
-border-radius: 999px;
-background: white;
-color: var(--gray-500);
-font-size: 12px;
-white-space: nowrap;
-box-shadow: var(--shadow-sm);
-}
-.source-tab.active {
-background: var(--gray-700);
-color: white;
-}
+  /* ============ 新闻资讯 ============ */
+  .golden-quote {
+    background: linear-gradient(135deg, var(--peach-50), var(--pink-50));
+    border-radius: var(--radius-lg);
+    padding: 24px 20px;
+    text-align: center;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  .gq-text { font-size: 18px; font-weight: 600; color: var(--gray-700); line-height: 1.5; }
+  .gq-source { color: var(--gray-500); font-size: 12px; margin-top: 8px; }
+  .gq-actions { display: flex; justify-content: center; gap: 8px; margin-top: 14px; }
+  .gq-btn {
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: white;
+    color: var(--gray-600);
+    font-size: 12px;
+    font-weight: 500;
+    box-shadow: var(--shadow-sm);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .gq-btn.primary {
+    background: linear-gradient(135deg, var(--pink-300), var(--pink-400));
+    color: white;
+  }
 
-.news-list { display: flex; flex-direction: column; gap: 12px; margin-top: 14px; }
-.news-item {
-background: white;
-border-radius: var(--radius);
-padding: 16px;
-box-shadow: var(--shadow-sm);
-transition: transform 0.2s;
-}
-.news-item:active { transform: scale(0.98); }
-.news-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
-.news-tag {
-font-size: 10px;
-padding: 2px 8px;
-border-radius: 6px;
-color: white;
-font-weight: 500;
-}
-.news-tag.t1 { background: linear-gradient(135deg, #ff8aa5, #ff7090); }
-.news-tag.t2 { background: linear-gradient(135deg, #94deaa, #6fcf97); }
-.news-tag.t3 { background: linear-gradient(135deg, #94c0ff, #6fa8ff); }
-.news-tag.t4 { background: linear-gradient(135deg, #d2bfff, #b094ff); }
-.news-tag.t5 { background: linear-gradient(135deg, #ffcf99, #ffb066); }
-.news-date { color: var(--gray-400); font-size: 11px; }
-.news-title { font-size: 15px; font-weight: 500; color: var(--gray-700); line-height: 1.5; margin: 4px 0 8px; }
-.news-link {
-display: inline-flex;
-align-items: center;
-gap: 4px;
-color: var(--pink-500);
-font-size: 12px;
-font-weight: 500;
-margin-top: 4px;
-}
+  .source-tabs { gap: 8px; }
+  .source-tab {
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: white;
+    color: var(--gray-500);
+    font-size: 12px;
+    white-space: nowrap;
+    box-shadow: var(--shadow-sm);
+  }
+  .source-tab.active {
+    background: var(--gray-700);
+    color: white;
+  }
 
-/* ============ 平台筛选标签 ============ */
-.app-launch-row {
-display: flex;
-gap: 8px;
-margin-bottom: 12px;
-overflow-x: auto;
-padding: 4px 0;
-}
-.app-launch-row::-webkit-scrollbar { display: none; }
-.app-btn {
-border-radius: var(--radius);
-padding: 14px 6px;
-text-align: center;
-color: var(--gray-700);
-font-size: 13px;
-font-weight: 600;
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 4px;
-box-shadow: var(--shadow-sm);
-transition: all 0.2s;
-border: 2px solid transparent;
-}
-.app-btn:active { transform: scale(0.94); }
-.app-btn.active { border-color: var(--pink-300); box-shadow: 0 4px 16px rgba(255,180,200,0.25); }
-.app-btn .app-icon { font-size: 22px; }
-.app-btn.dy { background: linear-gradient(135deg, #f0f0f4, #e8e8f0); }
-.app-btn.bili { background: linear-gradient(135deg, #ffe0e8, #ffd0dc); }
-.app-btn.xhs { background: linear-gradient(135deg, #fff0f3, #ffe0e8); }
-.app-btn.weibo{ background: linear-gradient(135deg, #fff3e8, #ffe8d6); }
+  .news-list { display: flex; flex-direction: column; gap: 12px; margin-top: 14px; }
+  .news-item {
+    background: white;
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s;
+  }
+  .news-item:active { transform: scale(0.98); }
+  .news-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .news-tag {
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+  }
+  .news-tag.t1 { background: linear-gradient(135deg, #ff8aa5, #ff7090); }
+  .news-tag.t2 { background: linear-gradient(135deg, #94deaa, #6fcf97); }
+  .news-tag.t3 { background: linear-gradient(135deg, #94c0ff, #6fa8ff); }
+  .news-tag.t4 { background: linear-gradient(135deg, #d2bfff, #b094ff); }
+  .news-tag.t5 { background: linear-gradient(135deg, #ffcf99, #ffb066); }
+  .news-date { color: var(--gray-400); font-size: 11px; }
+  .news-title { font-size: 15px; font-weight: 500; color: var(--gray-700); line-height: 1.5; margin: 4px 0 8px; }
+  .news-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--pink-500);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 4px;
+  }
 
-/* ============ 数据源配置弹窗 ============ */
-.modal {
-position: fixed; inset: 0; z-index: 300;
-background: rgba(0,0,0,0.35);
-display: none; align-items: center; justify-content: center;
-padding: 24px;
-}
-.modal.show { display: flex; }
-.modal-card {
-background: white; border-radius: var(--radius-lg);
-padding: 24px 20px; width: 100%; max-width: 420px;
-box-shadow: var(--shadow-lg);
-}
-.modal-title { font-size: 17px; font-weight: 700; color: var(--gray-700); margin-bottom: 12px; }
-.modal-input {
-width: 100%; padding: 12px 14px;
-background: var(--gray-50); border-radius: var(--radius-sm);
-border: 1px solid var(--gray-100); font-size: 13px;
-color: var(--gray-700); margin-bottom: 8px;
-}
-.modal-input:focus { border-color: var(--pink-200); background: white; }
-.modal-hint { font-size: 11px; color: var(--gray-400); line-height: 1.6; margin-bottom: 16px; }
-.modal-btns { display: flex; gap: 8px; }
-.modal-btn {
-flex: 1; padding: 12px; border-radius: var(--radius);
-font-size: 14px; font-weight: 600;
-}
-.modal-btn.primary { background: linear-gradient(135deg, var(--pink-300), var(--pink-400)); color: white; }
-.modal-btn.ghost { background: var(--gray-100); color: var(--gray-500); }
+  /* ============ 平台筛选标签 ============ */
+  .app-launch-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+    overflow-x: auto;
+    padding: 4px 0;
+  }
+  .app-launch-row::-webkit-scrollbar { display: none; }
+  .app-btn {
+    border-radius: var(--radius);
+    padding: 14px 6px;
+    text-align: center;
+    color: var(--gray-700);
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s;
+    border: 2px solid transparent;
+  }
+  .app-btn:active { transform: scale(0.94); }
+  .app-btn.active { border-color: var(--pink-300); box-shadow: 0 4px 16px rgba(255,180,200,0.25); }
+  .app-btn .app-icon { font-size: 22px; }
+  .app-btn.dy   { background: linear-gradient(135deg, #f0f0f4, #e8e8f0); }
+  .app-btn.bili { background: linear-gradient(135deg, #ffe0e8, #ffd0dc); }
+  .app-btn.xhs  { background: linear-gradient(135deg, #fff0f3, #ffe0e8); }
+  .app-btn.weibo{ background: linear-gradient(135deg, #fff3e8, #ffe8d6); }
 
-/* ============ 爆款二创 ============ */
-.hot-card {
-background: white;
-border-radius: var(--radius-lg);
-padding: 16px;
-box-shadow: var(--shadow);
-margin-bottom: 12px;
-position: relative;
-overflow: hidden;
-}
-.hot-platform {
-position: absolute;
-top: 14px;
-right: 14px;
-padding: 3px 10px;
-border-radius: 999px;
-font-size: 10px;
-font-weight: 600;
-color: white;
-}
-.hot-platform.dy { background: linear-gradient(135deg, #c8c8d8, #b0b0c8); }
-.hot-platform.bili { background: linear-gradient(135deg, #ffc4d2, #ffa5b9); }
-.hot-platform.xhs { background: linear-gradient(135deg, #ffc4d2, #ff8aa5); }
-.hot-platform.weibo { background: linear-gradient(135deg, #ffcf99, #ffb066); }
-.hot-emoji { font-size: 28px; margin-bottom: 6px; }
-.hot-title { font-size: 16px; font-weight: 600; color: var(--gray-700); line-height: 1.4; padding-right: 70px; }
-.hot-adapt {
-display: inline-flex;
-align-items: center;
-gap: 4px;
-margin-top: 10px;
-padding: 4px 10px;
-border-radius: 999px;
-font-size: 11px;
-font-weight: 600;
-}
-.hot-adapt.high { background: var(--mint-100); color: #2a7d4a; }
-.hot-adapt.mid { background: var(--peach-100); color: #b06030; }
-.hot-adapt.low { background: var(--gray-100); color: var(--gray-500); }
-.hot-point {
-margin-top: 10px;
-padding: 10px 12px;
-background: var(--gray-50);
-border-radius: 12px;
-font-size: 13px;
-color: var(--gray-600);
-line-height: 1.6;
-}
-.hot-point strong { color: var(--gray-700); }
-.hot-actions {
-display: flex;
-gap: 8px;
-margin-top: 12px;
-}
-.hot-btn {
-flex: 1;
-padding: 8px 12px;
-border-radius: var(--radius);
-font-size: 12px;
-font-weight: 500;
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 4px;
-box-shadow: var(--shadow-sm);
-}
-.hot-btn.primary { background: linear-gradient(135deg, #1a1a1a, #333); color: white; }
-.hot-btn.dy-btn { background: linear-gradient(135deg, #ff7090, #ff5066); color: white; }
-.hot-btn.ghost { background: white; color: var(--gray-600); border: 1px solid var(--gray-100); }
-.hot-btn.saved { background: var(--mint-100); color: #2a7d4a; }
-.hot-btn.direct { background: linear-gradient(135deg, #ffe0e8, #ffd0dc); color: #b04060; border: 1px solid var(--pink-100); }
+  /* ============ 数据源配置弹窗 ============ */
+  .modal {
+    position: fixed; inset: 0; z-index: 300;
+    background: rgba(0,0,0,0.35);
+    display: none; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .modal.show { display: flex; }
+  .modal-card {
+    background: white; border-radius: var(--radius-lg);
+    padding: 24px 20px; width: 100%; max-width: 420px;
+    box-shadow: var(--shadow-lg);
+  }
+  .modal-title { font-size: 17px; font-weight: 700; color: var(--gray-700); margin-bottom: 12px; }
+  .modal-input {
+    width: 100%; padding: 12px 14px;
+    background: var(--gray-50); border-radius: var(--radius-sm);
+    border: 1px solid var(--gray-100); font-size: 13px;
+    color: var(--gray-700); margin-bottom: 8px;
+  }
+  .modal-input:focus { border-color: var(--pink-200); background: white; }
+  .modal-hint { font-size: 11px; color: var(--gray-400); line-height: 1.6; margin-bottom: 16px; }
+  .modal-btns { display: flex; gap: 8px; }
+  .modal-btn {
+    flex: 1; padding: 12px; border-radius: var(--radius);
+    font-size: 14px; font-weight: 600;
+  }
+  .modal-btn.primary { background: linear-gradient(135deg, var(--pink-300), var(--pink-400)); color: white; }
+  .modal-btn.ghost { background: var(--gray-100); color: var(--gray-500); }
 
-/* ============ 内容复盘 ============ */
-.review-form { display: flex; flex-direction: column; gap: 12px; }
-.review-field { display: flex; flex-direction: column; gap: 6px; }
-.review-field label { font-size: 12px; color: var(--gray-500); font-weight: 500; }
-.review-field input, .review-field textarea {
-padding: 12px 14px;
-background: var(--gray-50);
-border-radius: var(--radius-sm);
-border: 1px solid transparent;
-font-size: 13px;
-color: var(--gray-700);
-resize: vertical;
-}
-.review-field input:focus, .review-field textarea:focus {
-border-color: var(--pink-200);
-background: white;
-}
-.review-field textarea { min-height: 60px; }
-.submit-btn {
-width: 100%;
-padding: 14px;
-background: linear-gradient(135deg, var(--pink-300), var(--pink-400));
-color: white;
-border-radius: var(--radius);
-font-size: 14px;
-font-weight: 600;
-box-shadow: var(--shadow);
-margin-top: 4px;
-}
-.history-card {
-background: white;
-border-radius: var(--radius);
-padding: 14px 16px;
-box-shadow: var(--shadow-sm);
-margin-bottom: 10px;
-}
-.history-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
-.history-date { color: var(--gray-400); font-size: 11px; }
-.history-title { font-size: 14px; font-weight: 600; color: var(--gray-700); }
-.history-row { display: flex; gap: 12px; margin-top: 6px; font-size: 12px; color: var(--gray-500); }
-.history-row .label { color: var(--gray-400); }
-.history-body { font-size: 12px; color: var(--gray-600); line-height: 1.6; margin-top: 6px; }
-.history-delete { color: var(--gray-300); font-size: 14px; }
+  /* ============ 爆款二创 ============ */
+  .hot-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hot-platform {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+  }
+  .hot-platform.dy { background: linear-gradient(135deg, #c8c8d8, #b0b0c8); }
+  .hot-platform.bili { background: linear-gradient(135deg, #ffc4d2, #ffa5b9); }
+  .hot-platform.xhs { background: linear-gradient(135deg, #ffc4d2, #ff8aa5); }
+  .hot-platform.weibo { background: linear-gradient(135deg, #ffcf99, #ffb066); }
+  .hot-emoji { font-size: 28px; margin-bottom: 6px; }
+  .hot-title { font-size: 16px; font-weight: 600; color: var(--gray-700); line-height: 1.4; padding-right: 70px; }
+  .hot-adapt {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 10px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .hot-adapt.high { background: var(--mint-100); color: #2a7d4a; }
+  .hot-adapt.mid  { background: var(--peach-100); color: #b06030; }
+  .hot-adapt.low  { background: var(--gray-100); color: var(--gray-500); }
+  .hot-point {
+    margin-top: 10px;
+    padding: 10px 12px;
+    background: var(--gray-50);
+    border-radius: 12px;
+    font-size: 13px;
+    color: var(--gray-600);
+    line-height: 1.6;
+  }
+  .hot-point strong { color: var(--gray-700); }
+  .hot-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .hot-btn {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: var(--radius);
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    box-shadow: var(--shadow-sm);
+  }
+  .hot-btn.primary { background: linear-gradient(135deg, #1a1a1a, #333); color: white; }
+  .hot-btn.dy-btn { background: linear-gradient(135deg, #ff7090, #ff5066); color: white; }
+  .hot-btn.ghost { background: white; color: var(--gray-600); border: 1px solid var(--gray-100); }
+  .hot-btn.saved { background: var(--mint-100); color: #2a7d4a; }
+  .hot-btn.direct { background: linear-gradient(135deg, #ffe0e8, #ffd0dc); color: #b04060; border: 1px solid var(--pink-100); }
 
-/* ============ 修心修行 ============ */
-.huangli-card {
-background: white;
-border-radius: var(--radius-lg);
-padding: 18px 20px;
-box-shadow: var(--shadow);
-margin-bottom: 12px;
-}
-.huangli-head { text-align: center; margin-bottom: 14px; }
-.huangli-date { font-size: 18px; font-weight: 600; color: var(--gray-700); }
-.huangli-lunar { color: var(--pink-500); font-size: 12px; margin-top: 4px; }
-.yi-ji-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.yi-ji-box { border-radius: var(--radius); padding: 14px; }
-.yi-ji-box.yi { background: linear-gradient(135deg, #ecfaf0, #d6f4de); }
-.yi-ji-box.ji { background: linear-gradient(135deg, #fff0f3, #ffe0e8); }
-.yi-ji-title { font-size: 18px; font-weight: 700; text-align: center; margin-bottom: 8px; }
-.yi-ji-box.yi .yi-ji-title { color: #2a7d4a; }
-.yi-ji-box.ji .yi-ji-title { color: #b04060; }
-.yi-ji-list {
-display: flex;
-flex-wrap: wrap;
-gap: 6px;
-justify-content: center;
-}
-.yi-ji-item {
-font-size: 13px;
-color: var(--gray-700);
-padding: 2px 6px;
-}
-.huangli-tip {
-margin-top: 12px;
-background: linear-gradient(135deg, #fff8e0, #ffefb8);
-border-radius: var(--radius);
-padding: 14px 16px;
-font-size: 13px;
-color: var(--gray-600);
-line-height: 1.7;
-}
+  /* ============ 内容复盘 ============ */
+  .review-form { display: flex; flex-direction: column; gap: 12px; }
+  .review-field { display: flex; flex-direction: column; gap: 6px; }
+  .review-field label { font-size: 12px; color: var(--gray-500); font-weight: 500; }
+  .review-field input, .review-field textarea {
+    padding: 12px 14px;
+    background: var(--gray-50);
+    border-radius: var(--radius-sm);
+    border: 1px solid transparent;
+    font-size: 13px;
+    color: var(--gray-700);
+    resize: vertical;
+  }
+  .review-field input:focus, .review-field textarea:focus {
+    border-color: var(--pink-200);
+    background: white;
+  }
+  .review-field textarea { min-height: 60px; }
+  .submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, var(--pink-300), var(--pink-400));
+    color: white;
+    border-radius: var(--radius);
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: var(--shadow);
+    margin-top: 4px;
+  }
+  .history-card {
+    background: white;
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 10px;
+  }
+  .history-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+  .history-date { color: var(--gray-400); font-size: 11px; }
+  .history-title { font-size: 14px; font-weight: 600; color: var(--gray-700); }
+  .history-row { display: flex; gap: 12px; margin-top: 6px; font-size: 12px; color: var(--gray-500); }
+  .history-row .label { color: var(--gray-400); }
+  .history-body { font-size: 12px; color: var(--gray-600); line-height: 1.6; margin-top: 6px; }
+  .history-delete { color: var(--gray-300); font-size: 14px; }
 
-.jing-card {
-background: white;
-border-radius: var(--radius-lg);
-padding: 18px 20px;
-box-shadow: var(--shadow);
-margin-bottom: 12px;
-}
-.jing-head { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8px; gap: 12px; }
-.jing-title { font-size: 17px; font-weight: 600; color: var(--gray-700); }
-.jing-source { color: var(--gray-400); font-size: 11px; margin-top: 2px; }
-.jing-tag {
-padding: 3px 10px;
-border-radius: 999px;
-font-size: 10px;
-color: white;
-font-weight: 500;
-white-space: nowrap;
-}
-.jing-tag.dd { background: linear-gradient(135deg, #d2bfff, #b094ff); }
-.jing-tag.jg { background: linear-gradient(135deg, #ffcf99, #ffb066); }
-.jing-tag.yj { background: linear-gradient(135deg, #94c0ff, #6fa8ff); }
-.jing-tag.ly { background: linear-gradient(135deg, #94deaa, #6fcf97); }
-.jing-tag.ggz { background: linear-gradient(135deg, #ff8aa5, #ff7090); }
-.jing-tag.zg { background: linear-gradient(135deg, #b8ebc5, #94deaa); }
-.jing-original {
-background: linear-gradient(135deg, #ecfaf0, #d6f4de);
-border-radius: var(--radius);
-padding: 12px 14px;
-font-size: 15px;
-color: var(--gray-700);
-line-height: 1.8;
-margin: 8px 0;
-font-style: italic;
-}
-.jing-explain-title {
-font-size: 13px;
-font-weight: 600;
-color: var(--gray-500);
-margin-top: 8px;
-display: flex;
-align-items: center;
-gap: 4px;
-}
-.jing-explain { font-size: 15px; color: var(--gray-600); line-height: 1.8; margin-top: 4px; }
+  /* ============ 修心修行 ============ */
+  .huangli-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 18px 20px;
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+  }
+  .huangli-head { text-align: center; margin-bottom: 14px; }
+  .huangli-date { font-size: 18px; font-weight: 600; color: var(--gray-700); }
+  .huangli-lunar { color: var(--pink-500); font-size: 12px; margin-top: 4px; }
+  .yi-ji-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .yi-ji-box { border-radius: var(--radius); padding: 14px; }
+  .yi-ji-box.yi { background: linear-gradient(135deg, #ecfaf0, #d6f4de); }
+  .yi-ji-box.ji { background: linear-gradient(135deg, #fff0f3, #ffe0e8); }
+  .yi-ji-title { font-size: 18px; font-weight: 700; text-align: center; margin-bottom: 8px; }
+  .yi-ji-box.yi .yi-ji-title { color: #2a7d4a; }
+  .yi-ji-box.ji .yi-ji-title { color: #b04060; }
+  .yi-ji-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+  }
+  .yi-ji-item {
+    font-size: 13px;
+    color: var(--gray-700);
+    padding: 2px 6px;
+  }
+  .huangli-tip {
+    margin-top: 12px;
+    background: linear-gradient(135deg, #fff8e0, #ffefb8);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    font-size: 13px;
+    color: var(--gray-600);
+    line-height: 1.7;
+  }
 
-/* ============ 每天感悟 ============ */
-.feel-card {
-border-radius: var(--radius-lg);
-padding: 18px 20px;
-box-shadow: var(--shadow);
-margin-bottom: 12px;
-}
-.feel-card.green { background: linear-gradient(135deg, #ecfaf0, #d6f4de); }
-.feel-card.peach { background: linear-gradient(135deg, #fff3e8, #ffe2cc); }
-.feel-card.lav { background: linear-gradient(135deg, #f4f0ff, #e6dcff); }
-.feel-title { font-size: 16px; font-weight: 600; color: var(--gray-700); margin-bottom: 12px; display: flex; align-items: center; gap: 6px; }
-.feel-row {
-background: white;
-border-radius: var(--radius-sm);
-padding: 10px 12px;
-margin-bottom: 8px;
-}
-.feel-row:last-child { margin-bottom: 0; }
-.feel-input {
-width: 100%;
-border: none;
-background: transparent;
-font-size: 14px;
-color: var(--gray-700);
-padding: 0;
-}
-.feel-input::placeholder { color: var(--gray-400); }
-.feel-save-btn {
-width: 100%;
-margin-top: 14px;
-padding: 12px;
-background: white;
-color: var(--gray-700);
-border-radius: var(--radius);
-font-size: 13px;
-font-weight: 600;
-box-shadow: var(--shadow-sm);
-}
+  .jing-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 18px 20px;
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+  }
+  .jing-head { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8px; gap: 12px; }
+  .jing-title { font-size: 17px; font-weight: 600; color: var(--gray-700); }
+  .jing-source { color: var(--gray-400); font-size: 11px; margin-top: 2px; }
+  .jing-tag {
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 10px;
+    color: white;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .jing-tag.dd { background: linear-gradient(135deg, #d2bfff, #b094ff); }
+  .jing-tag.jg { background: linear-gradient(135deg, #ffcf99, #ffb066); }
+  .jing-tag.yj { background: linear-gradient(135deg, #94c0ff, #6fa8ff); }
+  .jing-tag.ly { background: linear-gradient(135deg, #94deaa, #6fcf97); }
+  .jing-tag.ggz { background: linear-gradient(135deg, #ff8aa5, #ff7090); }
+  .jing-tag.zg { background: linear-gradient(135deg, #b8ebc5, #94deaa); }
+  .jing-original {
+    background: linear-gradient(135deg, #ecfaf0, #d6f4de);
+    border-radius: var(--radius);
+    padding: 12px 14px;
+    font-size: 15px;
+    color: var(--gray-700);
+    line-height: 1.8;
+    margin: 8px 0;
+    font-style: italic;
+  }
+  .jing-explain-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--gray-500);
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .jing-explain { font-size: 15px; color: var(--gray-600); line-height: 1.8; margin-top: 4px; }
 
-.history-item {
-background: white;
-border-radius: var(--radius);
-padding: 14px 16px;
-box-shadow: var(--shadow-sm);
-margin-bottom: 10px;
-}
-.history-item-head {
-display: flex; align-items: center; justify-content: space-between;
-margin-bottom: 8px;
-}
-.history-item-date { font-size: 12px; color: var(--gray-500); }
-.hi-section { font-size: 12px; color: var(--gray-600); margin: 4px 0; }
-.hi-section .l { color: var(--gray-400); margin-right: 4px; }
+  /* ============ 每天感悟 ============ */
+  .feel-card {
+    border-radius: var(--radius-lg);
+    padding: 18px 20px;
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+  }
+  .feel-card.green  { background: linear-gradient(135deg, #ecfaf0, #d6f4de); }
+  .feel-card.peach  { background: linear-gradient(135deg, #fff3e8, #ffe2cc); }
+  .feel-card.lav    { background: linear-gradient(135deg, #f4f0ff, #e6dcff); }
+  .feel-title { font-size: 16px; font-weight: 600; color: var(--gray-700); margin-bottom: 12px; display: flex; align-items: center; gap: 6px; }
+  .feel-row {
+    background: white;
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+    margin-bottom: 8px;
+  }
+  .feel-row:last-child { margin-bottom: 0; }
+  .feel-input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    color: var(--gray-700);
+    padding: 0;
+  }
+  .feel-input::placeholder { color: var(--gray-400); }
+  .feel-save-btn {
+    width: 100%;
+    margin-top: 14px;
+    padding: 12px;
+    background: white;
+    color: var(--gray-700);
+    border-radius: var(--radius);
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: var(--shadow-sm);
+  }
 
-/* ============ 蒙层 ============ */
-.overlay {
-position: fixed;
-inset: 0;
-background: rgba(0,0,0,0.2);
-z-index: 90;
-display: none;
-}
-.overlay.show { display: block; }
+  .history-item {
+    background: white;
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 10px;
+  }
+  .history-item-head {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  .history-item-date { font-size: 12px; color: var(--gray-500); }
+  .hi-section { font-size: 12px; color: var(--gray-600); margin: 4px 0; }
+  .hi-section .l { color: var(--gray-400); margin-right: 4px; }
 
-/* ============ Toast ============ */
-.toast {
-position: fixed;
-top: 80px;
-left: 50%;
-transform: translateX(-50%) translateY(-20px);
-background: var(--gray-700);
-color: white;
-padding: 10px 20px;
-border-radius: 999px;
-font-size: 13px;
-z-index: 200;
-opacity: 0;
-transition: all 0.3s;
-pointer-events: none;
-box-shadow: var(--shadow-lg);
-}
-.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+  /* ============ 蒙层 ============ */
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.2);
+    z-index: 90;
+    display: none;
+  }
+  .overlay.show { display: block; }
 
-/* ============ 移动端适配 ============ */
-@media (max-width: 768px) {
-.sidebar { transform: translateX(-100%); }
-.sidebar.show-mobile { transform: translateX(0); }
-.main { margin-left: 0; }
-.menu-btn { display: flex; }
-.content { padding: 16px; }
-.topbar { padding: 12px 16px; }
-.greeting { font-size: 22px; }
-.datetime-time { font-size: 36px; }
-.stats-grid { gap: 8px; }
-.stat-card { padding: 16px 8px; }
-.stat-number { font-size: 24px; }
-.quote-card { padding: 14px 16px; }
-}
+  /* ============ Toast ============ */
+  .toast {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20px);
+    background: var(--gray-700);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-size: 13px;
+    z-index: 200;
+    opacity: 0;
+    transition: all 0.3s;
+    pointer-events: none;
+    box-shadow: var(--shadow-lg);
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
-@media (max-width: 380px) {
-.record-form { grid-template-columns: 1fr; }
-}
+  /* ============ 移动端适配 ============ */
+  @media (max-width: 768px) {
+    .sidebar { transform: translateX(-100%); }
+    .sidebar.show-mobile { transform: translateX(0); }
+    .main { margin-left: 0; }
+    .menu-btn { display: flex; }
+    .content { padding: 14px; }
+    .topbar { padding: 12px 14px; }
+    .greeting { font-size: 22px; }
+    .datetime-time { font-size: 36px; }
+    .stats-grid { gap: 8px; }
+    .stat-card { padding: 16px 8px; }
+    .stat-number { font-size: 24px; }
+    .quote-card { padding: 14px 16px; }
+    .jing-card { padding: 14px 16px; }
+    .huangli-card { padding: 14px 16px; }
+    .section-card { padding: 14px 16px; }
+    .jing-head { flex-wrap: wrap; gap: 6px; }
+    .jing-title { font-size: 16px; }
+    .jing-original { font-size: 14px; padding: 10px 12px; }
+    .jing-explain { font-size: 14px; }
+    .jing-explain-title { font-size: 12px; }
+    .hot-title { padding-right: 0; }
+    .hot-platform { position: static; display: inline-block; margin-bottom: 6px; }
+  }
 
-<div class="content">
-  <!-- ===== 首页 ===== -->
-  <div class="page active" data-page="home" id="page-home">
-    <div class="hero">
-      <h1 class="greeting" id="greeting">晚上好，<span class="greeting-suffix">Easylumi</span> ✨</h1>
-      <p class="slogan-line">今天也是温柔坚持的一天 💪</p>
-      <div class="slogan-pill">「温柔坚持，复刻成长」</div>
+  @media (max-width: 430px) {
+    .content { padding: 12px; }
+    .jing-card, .huangli-card, .section-card { padding: 12px 14px; }
+    .jing-original { font-size: 14px; padding: 10px; line-height: 1.7; }
+    .jing-explain { font-size: 14px; line-height: 1.7; }
+    .huangli-tip { font-size: 12px; padding: 12px 14px; }
+    .yi-ji-row { gap: 8px; }
+    .yi-ji-box { padding: 10px; }
+    .yi-ji-item { font-size: 12px; }
+    .record-form { grid-template-columns: 1fr; }
+    .hot-actions { flex-wrap: wrap; }
+    .hot-btn { font-size: 11px; padding: 6px 10px; }
+  }
+</style>
+</head>
+<body>
 
-      <div class="big-emoji">🎀</div>
-      <div class="workspace-title">Easylumi 的工作台</div>
-      <div class="workspace-sub">「温柔坚持，复刻成长」</div>
-      <div class="workspace-tagline">把每一天都过成想要的样子</div>
+<div class="app">
+  <!-- ============ 左侧导航 ============ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-title">
+      <span class="bow">🎀</span>
+      <span>工作台菜单</span>
+    </div>
+    <ul class="nav-list" id="navList">
+      <li class="nav-item active" data-page="home">
+        <span class="icon">🏠</span>
+        <span>首页</span>
+      </li>
+      <li class="nav-item" data-page="todo">
+        <span class="icon">📋</span>
+        <span>今日计划</span>
+      </li>
+      <li class="nav-item" data-page="workout">
+        <span class="icon">💪</span>
+        <span>运动塑形</span>
+      </li>
+      <li class="nav-item" data-page="news">
+        <span class="icon">📰</span>
+        <span>新闻资讯</span>
+      </li>
+      <li class="nav-item" data-page="hot">
+        <span class="icon">🔥</span>
+        <span>爆款二创</span>
+      </li>
+      <li class="nav-item" data-page="review">
+        <span class="icon">📝</span>
+        <span>内容复盘</span>
+      </li>
+      <li class="nav-item" data-page="xiuxin">
+        <span class="icon">🪷</span>
+        <span>修心修行功课</span>
+      </li>
+      <li class="nav-item" data-page="feel">
+        <span class="icon">✨</span>
+        <span>每天感悟</span>
+      </li>
+    </ul>
+  </aside>
+
+  <div class="overlay" id="overlay"></div>
+
+  <!-- ============ 主内容 ============ -->
+  <main class="main">
+    <div class="topbar">
+      <div class="topbar-left">
+        <button class="menu-btn" id="menuBtn">☰</button>
+        <div class="topbar-title" id="topbarTitle">首页</div>
+      </div>
+      <div class="topbar-actions">
+        <button class="topbar-action-btn" id="refreshBtn" title="刷新数据">↻</button>
+      </div>
     </div>
 
-    <div class="quote-card green">
-      <span class="quote-icon">🌟</span>
-      <div class="quote-body">
-        <div class="quote-text" id="enQuote">温柔的人，终会被温柔以待。</div>
-        <div class="quote-translation" id="enQuoteTrans">The gentle will eventually be treated with gentleness.</div>
-      </div>
-    </div>
+    <div class="content">
+      <!-- ===== 首页 ===== -->
+      <div class="page active" data-page="home" id="page-home">
+        <div class="hero">
+          <h1 class="greeting" id="greeting">晚上好，<span class="greeting-suffix">Easylumi</span> ✨</h1>
+          <p class="slogan-line">今天也是温柔坚持的一天 💪</p>
+          <div class="slogan-pill">「温柔坚持，复刻成长」</div>
 
-    <div class="quote-card pink">
-      <span class="quote-icon">📖</span>
-      <div class="quote-body">
-        <div class="quote-text" id="chQuote">君子以见善则迁，有过则改。</div>
-        <div class="quote-source">——《易经》</div>
-      </div>
-      <button class="quote-change-btn" id="changeQuoteBtn">换一句</button>
-    </div>
-
-    <div class="stats-grid">
-      <div class="stat-card green">
-        <div class="stat-number" id="statDone">0</div>
-        <div class="stat-label">今日完成</div>
-      </div>
-      <div class="stat-card blue">
-        <div class="stat-number" id="statTodo">0</div>
-        <div class="stat-label">待办任务</div>
-      </div>
-      <div class="stat-card peach">
-        <div class="stat-number" id="statRate">0%</div>
-        <div class="stat-label">打卡进度</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ===== 今日计划 ===== -->
-  <div class="page" data-page="todo" id="page-todo">
-    <div class="section-card">
-      <div class="section-header">
-        <div class="section-title"><span class="em">📋</span>今日待办</div>
-        <div class="section-action" id="todoProgressText">0 / 0</div>
-      </div>
-      <div class="progress-bar"><div class="progress-fill" id="todoProgress" style="width:0%"></div></div>
-      <ul class="todo-list" id="todoList" style="margin-top: 12px;"></ul>
-      <div class="add-input-row">
-        <input class="add-input" id="todoInput" placeholder="+ 新增自定义待办" />
-        <button class="add-btn" id="todoAddBtn">+</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- ===== 运动塑形 ===== -->
-  <div class="page" data-page="workout" id="page-workout">
-    <div class="tab-row" id="workoutTabs">
-      <button class="tab active" data-tab="morning">Morning</button>
-      <button class="tab" data-tab="night">Night</button>
-      <button class="tab" data-tab="body">身材记录</button>
-    </div>
-
-    <div class="tab-content active" data-tab-content="morning">
-      <div class="section-card">
-        <div class="section-header">
-          <div class="section-title"><span class="em">🌅</span>晨间运动</div>
-          <div class="section-action" id="morningProgress">0 / 0</div>
+          <div class="big-emoji">🎀</div>
+          <div class="workspace-title">Easylumi 的工作台</div>
+          <div class="workspace-sub">「温柔坚持，复刻成长」</div>
+          <div class="workspace-tagline">把每一天都过成想要的样子</div>
         </div>
-        <ul class="exercise-grid" id="morningList"></ul>
-        <div class="add-input-row">
-          <input class="add-input" id="morningInput" placeholder="+ 新增晨间项目" />
-          <button class="add-btn" id="morningAddBtn">+</button>
-        </div>
-      </div>
-    </div>
 
-    <div class="tab-content" data-tab-content="night">
-      <div class="section-card">
-        <div class="section-header">
-          <div class="section-title"><span class="em">🌙</span>夜间运动</div>
-          <div class="section-action" id="nightProgress">0 / 0</div>
-        </div>
-        <ul class="exercise-grid" id="nightList"></ul>
-        <div class="add-input-row">
-          <input class="add-input" id="nightInput" placeholder="+ 新增夜间项目" />
-          <button class="add-btn" id="nightAddBtn">+</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="tab-content" data-tab-content="body">
-      <div class="section-card">
-        <div class="section-header">
-          <div class="section-title"><span class="em">📏</span>身材记录（每周填写）</div>
-        </div>
-        <div class="record-form">
-          <div class="field"><label>体重 (kg)</label><input type="number" step="0.1" id="recWeight" placeholder="如 50.0" /></div>
-          <div class="field"><label>脂肪率 (%)</label><input type="number" step="0.1" id="recFat" placeholder="如 22.5" /></div>
-          <div class="field"><label>大臂围 (cm)</label><input type="number" step="0.1" id="recArm" placeholder="如 26.0" /></div>
-          <div class="field"><label>腰围 (cm)</label><input type="number" step="0.1" id="recWaist" placeholder="如 65.0" /></div>
-          <div class="field"><label>大腿围 (cm)</label><input type="number" step="0.1" id="recThigh" placeholder="如 48.0" /></div>
-          <div class="field"><label>小腿围 (cm)</label><input type="number" step="0.1" id="recCalf" placeholder="如 32.0" /></div>
-        </div>
-        <button class="submit-btn" id="recordSaveBtn" style="margin-top:14px;">保存本周记录</button>
-      </div>
-
-      <div class="section-card">
-        <div class="section-header">
-          <div class="section-title"><span class="em">📊</span>历史记录</div>
-        </div>
-        <div id="recordHistory"></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ===== 新闻资讯 ===== -->
-  <div class="page" data-page="news" id="page-news">
-    <div class="golden-quote">
-      <div class="gq-text" id="goldenText">"所有的惊艳，都来自长久的准备。"</div>
-      <div class="gq-source" id="goldenSource">— 人民日报</div>
-      <div class="gq-actions">
-        <button class="gq-btn primary" id="randomQuoteBtn">🎲 随机抽取</button>
-        <button class="gq-btn" id="favQuoteBtn">⭐ 收藏</button>
-        <button class="gq-btn" id="showFavQuoteBtn">📚 收藏夹</button>
-      </div>
-    </div>
-
-    <div class="section-card">
-      <div class="section-header">
-        <div class="section-title"><span class="em">📰</span>新闻资讯</div>
-        <button class="section-action active" id="refreshNewsBtn">换一批 🔄</button>
-      </div>
-      <div class="tab-row source-tabs" id="sourceTabs">
-        <button class="source-tab active" data-source="all">全部</button>
-        <button class="source-tab" data-source="xxqg">学习强国</button>
-        <button class="source-tab" data-source="rmrb">人民日报</button>
-        <button class="source-tab" data-source="xhs">新华社</button>
-        <button class="source-tab" data-source="yj">眼界</button>
-      </div>
-      <div class="news-list" id="newsList"></div>
-    </div>
-  </div>
-
-  <!-- ===== 爆款二创 ===== -->
-  <div class="page" data-page="hot" id="page-hot">
-    <!-- 平台筛选标签 -->
-    <div class="app-launch-row" id="hotFilterTabs">
-      <button class="app-btn active" data-pf="all">
-        <span class="app-icon">🔥</span><span>全部</span>
-      </button>
-      <button class="app-btn dy" data-pf="douyin">
-        <span class="app-icon">🎵</span><span>抖音</span>
-      </button>
-      <button class="app-btn bili" data-pf="bilibili">
-        <span class="app-icon">📺</span><span>B站</span>
-      </button>
-      <button class="app-btn xhs" data-pf="xiaohongshu">
-        <span class="app-icon">📕</span><span>小红书</span>
-      </button>
-      <button class="app-btn weibo" data-pf="weibo">
-        <span class="app-icon">🌐</span><span>微博</span>
-      </button>
-    </div>
-
-    <!-- 今日热榜 + AI 改写 -->
-    <div class="section-card">
-      <div class="section-header">
-        <div class="section-title"><span class="em">🔥</span>今日热榜 · AI 改写</div>
-        <div style="display:flex; gap:6px;">
-          <button class="section-action" id="configGistBtn">⚙ 数据源</button>
-          <button class="section-action active" id="refreshFeedBtn">刷新 🔄</button>
-        </div>
-      </div>
-      <div id="feedStatus" style="font-size:12px; color: var(--gray-400); padding:8px 0;">
-        部署后自动加载今日热榜，或点「⚙ 数据源」手动配置
-      </div>
-      <div id="aiRewriteList"></div>
-    </div>
-
-    <!-- 平台热榜原始数据 -->
-    <div class="section-card" id="hotPlatformCard" style="display:none;">
-      <div class="section-header">
-        <div class="section-title"><span class="em">📊</span>平台热榜原始</div>
-      </div>
-      <div class="tab-row" id="feedPlatformTabs">
-        <button class="tab active" data-pf="baidu">百度</button>
-        <button class="tab" data-pf="douyin">抖音</button>
-        <button class="tab" data-pf="bilibili">B站</button>
-        <button class="tab" data-pf="weibo">微博</button>
-        <button class="tab" data-pf="xiaohongshu">小红书</button>
-      </div>
-      <div id="feedPlatformList"></div>
-    </div>
-
-    <div class="section-card">
-      <div class="section-header">
-        <div class="section-title"><span class="em">🌟</span>本地爆款素材库</div>
-        <button class="section-action active" id="refreshHotBtn">换一批 🔄</button>
-      </div>
-      <div id="hotList"></div>
-    </div>
-
-    <div class="section-card">
-      <div class="section-header">
-        <div class="section-title"><span class="em">⭐</span>我的收藏</div>
-        <div class="section-action" id="favHotCount">0 条</div>
-      </div>
-      <div id="favHotList"></div>
-    </div>
-  </div>
-
-  <!-- ===== 内容复盘 ===== -->
-  <div class="page" data-page="review" id="page-review">
-    <div class="section-card">
-      <div class="section-header">
-        <div class="section-title"><span class="em">📝</span>新建复盘</div>
-      </div>
-      <div class="review-form">
-        <div class="review-field">
-          <label>发布日期</label>
-          <input type="date" id="rvDate" />
-        </div>
-        <div class="review-field">
-          <label>视频标题</label>
-          <input type="text" id="rvTitle" placeholder="如：30天早起改变人生" />
-        </div>
-        <div class="review-field" style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
-          <div>
-            <label>播放量</label>
-            <input type="number" id="rvPlay" placeholder="如 10000" />
-          </div>
-          <div>
-            <label>点赞数</label>
-            <input type="number" id="rvLike" placeholder="如 800" />
+        <div class="quote-card green">
+          <span class="quote-icon">🌟</span>
+          <div class="quote-body">
+            <div class="quote-text" id="enQuote">温柔的人，终会被温柔以待。</div>
+            <div class="quote-translation" id="enQuoteTrans">The gentle will eventually be treated with gentleness.</div>
           </div>
         </div>
-        <div class="review-field">
-          <label>本次内容优点</label>
-          <textarea id="rvGood" placeholder="做得好的地方..."></textarea>
-        </div>
-        <div class="review-field">
-          <label>存在问题</label>
-          <textarea id="rvBad" placeholder="需要改进的地方..."></textarea>
-        </div>
-        <div class="review-field">
-          <label>下次优化方案</label>
-          <textarea id="rvPlan" placeholder="下次怎么优化..."></textarea>
-        </div>
-        <button class="submit-btn" id="reviewSaveBtn">保存复盘</button>
-      </div>
-    </div>
 
-    <div class="section-card">
-      <div class="section-header">
-        <div class="section-title"><span class="em">📚</span>历史复盘</div>
-        <div class="section-action" id="reviewCount">0 条</div>
-      </div>
-      <div id="reviewHistory"></div>
-    </div>
-  </div>
-
-  <!-- ===== 修心修行功课 ===== -->
-  <div class="page" data-page="xiuxin" id="page-xiuxin">
-    <div class="huangli-card">
-      <div class="huangli-head">
-        <div class="huangli-date" id="hlSolar">--月--日 星期--</div>
-        <div class="huangli-lunar" id="hlLunar">农历 --</div>
-      </div>
-      <div class="yi-ji-row">
-        <div class="yi-ji-box yi">
-          <div class="yi-ji-title">宜</div>
-          <div class="yi-ji-list" id="hlYi"></div>
+        <div class="quote-card pink">
+          <span class="quote-icon">📖</span>
+          <div class="quote-body">
+            <div class="quote-text" id="chQuote">君子以见善则迁，有过则改。</div>
+            <div class="quote-source">——《易经》</div>
+          </div>
+          <button class="quote-change-btn" id="changeQuoteBtn">换一句</button>
         </div>
-        <div class="yi-ji-box ji">
-          <div class="yi-ji-title">忌</div>
-          <div class="yi-ji-list" id="hlJi"></div>
+
+        <div class="stats-grid">
+          <div class="stat-card green">
+            <div class="stat-number" id="statDone">0</div>
+            <div class="stat-label">今日完成</div>
+          </div>
+          <div class="stat-card blue">
+            <div class="stat-number" id="statTodo">0</div>
+            <div class="stat-label">待办任务</div>
+          </div>
+          <div class="stat-card peach">
+            <div class="stat-number" id="statRate">0%</div>
+            <div class="stat-label">打卡进度</div>
+          </div>
         </div>
       </div>
-      <div class="huangli-tip" id="hlTip"></div>
-    </div>
 
-    <div class="section-card">
-      <div class="section-header">
-        <div class="section-title"><span class="em">📖</span>每日经文讲解</div>
+      <!-- ===== 今日计划 ===== -->
+      <div class="page" data-page="todo" id="page-todo">
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-title"><span class="em">📋</span>今日待办</div>
+            <div class="section-action" id="todoProgressText">0 / 0</div>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" id="todoProgress" style="width:0%"></div></div>
+          <ul class="todo-list" id="todoList" style="margin-top: 12px;"></ul>
+          <div class="add-input-row">
+            <input class="add-input" id="todoInput" placeholder="+ 新增自定义待办" />
+            <button class="add-btn" id="todoAddBtn">+</button>
+          </div>
+        </div>
       </div>
-      <div class="tab-row" id="jingTabs">
-        <button class="tab active" data-jing="all">全部</button>
-        <button class="tab" data-jing="dd">道德经</button>
-        <button class="tab" data-jing="jg">金刚经</button>
-        <button class="tab" data-jing="yj">易经</button>
-        <button class="tab" data-jing="ly">论语</button>
-        <button class="tab" data-jing="ggz">鬼谷子</button>
+
+      <!-- ===== 运动塑形 ===== -->
+      <div class="page" data-page="workout" id="page-workout">
+        <div class="tab-row" id="workoutTabs">
+          <button class="tab active" data-tab="morning">Morning</button>
+          <button class="tab" data-tab="night">Night</button>
+          <button class="tab" data-tab="body">身材记录</button>
+        </div>
+
+        <div class="tab-content active" data-tab-content="morning">
+          <div class="section-card">
+            <div class="section-header">
+              <div class="section-title"><span class="em">🌅</span>晨间运动</div>
+              <div class="section-action" id="morningProgress">0 / 0</div>
+            </div>
+            <ul class="exercise-grid" id="morningList"></ul>
+            <div class="add-input-row">
+              <input class="add-input" id="morningInput" placeholder="+ 新增晨间项目" />
+              <button class="add-btn" id="morningAddBtn">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" data-tab-content="night">
+          <div class="section-card">
+            <div class="section-header">
+              <div class="section-title"><span class="em">🌙</span>夜间运动</div>
+              <div class="section-action" id="nightProgress">0 / 0</div>
+            </div>
+            <ul class="exercise-grid" id="nightList"></ul>
+            <div class="add-input-row">
+              <input class="add-input" id="nightInput" placeholder="+ 新增夜间项目" />
+              <button class="add-btn" id="nightAddBtn">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" data-tab-content="body">
+          <div class="section-card">
+            <div class="section-header">
+              <div class="section-title"><span class="em">📏</span>身材记录（每周填写）</div>
+            </div>
+            <div class="record-form">
+              <div class="field"><label>体重 (kg)</label><input type="number" step="0.1" id="recWeight" placeholder="如 50.0" /></div>
+              <div class="field"><label>脂肪率 (%)</label><input type="number" step="0.1" id="recFat" placeholder="如 22.5" /></div>
+              <div class="field"><label>大臂围 (cm)</label><input type="number" step="0.1" id="recArm" placeholder="如 26.0" /></div>
+              <div class="field"><label>腰围 (cm)</label><input type="number" step="0.1" id="recWaist" placeholder="如 65.0" /></div>
+              <div class="field"><label>大腿围 (cm)</label><input type="number" step="0.1" id="recThigh" placeholder="如 48.0" /></div>
+              <div class="field"><label>小腿围 (cm)</label><input type="number" step="0.1" id="recCalf" placeholder="如 32.0" /></div>
+            </div>
+            <button class="submit-btn" id="recordSaveBtn" style="margin-top:14px;">保存本周记录</button>
+          </div>
+
+          <div class="section-card">
+            <div class="section-header">
+              <div class="section-title"><span class="em">📊</span>历史记录</div>
+            </div>
+            <div id="recordHistory"></div>
+          </div>
+        </div>
       </div>
-      <div id="jingList" style="margin-top: 8px;"></div>
-    </div>
-  </div>
 
-  <!-- ===== 每天感悟 ===== -->
-  <div class="page" data-page="feel" id="page-feel">
-    <div class="feel-card green">
-      <div class="feel-title">🌱 当天自己感恩的 3 件事情</div>
-      <div class="feel-row"><input class="feel-input" data-feel="g1" placeholder="第一件感恩的事..." /></div>
-      <div class="feel-row"><input class="feel-input" data-feel="g2" placeholder="第二件感恩的事..." /></div>
-      <div class="feel-row"><input class="feel-input" data-feel="g3" placeholder="第三件感恩的事..." /></div>
-    </div>
+      <!-- ===== 新闻资讯 ===== -->
+      <div class="page" data-page="news" id="page-news">
+        <div class="golden-quote">
+          <div class="gq-text" id="goldenText">"所有的惊艳，都来自长久的准备。"</div>
+          <div class="gq-source" id="goldenSource">— 人民日报</div>
+          <div class="gq-actions">
+            <button class="gq-btn primary" id="randomQuoteBtn">🎲 随机抽取</button>
+            <button class="gq-btn" id="favQuoteBtn">⭐ 收藏</button>
+            <button class="gq-btn" id="showFavQuoteBtn">📚 收藏夹</button>
+          </div>
+        </div>
 
-    <div class="feel-card peach">
-      <div class="feel-title">🍊 让当天可以变得更好的 2 件事</div>
-      <div class="feel-row"><input class="feel-input" data-feel="b1" placeholder="第一件可以更好的事..." /></div>
-      <div class="feel-row"><input class="feel-input" data-feel="b2" placeholder="第二件可以更好的事..." /></div>
-    </div>
-
-    <div class="feel-card lav">
-      <div class="feel-title">💜 写下一句积极的自我肯定</div>
-      <div class="feel-row"><input class="feel-input" data-feel="a1" placeholder="今天的我..." /></div>
-    </div>
-
-    <button class="feel-save-btn" id="feelSaveBtn">💾 保存今日感悟</button>
-
-    <div class="section-card" style="margin-top: 16px;">
-      <div class="section-header">
-        <div class="section-title"><span class="em">📖</span>历史感悟</div>
-        <div class="section-action" id="feelCount">0 条</div>
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-title"><span class="em">📰</span>新闻资讯</div>
+            <button class="section-action active" id="refreshNewsBtn">换一批 🔄</button>
+          </div>
+          <div class="tab-row source-tabs" id="sourceTabs">
+            <button class="source-tab active" data-source="all">全部</button>
+            <button class="source-tab" data-source="xxqg">学习强国</button>
+            <button class="source-tab" data-source="rmrb">人民日报</button>
+            <button class="source-tab" data-source="xhs">新华社</button>
+            <button class="source-tab" data-source="yj">眼界</button>
+          </div>
+          <div class="news-list" id="newsList"></div>
+        </div>
       </div>
-      <div id="feelHistory"></div>
-    </div>
-  </div>
 
+      <!-- ===== 爆款二创 ===== -->
+      <div class="page" data-page="hot" id="page-hot">
+        <!-- 平台筛选标签 -->
+        <div class="app-launch-row" id="hotFilterTabs">
+          <button class="app-btn active" data-pf="all">
+            <span class="app-icon">🔥</span><span>全部</span>
+          </button>
+          <button class="app-btn dy" data-pf="douyin">
+            <span class="app-icon">🎵</span><span>抖音</span>
+          </button>
+          <button class="app-btn bili" data-pf="bilibili">
+            <span class="app-icon">📺</span><span>B站</span>
+          </button>
+          <button class="app-btn xhs" data-pf="xiaohongshu">
+            <span class="app-icon">📕</span><span>小红书</span>
+          </button>
+          <button class="app-btn weibo" data-pf="weibo">
+            <span class="app-icon">🌐</span><span>微博</span>
+          </button>
+        </div>
+
+        <!-- 今日热榜 + AI 改写 -->
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-title"><span class="em">🔥</span>今日热榜 · AI 改写</div>
+            <div style="display:flex; gap:6px;">
+              <button class="section-action" id="configGistBtn">⚙ 数据源</button>
+              <button class="section-action active" id="refreshFeedBtn">刷新 🔄</button>
+            </div>
+          </div>
+          <div id="feedStatus" style="font-size:12px; color: var(--gray-400); padding:8px 0;">
+            部署后自动加载今日热榜，或点「⚙ 数据源」手动配置
+          </div>
+          <div id="aiRewriteList"></div>
+        </div>
+
+        <!-- 平台热榜原始数据 -->
+        <div class="section-card" id="hotPlatformCard" style="display:none;">
+          <div class="section-header">
+            <div class="section-title"><span class="em">📊</span>平台热榜原始</div>
+          </div>
+          <div class="tab-row" id="feedPlatformTabs">
+            <button class="tab active" data-pf="baidu">百度</button>
+            <button class="tab" data-pf="douyin">抖音</button>
+            <button class="tab" data-pf="bilibili">B站</button>
+            <button class="tab" data-pf="weibo">微博</button>
+            <button class="tab" data-pf="xiaohongshu">小红书</button>
+          </div>
+          <div id="feedPlatformList"></div>
+        </div>
+
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-title"><span class="em">🌟</span>本地爆款素材库</div>
+            <button class="section-action active" id="refreshHotBtn">换一批 🔄</button>
+          </div>
+          <div id="hotList"></div>
+        </div>
+
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-title"><span class="em">⭐</span>我的收藏</div>
+            <div class="section-action" id="favHotCount">0 条</div>
+          </div>
+          <div id="favHotList"></div>
+        </div>
+      </div>
+
+      <!-- ===== 内容复盘 ===== -->
+      <div class="page" data-page="review" id="page-review">
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-title"><span class="em">📝</span>新建复盘</div>
+          </div>
+          <div class="review-form">
+            <div class="review-field">
+              <label>发布日期</label>
+              <input type="date" id="rvDate" />
+            </div>
+            <div class="review-field">
+              <label>视频标题</label>
+              <input type="text" id="rvTitle" placeholder="如：30天早起改变人生" />
+            </div>
+            <div class="review-field" style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+              <div>
+                <label>播放量</label>
+                <input type="number" id="rvPlay" placeholder="如 10000" />
+              </div>
+              <div>
+                <label>点赞数</label>
+                <input type="number" id="rvLike" placeholder="如 800" />
+              </div>
+            </div>
+            <div class="review-field">
+              <label>本次内容优点</label>
+              <textarea id="rvGood" placeholder="做得好的地方..."></textarea>
+            </div>
+            <div class="review-field">
+              <label>存在问题</label>
+              <textarea id="rvBad" placeholder="需要改进的地方..."></textarea>
+            </div>
+            <div class="review-field">
+              <label>下次优化方案</label>
+              <textarea id="rvPlan" placeholder="下次怎么优化..."></textarea>
+            </div>
+            <button class="submit-btn" id="reviewSaveBtn">保存复盘</button>
+          </div>
+        </div>
+
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-title"><span class="em">📚</span>历史复盘</div>
+            <div class="section-action" id="reviewCount">0 条</div>
+          </div>
+          <div id="reviewHistory"></div>
+        </div>
+      </div>
+
+      <!-- ===== 修心修行功课 ===== -->
+      <div class="page" data-page="xiuxin" id="page-xiuxin">
+        <div class="huangli-card">
+          <div class="huangli-head">
+            <div class="huangli-date" id="hlSolar">--月--日 星期--</div>
+            <div class="huangli-lunar" id="hlLunar">农历 --</div>
+          </div>
+          <div class="yi-ji-row">
+            <div class="yi-ji-box yi">
+              <div class="yi-ji-title">宜</div>
+              <div class="yi-ji-list" id="hlYi"></div>
+            </div>
+            <div class="yi-ji-box ji">
+              <div class="yi-ji-title">忌</div>
+              <div class="yi-ji-list" id="hlJi"></div>
+            </div>
+          </div>
+          <div class="huangli-tip" id="hlTip"></div>
+        </div>
+
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-title"><span class="em">📖</span>每日经文讲解</div>
+          </div>
+          <div class="tab-row" id="jingTabs">
+            <button class="tab active" data-jing="all">全部</button>
+            <button class="tab" data-jing="dd">道德经</button>
+            <button class="tab" data-jing="jg">金刚经</button>
+            <button class="tab" data-jing="yj">易经</button>
+            <button class="tab" data-jing="ly">论语</button>
+            <button class="tab" data-jing="ggz">鬼谷子</button>
+          </div>
+          <div id="jingList" style="margin-top: 8px;"></div>
+        </div>
+      </div>
+
+      <!-- ===== 每天感悟 ===== -->
+      <div class="page" data-page="feel" id="page-feel">
+        <div class="feel-card green">
+          <div class="feel-title">🌱 当天自己感恩的 3 件事情</div>
+          <div class="feel-row"><input class="feel-input" data-feel="g1" placeholder="第一件感恩的事..." /></div>
+          <div class="feel-row"><input class="feel-input" data-feel="g2" placeholder="第二件感恩的事..." /></div>
+          <div class="feel-row"><input class="feel-input" data-feel="g3" placeholder="第三件感恩的事..." /></div>
+        </div>
+
+        <div class="feel-card peach">
+          <div class="feel-title">🍊 让当天可以变得更好的 2 件事</div>
+          <div class="feel-row"><input class="feel-input" data-feel="b1" placeholder="第一件可以更好的事..." /></div>
+          <div class="feel-row"><input class="feel-input" data-feel="b2" placeholder="第二件可以更好的事..." /></div>
+        </div>
+
+        <div class="feel-card lav">
+          <div class="feel-title">💜 写下一句积极的自我肯定</div>
+          <div class="feel-row"><input class="feel-input" data-feel="a1" placeholder="今天的我..." /></div>
+        </div>
+
+        <button class="feel-save-btn" id="feelSaveBtn">💾 保存今日感悟</button>
+
+        <div class="section-card" style="margin-top: 16px;">
+          <div class="section-header">
+            <div class="section-title"><span class="em">📖</span>历史感悟</div>
+            <div class="section-action" id="feelCount">0 条</div>
+          </div>
+          <div id="feelHistory"></div>
+        </div>
+      </div>
+
+    </div>
+  </main>
 </div>
+
+<div class="toast" id="toast">提示</div>
+
+<script>
+/* =========================================================
+   Easylumi 工作台 - 数据 + 渲染
+   ========================================================= */
+
+const STORE_KEY = 'easylumi_workbench_v1';
+
+const defaultData = {
+  todos: [
+    { id: 't1', text: '7:00 起床', done: false, type: 'fixed' },
+    { id: 't2', text: '练字打卡', done: false, type: 'fixed' },
+    { id: 't3', text: '看书 30 分钟', done: false, type: 'fixed' },
+    { id: 't4', text: '运动（晨+夜项目全部勾选即自动完成）', done: false, type: 'auto-sport' },
+    { id: 't5', text: '23:00 前睡觉', done: false, type: 'fixed' },
+    {
+      id: 't6', text: '饭前喝一杯水', done: false, type: 'fixed-sub',
+      subs: [
+        { id: 's1', text: '早餐前', done: false },
+        { id: 's2', text: '午餐前', done: false },
+        { id: 's3', text: '晚餐前', done: false }
+      ]
+    }
+  ],
+  morning: [
+    { id: 'm1', text: '瘦脸操（筷子操）', done: false },
+    { id: 'm2', text: '瘦脸操（眼神操）', done: false },
+    { id: 'm3', text: '瘦手臂', done: false },
+    { id: 'm4', text: '练髋', done: false },
+    { id: 'm5', text: '瘦肚子', done: false },
+    { id: 'm6', text: '瘦腿', done: false }
+  ],
+  night: [
+    { id: 'n1', text: 'Switch 运动', done: false },
+    { id: 'n2', text: '肩颈', done: false },
+    { id: 'n3', text: '泡沫轴转背', done: false },
+    { id: 'n4', text: '泡沫轴滚腿', done: false },
+    { id: 'n5', text: '拉伸', done: false },
+    { id: 'n6', text: '瘦脸操（筷子操）', done: false },
+    { id: 'n7', text: '瘦脸操（眼神操）', done: false }
+  ],
+  bodyRecords: [],
+  favQuotes: [],
+  reviews: [],
+  hotFavs: [],
+  feelHistory: [],
+  feelDraft: {}
+};
+
+let state = loadState();
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (!raw) return JSON.parse(JSON.stringify(defaultData));
+    const parsed = JSON.parse(raw);
+    // 兜底缺失字段
+    return Object.assign({}, JSON.parse(JSON.stringify(defaultData)), parsed);
+  } catch (e) {
+    return JSON.parse(JSON.stringify(defaultData));
+  }
+}
+function saveState() {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e) {}
+}
+
+/* ============== 工具 ============== */
+function $(sel) { return document.querySelector(sel); }
+function $$(sel) { return document.querySelectorAll(sel); }
+function uid() { return 'id_' + Math.random().toString(36).slice(2, 9); }
+function showToast(msg) {
+  const t = $('#toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 1600);
+}
+
+/* ============== 顶部时间 ============== */
+function updateDateTime() {
+  const now = new Date();
+  const h = now.getHours();
+  const greet = h < 6 ? '凌晨好' : h < 11 ? '早上好' : h < 14 ? '中午好' : h < 18 ? '下午好' : '晚上好';
+  const greetEl = $('#greeting');
+  if (greetEl) greetEl.innerHTML = `${greet}，<span class="greeting-suffix">Easylumi</span> ✨`;
+
+  // 黄历
+  try{updateHuangli(now);}catch(e){};
+}
+setInterval(updateDateTime, 30000);
+updateDateTime();
+
+/* ============== 名言 ============== */
+const enQuotes = [
+  { t: 'The best time to plant a tree was 20 years ago. The second best time is now.', z: '种一棵树最好的时间是 20 年前，其次是现在。' },
+  { t: 'Be the change that you wish to see in the world.', z: '成为你希望在世界上看到的改变。' },
+  { t: 'The only way to do great work is to love what you do.', z: '成就伟业的唯一途径是热爱你所做的事。' },
+  { t: 'Believe you can and you\'re halfway there.', z: '相信你可以，你已经成功了一半。' },
+  { t: 'The future belongs to those who believe in the beauty of their dreams.', z: '未来属于那些相信梦想之美的人。' }
+];
+const chQuotes = [
+  { t: '君子以见善则迁，有过则改。', s: '《易经》' },
+  { t: '不积跬步，无以至千里；不积小流，无以成江海。', s: '《荀子》' },
+  { t: '千里之行，始于足下。', s: '《道德经》' },
+  { t: '学而时习之，不亦说乎？', s: '《论语》' },
+  { t: '心似双丝网，中有千千结。', s: '《千秋岁》' }
+];
+function renderQuotes() {
+  const en = enQuotes[Math.floor(Math.random()*enQuotes.length)];
+  $('#enQuote').textContent = en.t.replace(/^The best.*|^.*\.$/,'').slice(0, 30) || '温柔的人，终会被温柔以待。';
+  $('#enQuoteTrans').textContent = en.t;
+  const ch = chQuotes[Math.floor(Math.random()*chQuotes.length)];
+  $('#chQuote').textContent = ch.t;
+  $('#chQuote').nextElementSibling.textContent = '——' + ch.s;
+}
+renderQuotes();
+$('#changeQuoteBtn').addEventListener('click', () => { renderQuotes(); showToast('换一句名言 ✨'); });
+
+/* ============== 今日计划 ============== */
+function renderTodos() {
+  const list = $('#todoList');
+  list.innerHTML = '';
+  state.todos.forEach(item => {
+    const li = document.createElement('li');
+    li.className = 'todo-item';
+
+    if (item.type === 'fixed-sub') {
+      // 父项 + 子项
+      const wrap = document.createElement('div');
+      wrap.style.flex = '1';
+      const head = document.createElement('div');
+      head.style.display = 'flex';
+      head.style.alignItems = 'center';
+      head.style.gap = '12px';
+      const check = document.createElement('button');
+      check.className = 'todo-check' + (item.done ? ' checked' : '');
+      check.addEventListener('click', () => {
+        if (item.done) return;
+        // 一次性勾选所有子项
+        item.subs.forEach(s => s.done = true);
+        item.done = true;
+        saveState(); renderTodos(); updateHomeStats();
+      });
+      const txt = document.createElement('div');
+      txt.className = 'todo-text' + (item.done ? ' done' : '');
+      txt.textContent = item.text;
+      head.appendChild(check);
+      head.appendChild(txt);
+      wrap.appendChild(head);
+
+      const sub = document.createElement('div');
+      sub.className = 'sub-check-row';
+      item.subs.forEach(s => {
+        const lbl = document.createElement('label');
+        lbl.className = 'sub-check';
+        const c = document.createElement('button');
+        c.className = 'todo-check' + (s.done ? ' checked' : '');
+        c.addEventListener('click', e => {
+          e.preventDefault();
+          s.done = !s.done;
+          if (item.subs.every(x => x.done)) item.done = true;
+          else item.done = false;
+          saveState(); renderTodos(); updateHomeStats();
+        });
+        const t = document.createElement('span');
+        t.textContent = s.text + (s.done ? ' ✓' : '');
+        lbl.appendChild(c);
+        lbl.appendChild(t);
+        sub.appendChild(lbl);
+      });
+      wrap.appendChild(sub);
+      li.appendChild(wrap);
+    } else {
+      const check = document.createElement('button');
+      check.className = 'todo-check' + (item.done ? ' checked' : '');
+      check.addEventListener('click', () => {
+        item.done = !item.done;
+        saveState(); renderTodos(); updateHomeStats();
+      });
+      const txt = document.createElement('div');
+      txt.className = 'todo-text' + (item.done ? ' done' : '');
+      txt.textContent = item.text;
+      li.appendChild(check);
+      li.appendChild(txt);
+
+      if (item.type !== 'auto-sport') {
+        const del = document.createElement('button');
+        del.className = 'todo-delete';
+        del.textContent = '🗑';
+        del.addEventListener('click', () => {
+          if (confirm('确认删除该待办？')) {
+            state.todos = state.todos.filter(t => t.id !== item.id);
+            saveState(); renderTodos(); updateHomeStats();
+          }
+        });
+        li.appendChild(del);
+      }
+    }
+    list.appendChild(li);
+  });
+
+  const done = state.todos.filter(t => t.done).length;
+  const total = state.todos.length;
+  $('#todoProgressText').textContent = `${done} / ${total}`;
+  $('#todoProgress').style.width = total ? (done/total*100) + '%' : '0%';
+  updateHomeStats();
+}
+$('#todoAddBtn').addEventListener('click', addTodo);
+$('#todoInput').addEventListener('keypress', e => { if (e.key==='Enter') addTodo(); });
+function addTodo() {
+  const inp = $('#todoInput');
+  const v = inp.value.trim();
+  if (!v) return;
+  state.todos.push({ id: uid(), text: v, done: false, type: 'custom' });
+  inp.value = '';
+  saveState(); renderTodos(); updateHomeStats();
+  showToast('已添加待办');
+}
+
+/* ============== 运动塑形 ============== */
+function renderExercise(listId, key, progressId) {
+  const ul = $('#' + listId);
+  ul.innerHTML = '';
+  state[key].forEach(item => {
+    const li = document.createElement('li');
+    li.className = 'exercise-item';
+    const check = document.createElement('button');
+    check.className = 'todo-check' + (item.done ? ' checked' : '');
+    check.addEventListener('click', () => {
+      item.done = !item.done;
+      saveState(); renderExercise(listId, key, progressId); updateHomeStats();
+    });
+    const txt = document.createElement('div');
+    txt.className = 'todo-text' + (item.done ? ' done' : '');
+    txt.textContent = item.text;
+    li.appendChild(check);
+    li.appendChild(txt);
+    const del = document.createElement('button');
+    del.className = 'todo-delete';
+    del.textContent = '🗑';
+    del.addEventListener('click', () => {
+      if (confirm('确认删除？')) {
+        state[key] = state[key].filter(x => x.id !== item.id);
+        saveState(); renderExercise(listId, key, progressId); updateHomeStats();
+      }
+    });
+    li.appendChild(del);
+    ul.appendChild(li);
+  });
+  const done = state[key].filter(x => x.done).length;
+  const total = state[key].length;
+  $('#' + progressId).textContent = `${done} / ${total}`;
+  updateHomeStats();
+}
+$('#morningAddBtn').addEventListener('click', () => addExercise('morning', 'morningInput'));
+$('#morningInput').addEventListener('keypress', e => { if (e.key==='Enter') addExercise('morning', 'morningInput'); });
+$('#nightAddBtn').addEventListener('click', () => addExercise('night', 'nightInput'));
+$('#nightInput').addEventListener('keypress', e => { if (e.key==='Enter') addExercise('night', 'nightInput'); });
+
+function addExercise(key, inputId) {
+  const inp = $('#' + inputId);
+  const v = inp.value.trim();
+  if (!v) return;
+  state[key].push({ id: uid(), text: v, done: false });
+  inp.value = '';
+  saveState();
+  const listId = key === 'morning' ? 'morningList' : 'nightList';
+  const progressId = key === 'morning' ? 'morningProgress' : 'nightProgress';
+  renderExercise(listId, key, progressId);
+  showToast('已添加项目');
+}
+
+// 运动塑形标签切换
+$$('#workoutTabs .tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    $$('#workoutTabs .tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const tab = btn.dataset.tab;
+    $$('#page-workout .tab-content').forEach(c => {
+      c.classList.toggle('active', c.dataset.tabContent === tab);
+    });
+  });
+});
+
+// 身材记录
+$('#recordSaveBtn').addEventListener('click', () => {
+  const data = {
+    weight: $('#recWeight').value,
+    fat: $('#recFat').value,
+    arm: $('#recArm').value,
+    waist: $('#recWaist').value,
+    thigh: $('#recThigh').value,
+    calf: $('#recCalf').value
+  };
+  if (Object.values(data).every(v => !v)) {
+    showToast('请至少填写一项数据');
+    return;
+  }
+  data.date = new Date().toISOString().slice(0, 10);
+  state.bodyRecords.unshift(data);
+  saveState();
+  ['recWeight','recFat','recArm','recWaist','recThigh','recCalf'].forEach(id => $('#'+id).value = '');
+  renderRecordHistory();
+  showToast('已保存身材记录');
+});
+function renderRecordHistory() {
+  const wrap = $('#recordHistory');
+  if (state.bodyRecords.length === 0) {
+    wrap.innerHTML = '<div style="color: var(--gray-400); font-size: 12px; text-align:center; padding:12px;">暂无记录</div>';
+    return;
+  }
+  wrap.innerHTML = state.bodyRecords.slice(0, 10).map(r => `
+    <div class="history-item">
+      <div class="history-head">
+        <div class="history-date">📅 ${r.date}</div>
+      </div>
+      <div style="font-size:12px; color: var(--gray-600); display:grid; grid-template-columns:1fr 1fr; gap:6px;">
+        ${r.weight ? `<div>体重: <b>${r.weight} kg</b></div>` : ''}
+        ${r.fat ? `<div>脂肪率: <b>${r.fat}%</b></div>` : ''}
+        ${r.arm ? `<div>大臂: <b>${r.arm} cm</b></div>` : ''}
+        ${r.waist ? `<div>腰围: <b>${r.waist} cm</b></div>` : ''}
+        ${r.thigh ? `<div>大腿: <b>${r.thigh} cm</b></div>` : ''}
+        ${r.calf ? `<div>小腿: <b>${r.calf} cm</b></div>` : ''}
+      </div>
+    </div>
+  `).join('');
+}
+
+/* ============== 新闻资讯 ============== */
+const goldenQuotes = [
+  { t: '所有的惊艳，都来自长久的准备。', s: '人民日报' },
+  { t: '自律给我自由。', s: 'Nike 创始人' },
+  { t: '一个人的修养，不在于他说了什么，而在于他做了什么。', s: '佚名' },
+  { t: '你必须非常努力，才能看起来毫不费力。', s: '刘同' },
+  { t: '心怀热爱，奔赴山海。', s: '网络金句' },
+  { t: '生活明朗，万物可爱，人间值得，未来可期。', s: '木心' }
+];
+
+const newsData = [
+  // 学习强国
+  { src: 'xxqg', tag: '学习', t: '《习近平著作选读》学习笔记：坚持和发展中国特色社会主义', date: '08-04', link: 'https://www.xuexi.cn/' },
+  { src: 'xxqg', tag: '学习', t: '理论前沿：以中国式现代化全面推进中华民族伟大复兴', date: '08-03', link: 'https://www.xuexi.cn/' },
+  { src: 'xxqg', tag: '学习', t: '深入学习党的二十大精神 推动高质量发展取得新成效', date: '08-02', link: 'https://www.xuexi.cn/' },
+  // 人民日报
+  { src: 'rmrb', tag: '人民日报', t: '夜读 | 真正聪明的人，都在偷偷下笨功夫', date: '08-04', link: 'https://www.peopleapp.com/' },
+  { src: 'rmrb', tag: '人民日报', t: '把论文写在祖国大地上——科技工作者扎根一线见闻', date: '08-03', link: 'https://www.peopleapp.com/' },
+  { src: 'rmrb', tag: '人民日报', t: '人民时评：让城市发展更有温度', date: '08-02', link: 'https://www.peopleapp.com/' },
+  // 新华社
+  { src: 'xhs', tag: '新华社', t: '瞭望·治国理政纪事｜推动中国制造向中国创造转变', date: '08-04', link: 'https://www.xinhuanet.com/' },
+  { src: 'xhs', tag: '新华社', t: '新华每日电讯：让青春在奉献中焕发绚丽光彩', date: '08-03', link: 'https://www.xinhuanet.com/' },
+  // 眼界
+  { src: 'yj', tag: '眼界', t: '深读 | 普通人如何打造自己的"个人 IP"？', date: '08-04', link: 'https://www.tophub.today/' },
+  { src: 'yj', tag: '眼界', t: '全球科技 | AI 时代，自媒体人最该学的 3 项能力', date: '08-03', link: 'https://www.tophub.today/' },
+  { src: 'yj', tag: '眼界', t: '财经观察 | 2026 下半年值得关注的 5 个消费趋势', date: '08-02', link: 'https://www.tophub.today/' }
+];
+
+let curSource = 'all';
+let curQuotes = goldenQuotes.slice();
+
+function renderGoldenQuote() {
+  const q = curQuotes[Math.floor(Math.random() * curQuotes.length)];
+  $('#goldenText').textContent = '「' + q.t + '」';
+  $('#goldenSource').textContent = '—— ' + q.s;
+}
+renderGoldenQuote();
+
+$('#randomQuoteBtn').addEventListener('click', () => {
+  curQuotes = curQuotes.filter((_,i) => i !== curQuotes.findIndex(x => x.t === $('#goldenText').textContent.slice(1,-1)));
+  if (curQuotes.length === 0) curQuotes = goldenQuotes.slice();
+  renderGoldenQuote();
+  showToast('已抽取新金句');
+});
+$('#favQuoteBtn').addEventListener('click', () => {
+  const t = $('#goldenText').textContent.slice(1,-1);
+  const s = $('#goldenSource').textContent.replace('—— ','');
+  if (state.favQuotes.some(q => q.t === t)) {
+    showToast('已经在收藏夹了');
+    return;
+  }
+  state.favQuotes.unshift({ t, s, time: Date.now() });
+  saveState();
+  showToast('已收藏到收藏夹 ⭐');
+});
+$('#showFavQuoteBtn').addEventListener('click', () => {
+  if (state.favQuotes.length === 0) {
+    alert('收藏夹还是空的，先去收藏喜欢的金句吧~');
+    return;
+  }
+  const list = state.favQuotes.map((q,i) => `${i+1}. 「${q.t}」\n   —— ${q.s}`).join('\n\n');
+  alert('⭐ 我的金句收藏夹\n\n' + list);
+});
+
+function renderNews() {
+  const list = $('#newsList');
+  const data = curSource === 'all' ? newsData : newsData.filter(n => n.src === curSource);
+  // 按日期从新到旧排序
+  const sorted = data.slice().sort((a, b) => b.date.localeCompare(a.date));
+  list.innerHTML = sorted.slice(0, 6).map((n, i) => {
+    const tagClass = ['t1','t2','t3','t4','t5'][i % 5];
+    return `
+      <div class="news-item">
+        <div class="news-meta">
+          <span class="news-tag ${tagClass}">${n.tag}</span>
+          <span class="news-date">${n.date}</span>
+        </div>
+        <div class="news-title">${n.t}</div>
+        <a class="news-link" href="${n.link}" target="_blank">查看全文 →</a>
+      </div>
+    `;
+  }).join('') || '<div style="color:var(--gray-400); text-align:center; padding:20px;">该来源暂无新闻</div>';
+}
+renderNews();
+$('#refreshNewsBtn').addEventListener('click', () => { renderNews(); showToast('新闻已更新'); });
+$$('#sourceTabs .source-tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    $$('#sourceTabs .source-tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    curSource = btn.dataset.source;
+    renderNews();
+  });
+});
+
+/* ============== 爆款二创 ============== */
+const hotData = [
+  { emoji: '💃', title: '30天早起挑战，让我重塑人生', view: '128w', platform: 'dy', point: '核心观点：用 21 天养成一个习惯，打卡式叙事让观众有代入感。\n\n二创方向：可以拍"30天瘦 X 斤""30天读完 X 本书"等变体。\n\n切入点：从第 0 天的挣扎切入，对比第 30 天的改变，反差感强。' },
+  { emoji: '📚', title: '豆瓣 Top250 经典书单，看完脱胎换骨', view: '89w', platform: 'xhs', point: '核心观点：把"读书有用"这种抽象观点具象化为"看完的具体变化"。\n\n二创方向：可以做"30 岁前必读的 X 本书""女生必读的 X 本治愈系书"等主题。\n\n切入点：开篇用"看完这 5 本书，我的人生发生了什么变化"作为钩子。' },
+  { emoji: '🍱', title: '下班 30 分钟搞定一周便当', view: '234w', platform: 'dy', point: '核心观点：解决"上班族没时间做饭"的痛点，给出可执行方案。\n\n二创方向：可迁移到"30 分钟搞定一周穿搭""30 分钟搞定一周妆容"等场景。\n\n切入点：展示成品+过程对比，配合卡点音乐，营造"治愈感"。' },
+  { emoji: '💄', title: '普通人 5 分钟逆袭妆容', view: '156w', platform: 'xhs', point: '核心观点：前后对比强烈，制造"原来我也可以"的代入感。\n\n二创方向：可以拍"素人到博主""小个子显高穿搭"等同类变体。\n\n切入点：分屏展示+步骤化讲解+小贴士字幕，关键步骤要放慢。' },
+  { emoji: '🧘', title: '睡前 10 分钟拉伸，瘦全身', view: '198w', platform: 'dy', point: '核心观点：聚焦"睡前""10 分钟""瘦全身"三个具体词，吸引精准人群。\n\n二创方向：可迁移到"晨起 5 分钟""办公室 10 分钟"等场景。\n\n切入点：使用跟练模式，配合舒缓音乐，营造陪伴感。' },
+  { emoji: '✍️', title: '练字 100 天，我的字变化有多大', view: '76w', platform: 'xhs', point: '核心观点：长周期打卡类内容，给观众持续关注的动力。\n\n二创方向：可迁移到"100 天画画""100 天减肥""100 天学英语"等。\n\n切入点：把 100 天压缩成 15 秒展示，前后对比强烈。' },
+  { emoji: '🧠', title: '读完《认知觉醒》我停止了精神内耗', view: '112w', platform: 'dy', point: '核心观点：把书本知识转译为观众能感同身受的具体场景。\n\n二创方向：可迁移到"读完《xxx》我换了种活法""这 5 本书救了我"等。\n\n切入点：从自己"内耗"的痛点切入，引用书中的金句作为论据。' },
+  { emoji: '🌅', title: '5 点起床 1 年的变化', view: '321w', platform: 'xhs', point: '核心观点：用具体时间节点+长时间跨度，制造"我也可以"的诱惑力。\n\n二创方向：可迁移到"5 点起床第 30 天""5 点起床写手账"等。\n\n切入点：开篇用清晨画面+独白"我坚持了 365 天"，钩子十足。' }
+];
+
+let hotFavs = new Set(state.hotFavs.map(x => x.title));
+function adaptLevel(view) {
+  const num = parseInt(view);
+  if (num >= 200) return { lv: 'high', txt: '🔥 高度适配' };
+  if (num >= 100) return { lv: 'mid', txt: '⚡ 较适配' };
+  return { lv: 'low', txt: '💡 可参考' };
+}
+function renderHot() {
+  const list = $('#hotList');
+  const shuffled = hotData.slice().sort(() => Math.random() - 0.5);
+  const platMap = {
+    dy: { label: '抖音', cls: 'dy', link: 'https://www.douyin.com/' },
+    xhs: { label: '小红书', cls: 'xhs', link: 'https://www.xiaohongshu.com/' },
+    bili: { label: 'B站', cls: 'bili', link: 'https://www.bilibili.com/' },
+    weibo: { label: '微博', cls: 'weibo', link: 'https://m.weibo.cn/' }
+  };
+  list.innerHTML = shuffled.slice(0, 4).map((h, idx) => {
+    const a = adaptLevel(h.view);
+    const saved = hotFavs.has(h.title);
+    const p = platMap[h.platform] || platMap.dy;
+    return `
+      <div class="hot-card">
+        <div class="hot-platform ${p.cls}">${p.label}</div>
+        <div class="hot-emoji">${h.emoji}</div>
+        <div class="hot-title">${h.title}</div>
+        <span class="hot-adapt ${a.lv}">${a.txt} · 播放 ${h.view}</span>
+        <div class="hot-point">${h.point.replace(/\n/g, '<br>')}</div>
+        <div class="hot-actions">
+          <a class="hot-btn direct" href="${p.link}" target="_blank">🔗 直达${p.label}</a>
+          <button class="hot-btn ${saved ? 'saved' : 'ghost'}" data-save="${idx}">${saved ? '✓ 已收藏' : '⭐ 收藏'}</button>
+        </div>
+      </div>
+    `;
+  }).join('');
+  $$('#hotList [data-save]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const idx = parseInt(btn.dataset.save);
+      const card = btn.closest('.hot-card');
+      const title = card.querySelector('.hot-title').textContent;
+      const emoji = card.querySelector('.hot-emoji').textContent;
+      const point = card.querySelector('.hot-point').innerText;
+      const platform = card.querySelector('.hot-platform').textContent;
+      const adapt = card.querySelector('.hot-adapt').textContent;
+      if (hotFavs.has(title)) {
+        hotFavs.delete(title);
+        state.hotFavs = state.hotFavs.filter(x => x.title !== title);
+        showToast('已取消收藏');
+      } else {
+        hotFavs.add(title);
+        state.hotFavs.unshift({ title, emoji, point, platform, adapt, time: Date.now() });
+        showToast('已收藏到本地 ⭐');
+      }
+      saveState();
+      renderHot();
+      renderFavHot();
+    });
+  });
+}
+function renderFavHot() {
+  $('#favHotCount').textContent = state.hotFavs.length + ' 条';
+  const wrap = $('#favHotList');
+  if (state.hotFavs.length === 0) {
+    wrap.innerHTML = '<div style="color: var(--gray-400); font-size: 12px; text-align:center; padding:12px;">还没有收藏的爆款~</div>';
+    return;
+  }
+  wrap.innerHTML = state.hotFavs.map(f => `
+    <div class="hot-card" style="margin-bottom: 10px;">
+      <div class="hot-platform ${f.platform === '抖音' ? 'dy' : 'xhs'}">${f.platform}</div>
+      <div class="hot-emoji">${f.emoji}</div>
+      <div class="hot-title" style="font-size: 14px;">${f.title}</div>
+      <span class="hot-adapt high">${f.adapt}</span>
+      <div class="hot-point" style="font-size: 11px;">${f.point}</div>
+      <div class="hot-actions">
+        <button class="hot-btn ghost" data-unfav="${f.title}">🗑 移除收藏</button>
+      </div>
+    </div>
+  `).join('');
+  $$('#favHotList [data-unfav]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      hotFavs.delete(btn.dataset.unfav);
+      state.hotFavs = state.hotFavs.filter(x => x.title !== btn.dataset.unfav);
+      saveState();
+      renderHot();
+      renderFavHot();
+    });
+  });
+}
+renderHot();
+renderFavHot();
+$('#refreshHotBtn').addEventListener('click', () => { renderHot(); showToast('已换一批爆款'); });
+
+/* ============== 内容复盘 ============== */
+$('#rvDate').value = new Date().toISOString().slice(0, 10);
+$('#reviewSaveBtn').addEventListener('click', () => {
+  const title = $('#rvTitle').value.trim();
+  if (!title) { showToast('请填写视频标题'); return; }
+  state.reviews.unshift({
+    id: uid(),
+    date: $('#rvDate').value,
+    title,
+    play: $('#rvPlay').value || '0',
+    like: $('#rvLike').value || '0',
+    good: $('#rvGood').value.trim(),
+    bad: $('#rvBad').value.trim(),
+    plan: $('#rvPlan').value.trim(),
+    time: Date.now()
+  });
+  saveState();
+  ['rvTitle','rvPlay','rvLike','rvGood','rvBad','rvPlan'].forEach(id => $('#'+id).value = '');
+  renderReviewHistory();
+  showToast('复盘已保存 ✨');
+});
+function renderReviewHistory() {
+  $('#reviewCount').textContent = state.reviews.length + ' 条';
+  const wrap = $('#reviewHistory');
+  if (state.reviews.length === 0) {
+    wrap.innerHTML = '<div style="color: var(--gray-400); font-size: 12px; text-align:center; padding:12px;">还没有复盘记录</div>';
+    return;
+  }
+  wrap.innerHTML = state.reviews.map(r => `
+    <div class="history-card">
+      <div class="history-head">
+        <div class="history-date">📅 ${r.date}</div>
+        <button class="history-delete" data-del="${r.id}">🗑</button>
+      </div>
+      <div class="history-title">${r.title}</div>
+      <div class="history-row">
+        <span><span class="label">播放：</span>${r.play}</span>
+        <span><span class="label">点赞：</span>${r.like}</span>
+      </div>
+      ${r.good ? `<div class="history-body">✅ 优点：${r.good}</div>` : ''}
+      ${r.bad ? `<div class="history-body">⚠ 问题：${r.bad}</div>` : ''}
+      ${r.plan ? `<div class="history-body">🎯 优化：${r.plan}</div>` : ''}
+    </div>
+  `).join('');
+  $$('#reviewHistory [data-del]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (confirm('确认删除该复盘？')) {
+        state.reviews = state.reviews.filter(x => x.id !== btn.dataset.del);
+        saveState(); renderReviewHistory();
+      }
+    });
+  });
+}
+renderReviewHistory();
+
+/* ============== 黄历 ============== */
+const yiJiPool = {
+  yi: ['祭祀','沐浴','理发','整手足甲','扫舍','修饰垣墙','平治道涂','余事勿取','出行','嫁娶','纳采','入宅','安床','作灶','纳财','开市','立券','交易','栽种','牧养','牧养','开光'],
+  ji: ['造庙','嫁娶','安葬','伐木','作梁','造船','开凿','动土','破土','上梁','入宅','搬迁','开业','动手术','搬家','置产','栽种']
+};
+function updateHuangli(now) {
+  // 公历
+  const w = ['周日','周一','周二','周三','周三','周五','周六'];
+  $('#hlSolar').textContent = `${now.getMonth()+1}月${now.getDate()}日 ${w[now.getDay()]}`;
+  // 农历（粗略）
+  const lunarMonths = ['正月','二月','三月','四月','五月','六月','七月','八月','九月','十月','冬月','腊月'];
+  const lunarDays = ['初一','初二','初三','初四','初五','初六','初七','初八','初九','初十','十一','十二','十三','十四','十五','十六','十七','十八','十九','二十','廿一','廿二','廿三','廿四','廿五','廿六','廿七','廿八','廿九','三十'];
+  const lunarMonth = (now.getMonth() + 9) % 12;
+  const lunarDay = (now.getDate() - 1) % 30;
+  $('#hlLunar').textContent = '农历 ' + lunarMonths[lunarMonth] + lunarDays[lunarDay];
+
+  // 宜忌（每天固定，但每天从池子里抽 5 个）
+  const dayHash = (now.getDate() * 7 + now.getMonth() * 13) % 100;
+  const yi = pickN(yiJiPool.yi, 5, dayHash);
+  const ji = pickN(yiJiPool.ji, 5, dayHash + 1);
+  $('#hlYi').innerHTML = yi.map(x => `<span class="yi-ji-item">· ${x}</span>`).join('');
+  $('#hlJi').innerHTML = ji.map(x => `<span class="yi-ji-item">· ${x}</span>`).join('');
+
+  // 财神方位 + 出行建议
+  const directions = ['正东','正南','正西','正北','东南','东北','西南','西北'];
+  const dir = directions[dayHash % 8];
+  const tips = [
+    '宜静心阅读，忌与人争执；保持心情愉悦，凡事皆顺。',
+    '今日适合宅家静修、读书冥想，不宜远行。',
+    '宜清理房间、整理思路，把旧的情绪一并扫走。',
+    '适合与朋友小聚、分享心得，贵人运较旺。',
+    '适合创作、写作、自媒体内容产出，灵感激增。'
+  ];
+
+  // 八字星座幸运推算（日主壬水·双鱼座）
+  // 八字：丙子 辛卯 壬子 辛亥 —— 日主壬水，水旺金多，双鱼座水象星座
+  const luckyColors = ['海蓝色','银白色','薰衣草紫','薄荷绿','天蓝色','珍珠白','湖蓝色','浅紫罗兰'];
+  const luckyAcc = ['珍珠手链','月光石吊坠','海蓝宝戒指','紫水晶手串','银质耳环','白水晶项链','蓝纹玛瑙','草莓晶手链'];
+  const luckyDirs = ['正北（水位）','西北','正西','东南','东北','正北','西南','正东'];
+  const luckyColor = luckyColors[dayHash % luckyColors.length];
+  const luckyAccItem = luckyAcc[(dayHash + 3) % luckyAcc.length];
+  const luckyDir = luckyDirs[(dayHash + 5) % luckyDirs.length];
+
+  $('#hlTip').innerHTML = `🧭 <b>今日财神方位：</b>${dir}<br>🚶 <b>出行建议：</b>${tips[dayHash % tips.length]}<br><br>🔮 <b>八字幸运推算</b>（壬水日主·双鱼座）<br>🎨 <b>幸运色：</b>${luckyColor}<br>💍 <b>幸运配饰：</b>${luckyAccItem}<br>🧭 <b>幸运方向：</b>${luckyDir}`;
+}
+function pickN(arr, n, seed) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = (seed + i * 17) % (i + 1);
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a.slice(0, n);
+}
+
+/* ============== 每日国学 ============== */
+const jingData = [
+  { cat: 'dd', title: '上善若水', source: '《道德经》第八章',
+    original: '上善若水。水善利万物而不争，处众人之所恶，故几于道。',
+    explain: '最高的善像水一样。水滋养万物而不与之争夺，停留在众人所厌恶的低下处，所以最接近"道"。修行人当学水之德：利他、不争、处下、柔弱。柔能克刚，谦能聚众，这是道家处世的大智慧。' },
+  { cat: 'dd', title: '千里之行，始于足下', source: '《道德经》第六十四章',
+    original: '合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。',
+    explain: '合抱的大树，由细小的萌芽长成；九层的高台，由一筐筐泥土堆起；千里远的行程，从脚下第一步开始。任何伟大的成就，都源于最初微小的努力与坚持。' },
+  { cat: 'jg', title: '应无所住而生其心', source: '《金刚经》',
+    original: '应无所住而生其心。',
+    explain: '心中不应执着于任何事物，方能生起清净的本心。当我们不被过去的失败所困、不被未来的焦虑所扰、不被眼前的得失所累，本心自然显现，万般自在。' },
+  { cat: 'jg', title: '一切有为法，如梦幻泡影', source: '《金刚经》',
+    original: '一切有为法，如梦幻泡影，如露亦如电，应作如是观。',
+    explain: '世间一切因缘和合而生的事物，都像梦、像幻、像水泡、像影子，也像朝露、像闪电，转瞬即逝。观照世间万物皆无常，方能不被表象所迷惑，活得通透。' },
+  { cat: 'yj', title: '天行健，君子以自强不息', source: '《易经·乾》',
+    original: '天行健，君子以自强不息。',
+    explain: '天体运行刚健不止，君子也应效法这种精神，不断奋发图强、永不懈怠。无论处境如何，都应保持积极向上的生命力，这正是《易经》开篇传递的核心精神。' },
+  { cat: 'yj', title: '地势坤，君子以厚德载物', source: '《易经·坤》',
+    original: '地势坤，君子以厚德载物。',
+    explain: '大地的气势厚实和顺，君子应增厚美德、容载万物。一个人能走多远，取决于他的胸怀有多宽；能成多大事，取决于他的德行有多厚。' },
+  { cat: 'ly', title: '学而时习之，不亦说乎', source: '《论语·学而》',
+    original: '学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？',
+    explain: '学习知识并经常温习实践，不是很愉快吗？有志同道合的朋友从远方来访，不是很快乐吗？别人不了解我，我却不怨怒，这不正是君子的风度吗？' },
+  { cat: 'ly', title: '三人行，必有我师焉', source: '《论语·述而》',
+    original: '三人行，必有我师焉。择其善者而从之，其不善者而改之。',
+    explain: '几个人一起行走，其中必定有我可以学习的人。我选择他们的长处来学习，看到他们的短处就对照自己加以改正。这是一种开放、谦逊的终身学习观。' },
+  { cat: 'ggz', title: '知之者不如好之者，好之者不如乐之者', source: '《鬼谷子·反应》',
+    original: '审定有无，以其实虚，随其嗜欲以见其志意。',
+    explain: '考察一个人的有和无、实和虚，顺着他的喜好去观察他的志向和意图。这告诉我们：观察人不要只看表面，要透过他关注的事物去洞察内心的真实倾向。' },
+  { cat: 'ggz', title: '欲闻其声，反默；欲张，反敛', source: '《鬼谷子·反应》',
+    original: '欲闻其声，反默；欲张，反敛。',
+    explain: '想要听到对方的声音，反而要保持沉默；想要对方张开，反而要收敛自己。这是一种反向博弈的智慧：当你不再急于表达，对方反而愿意敞开；当你不再用力，对方反而愿意靠近。' }
+];
+
+let curJingCat = 'all';
+function renderJing() {
+  const data = curJingCat === 'all' ? jingData : jingData.filter(j => j.cat === curJingCat);
+  $('#jingList').innerHTML = data.map(j => `
+    <div class="jing-card">
+      <div class="jing-head">
+        <div>
+          <div class="jing-title">${j.title}</div>
+          <div class="jing-source">${j.source}</div>
+        </div>
+        <div class="jing-tag ${j.cat}">${catName(j.cat)}</div>
+      </div>
+      <div class="jing-original">「${j.original}」</div>
+      <div class="jing-explain-title">📖 今日讲解</div>
+      <div class="jing-explain">${j.explain}</div>
+    </div>
+  `).join('');
+}
+function catName(c) {
+  return { dd: '道德经', jg: '金刚经', yj: '易经', ly: '论语', ggz: '鬼谷子' }[c] || c;
+}
+renderJing();
+$$('#jingTabs .tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    $$('#jingTabs .tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    curJingCat = btn.dataset.jing;
+    renderJing();
+  });
+});
+
+/* ============== 每天感悟 ============== */
+const feelFields = ['g1','g2','g3','b1','b2','a1'];
+function loadFeelDraft() {
+  feelFields.forEach(f => {
+    const el = document.querySelector(`[data-feel="${f}"]`);
+    if (el) el.value = state.feelDraft[f] || '';
+  });
+}
+function saveFeelDraft() {
+  feelFields.forEach(f => {
+    const el = document.querySelector(`[data-feel="${f}"]`);
+    if (el) state.feelDraft[f] = el.value;
+  });
+  saveState();
+}
+feelFields.forEach(f => {
+  const el = document.querySelector(`[data-feel="${f}"]`);
+  if (el) el.addEventListener('input', saveFeelDraft);
+});
+$('#feelSaveBtn').addEventListener('click', () => {
+  const data = {};
+  feelFields.forEach(f => {
+    const el = document.querySelector(`[data-feel="${f}"]`);
+    data[f] = el ? el.value.trim() : '';
+  });
+  if (Object.values(data).every(v => !v)) {
+    showToast('先写点什么吧~');
+    return;
+  }
+  state.feelHistory.unshift({ id: uid(), date: new Date().toISOString().slice(0,10), ...data, time: Date.now() });
+  state.feelDraft = {};
+  saveState();
+  loadFeelDraft();
+  renderFeelHistory();
+  showToast('感悟已保存 ✨');
+});
+function renderFeelHistory() {
+  $('#feelCount').textContent = state.feelHistory.length + ' 条';
+  const wrap = $('#feelHistory');
+  if (state.feelHistory.length === 0) {
+    wrap.innerHTML = '<div style="color: var(--gray-400); font-size: 12px; text-align:center; padding:12px;">还没有记录</div>';
+    return;
+  }
+  wrap.innerHTML = state.feelHistory.slice(0, 20).map(f => `
+    <div class="history-item">
+      <div class="history-item-head">
+        <div class="history-item-date">📅 ${f.date}</div>
+        <div style="display:flex; gap:6px;">
+          <button class="history-delete" data-edit="${f.id}">✏</button>
+          <button class="history-delete" data-del="${f.id}">🗑</button>
+        </div>
+      </div>
+      ${[f.g1,f.g2,f.g3].filter(Boolean).map((x,i) => `<div class="hi-section"><span class="l">感恩${i+1}：</span>${escapeHtml(x)}</div>`).join('')}
+      ${[f.b1,f.b2].filter(Boolean).map((x,i) => `<div class="hi-section"><span class="l">可以更好${i+1}：</span>${escapeHtml(x)}</div>`).join('')}
+      ${f.a1 ? `<div class="hi-section"><span class="l">自我肯定：</span>${escapeHtml(f.a1)}</div>` : ''}
+    </div>
+  `).join('');
+  $$('#feelHistory [data-del]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (confirm('确认删除该条感悟？')) {
+        state.feelHistory = state.feelHistory.filter(x => x.id !== btn.dataset.del);
+        saveState(); renderFeelHistory();
+      }
+    });
+  });
+  $$('#feelHistory [data-edit]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = state.feelHistory.find(x => x.id === btn.dataset.edit);
+      if (!item) return;
+      feelFields.forEach(f => {
+        const el = document.querySelector(`[data-feel="${f}"]`);
+        if (el) el.value = item[f] || '';
+      });
+      state.feelDraft = item;
+      saveState();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      showToast('已载入到上方，可修改后重新保存');
+    });
+  });
+}
+function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+loadFeelDraft();
+renderFeelHistory();
+
+/* ============== 首页统计 ============== */
+function updateHomeStats() {
+  // 运动完成联动
+  const sportItem = state.todos.find(t => t.type === 'auto-sport');
+  if (sportItem) {
+    const allDone = state.morning.every(x => x.done) && state.night.every(x => x.done) &&
+                    state.morning.length > 0 && state.night.length > 0;
+    if (allDone && !sportItem.done) {
+      sportItem.done = true;
+      saveState();
+    } else if (!allDone && sportItem.done) {
+      sportItem.done = false;
+      saveState();
+    }
+  }
+
+  const done = state.todos.filter(t => t.done).length;
+  const total = state.todos.length;
+  $('#statDone').textContent = done;
+  $('#statTodo').textContent = total - done;
+  $('#statRate').textContent = total ? Math.round(done / total * 100) + '%' : '0%';
+  if ($('#todoProgress')) {
+    $('#todoProgressText').textContent = `${done} / ${total}`;
+    $('#todoProgress').style.width = total ? (done/total*100) + '%' : '0%';
+  }
+}
+
+/* ============== 导航 ============== */
+const navTitles = {
+  home: '首页',
+  todo: '今日计划',
+  workout: '运动塑形',
+  news: '新闻资讯',
+  hot: '爆款二创',
+  review: '内容复盘',
+  xiuxin: '修心修行功课',
+  feel: '每天感悟'
+};
+function switchPage(page) {
+  $$('.page').forEach(p => p.classList.toggle('active', p.dataset.page === page));
+  $$('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.page === page));
+  $('#topbarTitle').textContent = navTitles[page] || '工作台';
+  // 关闭移动端侧边栏
+  if (window.innerWidth <= 768) {
+    $('#sidebar').classList.remove('show-mobile');
+    $('#overlay').classList.remove('show');
+  }
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+$$('.nav-item').forEach(item => {
+  item.addEventListener('click', () => switchPage(item.dataset.page));
+});
+
+/* ============== 移动端菜单 ============== */
+$('#menuBtn').addEventListener('click', () => {
+  $('#sidebar').classList.toggle('show-mobile');
+  $('#overlay').classList.toggle('show');
+});
+$('#overlay').addEventListener('click', () => {
+  $('#sidebar').classList.remove('show-mobile');
+  $('#overlay').classList.remove('show');
+});
+
+/* ============== 刷新按钮 ============== */
+$('#refreshBtn').addEventListener('click', () => {
+  renderQuotes && renderQuotes();
+  renderGoldenQuote();
+  renderNews();
+  renderHot();
+  showToast('数据已刷新 🔄');
+});
+
+/* ============== 初始渲染 ============== */
+renderTodos();
+renderExercise('morningList', 'morning', 'morningProgress');
+renderExercise('nightList', 'night', 'nightProgress');
+renderRecordHistory();
+updateHomeStats();
+
+/* ============== PWA Service Worker 注册 ============== */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(err => {
+      console.log('SW 注册失败:', err);
+    });
+  });
+}
+
+/* ============== 今日热榜 · jsDelivr CDN 数据源 ============== */
+const FEED_KEY = 'easylumi_feed_url';
+function getFeedUrl() { return localStorage.getItem(FEED_KEY) || ''; }
+function setFeedUrl(url) { localStorage.setItem(FEED_KEY, url); }
+
+// 自动检测：GitHub Pages 部署时自动构造 jsDelivr CDN 地址
+function autoDetectFeedUrl() {
+  // GitHub Pages: https://用户名.github.io/仓库名/ → jsDelivr CDN 读取 hot_data.json
+  if (location.hostname.endsWith('github.io')) {
+    const user = location.hostname.split('.')[0];
+    const parts = location.pathname.split('/').filter(Boolean);
+    const repo = parts[0] || 'easylumi-workbench';
+    return `https://cdn.jsdelivr.net/gh/${user}/${repo}@main/data/hot_data.json`;
+  }
+  // 本地开发环境
+  if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+    return 'data/hot_data.json';
+  }
+  return '';
+}
+
+let feedData = null;
+let curPlatform = 'baidu';
+let curHotFilter = 'all';
+
+// 配置弹窗
+$('#configGistBtn').addEventListener('click', () => {
+  $('#gistInput').value = getFeedUrl();
+  $('#gistModal').classList.add('show');
+});
+$('#gistCancel').addEventListener('click', () => $('#gistModal').classList.remove('show'));
+$('#gistSave').addEventListener('click', () => {
+  let url = $('#gistInput').value.trim();
+  setFeedUrl(url);
+  $('#gistModal').classList.remove('show');
+  loadFeed();
+  showToast('数据源已保存');
+});
+$('#gistModal').addEventListener('click', e => {
+  if (e.target.id === 'gistModal') $('#gistModal').classList.remove('show');
+});
+
+// 刷新
+$('#refreshFeedBtn').addEventListener('click', () => loadFeed(true));
+
+async function loadFeed(force) {
+  let url = getFeedUrl();
+  if (!url) {
+    url = autoDetectFeedUrl();
+    if (url) setFeedUrl(url);
+  }
+  if (!url) {
+    $('#feedStatus').textContent = '点「⚙ 数据源」配置 jsDelivr CDN 地址后即可加载';
+    return;
+  }
+  $('#feedStatus').innerHTML = '⏳ 正在加载今日热榜...';
+  // 加时间戳防缓存
+  const fetchUrl = force ? url + (url.includes('?') ? '&' : '?') + '_t=' + Date.now() : url;
+  try {
+    const resp = await fetch(fetchUrl, { cache: 'no-store' });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    feedData = await resp.json();
+    renderFeed();
+  } catch (e) {
+    $('#feedStatus').innerHTML = '❌ 加载失败：' + e.message + '<br>请检查仓库是否已部署 GitHub Pages，Actions 是否至少运行过一次';
+    $('#hotPlatformCard').style.display = 'none';
+  }
+}
+
+function renderFeed() {
+  if (!feedData) return;
+  const d = feedData;
+  $('#feedStatus').innerHTML = '✅ 更新于 ' + (d.update_time || d.date || '未知') +
+    (d.ai_status ? ' · AI: ' + d.ai_status : '');
+
+  // AI 改写选题
+  const aiListAll = d.ai_rewrite || [];
+  const aiList = curHotFilter === 'all' ? aiListAll : aiListAll.filter(item => item.platform === curHotFilter);
+  const platformUrls = {
+    douyin: 'https://www.douyin.com/',
+    bilibili: 'https://www.bilibili.com/',
+    xiaohongshu: 'https://www.xiaohongshu.com/',
+    weibo: 'https://m.weibo.cn/'
+  };
+  const platformClasses = {
+    douyin: 'dy', bilibili: 'bili', xiaohongshu: 'xhs', weibo: 'weibo'
+  };
+  if (aiList.length > 0) {
+    $('#aiRewriteList').innerHTML = aiList.map((item, idx) => {
+      const adaptCls = (item.adapt || '').includes('高') ? 'high' : (item.adapt || '').includes('中') ? 'mid' : 'low';
+      const platName = { douyin: '抖音', bilibili: 'B站', weibo: '微博', xiaohongshu: '小红书' }[item.platform] || '热榜';
+      const platCls = platformClasses[item.platform] || 'dy';
+      const platUrl = platformUrls[item.platform] || '#';
+      return `
+        <div class="hot-card">
+          <div class="hot-platform ${platCls}">${platName}</div>
+          <div class="hot-emoji">✨</div>
+          <div class="hot-title">${escapeHtml(item.new_title || item.orig_title || '')}</div>
+          <div style="display:flex; gap:6px; flex-wrap:wrap; margin-top:8px;">
+            ${item.track ? `<span class="jing-tag zg" style="background:var(--lav-100);color:#7a5cc0;">${escapeHtml(item.track)}</span>` : ''}
+            ${item.adapt ? `<span class="hot-adapt ${adaptCls}">${escapeHtml(item.adapt)}</span>` : ''}
+          </div>
+          ${item.core_view ? `<div class="hot-point"><strong>核心观点：</strong>${escapeHtml(item.core_view)}</div>` : ''}
+          ${item.hook ? `<div class="hot-point"><strong>口播开头：</strong>${escapeHtml(item.hook)}</div>` : ''}
+          ${item.angle ? `<div class="hot-point"><strong>切入角度：</strong>${escapeHtml(item.angle)}</div>` : ''}
+          ${item.orig_title ? `<div style="font-size:11px;color:var(--gray-400);margin-top:6px;">原热点：${escapeHtml(item.orig_title)}</div>` : ''}
+          <div class="hot-actions">
+            <a class="hot-btn direct" href="${platUrl}" target="_blank">🔗 直达${platName}</a>
+            <button class="hot-btn ghost" data-save-ai="${idx}">⭐ 收藏</button>
+          </div>
+        </div>
+      `;
+    }).join('');
+  } else {
+    $('#aiRewriteList').innerHTML = '<div style="color:var(--gray-400);font-size:13px;text-align:center;padding:16px;">该平台暂无 AI 改写选题，试试其他平台或点「刷新」</div>';
+  }
+
+  // 平台热榜原始
+  if (d.platforms) {
+    $('#hotPlatformCard').style.display = 'block';
+    renderPlatformFeed();
+  }
+}
+
+function renderPlatformFeed() {
+  if (!feedData || !feedData.platforms) return;
+  const pf = feedData.platforms[curPlatform];
+  const list = pf ? (pf.items || []) : [];
+  const container = $('#feedPlatformList');
+  if (list.length === 0) {
+    container.innerHTML = '<div style="color:var(--gray-400);font-size:12px;text-align:center;padding:12px;">该平台暂无数据</div>';
+    return;
+  }
+  container.innerHTML = list.map((item, i) => `
+    <div class="news-item">
+      <div class="news-meta">
+        <span class="news-tag t${(i%5)+1}">#${i+1}</span>
+        ${item.hot ? `<span class="news-date">🔥 ${escapeHtml(item.hot)}</span>` : ''}
+      </div>
+      <div class="news-title">${escapeHtml(item.title || '')}</div>
+      ${item.url ? `<a class="news-link" href="${escapeHtml(item.url)}" target="_blank">查看 →</a>` : ''}
+    </div>
+  `).join('');
+}
+
+$$('#feedPlatformTabs .tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    $$('#feedPlatformTabs .tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    curPlatform = btn.dataset.pf;
+    renderPlatformFeed();
+  });
+});
+
+// 页面打开时自动加载一次
+loadFeed();
+
+/* ============== 爆款二创平台筛选 ============== */
+$$('#hotFilterTabs .app-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    $$('#hotFilterTabs .app-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    curHotFilter = btn.dataset.pf;
+    if (feedData) renderFeed();
+  });
+});
+
+/* ============== URL 参数支持快捷跳转 ============== */
+(function() {
+  const params = new URLSearchParams(location.search);
+  const page = params.get('page');
+  if (page && navTitles[page]) switchPage(page);
+})();
+</script>
+
+<!-- 数据源配置弹窗 -->
+<div class="modal" id="gistModal">
+  <div class="modal-card">
+    <div class="modal-title">⚙ 配置数据源地址</div>
+    <input class="modal-input" id="gistInput" type="url"             placeholder="https://cdn.jsdelivr.net/gh/用户名/仓库名@main/data/hot_data.json" />
+    <div class="modal-hint">
+      📌 填入 jsDelivr CDN 地址（国内免翻墙，比直接读 GitHub 快）<br>
+      格式：<code>https://cdn.jsdelivr.net/gh/你的GitHub用户名/easylumi-workbench@main/data/hot_data.json</code><br>
+      部署到 GitHub Pages 后会自动检测，一般不用手动填
+    </div>
+    <div class="modal-btns">
+      <button class="modal-btn ghost" id="gistCancel">取消</button>
+      <button class="modal-btn primary" id="gistSave">保存</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
