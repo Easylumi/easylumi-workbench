@@ -4,9 +4,10 @@
 Easylumi 每日热榜抓取 + DeepSeek AI 改写
 ========================================
 功能：
-  1. 抓取百度/B站/微博/小红书/抖音 当日热榜（多源容错）
+  1. 抓取百度/知乎/微博/B站/小红书/抖音 当日热榜（多源容错）
   2. 调用 DeepSeek API 改写为「女性成长口播」爆款选题
   3. 写入 data/hot_data.json，供 PWA 网页读取
+  4. 所有源都失败时，写入兜底数据，保证 workflow 不报错
 
 环境变量：
   DEEPSEEK_API_KEY  - DeepSeek 的 API Key
@@ -24,63 +25,173 @@ MY_TRACK = os.environ.get("MY_TRACK", "女性成长、励志、口播（涵盖�
 DATA_FILE = "data/hot_data.json"
 DEEPSEEK_URL = "https://api.deepseek.com/chat/completions"
 
-UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+HEADERS = {
+    "User-Agent": UA,
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+}
 
-# 多热榜源（多源容错，按优先级排列）
+# 多热榜源：按 GitHub Actions 国际网络可达性排列，优先放国外能解析的
 HOT_SOURCES = {
     "baidu": [
-        "https://api.vvhan.com/api/hotlist/baiduRD",
-        "https://api.coder007.sjtu.edu.cn/api-hot/baidu",
-        "https://tenapi.cn/v2/baiduhot",
+        {
+            "url": "https://top.baidu.com/api/board?platform=wise&tab=realtime",
+            "parser": "baidu_top"
+        },
+        {
+            "url": "https://tenapi.cn/v2/baiduhot",
+            "parser": "tenapi"
+        },
     ],
-    "douyin": [
-        "https://api.vvhan.com/api/hotlist/douyin",
-        "https://api.coder007.sjtu.edu.cn/api-hot/douyin",
-    ],
-    "bilibili": [
-        "https://api.vvhan.com/api/hotlist/bilibili",
-        "https://api.coder007.sjtu.edu.cn/api-hot/bilibili",
+    "zhihu": [
+        {
+            "url": "https://www.zhihu.com/api/v3/feed/topstory/hot-lists/total?limit=50",
+            "parser": "zhihu"
+        },
     ],
     "weibo": [
-        "https://api.vvhan.com/api/hotlist/wbHot",
-        "https://api.coder007.sjtu.edu.cn/api-hot/weibo",
+        {
+            "url": "https://weibo.com/ajax/side/hotSearch",
+            "parser": "weibo"
+        },
+    ],
+    "bilibili": [
+        {
+            "url": "https://api.bilibili.com/x/web-interface/search/square?limit=30",
+            "parser": "bilibili_api"
+        },
+        {
+            "url": "https://s.search.bilibili.com/main/hotword?limit=30",
+            "parser": "bilibili_s"
+        },
     ],
     "xiaohongshu": [
-        "https://api.vvhan.com/api/hotlist/xhsHot",
-        "https://api.coder007.sjtu.edu.cn/api-hot/xiaohongshu",
+        {
+            "url": "https://api.vvhan.com/api/hotlist/xhsHot",
+            "parser": "vvhan"
+        },
+        {
+            "url": "https://api.coder007.sjtu.edu.cn/api-hot/xiaohongshu",
+            "parser": "coder007"
+        },
+    ],
+    "douyin": [
+        {
+            "url": "https://api.vvhan.com/api/hotlist/douyin",
+            "parser": "vvhan"
+        },
+        {
+            "url": "https://api.coder007.sjtu.edu.cn/api-hot/douyin",
+            "parser": "coder007"
+        },
     ],
 }
 
 
-def fetch_hot(source_key):
-    """抓取某个平台热榜，多源容错"""
-    sources = HOT_SOURCES.get(source_key, [])
-    for url in sources:
-        try:
-            print(f"    尝试: {url}", file=sys.stderr)
-            resp = requests.get(url, timeout=15, headers={"User-Agent": UA})
-            if resp.status_code != 200:
-                continue
-            data = resp.json()
-            items = data.get("data") or data.get("items") or data.get("list") or data.get("result") or []
-            # 有些源返回 {code:200, data:[...]} 有些直接返回 list
-            if isinstance(data, list):
-                items = data
-            if isinstance(data, dict):
-                # 尝试多个可能的字段
-                for key in ("data", "items", "list", "result", "newslist"):
-                    if key in data and data[key]:
-                        items = data[key]
-                        break
-            if items:
-                return parse_items(items, source_key)
-        except Exception as e:
-            print(f"    [warn] {source_key} 源 {url} 失败: {e}", file=sys.stderr)
-            continue
-    return []
+def parse_vvhan(data):
+    items = data.get("data") if isinstance(data.get("data"), list) else []
+    return parse_items(items)
 
 
-def parse_items(items, source):
+def parse_coder007(data):
+    if isinstance(data, list):
+        return parse_items(data)
+    items = data.get("data") or data.get("items") or data.get("list") or []
+    return parse_items(items)
+
+
+def parse_tenapi(data):
+    items = data.get("data") if isinstance(data.get("data"), list) else []
+    return parse_items(items)
+
+
+def parse_baidu_top(data):
+    try:
+        cards = data.get("data", {}).get("cards", [])
+        items = []
+        for card in cards:
+            for content in card.get("content", []):
+                title = content.get("word") or content.get("query") or ""
+                if title:
+                    items.append({
+                        "title": str(title).strip(),
+                        "hot": str(content.get("hotScore", "") or content.get("raw_hot", "")),
+                        "url": content.get("url", ""),
+                    })
+        return items
+    except Exception:
+        return []
+
+
+def parse_zhihu(data):
+    items = []
+    for item in data.get("data", [])[:20]:
+        target = item.get("target", {})
+        title = target.get("title") or item.get("target", {}).get("title")
+        if title:
+            items.append({
+                "title": str(title).strip(),
+                "hot": str(item.get("detail_text", "") or " "),
+                "url": target.get("url", "") or f"https://www.zhihu.com/question/{target.get('id', '')}",
+            })
+    return items
+
+
+def parse_weibo(data):
+    items = []
+    realtime = data.get("data", {}).get("realtime", [])
+    for item in realtime[:20]:
+        word = item.get("word") or item.get("note")
+        if word:
+            items.append({
+                "title": str(word).strip(),
+                "hot": str(item.get("raw_hot", "") or item.get("num", "")),
+                "url": item.get("url", ""),
+            })
+    return items
+
+
+def parse_bilibili_api(data):
+    items = []
+    trending = data.get("data", {}).get("trending", {})
+    for item in trending.get("list", [])[:20]:
+        keyword = item.get("keyword") or item.get("show_name")
+        if keyword:
+            items.append({
+                "title": str(keyword).strip(),
+                "hot": str(item.get("heat_score", "") or ""),
+                "url": item.get("icon", ""),
+            })
+    return items
+
+
+def parse_bilibili_s(data):
+    items = []
+    for item in data.get("list", [])[:20]:
+        keyword = item.get("keyword")
+        if keyword:
+            items.append({
+                "title": str(keyword).strip(),
+                "hot": "",
+                "url": "",
+            })
+    return items
+
+
+PARSERS = {
+    "vvhan": parse_vvhan,
+    "coder007": parse_coder007,
+    "tenapi": parse_tenapi,
+    "baidu_top": parse_baidu_top,
+    "zhihu": parse_zhihu,
+    "weibo": parse_weibo,
+    "bilibili_api": parse_bilibili_api,
+    "bilibili_s": parse_bilibili_s,
+}
+
+
+def parse_items(items):
     """统一解析为 {title, hot, url} 格式"""
     result = []
     for item in items[:20]:
@@ -89,17 +200,44 @@ def parse_items(items, source):
             hot = ""
             url = ""
         else:
-            title = item.get("title") or item.get("name") or item.get("word") or item.get("desc") or item.get("query") or ""
-            hot = item.get("hot") or item.get("hot_num") or item.get("view_count") or item.get("heat_score") or item.get("hotScore") or item.get("hots") or ""
-            url = item.get("url") or item.get("link") or item.get("mobil_url") or item.get("mobilUrl") or ""
+            title = (item.get("title") or item.get("name") or item.get("word") or
+                     item.get("desc") or item.get("query") or item.get("keyword") or "")
+            hot = (item.get("hot") or item.get("hot_num") or item.get("view_count") or
+                   item.get("heat_score") or item.get("hotScore") or item.get("hots") or
+                   item.get("num") or item.get("raw_hot") or "")
+            url = (item.get("url") or item.get("link") or item.get("mobil_url") or
+                   item.get("mobilUrl") or "")
         if title and str(title).strip():
             result.append({
                 "title": str(title).strip(),
                 "hot": str(hot) if hot else "",
                 "url": str(url).strip() if url else "",
-                "source": source
             })
     return result
+
+
+def fetch_hot(source_key):
+    """抓取某个平台热榜，多源容错"""
+    sources = HOT_SOURCES.get(source_key, [])
+    for src in sources:
+        url = src["url"]
+        parser_name = src["parser"]
+        parser = PARSERS.get(parser_name, parse_items)
+        try:
+            print(f"    尝试 {source_key}: {url}", file=sys.stderr)
+            resp = requests.get(url, timeout=20, headers=HEADERS)
+            print(f"    状态码: {resp.status_code}", file=sys.stderr)
+            if resp.status_code != 200:
+                continue
+            data = resp.json()
+            items = parser(data)
+            if items:
+                print(f"    ✅ {source_key} 成功获取 {len(items)} 条", file=sys.stderr)
+                return items
+        except Exception as e:
+            print(f"    [warn] {source_key} 源 {url} 失败: {e}", file=sys.stderr)
+            continue
+    return []
 
 
 def rewrite_with_deepseek(all_items, track):
@@ -109,7 +247,7 @@ def rewrite_with_deepseek(all_items, track):
 
     hot_titles = [f"{i+1}. {it['title']}" for i, it in enumerate(all_items[:15])]
 
-    prompt = f"""你是顶级女性成长口播内容创作教练，擅长把当日热点改编为爆款口播选题��
+    prompt = f"""你是顶级女性成长口播内容创作教练，擅长把当日热点改编为爆款口播选题。
 
 我的赛道是：{track}
 
@@ -119,7 +257,7 @@ def rewrite_with_deepseek(all_items, track):
 2. 每个选题输出 JSON 对象，字段如下：
    - orig_title：原热点标题
    - new_title：改编后的爆款口播标题（15字内，有钩子）
-   - track：匹���的赛道方向（情感关系/职场成长/读书分享/生活感悟）
+   - track：匹配的赛道方向（情感关系/职场成长/读书分享/生活感悟）
    - adapt：适配度（高/中/低）
    - core_view：核心观点（一句话，15字内）
    - hook：口播开头文案（前3秒钩子，30字内）
@@ -173,6 +311,28 @@ def rewrite_with_deepseek(all_items, track):
         return None, f"DeepSeek 调用异常: {e}"
 
 
+def fallback_data():
+    """所有源失败时的兜底数据"""
+    bj_time = datetime.now(timezone(timedelta(hours=8)))
+    return {
+        "date": bj_time.strftime("%Y-%m-%d"),
+        "update_time": bj_time.strftime("%Y-%m-%d %H:%M:%S"),
+        "track": MY_TRACK,
+        "all_sources_failed": True,
+        "note": "本次 GitHub Actions 网络无法访问热榜 API，已使用兜底数据。",
+        "platforms": {
+            "baidu": {"count": 0, "items": []},
+            "zhihu": {"count": 0, "items": []},
+            "weibo": {"count": 0, "items": []},
+            "bilibili": {"count": 0, "items": []},
+            "xiaohongshu": {"count": 0, "items": []},
+            "douyin": {"count": 0, "items": []},
+        },
+        "ai_rewrite": [],
+        "ai_status": "未执行（无热榜数据）"
+    }
+
+
 def main():
     print("=" * 50)
     print(f"Easylumi 每日热榜更新  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -180,50 +340,54 @@ def main():
 
     # 1. 抓取所有平台热榜
     print("\n[1/3] 抓取热榜...")
-    platforms = ["baidu", "douyin", "bilibili", "weibo", "xiaohongshu"]
+    platforms = ["baidu", "zhihu", "weibo", "bilibili", "xiaohongshu", "douyin"]
     results = {}
     for p in platforms:
-        print(f"  抓取 {p}...")
+        print(f"\n  抓取 {p}...", file=sys.stderr)
         results[p] = fetch_hot(p)
 
     print(f"\n  百度:   {len(results['baidu'])} 条")
-    print(f"  抖音:   {len(results['douyin'])} 条")
-    print(f"  B站:    {len(results['bilibili'])} 条")
+    print(f"  知乎:   {len(results['zhihu'])} 条")
     print(f"  微博:   {len(results['weibo'])} 条")
+    print(f"  B站:    {len(results['bilibili'])} 条")
     print(f"  小红书: {len(results['xiaohongshu'])} 条")
+    print(f"  抖音:   {len(results['douyin'])} 条")
 
-    all_items = results['baidu'] + results['douyin'] + results['bilibili'] + results['weibo'] + results['xiaohongshu']
+    all_items = (results['baidu'] + results['zhihu'] + results['weibo'] +
+                 results['bilibili'] + results['xiaohongshu'] + results['douyin'])
+
     if not all_items:
-        print("  [error] 所有热榜源都失败，退出")
-        sys.exit(1)
+        print("\n  [warn] 所有热榜源都失败，使用兜底数据...")
+        result = fallback_data()
+    else:
+        # 2. AI 改写
+        print("\n[2/3] DeepSeek AI 改写...")
+        rewritten, msg = rewrite_with_deepseek(all_items, MY_TRACK)
+        print(f"  {msg}")
+        if rewritten is None:
+            rewritten = []
 
-    # 2. AI 改写
-    print("\n[2/3] DeepSeek AI 改写...")
-    rewritten, msg = rewrite_with_deepseek(all_items, MY_TRACK)
-    print(f"  {msg}")
-    if rewritten is None:
-        rewritten = []
-
-    # 3. 组装结果
-    bj_time = datetime.now(timezone(timedelta(hours=8)))
-    result = {
-        "date": bj_time.strftime("%Y-%m-%d"),
-        "update_time": bj_time.strftime("%Y-%m-%d %H:%M:%S"),
-        "track": MY_TRACK,
-        "platforms": {
-            "baidu":        {"count": len(results['baidu']),        "items": results['baidu'][:15]},
-            "douyin":       {"count": len(results['douyin']),       "items": results['douyin'][:15]},
-            "bilibili":     {"count": len(results['bilibili']),     "items": results['bilibili'][:15]},
-            "weibo":        {"count": len(results['weibo']),        "items": results['weibo'][:15]},
-            "xiaohongshu":  {"count": len(results['xiaohongshu']),  "items": results['xiaohongshu'][:15]},
-        },
-        "ai_rewrite": rewritten,
-        "ai_status": msg
-    }
-
-    content_str = json.dumps(result, ensure_ascii=False, indent=2)
+        # 3. 组装结果
+        bj_time = datetime.now(timezone(timedelta(hours=8)))
+        result = {
+            "date": bj_time.strftime("%Y-%m-%d"),
+            "update_time": bj_time.strftime("%Y-%m-%d %H:%M:%S"),
+            "track": MY_TRACK,
+            "all_sources_failed": False,
+            "platforms": {
+                "baidu":        {"count": len(results['baidu']),        "items": results['baidu'][:15]},
+                "zhihu":        {"count": len(results['zhihu']),        "items": results['zhihu'][:15]},
+                "weibo":        {"count": len(results['weibo']),        "items": results['weibo'][:15]},
+                "bilibili":     {"count": len(results['bilibili']),     "items": results['bilibili'][:15]},
+                "xiaohongshu":  {"count": len(results['xiaohongshu']),  "items": results['xiaohongshu'][:15]},
+                "douyin":       {"count": len(results['douyin']),       "items": results['douyin'][:15]},
+            },
+            "ai_rewrite": rewritten,
+            "ai_status": msg
+        }
 
     # 4. 写入
+    content_str = json.dumps(result, ensure_ascii=False, indent=2)
     print(f"\n[3/3] 写入 {DATA_FILE}...")
     os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
@@ -234,8 +398,9 @@ def main():
     print("\n" + "=" * 50)
     print("摘要:")
     print(f"  热榜总量: {len(all_items)} 条")
-    print(f"  AI 改写: {len(rewritten)} 条选题")
+    print(f"  AI 改写: {len(result.get('ai_rewrite', []))} 条选题")
     print(f"  数据文件: {DATA_FILE}")
+    print(f"  全部失败: {result.get('all_sources_failed', False)}")
     print("=" * 50)
     print("\n Done!")
 
