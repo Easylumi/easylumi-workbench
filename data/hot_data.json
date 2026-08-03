@@ -1,13 +1,191 @@
 {
-  "date": "2026-08-01",
-  "update_time": "等待首次运行",
+  "date": "2026-08-03",
+  "update_time": "2026-08-03 23:49:14",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
+  "all_sources_failed": false,
   "platforms": {
-    "douyin": { "count": 0, "items": [] },
-    "bilibili": { "count": 0, "items": [] },
-    "weibo": { "count": 0, "items": [] },
-    "xiaohongshu": { "count": 0, "items": [] }
+    "baidu": {
+      "count": 0,
+      "items": []
+    },
+    "zhihu": {
+      "count": 0,
+      "items": []
+    },
+    "weibo": {
+      "count": 0,
+      "items": []
+    },
+    "bilibili": {
+      "count": 20,
+      "items": [
+        {
+          "title": "U17国足3-2绝杀阿森纳",
+          "hot": "14897012",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "台风白海豚确定影响我国",
+          "hot": "6488932",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "Jiejie加入EDG",
+          "hot": "1755067",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "AI在数学领域发展如何",
+          "hot": "927348",
+          "url": ""
+        },
+        {
+          "title": "DC电影宇宙将何去何从",
+          "hot": "923810",
+          "url": ""
+        },
+        {
+          "title": "复刻印度美食Keema",
+          "hot": "893033",
+          "url": ""
+        },
+        {
+          "title": "韩股去杠杆何时结束",
+          "hot": "862545",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "澳门赌场可怕在哪",
+          "hot": "853420",
+          "url": ""
+        },
+        {
+          "title": "雷欧奥特曼人物志",
+          "hot": "844967",
+          "url": ""
+        },
+        {
+          "title": "制胜第五集东风浩荡",
+          "hot": "842008",
+          "url": ""
+        },
+        {
+          "title": "MiniMax H3正式开源",
+          "hot": "842006",
+          "url": ""
+        },
+        {
+          "title": "UP主自制AI短片 洪流之上",
+          "hot": "841712",
+          "url": ""
+        },
+        {
+          "title": "明日方舟予愿安洁莉娜实战测评",
+          "hot": "840641",
+          "url": ""
+        },
+        {
+          "title": "冬瓜适合抱着降温吗",
+          "hot": "839955",
+          "url": ""
+        },
+        {
+          "title": "4轮硬件涨价背后的规律",
+          "hot": "829695",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        }
+      ]
+    },
+    "xiaohongshu": {
+      "count": 0,
+      "items": []
+    },
+    "douyin": {
+      "count": 0,
+      "items": []
+    }
   },
-  "ai_rewrite": [],
-  "ai_status": "部署后请到 Actions 页面手动运行一次「Easylumi 每日热榜更新」"
+  "ai_rewrite": [
+    {
+      "orig_title": "AI在数学领域发展如何",
+      "new_title": "AI越强，女人越要学数学",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "数学是女性底层竞争力",
+      "hook": "AI都能解数学题了，你还在说自己数学不好？",
+      "angle": "从AI数学能力切入，鼓励女性突破数理恐惧，抓住科技时代红利",
+      "platform": "科技资讯"
+    },
+    {
+      "orig_title": "U17国足3-2绝杀阿森纳",
+      "new_title": "绝杀人生：女人要敢拼到最后一秒",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "人生不设限，坚持到绝杀",
+      "hook": "国足都能绝杀，你凭什么认输？",
+      "angle": "借足球逆转，讲女性在逆境中坚持自我、翻盘人生",
+      "platform": "体育新闻"
+    },
+    {
+      "orig_title": "MiniMax H3正式开源",
+      "new_title": "开源时代，女人别再闭门造车",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "开放合作，成长更快",
+      "hook": "技术都开源了，你的思维还封闭着吗？",
+      "angle": "由技术开源引申到女性成长中的资源共享与互助",
+      "platform": "科技资讯"
+    },
+    {
+      "orig_title": "DC电影宇宙将何去何从",
+      "new_title": "你的宇宙，凭什么让别人定义",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "女性要做自己人生的导演",
+      "hook": "DC宇宙都在重启，你的人生剧本也该换导演了。",
+      "angle": "借电影宇宙重构，谈女性在情感关系中夺回主导权",
+      "platform": "娱乐资讯"
+    },
+    {
+      "orig_title": "冬瓜适合抱着降温吗",
+      "new_title": "别抱冬瓜了，学会给情绪降温",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "情绪管理是成年人的必修课",
+      "hook": "全网都在抱冬瓜降温，你还在被情绪绑架？",
+      "angle": "从物理降温到情绪降温，讲女性如何冷静面对生活压力",
+      "platform": "微博热搜"
+    },
+    {
+      "orig_title": "UP主自制AI短片 洪流之上",
+      "new_title": "普通女孩，也能拍出人生大片",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "普通人也能创造不凡",
+      "hook": "一个UP主用AI拍出大片，你还有什么借口？",
+      "angle": "借素人创作成功，激励女性用现有资源勇敢表达自我",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "4轮硬件涨价背后的规律",
+      "new_title": "看清涨价规律，掌控人生定价权",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "懂规律，才能提升自我价值",
+      "hook": "硬件都在涨价，你的价值凭什么不涨？",
+      "angle": "从市场涨价规律，谈女性如何提升自身价值、掌握主动",
+      "platform": "财经资讯"
+    },
+    {
+      "orig_title": "复刻印度美食Keema",
+      "new_title": "人生如美食，要敢于复刻重构",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "敢于尝试，人生才有新味",
+      "hook": "一道印度菜都能复刻，你的人生为什么不敢重来？",
+      "angle": "以复刻美食为引，鼓励女性打破常规、探索人生新可能",
+      "platform": "美食博主"
+    }
+  ],
+  "ai_status": "success"
 }
