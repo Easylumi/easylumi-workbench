@@ -1222,7 +1222,8 @@
             <div class="section-title"><span class="em">📊</span>平台热榜原始</div>
           </div>
           <div class="tab-row" id="feedPlatformTabs">
-            <button class="tab active" data-pf="douyin">抖音</button>
+            <button class="tab active" data-pf="baidu">百度</button>
+            <button class="tab" data-pf="douyin">抖音</button>
             <button class="tab" data-pf="bilibili">B站</button>
             <button class="tab" data-pf="weibo">微博</button>
             <button class="tab" data-pf="xiaohongshu">小红书</button>
@@ -2260,7 +2261,7 @@ function autoDetectFeedUrl() {
 }
 
 let feedData = null;
-let curPlatform = 'douyin';
+let curPlatform = 'baidu';
 
 // 配置弹窗
 $('#configGistBtn').addEventListener('click', () => {
