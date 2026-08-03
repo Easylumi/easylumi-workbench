@@ -1462,7 +1462,7 @@ function updateDateTime() {
   $('#liveDate').textContent = `${now.getMonth()+1}月${now.getDate()}日 ${w}`;
 
   // 黄历
-  updateHuangli(now);
+  try{updateHuangli(now);}catch(e){};
 }
 setInterval(updateDateTime, 30000);
 updateDateTime();
