@@ -16,7 +16,8 @@
 <style>
   /* ============ 基础重置 ============ */
   *, *::before, *::after { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-  html, body { margin: 0; padding: 0; height: 100%; }
+  html, body { margin: 0; padding: 0; height: 100%; overflow-x: hidden; }
+  html { overflow-x: hidden; width: 100%; }
   body {
     font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     color: #4a3a3a;
@@ -32,7 +33,10 @@
   .content { overflow-x: hidden; max-width: 100%; }
   .page { overflow-x: hidden; max-width: 100%; }
   .section-card, .jing-card, .huangli-card, .hot-card, .feel-card, .quote-card, .news-item { overflow-x: hidden; max-width: 100%; }
-  .jing-original, .jing-explain, .huangli-tip, .hot-point, .hot-title, .news-title, .quote-text { overflow-wrap: break-word; word-break: break-word; max-width: 100%; }
+  .jing-original, .jing-explain, .huangli-tip, .hot-point, .hot-title, .news-title, .quote-text,
+  .todo-text, .sub-check, .yi-ji-item, .jing-title, .huangli-date, .huangli-lunar, .gq-text,
+  .feel-title, .history-title, .calendar-title, .section-title, .feel-input
+  { overflow-wrap: break-word; word-break: break-word; max-width: 100%; }
   button { font-family: inherit; cursor: pointer; border: none; background: none; padding: 0; color: inherit; }
   input, textarea, select { font-family: inherit; outline: none; }
   ul { list-style: none; padding: 0; margin: 0; }
@@ -99,6 +103,7 @@
     display: flex;
     min-height: 100vh;
     position: relative;
+    overflow-x: hidden;
   }
 
   /* ============ 左侧导航 ============ */
@@ -179,6 +184,8 @@
     min-height: 100vh;
     padding: 0;
     transition: margin-left 0.3s;
+    min-width: 0;
+    overflow-x: hidden;
   }
 
   /* ============ 顶部栏 ============ */
@@ -220,9 +227,11 @@
   .content {
     padding: 24px;
     max-width: 720px;
+    width: 100%;
     margin: 0 auto;
+    overflow-x: hidden;
   }
-  .page { display: none; animation: fadeIn 0.4s ease; }
+  .page { display: none; animation: fadeIn 0.4s ease; width: 100%; max-width: 100%; overflow-x: hidden; }
   .page.active { display: block; }
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(8px); }
@@ -366,6 +375,103 @@
   .section-action { font-size: 12px; color: var(--gray-400); }
   .section-action.active { color: var(--pink-500); }
 
+  /* ============ 日历签到 ============ */
+  .calendar-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+  }
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  .calendar-nav-btn {
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    border: none;
+    background: var(--gray-50);
+    color: var(--gray-500);
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+  }
+  .calendar-nav-btn:active { background: var(--gray-100); }
+  .calendar-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray-700);
+  }
+  .calendar-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    margin-bottom: 6px;
+  }
+  .calendar-weekday {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--gray-400);
+    padding: 4px 0;
+  }
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+  }
+  .calendar-day {
+    aspect-ratio: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: var(--gray-600);
+    cursor: default;
+    position: relative;
+    transition: background 0.2s;
+  }
+  .calendar-day.today {
+    background: var(--pink-50);
+    font-weight: 700;
+    color: var(--pink-500);
+    border-radius: 12px;
+  }
+  .calendar-day.other-month { color: var(--gray-200); }
+  /* 环形进度圈 */
+  .cal-ring-wrap {
+    position: relative;
+    width: 26px; height: 26px;
+    margin-top: 4px;
+    flex-shrink: 0;
+  }
+  .cal-ring-bg {
+    fill: none;
+    stroke: var(--gray-100);
+    stroke-width: 2.5;
+  }
+  .cal-ring-fg {
+    fill: none;
+    stroke: #5cb85c;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset 0.4s;
+  }
+  .checkin-info {
+    font-size: 12px;
+    color: var(--gray-400);
+  }
+
   /* ============ 今日计划 ============ */
   .progress-bar {
     width: 100%;
@@ -389,6 +495,7 @@
     gap: 12px;
     padding: 12px 0;
     border-bottom: 1px solid var(--gray-50);
+    min-width: 0;
   }
   .todo-item:last-child { border-bottom: none; }
   .todo-check {
@@ -412,7 +519,7 @@
     font-size: 13px;
     font-weight: 700;
   }
-  .todo-text { flex: 1; font-size: 15px; color: var(--gray-700); }
+  .todo-text { flex: 1; font-size: 15px; color: var(--gray-700); min-width: 0; }
   .todo-text.done { text-decoration: line-through; color: var(--gray-400); }
   .todo-delete {
     color: var(--gray-300);
@@ -426,6 +533,8 @@
     gap: 12px;
     margin-top: 4px;
     padding-left: 0;
+    min-width: 0;
+    flex-wrap: wrap;
   }
   .sub-check {
     display: flex;
@@ -433,6 +542,7 @@
     gap: 4px;
     font-size: 12px;
     color: var(--gray-500);
+    min-width: 0;
   }
   .sub-check .todo-check { width: 18px; height: 18px; }
   .sub-check .todo-check.checked::after { font-size: 11px; }
@@ -506,6 +616,7 @@
     align-items: center;
     gap: 12px;
     box-shadow: var(--shadow-sm);
+    min-width: 0;
   }
   .exercise-item .todo-text { font-size: 14px; }
 
@@ -609,34 +720,48 @@
   /* ============ 平台筛选标签 ============ */
   .app-launch-row {
     display: flex;
-    gap: 8px;
-    margin-bottom: 12px;
-    overflow-x: auto;
+    gap: 10px;
+    margin-bottom: 14px;
     padding: 4px 0;
+    overflow-x: auto;
   }
   .app-launch-row::-webkit-scrollbar { display: none; }
   .app-btn {
-    border-radius: var(--radius);
-    padding: 14px 6px;
+    flex: 1 0 56px;
+    min-width: 56px;
+    max-width: 100%;
+    border-radius: 16px;
+    padding: 10px 6px;
     text-align: center;
     color: var(--gray-700);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4px;
     box-shadow: var(--shadow-sm);
-    transition: all 0.2s;
+    transition: all 0.25s;
     border: 2px solid transparent;
+    background: linear-gradient(135deg, #f5f5fa, #ededf4);
+    cursor: pointer;
+    white-space: nowrap;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
   }
-  .app-btn:active { transform: scale(0.94); }
-  .app-btn.active { border-color: var(--pink-300); box-shadow: 0 4px 16px rgba(255,180,200,0.25); }
-  .app-btn .app-icon { font-size: 22px; }
-  .app-btn.dy   { background: linear-gradient(135deg, #f0f0f4, #e8e8f0); }
-  .app-btn.bili { background: linear-gradient(135deg, #ffe0e8, #ffd0dc); }
-  .app-btn.xhs  { background: linear-gradient(135deg, #fff0f3, #ffe0e8); }
-  .app-btn.weibo{ background: linear-gradient(135deg, #fff3e8, #ffe8d6); }
+  .app-btn:active { opacity: 0.7; }
+  .app-btn.active {
+    border-color: rgba(255,180,210,0.6);
+    box-shadow: 0 4px 18px rgba(255,180,210,0.35);
+    transform: translateY(-2px);
+  }
+  .app-btn .app-icon { font-size: 20px; }
+  .app-btn.dy   { background: linear-gradient(135deg, #f0f0f8, #e4e4f0); }
+  .app-btn.bili { background: linear-gradient(135deg, #ffeaf0, #ffd8e2); }
+  .app-btn.xhs  { background: linear-gradient(135deg, #fff0f2, #ffe0e6); }
+  .app-btn.weibo{ background: linear-gradient(135deg, #fff6ea, #ffe8d2); }
 
   /* ============ 数据源配置弹窗 ============ */
   .modal {
@@ -795,7 +920,7 @@
   .huangli-head { text-align: center; margin-bottom: 14px; }
   .huangli-date { font-size: 18px; font-weight: 600; color: var(--gray-700); }
   .huangli-lunar { color: var(--pink-500); font-size: 12px; margin-top: 4px; }
-  .yi-ji-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .yi-ji-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; min-width: 0; }
   .yi-ji-box { border-radius: var(--radius); padding: 14px; }
   .yi-ji-box.yi { background: linear-gradient(135deg, #ecfaf0, #d6f4de); }
   .yi-ji-box.ji { background: linear-gradient(135deg, #fff0f3, #ffe0e8); }
@@ -807,6 +932,7 @@
     flex-wrap: wrap;
     gap: 6px;
     justify-content: center;
+    min-width: 0;
   }
   .yi-ji-item {
     font-size: 13px;
@@ -830,7 +956,8 @@
     box-shadow: var(--shadow);
     margin-bottom: 12px;
   }
-  .jing-head { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8px; gap: 12px; }
+  .jing-head { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8px; gap: 12px; min-width: 0; }
+  .jing-head > div:first-child { min-width: 0; flex: 1; }
   .jing-title { font-size: 17px; font-weight: 600; color: var(--gray-700); }
   .jing-source { color: var(--gray-400); font-size: 11px; margin-top: 2px; }
   .jing-tag {
@@ -957,7 +1084,7 @@
     .sidebar.show-mobile { transform: translateX(0); }
     .main { margin-left: 0; }
     .menu-btn { display: flex; }
-    .content { padding: 14px; }
+    .content { padding: 14px; width: 100%; }
     .topbar { padding: 12px 14px; }
     .greeting { font-size: 22px; }
     .datetime-time { font-size: 36px; }
@@ -965,9 +1092,9 @@
     .stat-card { padding: 16px 8px; }
     .stat-number { font-size: 24px; }
     .quote-card { padding: 14px 16px; }
-    .jing-card { padding: 14px 16px; }
-    .huangli-card { padding: 14px 16px; }
-    .section-card { padding: 14px 16px; }
+    .jing-card { padding: 14px 16px; max-width: 100%; }
+    .huangli-card { padding: 14px 16px; max-width: 100%; }
+    .section-card { padding: 14px 16px; max-width: 100%; }
     .jing-head { flex-wrap: wrap; gap: 6px; }
     .jing-title { font-size: 16px; }
     .jing-original { font-size: 14px; padding: 10px 12px; }
@@ -978,8 +1105,8 @@
   }
 
   @media (max-width: 430px) {
-    .content { padding: 12px; }
-    .jing-card, .huangli-card, .section-card { padding: 12px 14px; }
+    .content { padding: 12px; width: 100%; }
+    .jing-card, .huangli-card, .section-card { padding: 12px 14px; max-width: 100%; }
     .jing-original { font-size: 14px; padding: 10px; line-height: 1.7; }
     .jing-explain { font-size: 14px; line-height: 1.7; }
     .huangli-tip { font-size: 12px; padding: 12px 14px; }
@@ -989,6 +1116,12 @@
     .record-form { grid-template-columns: 1fr; }
     .hot-actions { flex-wrap: wrap; }
     .hot-btn { font-size: 11px; padding: 6px 10px; }
+    .app-btn { font-size: 11px; padding: 8px 4px; flex: 1 0 50px; min-width: 50px; }
+    .app-btn .app-icon { font-size: 16px; }
+    .todo-text { font-size: 14px; }
+    .jing-title { font-size: 15px; }
+    .add-input-row { min-width: 0; }
+    .add-input { min-width: 0; }
   }
 </style>
 </head>
@@ -1100,6 +1233,18 @@
 
       <!-- ===== 今日计划 ===== -->
       <div class="page" data-page="todo" id="page-todo">
+        <!-- 日历签到 -->
+        <div class="calendar-card">
+          <div class="calendar-header">
+            <button class="calendar-nav-btn" id="calendarPrev">‹</button>
+            <div class="calendar-title" id="calendarTitle">2026年8月</div>
+            <button class="calendar-nav-btn" id="calendarNext">›</button>
+          </div>
+          <div class="calendar-weekdays" id="calendarWeekdays"></div>
+          <div class="calendar-grid" id="calendarGrid"></div>
+          <div style="text-align:center; font-size:12px; color:var(--gray-400); margin-top:8px;" id="checkinInfo"></div>
+        </div>
+
         <div class="section-card">
           <div class="section-header">
             <div class="section-title"><span class="em">📋</span>今日待办</div>
@@ -1207,19 +1352,19 @@
       <div class="page" data-page="hot" id="page-hot">
         <!-- 平台筛选标签 -->
         <div class="app-launch-row" id="hotFilterTabs">
-          <button class="app-btn active" data-pf="all">
+          <button class="app-btn active" data-pf="all" onclick="onHotFilterClick(this)" ontouchend="onHotFilterClick(this)">
             <span class="app-icon">🔥</span><span>全部</span>
           </button>
-          <button class="app-btn dy" data-pf="douyin">
+          <button class="app-btn dy" data-pf="douyin" onclick="onHotFilterClick(this)" ontouchend="onHotFilterClick(this)">
             <span class="app-icon">🎵</span><span>抖音</span>
           </button>
-          <button class="app-btn bili" data-pf="bilibili">
+          <button class="app-btn bili" data-pf="bilibili" onclick="onHotFilterClick(this)" ontouchend="onHotFilterClick(this)">
             <span class="app-icon">📺</span><span>B站</span>
           </button>
-          <button class="app-btn xhs" data-pf="xiaohongshu">
+          <button class="app-btn xhs" data-pf="xiaohongshu" onclick="onHotFilterClick(this)" ontouchend="onHotFilterClick(this)">
             <span class="app-icon">📕</span><span>小红书</span>
           </button>
-          <button class="app-btn weibo" data-pf="weibo">
+          <button class="app-btn weibo" data-pf="weibo" onclick="onHotFilterClick(this)" ontouchend="onHotFilterClick(this)">
             <span class="app-icon">🌐</span><span>微博</span>
           </button>
         </div>
@@ -1439,7 +1584,8 @@ const defaultData = {
   reviews: [],
   hotFavs: [],
   feelHistory: [],
-  feelDraft: {}
+  feelDraft: {},
+  checkins: {}
 };
 
 let state = loadState();
@@ -1509,6 +1655,120 @@ function renderQuotes() {
 }
 renderQuotes();
 $('#changeQuoteBtn').addEventListener('click', () => { renderQuotes(); showToast('换一句名言 ✨'); });
+
+/* ============== 日历签到 ============== */
+let calendarDate = new Date();
+
+function renderCalendar() {
+  const year = calendarDate.getFullYear();
+  const month = calendarDate.getMonth();
+  const today = new Date();
+  const yyyy = today.getFullYear();
+  const mm = String(today.getMonth()+1).padStart(2,'0');
+  const dd = String(today.getDate()).padStart(2,'0');
+  const todayStr = `${yyyy}-${mm}-${dd}`;
+
+  // 标题
+  $('#calendarTitle').textContent = `${year}年${month+1}月`;
+
+  // 星期头
+  const weekdays = ['日','一','二','三','四','五','六'];
+  $('#calendarWeekdays').innerHTML = weekdays.map(d => `<div class="calendar-weekday">${d}</div>`).join('');
+
+  // 日期格子
+  const firstDay = new Date(year, month, 1).getDay();
+  const daysInMonth = new Date(year, month+1, 0).getDate();
+  const daysInPrevMonth = new Date(year, month, 0).getDate();
+
+  let html = '';
+
+  // 上月末尾几天
+  for (let i = firstDay - 1; i >= 0; i--) {
+    html += `<div class="calendar-day other-month">${daysInPrevMonth - i}</div>`;
+  }
+
+  // 本月日期
+  for (let d = 1; d <= daysInMonth; d++) {
+    const mmStr = String(month+1).padStart(2,'0');
+    const ddStr = String(d).padStart(2,'0');
+    const dateStr = `${year}-${mmStr}-${ddStr}`;
+    const isToday = dateStr === todayStr;
+    const isPast = dateStr < todayStr;
+    const isFuture = dateStr > todayStr;
+
+    // 获取当日进度：今天用实时 todo 完成率，历史用存储值
+    let progress = 0;
+    if (isToday) {
+      const total = state.todos.length;
+      const done = state.todos.filter(t => t.done).length;
+      progress = total > 0 ? done / total : 0;
+    } else if (state.checkins && state.checkins[dateStr] !== undefined) {
+      progress = state.checkins[dateStr];
+    }
+
+    // SVG 环形进度圈
+    const r = 10;
+    const circ = 2 * Math.PI * r;
+    const offset = circ * (1 - progress);
+    let ringHtml = '';
+    if (!isFuture && (progress > 0 || (isToday && state.todos.length > 0))) {
+      ringHtml = `<div class="cal-ring-wrap">
+        <svg width="26" height="26" viewBox="0 0 26 26">
+          <circle class="cal-ring-bg" cx="13" cy="13" r="${r}"></circle>
+          <circle class="cal-ring-fg" cx="13" cy="13" r="${r}"
+            stroke-dasharray="${circ}" stroke-dashoffset="${offset}"
+            style="stroke:${progress >= 1 ? '#5cb85c' : '#f0ad4e'};">
+          </circle>
+        </svg>
+      </div>`;
+    } else if (isPast && progress === 0) {
+      ringHtml = '<div class="cal-ring-wrap"><svg width="26" height="26" viewBox="0 0 26 26"><circle class="cal-ring-bg" cx="13" cy="13" r="10"></circle></svg></div>';
+    }
+
+    html += `<div class="calendar-day${isToday?' today':''}">
+      <span>${d}</span>
+      ${ringHtml}
+    </div>`;
+  }
+
+  // 下月开头几天（补满最后一行）
+  const totalCells = firstDay + daysInMonth;
+  const remaining = (7 - (totalCells % 7)) % 7;
+  for (let d = 1; d <= remaining; d++) {
+    html += `<div class="calendar-day other-month">${d}</div>`;
+  }
+
+  $('#calendarGrid').innerHTML = html;
+
+  // 本月签到统计
+  const checkedCount = state.checkins ? Object.keys(state.checkins).filter(k => state.checkins[k] > 0 && k.startsWith(`${yyyy}-${mm}`)).length : 0;
+  const fullCount = state.checkins ? Object.keys(state.checkins).filter(k => state.checkins[k] >= 1 && k.startsWith(`${yyyy}-${mm}`)).length : 0;
+  $('#checkinInfo').textContent = checkedCount > 0 ? `本月 ${checkedCount} 天有记录 · ${fullCount} 天全勤` : '';
+}
+
+$('#calendarPrev').addEventListener('click', () => {
+  calendarDate.setMonth(calendarDate.getMonth() - 1);
+  renderCalendar();
+});
+$('#calendarNext').addEventListener('click', () => {
+  calendarDate.setMonth(calendarDate.getMonth() + 1);
+  renderCalendar();
+});
+
+function autoCheckin() {
+  const today = new Date();
+  const todayStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+  if (!state.checkins) state.checkins = {};
+  if (state.todos.length > 0) {
+    const done = state.todos.filter(t => t.done).length;
+    state.checkins[todayStr] = done / state.todos.length;
+  } else {
+    state.checkins[todayStr] = 0;
+  }
+  saveState();
+}
+
+renderCalendar();
 
 /* ============== 今日计划 ============== */
 function renderTodos() {
@@ -1597,6 +1857,7 @@ function renderTodos() {
   const total = state.todos.length;
   $('#todoProgressText').textContent = `${done} / ${total}`;
   $('#todoProgress').style.width = total ? (done/total*100) + '%' : '0%';
+  autoCheckin(); renderCalendar();
   updateHomeStats();
 }
 $('#todoAddBtn').addEventListener('click', addTodo);
@@ -1722,12 +1983,26 @@ function renderRecordHistory() {
 
 /* ============== 新闻资讯 ============== */
 const goldenQuotes = [
+  { t: '幸福都是奋斗出来的。', s: '习近平' },
+  { t: '路虽远，行则将至；事虽难，做则必成。', s: '习近平' },
+  { t: '江山就是人民，人民就是江山。', s: '习近平' },
+  { t: '征途漫漫，惟有奋斗。', s: '习近平' },
+  { t: '不负时代，不负人民。', s: '习近平' },
+  { t: '功成不必在我，功成必定有我。', s: '习近平' },
   { t: '所有的惊艳，都来自长久的准备。', s: '人民日报' },
-  { t: '自律给我自由。', s: 'Nike 创始人' },
-  { t: '一个人的修养，不在于他说了什么，而在于他做了什么。', s: '佚名' },
-  { t: '你必须非常努力，才能看起来毫不费力。', s: '刘同' },
-  { t: '心怀热爱，奔赴山海。', s: '网络金句' },
-  { t: '生活明朗，万物可爱，人间值得，未来可期。', s: '木心' }
+  { t: '真正聪明的人，都在偷偷下笨功夫。', s: '人民日报夜读' },
+  { t: '星光不问赶路人，时光不负有心人。', s: '人民日报' },
+  { t: '与其在等待中枯萎，不如在行动中绽放。', s: '人民日报' },
+  { t: '没有什么一夜成名，不过都是百炼成钢。', s: '人民日报' },
+  { t: '志之所趋，无远弗届；穷山距海，不能限也。', s: '学习强国' },
+  { t: '知者行之始，行者知之成。', s: '学习强国' },
+  { t: '不积跬步，无以至千里；不积小流，无以成江海。', s: '学习强国' },
+  { t: '天行健，君子以自强不息。', s: '学习强国' },
+  { t: '博学之，审问之，慎思之，明辨之，笃行之。', s: '学习强国' },
+  { t: '青春由磨砺而出彩，人生因奋斗而升华。', s: '学习强国' },
+  { t: '道阻且长，行则将至，行而不辍，未来可期。', s: '学习强国' },
+  { t: '日日行，不怕千万里；常常做，不怕千万事。', s: '学习强国' },
+  { t: '心中有信仰，脚下有力量。', s: '学习强国' }
 ];
 
 const newsData = [
@@ -2335,8 +2610,10 @@ async function loadFeed(force) {
 function renderFeed() {
   if (!feedData) return;
   const d = feedData;
+  const platformNames = { all: '全部平台', douyin: '抖音', bilibili: 'B站', xiaohongshu: '小红书', weibo: '微博' };
   $('#feedStatus').innerHTML = '✅ 更新于 ' + (d.update_time || d.date || '未知') +
-    (d.ai_status ? ' · AI: ' + d.ai_status : '');
+    (d.ai_status ? ' · ' + d.ai_status : '') +
+    ' · 筛选：' + (platformNames[curHotFilter] || curHotFilter);
 
   // AI 改写选题
   const aiListAll = d.ai_rewrite || [];
@@ -2420,15 +2697,34 @@ $$('#feedPlatformTabs .tab').forEach(btn => {
 // 页面打开时自动加载一次
 loadFeed();
 
-/* ============== 爆款二创平台筛选 ============== */
-$$('#hotFilterTabs .app-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    $$('#hotFilterTabs .app-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    curHotFilter = btn.dataset.pf;
-    if (feedData) renderFeed();
-  });
-});
+/* ============== 爆款二创平台筛选（直接绑定 + 防抖） ============== */
+let _hotFilterDebounce = 0;
+function onHotFilterClick(btn) {
+  const now = Date.now();
+  if (now - _hotFilterDebounce < 300) return; // 防抖：300ms 内忽略重复触发
+  _hotFilterDebounce = now;
+
+  const container = document.getElementById('hotFilterTabs');
+  if (!container) return;
+
+  // 更新激活态
+  container.querySelectorAll('.app-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  curHotFilter = btn.dataset.pf;
+
+  // 筛选名称
+  const labels = btn.querySelectorAll('span');
+  const filterName = labels.length >= 2 ? labels[1].textContent : curHotFilter;
+
+  // 渲染
+  if (feedData) {
+    renderFeed();
+  } else {
+    document.getElementById('feedStatus').innerHTML = '⏳ 数据未加载，已选择筛选：「' + filterName + '」<br>请先配置数据源或等待 Actions 运行';
+    document.getElementById('aiRewriteList').innerHTML = '<div style="color:var(--gray-400);font-size:13px;text-align:center;padding:20px;">📡 暂无热榜数据<br>请点击上方 <b>⚙ 数据源</b> 配置 CDN 地址，<br>或确认 GitHub Actions 已成功运行</div>';
+  }
+}
 
 /* ============== URL 参数支持快捷跳转 ============== */
 (function() {
