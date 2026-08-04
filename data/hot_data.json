@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-04",
-  "update_time": "2026-08-04 18:15:23",
+  "date": "2026-08-05",
+  "update_time": "2026-08-05 02:14:45",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "瑙鲁正式更改国名",
-          "hot": "2751289",
+          "title": "台风白海豚加强并西调",
+          "hot": "1402977",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "国务院成立彭水山体崩塌调查评估组",
-          "hot": "1222130",
+          "title": "长鑫总产能有望继续翻倍",
+          "hot": "1337636",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "卫星互联网低轨23组卫星发射成功",
+          "hot": "691754",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "鸿蒙智行回应竹知了事件",
+          "hot": "649171",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "堂主持平吉尼斯世界纪录",
-          "hot": "830525",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "员工上班摸鱼单位有权开除吗",
-          "hot": "670850",
+          "title": "76人还能怎么交易",
+          "hot": "513959",
           "url": ""
         },
         {
-          "title": "我用AI创造虚拟世界 弹幕即神谕",
-          "hot": "670635",
+          "title": "一次看完完蛋男同学剧情",
+          "hot": "513235",
           "url": ""
         },
         {
-          "title": "武松打猫",
-          "hot": "635660",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "实拍高校团队研究的灭蚊黑科技",
-          "hot": "587163",
+          "title": "蜘蛛侠4 MJ恢复记忆了吗",
+          "hot": "512113",
           "url": ""
         },
         {
-          "title": "深度解析美日联合救市",
-          "hot": "544490",
+          "title": "UP主解读西班牙移民危机",
+          "hot": "504041",
           "url": ""
         },
         {
-          "title": "逐帧解析凡人修仙传185集",
-          "hot": "530599",
+          "title": "食贫道实测墨西哥早餐",
+          "hot": "485960",
           "url": ""
         },
         {
-          "title": "幽灵外卖为何屡禁不止",
-          "hot": "435685",
+          "title": "国产奇幻剧九门好看吗",
+          "hot": "473589",
           "url": ""
         },
         {
-          "title": "百里守约新皮肤爆料",
-          "hot": "434473",
+          "title": "哈佛教授谈奥德赛真正作者",
+          "hot": "473149",
+          "url": ""
+        },
+        {
+          "title": "火影手游百战虎皮初爆料",
+          "hot": "472380",
+          "url": ""
+        },
+        {
+          "title": "EDG官宣Jiejie回归",
+          "hot": "469179",
           "url": ""
         },
         {
           "title": "王者扁鹊双面药师皮肤爆料",
-          "hot": "431720",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "雷欧奥特曼人物志",
-          "hot": "384861",
+          "hot": "469178",
           "url": ""
         },
         {
-          "title": "澜雾影狼魂皮肤爆料",
-          "hot": "384859",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "王者海月真言先知皮肤爆料",
-          "hot": "384857",
-          "url": ""
+          "title": "天津人吃到美食belike",
+          "hot": "469176",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         }
       ]
     },
@@ -107,84 +107,64 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "员工上班摸鱼单位有权开除吗",
-      "new_title": "摸鱼被开除，是惩罚还是解脱？",
+      "orig_title": "卫星互联网低轨23组卫星发射成功",
+      "new_title": "卫星都组网了，你的人生还在单机？",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "摸鱼是自我保护的信号",
-      "hook": "上班摸鱼被开除，你站公司还是员工？",
-      "angle": "从职场女性视角切入，探讨摸鱼背后的职场倦怠与自我价值觉醒",
-      "platform": "微博"
+      "core_view": "孤军奋战不如组网共生",
+      "hook": "23颗卫星组网成功，你还在一个人硬扛？",
+      "angle": "借卫星组网隐喻女性在职场需要搭建人脉与资源网，而非单打独斗",
+      "platform": "科技新闻"
     },
     {
-      "orig_title": "我用AI创造虚拟世界 弹幕即神谕",
-      "new_title": "AI弹幕神谕，你的生活谁主宰？",
-      "track": "生活感悟",
-      "adapt": "高",
-      "core_view": "别让外界声音定义你的人生",
-      "hook": "当弹幕变成神谕，你的选择还属于自己吗？",
-      "angle": "以AI虚拟世界为隐喻，反思女性在社交媒体时代如何保持自我主导权",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "幽灵外卖为何屡禁不止",
-      "new_title": "幽灵外卖背后，是你不敢面对的真相",
-      "track": "生活感悟",
-      "adapt": "高",
-      "core_view": "表面光鲜背后藏隐痛",
-      "hook": "你点的外卖，可能是家幽灵店，惊不惊喜？",
-      "angle": "从外卖乱象引申到女性对完美人设的追求，揭露隐藏的焦虑与真实自我",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "深度解析美日联合救市",
-      "new_title": "经济救市背后，女性的财务安全感在哪？",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "经济波动期，女性需筑牢财务护城河",
-      "hook": "美日救市刷屏，你的钱包准备好了吗？",
-      "angle": "从宏观救市事件切入，为女性提供经济不确定期的理财与职业规划建议",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "逐帧解析凡人修仙传185集",
-      "new_title": "修仙路上，女性如何逆天改命？",
+      "orig_title": "哈佛教授谈奥德赛真正作者",
+      "new_title": "别让外界定义你的作者身份",
       "track": "读书分享",
+      "adapt": "高",
+      "core_view": "人生剧本自己写",
+      "hook": "哈佛教授说《奥德赛》作者另有其人，你呢？",
+      "angle": "从学术争议引申到女性应夺回人生叙事权，不被他人定义角色",
+      "platform": "学术资讯"
+    },
+    {
+      "orig_title": "食贫道实测墨西哥早餐",
+      "new_title": "你的人生早餐，也要多元尝试",
+      "track": "生活感悟",
       "adapt": "中",
-      "core_view": "女性逆袭需要智慧与韧性",
-      "hook": "修仙剧里的女主，靠什么逆天改命？",
-      "angle": "借《凡人修仙传》的修炼体系，类比女性在现实中的自我提升与突破路径",
+      "core_view": "打破习惯才能见新风景",
+      "hook": "墨西哥人的早餐打开方式，颠覆你的想象",
+      "angle": "用异国饮食文化鼓励女性跳出舒适圈，尝试生活新可能",
       "platform": "B站"
     },
     {
-      "orig_title": "实拍高校团队研究的灭蚊黑科技",
-      "new_title": "灭蚊黑科技，竟藏着女性职场翻身密码",
+      "orig_title": "EDG官宣Jiejie回归",
+      "new_title": "低谷归来，才是真女王剧本",
       "track": "职场成长",
+      "adapt": "高",
+      "core_view": "暂时离场是为了更好回归",
+      "hook": "Jiejie回来了！每个低谷都是复出的跳板",
+      "angle": "借电竞选手回归故事，讲女性职场挫折后的逆袭重启",
+      "platform": "电竞圈"
+    },
+    {
+      "orig_title": "天津人吃到美食belike",
+      "new_title": "你的热爱，也能治愈一切疲惫",
+      "track": "生活感悟",
       "adapt": "中",
-      "core_view": "创新思维是职场破局关键",
-      "hook": "高校的灭蚊黑科技，居然能教你职场逆袭？",
-      "angle": "从团队协作的创新技术，引申到女性如何用跨界思维解决职场难题",
+      "core_view": "找到热爱就是最好的充电",
+      "hook": "天津人吃口美食就幸福爆棚，你呢？",
+      "angle": "从地方生活热情出发，倡导女性用微小热爱疗愈日常压力",
       "platform": "抖音"
     },
     {
-      "orig_title": "武松打猫",
-      "new_title": "当武松遇上猫，你的善良需要锋芒",
+      "orig_title": "鸿蒙智行回应竹知了事件",
+      "new_title": "别让一句回应毁了你的人设",
       "track": "情感关系",
       "adapt": "中",
-      "core_view": "善良必须有底线和力量",
-      "hook": "武松打虎成英雄，打猫却被骂惨，为什么？",
-      "angle": "以武松打猫的争议为引，探讨女性在关系中如何平衡善良与自我保护",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "堂主持平吉尼斯世界纪录",
-      "new_title": "平平无奇的我，也能创造世界纪录",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "平凡人也能成就非凡事",
-      "hook": "主持人破纪录，但我更想说你也能！",
-      "angle": "从主持人破纪录的平凡特质，激励女性在琐碎生活中挖掘个人高光时刻",
-      "platform": "微博"
+      "core_view": "高情商回应是关系王牌",
+      "hook": "鸿蒙的回应翻车了，你的沟通踩雷没？",
+      "angle": "借品牌公关失误，讲女性在亲密关系与社交中的表达分寸",
+      "platform": "科技圈"
     }
   ],
   "ai_status": "success"
