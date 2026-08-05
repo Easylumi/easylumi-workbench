@@ -9,6 +9,9 @@
 <meta name="mobile-web-app-capable" content="yes" />
 <meta name="theme-color" content="#ff7090" />
 <meta name="format-detection" content="telephone=no" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
 <link rel="manifest" href="manifest.json" />
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
 <link rel="icon" type="image/png" href="icons/icon-192.png" />
@@ -2529,13 +2532,16 @@ renderExercise('nightList', 'night', 'nightProgress');
 renderRecordHistory();
 updateHomeStats();
 
-/* ============== PWA Service Worker 注册 ============== */
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js').catch(err => {
-      console.log('SW 注册失败:', err);
+/* ============== PWA Service Worker 清理（解决 Safari/Chrome 缓存旧版） ============== */
+if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+  // 已被旧 SW 控制 → 注销它，然后强制刷新
+  if (!sessionStorage.getItem('_sw_flush')) {
+    sessionStorage.setItem('_sw_flush', '1');
+    navigator.serviceWorker.getRegistrations().then(function(regs) {
+      regs.forEach(function(r) { r.unregister(); });
+      window.location.reload(true);
     });
-  });
+  }
 }
 
 /* ============== 今日热榜 · jsDelivr CDN 数据源 ============== */
