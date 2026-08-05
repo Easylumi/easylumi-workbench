@@ -2532,16 +2532,23 @@ renderExercise('nightList', 'night', 'nightProgress');
 renderRecordHistory();
 updateHomeStats();
 
-/* ============== PWA Service Worker 清理（解决 Safari/Chrome 缓存旧版） ============== */
-if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
-  // 已被旧 SW 控制 → 注销它，然后强制刷新
-  if (!sessionStorage.getItem('_sw_flush')) {
-    sessionStorage.setItem('_sw_flush', '1');
-    navigator.serviceWorker.getRegistrations().then(function(regs) {
-      regs.forEach(function(r) { r.unregister(); });
-      window.location.reload(true);
-    });
-  }
+/* ============== PWA Service Worker v2 注册（网络优先，自动清理旧缓存） ============== */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').then(reg => {
+      // 检测到新 SW 激活后自动刷新一次
+      reg.addEventListener('updatefound', () => {
+        const newSW = reg.installing;
+        if (newSW) {
+          newSW.addEventListener('statechange', () => {
+            if (newSW.state === 'activated' && navigator.serviceWorker.controller) {
+              window.location.reload();
+            }
+          });
+        }
+      });
+    }).catch(err => console.log('SW 注册失败:', err));
+  });
 }
 
 /* ============== 今日热榜 · jsDelivr CDN 数据源 ============== */
