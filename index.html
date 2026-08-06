@@ -1616,7 +1616,7 @@ const defaultData = {
     { id: 't2', text: '练字打卡', done: false, type: 'fixed' },
     { id: 't3', text: '看书 30 分钟', done: false, type: 'fixed' },
     { id: 't4', text: '运动（晨+夜项目全部勾选即自动完成）', done: false, type: 'auto-sport' },
-    { id: 't7', text: '背 20 个英语单词', done: false, type: 'fixed' },
+    { id: 't7', text: '背 20 个单词', done: false, type: 'fixed' },
     { id: 't5', text: '23:00 前睡觉', done: false, type: 'fixed' },
     {
       id: 't6', text: '饭前喝一杯水', done: false, type: 'fixed-sub',
@@ -1925,6 +1925,12 @@ renderCalendar();
 function renderTodos() {
   const list = $('#todoList');
   list.innerHTML = '';
+  // 同步 t7 背单词勾选状态（按当日 vocabProgress）
+  const _t7 = state.todos.find(t => t.id === 't7');
+  if (_t7 && state.vocabProgress) {
+    const _learned = Object.values(state.vocabProgress[todayDateStr()] || {}).filter(v => v === true).length;
+    _t7.done = _learned >= 20;
+  }
   state.todos.forEach(item => {
     const li = document.createElement('li');
     li.className = 'todo-item';
@@ -1982,30 +1988,34 @@ function renderTodos() {
     } else {
       const check = document.createElement('button');
       check.className = 'todo-check' + (item.done ? ' checked' : '');
-      check.addEventListener('click', () => {
-        item.done = !item.done;
-        onTodoChanged();
-      });
+
+      // t7 背单词 — 点击方框打开学习面板；勾选状态由当日学习进度决定
+      if (item.id === 't7') {
+        check.addEventListener('click', (e) => {
+          e.stopPropagation();
+          openVocabPanel();
+        });
+        // 文案简化为「背 20 个单词」
+        item.text = '背 20 个单词';
+        // 实时根据 vocabProgress 同步勾选状态
+        const today = todayDateStr();
+        const learned = (state.vocabProgress && state.vocabProgress[today]) || 0;
+        if (learned >= 20) {
+          if (!item.done) { item.done = true; saveState(); }
+          check.classList.add('checked');
+        }
+      } else {
+        check.addEventListener('click', () => {
+          item.done = !item.done;
+          onTodoChanged();
+        });
+      }
+
       const txt = document.createElement('div');
       txt.className = 'todo-text' + (item.done ? ' done' : '');
       txt.textContent = item.text;
       li.appendChild(check);
-
-      // t7 背单词 — 点击打开学习面板
-      if (item.id === 't7') {
-        const vocabBtn = document.createElement('button');
-        vocabBtn.style.cssText = 'margin-left:auto;padding:6px 12px;border-radius:999px;background:linear-gradient(135deg,#fce4ec,#f8bbd0);color:#d81b60;font-size:12px;font-weight:600;flex-shrink:0;';
-        vocabBtn.textContent = '📖 学习';
-        vocabBtn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          openVocabPanel();
-        });
-        li.appendChild(vocabBtn);
-        txt.style.cssText = 'flex:0 1 auto;';
-        li.appendChild(txt);
-      } else {
-        li.appendChild(txt);
-      }
+      li.appendChild(txt);
 
       if (item.type !== 'auto-sport') {
         const del = document.createElement('button');
@@ -2699,22 +2709,33 @@ renderExercise('nightList', 'night', 'nightProgress');
 renderRecordHistory();
 updateHomeStats();
 
-/* ============== PWA Service Worker v2 注册（网络优先，自动清理旧缓存） ============== */
+/* ============== PWA Service Worker v3 注册（彻底解决 Safari 缓存） ============== */
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('sw.js').then(reg => {
-      // 检测到新 SW 激活后自动刷新一次
+      // 检测到新 SW → 等它安装完 → 强制跳过等待 → 激活后刷新
       reg.addEventListener('updatefound', () => {
         const newSW = reg.installing;
         if (newSW) {
           newSW.addEventListener('statechange', () => {
+            if (newSW.state === 'installed' && navigator.serviceWorker.controller) {
+              // 强制新 SW 立即激活
+              newSW.postMessage('skipWaiting');
+            }
             if (newSW.state === 'activated' && navigator.serviceWorker.controller) {
               window.location.reload();
             }
           });
         }
       });
+      // 每 5 分钟检查一次 SW 更新（Safari 默认 24h 太慢）
+      setInterval(() => reg.update(), 5 * 60 * 1000);
     }).catch(err => console.log('SW 注册失败:', err));
+
+    // controller 变化时自动刷新（新 SW 接管）
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      window.location.reload();
+    });
   });
 }
 
@@ -2781,7 +2802,7 @@ function showDayDetail(dateStr) {
     { id: 't2', text: '练字打卡' },
     { id: 't3', text: '看书 30 分钟' },
     { id: 't4', text: '运动（晨+夜项目全部勾选即自动完成）' },
-    { id: 't7', text: '背 20 个英语单词' },
+    { id: 't7', text: '背 20 个单词' },
     { id: 't5', text: '23:00 前睡觉' },
     { id: 't6', text: '饭前喝一杯水', subs: [{ id: 's1', text: '早餐前' }, { id: 's2', text: '午餐前' }, { id: 's3', text: '晚餐前' }] }
   ];
@@ -3107,6 +3128,23 @@ window.toggleVocabWord = function(wordEn) {
   saveState();
   // 刷新面板
   openVocabPanel();
+  // 同步外部待办勾选状态
+  const doneCount = Object.values(state.vocabProgress[today]).filter(v => v === true).length;
+  const t7 = state.todos.find(t => t.id === 't7');
+  if (t7) {
+    const shouldDone = doneCount >= 20;
+    if (t7.done !== shouldDone) {
+      t7.done = shouldDone;
+      saveState();
+      // 仅当 todo 页面可见时刷新
+      const todoPage = $('#page-todo');
+      if (todoPage && todoPage.classList.contains('active')) {
+        renderTodos();
+        updateHomeStats();
+      }
+    }
+  }
+};
 };
 
 /* ============== URL 参数支持快捷跳转 ============== */
