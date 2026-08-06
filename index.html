@@ -2013,22 +2013,25 @@ const goldenQuotes = [
   { t: '心中有信仰，脚下有力量。', s: '学习强国' }
 ];
 
+// 动态计算日期，永远显示最近三天
+function fmtDate(offset) { const d = new Date(); d.setDate(d.getDate() - offset); return (d.getMonth()+1).toString().padStart(2,'0')+'-'+d.getDate().toString().padStart(2,'0'); }
+
 const newsData = [
   // 学习强国
-  { src: 'xxqg', tag: '学习', t: '《习近平著作选读》学习笔记：坚持和发展中国特色社会主义', date: '08-04', link: 'https://www.xuexi.cn/' },
-  { src: 'xxqg', tag: '学习', t: '理论前沿：以中国式现代化全面推进中华民族伟大复兴', date: '08-03', link: 'https://www.xuexi.cn/' },
-  { src: 'xxqg', tag: '学习', t: '深入学习党的二十大精神 推动高质量发展取得新成效', date: '08-02', link: 'https://www.xuexi.cn/' },
+  { src: 'xxqg', tag: '学习', t: '《习近平著作选读》学习笔记：坚持和发展中国特色社会主义', date: fmtDate(0), link: 'https://www.xuexi.cn/' },
+  { src: 'xxqg', tag: '学习', t: '理论前沿：以中国式现代化全面推进中华民族伟大复兴', date: fmtDate(1), link: 'https://www.xuexi.cn/' },
+  { src: 'xxqg', tag: '学习', t: '深入学习党的二十大精神 推动高质量发展取得新成效', date: fmtDate(2), link: 'https://www.xuexi.cn/' },
   // 人民日报
-  { src: 'rmrb', tag: '人民日报', t: '夜读 | 真正聪明的人，都在偷偷下笨功夫', date: '08-04', link: 'https://www.peopleapp.com/' },
-  { src: 'rmrb', tag: '人民日报', t: '把论文写在祖国大地上——科技工作者扎根一线见闻', date: '08-03', link: 'https://www.peopleapp.com/' },
-  { src: 'rmrb', tag: '人民日报', t: '人民时评：让城市发展更有温度', date: '08-02', link: 'https://www.peopleapp.com/' },
+  { src: 'rmrb', tag: '人民日报', t: '夜读 | 真正聪明的人，都在偷偷下笨功夫', date: fmtDate(0), link: 'https://www.peopleapp.com/' },
+  { src: 'rmrb', tag: '人民日报', t: '把论文写在祖国大地上——科技工作者扎根一线见闻', date: fmtDate(1), link: 'https://www.peopleapp.com/' },
+  { src: 'rmrb', tag: '人民日报', t: '人民时评：让城市发展更有温度', date: fmtDate(2), link: 'https://www.peopleapp.com/' },
   // 新华社
-  { src: 'xhs', tag: '新华社', t: '瞭望·治国理政纪事｜推动中国制造向中国创造转变', date: '08-04', link: 'https://www.xinhuanet.com/' },
-  { src: 'xhs', tag: '新华社', t: '新华每日电讯：让青春在奉献中焕发绚丽光彩', date: '08-03', link: 'https://www.xinhuanet.com/' },
+  { src: 'xhs', tag: '新华社', t: '瞭望·治国理政纪事｜推动中国制造向中国创造转变', date: fmtDate(0), link: 'https://www.xinhuanet.com/' },
+  { src: 'xhs', tag: '新华社', t: '新华每日电讯：让青春在奉献中焕发绚丽光彩', date: fmtDate(1), link: 'https://www.xinhuanet.com/' },
   // 眼界
-  { src: 'yj', tag: '眼界', t: '深读 | 普通人如何打造自己的"个人 IP"？', date: '08-04', link: 'https://www.tophub.today/' },
-  { src: 'yj', tag: '眼界', t: '全球科技 | AI 时代，自媒体人最该学的 3 项能力', date: '08-03', link: 'https://www.tophub.today/' },
-  { src: 'yj', tag: '眼界', t: '财经观察 | 2026 下半年值得关注的 5 个消费趋势', date: '08-02', link: 'https://www.tophub.today/' }
+  { src: 'yj', tag: '眼界', t: '深读 | 普通人如何打造自己的"个人 IP"？', date: fmtDate(0), link: 'https://www.tophub.today/' },
+  { src: 'yj', tag: '眼界', t: '全球科技 | AI 时代，自媒体人最该学的 3 项能力', date: fmtDate(1), link: 'https://www.tophub.today/' },
+  { src: 'yj', tag: '眼界', t: '财经观察 | 2026 下半年值得关注的 5 个消费趋势', date: fmtDate(2), link: 'https://www.tophub.today/' }
 ];
 
 let curSource = 'all';
@@ -2070,9 +2073,9 @@ $('#showFavQuoteBtn').addEventListener('click', () => {
 function renderNews() {
   const list = $('#newsList');
   const data = curSource === 'all' ? newsData : newsData.filter(n => n.src === curSource);
-  // 按日期从新到旧排序
-  const sorted = data.slice().sort((a, b) => b.date.localeCompare(a.date));
-  list.innerHTML = sorted.slice(0, 6).map((n, i) => {
+  // 随机打乱，让"换一批"真正换一批顺序
+  const shuffled = data.slice().sort(() => Math.random() - 0.5);
+  list.innerHTML = shuffled.slice(0, 6).map((n, i) => {
     const tagClass = ['t1','t2','t3','t4','t5'][i % 5];
     return `
       <div class="news-item">
@@ -2609,15 +2612,33 @@ async function loadFeed(force) {
     return;
   }
   $('#feedStatus').innerHTML = '⏳ 正在加载今日热榜...';
-  // 加时间戳防缓存
-  const fetchUrl = force ? url + (url.includes('?') ? '&' : '?') + '_t=' + Date.now() : url;
+
+  // 强制刷新：绕过 jsDelivr CDN，直连 GitHub 原始文件
+  let fetchUrl = url;
+  if (force) {
+    // 把 jsDelivr URL 转成 raw.githubusercontent.com（无 CDN 缓存）
+    const rawMatch = url.match(/cdn\.jsdelivr\.net\/gh\/(.+?)\/(.+?)@(.+?)\/(.+)/);
+    if (rawMatch) {
+      fetchUrl = `https://raw.githubusercontent.com/${rawMatch[1]}/${rawMatch[2]}/${rawMatch[3]}/${rawMatch[4]}`;
+    }
+    // 加时间戳确保浏览器也不缓存
+    fetchUrl += (fetchUrl.includes('?') ? '&' : '?') + '_t=' + Date.now();
+  }
+
   try {
     const resp = await fetch(fetchUrl, { cache: 'no-store' });
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     feedData = await resp.json();
+
+    // 检查数据新鲜度
+    const dataDate = feedData.date || '';
+    const today = new Date().toISOString().slice(0,10);
+    if (dataDate !== today) {
+      $('#feedStatus').innerHTML = '⚠️ 数据日期：' + dataDate + '（非今日数据，可能 Actions 未运行）';
+    }
     renderFeed();
   } catch (e) {
-    $('#feedStatus').innerHTML = '❌ 加载失败：' + e.message + '<br>请检查仓库是否已部署 GitHub Pages，Actions 是否至少运行过一次';
+    $('#feedStatus').innerHTML = '❌ 加载失败：' + e.message + '<br>请检查仓库 Actions 是否运行过（需配置 DEEPSEEK_API_KEY）';
     $('#hotPlatformCard').style.display = 'none';
   }
 }
