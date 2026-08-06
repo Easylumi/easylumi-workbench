@@ -438,17 +438,20 @@
     justify-content: center;
     font-size: 14px;
     color: var(--gray-600);
-    cursor: default;
+    cursor: pointer;
     position: relative;
     transition: background 0.2s;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
   }
+  .calendar-day:active { background: var(--gray-100); }
   .calendar-day.today {
     background: var(--pink-50);
     font-weight: 700;
     color: var(--pink-500);
     border-radius: 12px;
   }
-  .calendar-day.other-month { color: var(--gray-200); }
+  .calendar-day.other-month { color: var(--gray-200); pointer-events: none; }
   /* 环形进度圈 */
   .cal-ring-wrap {
     position: relative;
@@ -1589,7 +1592,9 @@ const defaultData = {
   hotFavs: [],
   feelHistory: [],
   feelDraft: {},
-  checkins: {}
+  checkins: {},
+  dailyTodos: {},
+  lastActiveDate: ''
 };
 
 let state = loadState();
@@ -1607,6 +1612,80 @@ function loadState() {
 }
 function saveState() {
   try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e) {}
+}
+
+/* ============== 按日期隔离每日待办 ============== */
+function todayDateStr() {
+  const t = new Date();
+  return `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-${String(t.getDate()).padStart(2,'0')}`;
+}
+
+// 把当前 todos 的勾选状态拍快照存到 dailyTodos[dateStr]
+function snapshotDailyTodos(dateStr) {
+  if (!state.dailyTodos) state.dailyTodos = {};
+  const snap = {};
+  state.todos.forEach(t => {
+    snap[t.id] = t.done;
+    if (t.subs) {
+      const subSnap = {};
+      t.subs.forEach(s => { subSnap[s.id] = s.done; });
+      snap[t.id + '_subs'] = subSnap;
+    }
+  });
+  state.dailyTodos[dateStr] = snap;
+  saveState();
+}
+
+// 重置所有待办为未勾选（保留自定义任务列表结构）
+function resetDailyTodos() {
+  state.todos.forEach(t => {
+    t.done = false;
+    if (t.subs) t.subs.forEach(s => s.done = false);
+  });
+}
+
+// 根据 dailyTodos 快照还原某一天的勾选状态
+function restoreDailyTodos(dateStr) {
+  const snap = state.dailyTodos && state.dailyTodos[dateStr];
+  if (!snap) return;
+  state.todos.forEach(t => {
+    if (snap[t.id] !== undefined) t.done = snap[t.id];
+    if (snap[t.id + '_subs'] && t.subs) {
+      t.subs.forEach(s => {
+        if (snap[t.id + '_subs'][s.id] !== undefined) s.done = snap[t.id + '_subs'][s.id];
+      });
+    }
+  });
+}
+
+// 页面加载时：检测日期是否变更，自动切日
+(function checkDayTransition() {
+  const ts = todayDateStr();
+  if (!state.lastActiveDate) {
+    // 首次使用：把当前状态存为昨天的快照，然后重置今天
+    state.lastActiveDate = ts;
+    resetDailyTodos();
+    saveState();
+  } else if (state.lastActiveDate !== ts) {
+    // 跨天了：先存昨天快照，再重置今天
+    snapshotDailyTodos(state.lastActiveDate);
+    state.lastActiveDate = ts;
+    resetDailyTodos();
+    saveState();
+  } else {
+    // 同一天：从快照还原（如果有的话，覆盖可能残留的旧状态）
+    if (state.dailyTodos && state.dailyTodos[ts]) {
+      restoreDailyTodos(ts);
+    }
+  }
+})();
+
+// 待办变更统一入口：存快照 + 渲染 + 统计
+function onTodoChanged() {
+  snapshotDailyTodos(todayDateStr());
+  saveState();
+  renderTodos();
+  updateHomeStats();
 }
 
 /* ============== 工具 ============== */
@@ -1729,7 +1808,7 @@ function renderCalendar() {
       ringHtml = '<div class="cal-ring-wrap"><svg width="26" height="26" viewBox="0 0 26 26"><circle class="cal-ring-bg" cx="13" cy="13" r="10"></circle></svg></div>';
     }
 
-    html += `<div class="calendar-day${isToday?' today':''}">
+    html += `<div class="calendar-day${isToday?' today':''}" data-date="${dateStr}">
       <span>${d}</span>
       ${ringHtml}
     </div>`;
@@ -1749,6 +1828,15 @@ function renderCalendar() {
   const fullCount = state.checkins ? Object.keys(state.checkins).filter(k => state.checkins[k] >= 1 && k.startsWith(`${yyyy}-${mm}`)).length : 0;
   $('#checkinInfo').textContent = checkedCount > 0 ? `本月 ${checkedCount} 天有记录 · ${fullCount} 天全勤` : '';
 }
+
+// 日历日期点击 → 弹窗查看当日明细
+$('#calendarGrid').addEventListener('click', e => {
+  const dayEl = e.target.closest('.calendar-day');
+  if (!dayEl) return;
+  const dateStr = dayEl.dataset.date;
+  if (!dateStr) return;
+  showDayDetail(dateStr);
+});
 
 $('#calendarPrev').addEventListener('click', () => {
   calendarDate.setMonth(calendarDate.getMonth() - 1);
@@ -1801,7 +1889,7 @@ function renderTodos() {
           item.subs.forEach(s => s.done = true);
           item.done = true;
         }
-        saveState(); renderTodos(); updateHomeStats();
+        onTodoChanged();
       });
       const txt = document.createElement('div');
       txt.className = 'todo-text' + (item.done ? ' done' : '');
@@ -1822,7 +1910,7 @@ function renderTodos() {
           s.done = !s.done;
           if (item.subs.every(x => x.done)) item.done = true;
           else item.done = false;
-          saveState(); renderTodos(); updateHomeStats();
+          onTodoChanged();
         });
         const t = document.createElement('span');
         t.textContent = s.text + (s.done ? ' ✓' : '');
@@ -1837,7 +1925,7 @@ function renderTodos() {
       check.className = 'todo-check' + (item.done ? ' checked' : '');
       check.addEventListener('click', () => {
         item.done = !item.done;
-        saveState(); renderTodos(); updateHomeStats();
+        onTodoChanged();
       });
       const txt = document.createElement('div');
       txt.className = 'todo-text' + (item.done ? ' done' : '');
@@ -1852,7 +1940,7 @@ function renderTodos() {
         del.addEventListener('click', () => {
           if (confirm('确认删除该待办？')) {
             state.todos = state.todos.filter(t => t.id !== item.id);
-            saveState(); renderTodos(); updateHomeStats();
+            onTodoChanged();
           }
         });
         li.appendChild(del);
@@ -1876,7 +1964,7 @@ function addTodo() {
   if (!v) return;
   state.todos.push({ id: uid(), text: v, done: false, type: 'custom' });
   inp.value = '';
-  saveState(); renderTodos(); updateHomeStats();
+  onTodoChanged();
   showToast('已添加待办');
 }
 
@@ -2598,6 +2686,62 @@ $('#gistModal').addEventListener('click', e => {
   if (e.target.id === 'gistModal') $('#gistModal').classList.remove('show');
 });
 
+// 日历日详情弹窗
+$('#dayDetailClose').addEventListener('click', () => $('#dayDetailModal').classList.remove('show'));
+$('#dayDetailModal').addEventListener('click', e => {
+  if (e.target.id === 'dayDetailModal') $('#dayDetailModal').classList.remove('show');
+});
+
+// 点击日历日期查看当日待办明细
+function showDayDetail(dateStr) {
+  const snap = state.dailyTodos && state.dailyTodos[dateStr];
+  const pct = state.checkins && state.checkins[dateStr] !== undefined ? state.checkins[dateStr] : 0;
+
+  let html = `<div style="margin-bottom:8px;"><b>📅 ${dateStr}</b> · 完成率 ${Math.round(pct*100)}%</div>`;
+
+  // 遍历默认待办模板展示完成状态
+  const template = [
+    { id: 't1', text: '7:00 起床' },
+    { id: 't2', text: '练字打卡' },
+    { id: 't3', text: '看书 30 分钟' },
+    { id: 't4', text: '运动（晨+夜项目全部勾选即自动完成）' },
+    { id: 't7', text: '背 20 个英语单词' },
+    { id: 't5', text: '23:00 前睡觉' },
+    { id: 't6', text: '饭前喝一杯水', subs: [{ id: 's1', text: '早餐前' }, { id: 's2', text: '午餐前' }, { id: 's3', text: '晚餐前' }] }
+  ];
+
+  template.forEach(t => {
+    const done = snap ? snap[t.id] : false;
+    const icon = done ? '✅' : '⬜';
+    html += `<div>${icon} ${t.text}</div>`;
+    if (t.subs) {
+      t.subs.forEach(s => {
+        const sDone = snap && snap[t.id + '_subs'] ? snap[t.id + '_subs'][s.id] : false;
+        html += `<div style="padding-left:24px;font-size:13px;color:var(--gray-400);">${sDone ? '✅' : '⬜'} ${s.text}</div>`;
+      });
+    }
+  });
+
+  // 自定义任务
+  if (snap) {
+    const customIds = Object.keys(snap).filter(k => !template.some(t => t.id === k || k === t.id + '_subs') && !k.includes('_subs'));
+    if (customIds.length > 0) {
+      html += '<div style="margin-top:8px;border-top:1px solid var(--gray-100);padding-top:8px;color:var(--gray-400);font-size:13px;">📝 自定义任务</div>';
+      customIds.forEach(id => {
+        html += `<div>${snap[id] ? '✅' : '⬜'} ${id}</div>`;
+      });
+    }
+  }
+
+  if (!snap && dateStr !== todayDateStr()) {
+    html += '<div style="color:var(--gray-400);font-size:13px;margin-top:8px;">📭 该日期暂无待办记录</div>';
+  }
+
+  $('#dayDetailTitle').textContent = '📅 ' + dateStr + ' 待办详情';
+  $('#dayDetailContent').innerHTML = html;
+  $('#dayDetailModal').classList.add('show');
+}
+
 // 刷新
 $('#refreshFeedBtn').addEventListener('click', () => loadFeed(true));
 
@@ -2783,6 +2927,17 @@ function onHotFilterClick(btn) {
     <div class="modal-btns">
       <button class="modal-btn ghost" id="gistCancel">取消</button>
       <button class="modal-btn primary" id="gistSave">保存</button>
+    </div>
+  </div>
+</div>
+
+<!-- 日历日详情弹窗 -->
+<div class="modal" id="dayDetailModal">
+  <div class="modal-card" style="max-width:380px;">
+    <div class="modal-title" id="dayDetailTitle">📅 待办详情</div>
+    <div id="dayDetailContent" style="font-size:14px; color:var(--gray-600); line-height:1.8; max-height:60vh; overflow-y:auto;"></div>
+    <div class="modal-btns" style="margin-top:16px;">
+      <button class="modal-btn ghost" id="dayDetailClose">关闭</button>
     </div>
   </div>
 </div>
