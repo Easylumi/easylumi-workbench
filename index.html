@@ -1555,6 +1555,7 @@ const defaultData = {
     { id: 't2', text: '练字打卡', done: false, type: 'fixed' },
     { id: 't3', text: '看书 30 分钟', done: false, type: 'fixed' },
     { id: 't4', text: '运动（晨+夜项目全部勾选即自动完成）', done: false, type: 'auto-sport' },
+    { id: 't7', text: '背 20 个英语单词', done: false, type: 'fixed' },
     { id: 't5', text: '23:00 前睡觉', done: false, type: 'fixed' },
     {
       id: 't6', text: '饭前喝一杯水', done: false, type: 'fixed-sub',
@@ -1792,10 +1793,14 @@ function renderTodos() {
       const check = document.createElement('button');
       check.className = 'todo-check' + (item.done ? ' checked' : '');
       check.addEventListener('click', () => {
-        if (item.done) return;
-        // 一次性勾选所有子项
-        item.subs.forEach(s => s.done = true);
-        item.done = true;
+        // 双向切换：已勾→取消全部，未勾→勾选全部
+        if (item.done) {
+          item.subs.forEach(s => s.done = false);
+          item.done = false;
+        } else {
+          item.subs.forEach(s => s.done = true);
+          item.done = true;
+        }
         saveState(); renderTodos(); updateHomeStats();
       });
       const txt = document.createElement('div');
@@ -2455,16 +2460,13 @@ renderFeelHistory();
 
 /* ============== 首页统计 ============== */
 function updateHomeStats() {
-  // 运动完成联动
+  // 运动完成联动：仅自动勾选，不强制取消（允许手动退选）
   const sportItem = state.todos.find(t => t.type === 'auto-sport');
   if (sportItem) {
     const allDone = state.morning.every(x => x.done) && state.night.every(x => x.done) &&
                     state.morning.length > 0 && state.night.length > 0;
     if (allDone && !sportItem.done) {
       sportItem.done = true;
-      saveState();
-    } else if (!allDone && sportItem.done) {
-      sportItem.done = false;
       saveState();
     }
   }
