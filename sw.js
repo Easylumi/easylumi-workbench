@@ -1,5 +1,5 @@
-// Easylumi PWA Service Worker v9
-const CACHE_NAME = 'easylumi-v9';
+// Easylumi PWA Service Worker v10
+const CACHE_NAME = 'easylumi-v10';
 
 // 安装：立即跳过等待，马上接管
 self.addEventListener('install', event => {

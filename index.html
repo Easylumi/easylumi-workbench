@@ -12,9 +12,9 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
-<link rel="manifest" href="manifest.json?v=20260807v9" />
-<link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=20260807v9" />
-<link rel="icon" type="image/png" href="icons/icon-192.png?v=20260807v9" />
+<link rel="manifest" href="manifest.json?v=20260807v10" />
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=20260807v10" />
+<link rel="icon" type="image/png" href="icons/icon-192.png?v=20260807v10" />
 <title>Easylumi 工作台</title>
 <style>
   /* ============ 基础重置 ============ */
@@ -1609,7 +1609,7 @@
    ========================================================= */
 
 /* ---------- Safari 缓存版本自检（每次部署改版本号即可）---------- */
-const APP_VERSION = '2026-08-07T12-v9';
+const APP_VERSION = '2026-08-07T15-v10';
 (function versionCheck() {
   var stored = localStorage.getItem('easylumi_ver');
   if (stored && stored !== APP_VERSION) {
@@ -1633,6 +1633,7 @@ const defaultData = {
     { id: 't2', text: '练字打卡', done: false, type: 'fixed' },
     { id: 't3', text: '看书 30 分钟', done: false, type: 'fixed' },
     { id: 't4', text: '运动（晨+夜项目全部勾选即自动完成）', done: false, type: 'auto-sport' },
+    { id: 't7', text: '背 20 个单词', done: false, type: 'fixed' },
     { id: 't5', text: '23:00 前睡觉', done: false, type: 'fixed' },
     {
       id: 't6', text: '饭前喝一杯水', done: false, type: 'fixed-sub',
@@ -1692,10 +1693,6 @@ function loadState() {
       const order = defaultData.todos.map(function(t) { return t.id; });
       merged.todos.sort(function(a, b) {
         return order.indexOf(a.id) - order.indexOf(b.id);
-      });
-      // 清理已移除的默认待办（如 t7 背20个单词）
-      merged.todos = merged.todos.filter(function(t) {
-        return defaultData.todos.some(function(dt) { return dt.id === t.id; });
       });
     }
     return merged;
@@ -1961,6 +1958,13 @@ renderCalendar();
 function renderTodos() {
   const list = $('#todoList');
   list.innerHTML = '';
+  // 同步 t7 背单词勾选状态（按当日 vocabProgress）
+  const _t7 = state.todos.find(t => t.id === 't7');
+  if (_t7 && state.vocabProgress) {
+    const _today = todayDateStr();
+    const _learned = Object.values(state.vocabProgress[_today] || {}).filter(v => v === true).length;
+    _t7.done = _learned >= 20;
+  }
   state.todos.forEach(item => {
     const li = document.createElement('li');
     li.className = 'todo-item';
@@ -2019,10 +2023,18 @@ function renderTodos() {
       const check = document.createElement('button');
       check.className = 'todo-check' + (item.done ? ' checked' : '');
 
-      check.addEventListener('click', () => {
-        item.done = !item.done;
-        onTodoChanged();
-      });
+      // t7 背单词：点击方框打开学习面板，勾选状态由学习进度自动同步
+      if (item.id === 't7') {
+        check.addEventListener('click', (e) => {
+          e.stopPropagation();
+          openVocabPanel();
+        });
+      } else {
+        check.addEventListener('click', () => {
+          item.done = !item.done;
+          onTodoChanged();
+        });
+      }
 
       const txt = document.createElement('div');
       txt.className = 'todo-text' + (item.done ? ' done' : '');
@@ -2797,17 +2809,31 @@ $('#gistSave').addEventListener('click', () => {
 // 日历日详情弹窗 — 关闭逻辑已通过 HTML onclick 直接绑定
 // (旧 addEventListener 绑定在 DOM 之前导致失效，已修复)
 
-// 点击日历日期查看当日待办明细（仅有打卡记录的日期才展示详情）
+// 点击日历日期查看当日待办明细
 function showDayDetail(dateStr) {
   var isToday = dateStr === todayDateStr();
-  var hasRecord = state.checkins && state.checkins[dateStr] !== undefined;
-  var pct = hasRecord ? state.checkins[dateStr] : 0;
+  var snap = state.dailyTodos && state.dailyTodos[dateStr];
+  var hasSnap = !!snap;
+  var hasCheckin = state.checkins && state.checkins[dateStr] !== undefined;
 
-  // 勾选框样式：与截图保持一致
-  // 已完成：绿色背景 + 白色对勾；未完成：白色背景 + 浅灰边框
+  // 完成率：优先用 checkins，没有就从快照算
+  var pct = 0;
+  if (hasCheckin) {
+    pct = state.checkins[dateStr];
+  } else if (hasSnap) {
+    var doneCount = 0, totalCount = 0;
+    state.todos.forEach(function(t) {
+      totalCount++;
+      if (snap[t.id]) doneCount++;
+    });
+    pct = totalCount > 0 ? doneCount / totalCount : 0;
+  }
+
+  // 勾选框样式：绿色对勾 = 已完成；空白方框 = 未完成
   var chkDone  = 'display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:6px;margin-right:10px;flex-shrink:0;font-size:13px;font-weight:700;background:#5cb85c;color:white;box-shadow:0 1px 2px rgba(92,184,92,0.25);';
   var chkEmpty = 'display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:6px;margin-right:10px;flex-shrink:0;font-size:13px;font-weight:700;background:white;border:2px solid #e5e5e5;color:transparent;';
 
+  // 日期标题行
   var html = '<div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--gray-100);">' +
     '<span style="font-size:16px;">🗓️</span>' +
     '<b style="font-size:15px;color:var(--gray-700);">' + dateStr + '</b>' +
@@ -2815,65 +2841,64 @@ function showDayDetail(dateStr) {
     '<span style="margin-left:auto;color:var(--gray-500);font-size:13px;">完成率 ' + Math.round(pct*100) + '%</span>' +
     '</div>';
 
-  // 仅当该日期有打卡记录时才展示待办明细
-  if (!hasRecord) {
-    html += '<div style="color:var(--gray-400);font-size:14px;margin-top:12px;text-align:center;padding:20px 0;">📭 该日期暂无打卡记录</div>';
+  // 决定数据来源
+  var sourceTodos;
+  if (isToday) {
+    // 今天：先同步联动状态，再读实时 state.todos
+    syncLinkedTodos();
+    sourceTodos = state.todos;
+  } else if (hasSnap) {
+    // 历史日期：从快照严格重建
+    sourceTodos = state.todos.map(function(t) {
+      var item = { id: t.id, text: t.text, type: t.type, done: !!snap[t.id] };
+      if (t.subs) {
+        item.subs = t.subs.map(function(s) {
+          var subDone = snap[t.id + '_subs'] ? !!snap[t.id + '_subs'][s.id] : false;
+          return { id: s.id, text: s.text, done: subDone };
+        });
+      }
+      return item;
+    });
   } else {
-    // 决定数据来源：今天用实时 state.todos，历史用快照重建
-    var sourceTodos;
-    var snap = state.dailyTodos && state.dailyTodos[dateStr];
+    // 无快照无记录：显示模板全部未完成
+    sourceTodos = state.todos.map(function(t) {
+      var item = { id: t.id, text: t.text, type: t.type, done: false };
+      if (t.subs) {
+        item.subs = t.subs.map(function(s) {
+          return { id: s.id, text: s.text, done: false };
+        });
+      }
+      return item;
+    });
+  }
 
-    if (isToday) {
-      sourceTodos = state.todos;  // 实时状态
-    } else if (snap) {
-      // 从模板 + 快照重建当日待办状态
-      sourceTodos = state.todos.map(function(t) {
-        var item = { id: t.id, text: t.text, type: t.type, done: !!snap[t.id] };
+  if (!hasSnap && !hasCheckin && !isToday) {
+    html += '<div style="color:var(--gray-400);font-size:13px;margin-bottom:8px;">📭 该日期暂无打卡记录</div>';
+  }
+
+  // 渲染待办列表
+  if (sourceTodos && sourceTodos.length > 0) {
+    sourceTodos.forEach(function(t) {
+      if (t.type === 'fixed-sub') {
+        var cb = t.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
+        var txtStyle = t.done ? 'text-decoration:line-through;color:var(--gray-400);' : 'color:var(--gray-700);';
+        html += '<div style="display:flex;align-items:center;padding:6px 0;font-size:14px;' + txtStyle + '">' +
+          cb + '<span>' + t.text + '</span></div>';
         if (t.subs) {
-          item.subs = t.subs.map(function(s) {
-            var subDone = snap[t.id + '_subs'] ? !!snap[t.id + '_subs'][s.id] : false;
-            return { id: s.id, text: s.text, done: subDone };
+          t.subs.forEach(function(s) {
+            var sCb = s.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
+            var sTStyle = s.done ? 'text-decoration:line-through;color:var(--gray-300);' : 'color:var(--gray-400);';
+            html += '<div style="display:flex;align-items:center;padding:4px 0 4px 30px;font-size:13px;' + sTStyle + '">' +
+              sCb + '<span>' + s.text + '</span></div>';
           });
         }
-        return item;
-      });
-    } else {
-      // 有 checkins 记录但无 dailyTodos 快照（极端情况）→ 全部显示未完成
-      sourceTodos = state.todos.map(function(t) {
-        var item = { id: t.id, text: t.text, type: t.type, done: false };
-        if (t.subs) {
-          item.subs = t.subs.map(function(s) {
-            return { id: s.id, text: s.text, done: false };
-          });
-        }
-        return item;
-      });
-    }
-
-    if (sourceTodos && sourceTodos.length > 0) {
-      sourceTodos.forEach(function(t) {
-        if (t.type === 'fixed-sub') {
-          // 带子项的父任务（饭前喝水）
-          var cb = t.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
-          var txtStyle = t.done ? 'text-decoration:line-through;color:var(--gray-400);' : 'color:var(--gray-700);';
-          html += '<div style="display:flex;align-items:center;padding:6px 0;font-size:14px;' + txtStyle + '">' +
-            cb + '<span>' + t.text + '</span></div>';
-          if (t.subs) {
-            t.subs.forEach(function(s) {
-              var sCb = s.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
-              var sTStyle = s.done ? 'text-decoration:line-through;color:var(--gray-300);' : 'color:var(--gray-400);';
-              html += '<div style="display:flex;align-items:center;padding:4px 0 4px 24px;font-size:13px;' + sTStyle + '">' +
-                sCb + '<span>' + s.text + '</span></div>';
-            });
-          }
-        } else {
-          var cb2 = t.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
-          var txtStyle2 = t.done ? 'text-decoration:line-through;color:var(--gray-400);' : 'color:var(--gray-700);';
-          html += '<div style="display:flex;align-items:center;padding:6px 0;font-size:14px;' + txtStyle2 + '">' +
-            cb2 + '<span>' + t.text + '</span></div>';
-        }
-      });
-    }
+      } else {
+        var cb2 = t.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
+        var txtStyle2 = t.done ? 'text-decoration:line-through;color:var(--gray-400);' : 'color:var(--gray-700);';
+        html += '<div style="display:flex;align-items:center;padding:6px 0;font-size:14px;' + txtStyle2 + '">' +
+          cb2 + '<span>' + t.text + '</span></div>';
+      }
+    });
   }
 
   $('#dayDetailTitle').textContent = '📅 ' + dateStr + ' 待办详情';
@@ -3157,6 +3182,22 @@ window.toggleVocabWord = function(wordEn) {
   saveState();
   // 刷新面板
   openVocabPanel();
+  // 同步 t7 背单词勾选状态
+  const doneCount = Object.values(state.vocabProgress[today]).filter(v => v === true).length;
+  const t7 = state.todos.find(t => t.id === 't7');
+  if (t7) {
+    const shouldDone = doneCount >= 20;
+    if (t7.done !== shouldDone) {
+      t7.done = shouldDone;
+      saveState();
+      snapshotDailyTodos(today);
+      const todoPage = $('#page-todo');
+      if (todoPage && todoPage.classList.contains('active')) {
+        renderTodos();
+        updateHomeStats();
+      }
+    }
+  }
 };
 
 /* ============== URL 参数支持快捷跳转 ============== */
