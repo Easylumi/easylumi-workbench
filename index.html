@@ -1609,7 +1609,7 @@
    ========================================================= */
 
 /* ---------- Safari 缓存版本自检（每次部署改版本号即可）---------- */
-const APP_VERSION = '2026-08-07T10-v7';
+const APP_VERSION = '2026-08-07T11-v8';
 (function versionCheck() {
   var stored = localStorage.getItem('easylumi_ver');
   if (stored && stored !== APP_VERSION) {
@@ -1633,7 +1633,6 @@ const defaultData = {
     { id: 't2', text: '练字打卡', done: false, type: 'fixed' },
     { id: 't3', text: '看书 30 分钟', done: false, type: 'fixed' },
     { id: 't4', text: '运动（晨+夜项目全部勾选即自动完成）', done: false, type: 'auto-sport' },
-    { id: 't7', text: '背 20 个单词', done: false, type: 'fixed' },
     { id: 't5', text: '23:00 前睡觉', done: false, type: 'fixed' },
     {
       id: 't6', text: '饭前喝一杯水', done: false, type: 'fixed-sub',
@@ -1693,6 +1692,10 @@ function loadState() {
       const order = defaultData.todos.map(function(t) { return t.id; });
       merged.todos.sort(function(a, b) {
         return order.indexOf(a.id) - order.indexOf(b.id);
+      });
+      // 清理已移除的默认待办（如 t7 背20个单词）
+      merged.todos = merged.todos.filter(function(t) {
+        return defaultData.todos.some(function(dt) { return dt.id === t.id; });
       });
     }
     return merged;
@@ -1956,12 +1959,6 @@ renderCalendar();
 function renderTodos() {
   const list = $('#todoList');
   list.innerHTML = '';
-  // 同步 t7 背单词勾选状态（按当日 vocabProgress）
-  const _t7 = state.todos.find(t => t.id === 't7');
-  if (_t7 && state.vocabProgress) {
-    const _learned = Object.values(state.vocabProgress[todayDateStr()] || {}).filter(v => v === true).length;
-    _t7.done = _learned >= 20;
-  }
   state.todos.forEach(item => {
     const li = document.createElement('li');
     li.className = 'todo-item';
@@ -2020,28 +2017,10 @@ function renderTodos() {
       const check = document.createElement('button');
       check.className = 'todo-check' + (item.done ? ' checked' : '');
 
-      // t7 背单词 — 点击方框打开学习面板；勾选状态由当日学习进度决定
-      if (item.id === 't7') {
-        check.addEventListener('click', (e) => {
-          e.stopPropagation();
-          openVocabPanel();
-        });
-        // 文案简化为「背 20 个单词」
-        item.text = '背 20 个单词';
-        // 实时根据 vocabProgress 同步勾选状态
-        const today2 = todayDateStr();
-        const todayProgress = (state.vocabProgress && state.vocabProgress[today2]) || {};
-        const learned = Object.values(todayProgress).filter(function(v) { return v === true; }).length;
-        if (learned >= 20) {
-          if (!item.done) { item.done = true; saveState(); }
-          check.classList.add('checked');
-        }
-      } else {
-        check.addEventListener('click', () => {
-          item.done = !item.done;
-          onTodoChanged();
-        });
-      }
+      check.addEventListener('click', () => {
+        item.done = !item.done;
+        onTodoChanged();
+      });
 
       const txt = document.createElement('div');
       txt.className = 'todo-text' + (item.done ? ' done' : '');
@@ -3169,22 +3148,6 @@ window.toggleVocabWord = function(wordEn) {
   saveState();
   // 刷新面板
   openVocabPanel();
-  // 同步外部待办勾选状态
-  const doneCount = Object.values(state.vocabProgress[today]).filter(v => v === true).length;
-  const t7 = state.todos.find(t => t.id === 't7');
-  if (t7) {
-    const shouldDone = doneCount >= 20;
-    if (t7.done !== shouldDone) {
-      t7.done = shouldDone;
-      saveState();
-      // 仅当 todo 页面可见时刷新
-      const todoPage = $('#page-todo');
-      if (todoPage && todoPage.classList.contains('active')) {
-        renderTodos();
-        updateHomeStats();
-      }
-    }
-  }
 };
 
 /* ============== URL 参数支持快捷跳转 ============== */
