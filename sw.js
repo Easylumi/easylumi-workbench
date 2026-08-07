@@ -1,5 +1,5 @@
-// Easylumi PWA Service Worker v4 — 版本自检 + Safari 缓存修复
-const CACHE_NAME = 'easylumi-v4';
+// Easylumi PWA Service Worker v7
+const CACHE_NAME = 'easylumi-v7';
 
 // 安装：立即跳过等待，马上接管
 self.addEventListener('install', event => {

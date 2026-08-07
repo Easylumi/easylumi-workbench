@@ -12,9 +12,9 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
-<link rel="manifest" href="manifest.json?v=20260806v4" />
-<link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=20260806v4" />
-<link rel="icon" type="image/png" href="icons/icon-192.png?v=20260806v4" />
+<link rel="manifest" href="manifest.json?v=20260807v7" />
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=20260807v7" />
+<link rel="icon" type="image/png" href="icons/icon-192.png?v=20260807v7" />
 <title>Easylumi 工作台</title>
 <style>
   /* ============ 基础重置 ============ */
@@ -1609,7 +1609,7 @@
    ========================================================= */
 
 /* ---------- Safari 缓存版本自检（每次部署改版本号即可）---------- */
-const APP_VERSION = '2026-08-06T19-v4';
+const APP_VERSION = '2026-08-07T10-v7';
 (function versionCheck() {
   var stored = localStorage.getItem('easylumi_ver');
   if (stored && stored !== APP_VERSION) {
@@ -1681,7 +1681,21 @@ function loadState() {
     if (!raw) return JSON.parse(JSON.stringify(defaultData));
     const parsed = JSON.parse(raw);
     // 兜底缺失字段
-    return Object.assign({}, JSON.parse(JSON.stringify(defaultData)), parsed);
+    const merged = Object.assign({}, JSON.parse(JSON.stringify(defaultData)), parsed);
+    // 迁移：补全可能缺失的待办项（如 t7 背20个单词）
+    if (merged.todos && Array.isArray(merged.todos)) {
+      defaultData.todos.forEach(function(dt) {
+        if (!merged.todos.some(function(t) { return t.id === dt.id; })) {
+          merged.todos.push(JSON.parse(JSON.stringify(dt)));
+        }
+      });
+      // 保持原有顺序
+      const order = defaultData.todos.map(function(t) { return t.id; });
+      merged.todos.sort(function(a, b) {
+        return order.indexOf(a.id) - order.indexOf(b.id);
+      });
+    }
+    return merged;
   } catch (e) {
     return JSON.parse(JSON.stringify(defaultData));
   }
@@ -2798,12 +2812,13 @@ $('#gistSave').addEventListener('click', () => {
 // 日历日详情弹窗 — 关闭逻辑已通过 HTML onclick 直接绑定
 // (旧 addEventListener 绑定在 DOM 之前导致失效，已修复)
 
-// 点击日历日期查看当日待办明细
+// 点击日历日期查看当日待办明细（仅有打卡记录的日期才展示详情）
 function showDayDetail(dateStr) {
   var isToday = dateStr === todayDateStr();
-  var snap = state.dailyTodos && state.dailyTodos[dateStr];
-  var pct = state.checkins && state.checkins[dateStr] !== undefined ? state.checkins[dateStr] : 0;
+  var hasRecord = state.checkins && state.checkins[dateStr] !== undefined;
+  var pct = hasRecord ? state.checkins[dateStr] : 0;
 
+  // 样式
   var chkDone  = 'display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:6px;margin-right:8px;flex-shrink:0;font-size:12px;font-weight:700;background:linear-gradient(135deg,var(--pink-300),var(--pink-400));color:white;';
   var chkEmpty = 'display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:6px;margin-right:8px;flex-shrink:0;font-size:12px;font-weight:700;border:2px solid var(--gray-200);color:transparent;';
 
@@ -2812,51 +2827,65 @@ function showDayDetail(dateStr) {
     ' · <span style="color:var(--gray-500);">完成率 ' + Math.round(pct*100) + '%</span>' +
     '</div>';
 
-  // 决定数据来源：今天用实时 state.todos，历史用快照重建
-  var sourceTodos;
-  if (isToday) {
-    sourceTodos = state.todos;  // 实时状态
-  } else if (snap) {
-    sourceTodos = state.todos.map(function(t) {
-      var item = { id: t.id, text: t.text, type: t.type, done: !!snap[t.id] };
-      if (t.subs) {
-        item.subs = t.subs.map(function(s) {
-          var subDone = snap[t.id + '_subs'] ? !!snap[t.id + '_subs'][s.id] : false;
-          return { id: s.id, text: s.text, done: subDone };
-        });
-      }
-      return item;
-    });
+  // 仅当该日期有打卡记录时才展示待办明细
+  if (!hasRecord) {
+    html += '<div style="color:var(--gray-400);font-size:14px;margin-top:12px;text-align:center;padding:20px 0;">📭 该日期暂无打卡记录</div>';
   } else {
-    sourceTodos = null;
-  }
+    // 决定数据来源：今天用实时 state.todos，历史用快照重建
+    var sourceTodos;
+    var snap = state.dailyTodos && state.dailyTodos[dateStr];
 
-  if (sourceTodos && sourceTodos.length > 0) {
-    sourceTodos.forEach(function(t) {
-      if (t.type === 'fixed-sub') {
-        var cb = t.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
-        var txtStyle = t.done ? 'text-decoration:line-through;color:var(--gray-400);' : '';
-        html += '<div style="display:flex;align-items:center;padding:6px 0;font-size:14px;color:var(--gray-700);">' +
-          cb + '<span style="' + txtStyle + '">' + t.text + '</span></div>';
+    if (isToday) {
+      sourceTodos = state.todos;  // 实时状态
+    } else if (snap) {
+      // 从模板 + 快照重建当日待办状态
+      sourceTodos = state.todos.map(function(t) {
+        var item = { id: t.id, text: t.text, type: t.type, done: !!snap[t.id] };
         if (t.subs) {
-          t.subs.forEach(function(s) {
-            var sCb = s.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
-            var sTStyle = s.done ? 'text-decoration:line-through;color:var(--gray-300);' : 'color:var(--gray-400);';
-            html += '<div style="display:flex;align-items:center;padding:4px 0 4px 24px;font-size:13px;">' +
-              sCb + '<span style="' + sTStyle + '">' + s.text + '</span></div>';
+          item.subs = t.subs.map(function(s) {
+            var subDone = snap[t.id + '_subs'] ? !!snap[t.id + '_subs'][s.id] : false;
+            return { id: s.id, text: s.text, done: subDone };
           });
         }
-      } else {
-        var cb2 = t.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
-        var txtStyle2 = t.done ? 'text-decoration:line-through;color:var(--gray-400);' : '';
-        html += '<div style="display:flex;align-items:center;padding:6px 0;font-size:14px;color:var(--gray-700);">' +
-          cb2 + '<span style="' + txtStyle2 + '">' + t.text + '</span></div>';
-      }
-    });
-  }
+        return item;
+      });
+    } else {
+      // 有 checkins 记录但无 dailyTodos 快照（极端情况）→ 全部显示未完成
+      sourceTodos = state.todos.map(function(t) {
+        var item = { id: t.id, text: t.text, type: t.type, done: false };
+        if (t.subs) {
+          item.subs = t.subs.map(function(s) {
+            return { id: s.id, text: s.text, done: false };
+          });
+        }
+        return item;
+      });
+    }
 
-  if (!sourceTodos) {
-    html += '<div style="color:var(--gray-400);font-size:13px;margin-top:8px;padding-top:8px;text-align:center;">📭 该日期暂无待办记录</div>';
+    if (sourceTodos && sourceTodos.length > 0) {
+      sourceTodos.forEach(function(t) {
+        if (t.type === 'fixed-sub') {
+          // 带子项的父任务（饭前喝水）
+          var cb = t.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
+          var txtStyle = t.done ? 'text-decoration:line-through;color:var(--gray-400);' : 'color:var(--gray-700);';
+          html += '<div style="display:flex;align-items:center;padding:6px 0;font-size:14px;' + txtStyle + '">' +
+            cb + '<span>' + t.text + '</span></div>';
+          if (t.subs) {
+            t.subs.forEach(function(s) {
+              var sCb = s.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
+              var sTStyle = s.done ? 'text-decoration:line-through;color:var(--gray-300);' : 'color:var(--gray-400);';
+              html += '<div style="display:flex;align-items:center;padding:4px 0 4px 24px;font-size:13px;' + sTStyle + '">' +
+                sCb + '<span>' + s.text + '</span></div>';
+            });
+          }
+        } else {
+          var cb2 = t.done ? '<span style="' + chkDone + '">✓</span>' : '<span style="' + chkEmpty + '"></span>';
+          var txtStyle2 = t.done ? 'text-decoration:line-through;color:var(--gray-400);' : 'color:var(--gray-700);';
+          html += '<div style="display:flex;align-items:center;padding:6px 0;font-size:14px;' + txtStyle2 + '">' +
+            cb2 + '<span>' + t.text + '</span></div>';
+        }
+      });
+    }
   }
 
   $('#dayDetailTitle').textContent = '📅 ' + dateStr + ' 待办详情';
