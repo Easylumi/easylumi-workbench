@@ -12,9 +12,9 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
-<link rel="manifest" href="manifest.json?v=20260807v7" />
-<link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=20260807v7" />
-<link rel="icon" type="image/png" href="icons/icon-192.png?v=20260807v7" />
+<link rel="manifest" href="manifest.json?v=20260807v9" />
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=20260807v9" />
+<link rel="icon" type="image/png" href="icons/icon-192.png?v=20260807v9" />
 <title>Easylumi 工作台</title>
 <style>
   /* ============ 基础重置 ============ */
@@ -1609,7 +1609,7 @@
    ========================================================= */
 
 /* ---------- Safari 缓存版本自检（每次部署改版本号即可）---------- */
-const APP_VERSION = '2026-08-07T11-v8';
+const APP_VERSION = '2026-08-07T12-v9';
 (function versionCheck() {
   var stored = localStorage.getItem('easylumi_ver');
   if (stored && stored !== APP_VERSION) {
@@ -1773,12 +1773,14 @@ function restoreDailyTodos(dateStr) {
   }
 })();
 
-// 待办变更统一入口：存快照 + 渲染 + 统计
+// 待办变更统一入口：先同步联动状态 → 拍快照 → 保存 → 渲染
 function onTodoChanged() {
+  // 1. 先计算 auto-sport 等联动任务的最终状态
+  syncLinkedTodos();
+  // 2. 再拍快照，确保快照包含正确的联动状态
   snapshotDailyTodos(todayDateStr());
   saveState();
   renderTodos();
-  updateHomeStats();
 }
 
 /* ============== 工具 ============== */
@@ -2644,8 +2646,8 @@ function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;'
 loadFeelDraft();
 renderFeelHistory();
 
-/* ============== 首页统计 ============== */
-function updateHomeStats() {
+/* ============== 联动任务同步 ============== */
+function syncLinkedTodos() {
   // 运动完成联动：仅自动勾选，不强制取消（允许手动退选）
   const sportItem = state.todos.find(t => t.type === 'auto-sport');
   if (sportItem) {
@@ -2653,9 +2655,13 @@ function updateHomeStats() {
                     state.morning.length > 0 && state.night.length > 0;
     if (allDone && !sportItem.done) {
       sportItem.done = true;
-      saveState();
     }
   }
+}
+
+/* ============== 首页统计 ============== */
+function updateHomeStats() {
+  syncLinkedTodos();
 
   const done = state.todos.filter(t => t.done).length;
   const total = state.todos.length;
@@ -2797,13 +2803,16 @@ function showDayDetail(dateStr) {
   var hasRecord = state.checkins && state.checkins[dateStr] !== undefined;
   var pct = hasRecord ? state.checkins[dateStr] : 0;
 
-  // 样式
-  var chkDone  = 'display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:6px;margin-right:8px;flex-shrink:0;font-size:12px;font-weight:700;background:linear-gradient(135deg,var(--pink-300),var(--pink-400));color:white;';
-  var chkEmpty = 'display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:6px;margin-right:8px;flex-shrink:0;font-size:12px;font-weight:700;border:2px solid var(--gray-200);color:transparent;';
+  // 勾选框样式：与截图保持一致
+  // 已完成：绿色背景 + 白色对勾；未完成：白色背景 + 浅灰边框
+  var chkDone  = 'display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:6px;margin-right:10px;flex-shrink:0;font-size:13px;font-weight:700;background:#5cb85c;color:white;box-shadow:0 1px 2px rgba(92,184,92,0.25);';
+  var chkEmpty = 'display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:6px;margin-right:10px;flex-shrink:0;font-size:13px;font-weight:700;background:white;border:2px solid #e5e5e5;color:transparent;';
 
-  var html = '<div style="margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--gray-100);">' +
-    '<b>📅 ' + dateStr + '</b> ' + (isToday ? '<span style="color:var(--pink-400);font-weight:600;">(今天)</span>' : '') +
-    ' · <span style="color:var(--gray-500);">完成率 ' + Math.round(pct*100) + '%</span>' +
+  var html = '<div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--gray-100);">' +
+    '<span style="font-size:16px;">🗓️</span>' +
+    '<b style="font-size:15px;color:var(--gray-700);">' + dateStr + '</b>' +
+    (isToday ? '<span style="color:var(--pink-400);font-weight:600;font-size:13px;">今天</span>' : '') +
+    '<span style="margin-left:auto;color:var(--gray-500);font-size:13px;">完成率 ' + Math.round(pct*100) + '%</span>' +
     '</div>';
 
   // 仅当该日期有打卡记录时才展示待办明细
