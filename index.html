@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#FF7090">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <title>Easylumi 工作台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 移动端侧边栏遮罩 -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- 左侧导航侧边栏 -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-avatar">🌸</div>
+            <div class="sidebar-title">Easylumi</div>
+            <div class="sidebar-subtitle">温柔坚持，复刻成长</div>
+        </div>
+        <ul class="sidebar-menu" id="sidebarMenu">
+            <li class="menu-item active" data-page="home">
+                <span class="menu-icon">🏠</span>
+                <span class="menu-text">首页</span>
+            </li>
+            <li class="menu-item" data-page="plan">
+                <span class="menu-icon">📋</span>
+                <span class="menu-text">今日计划</span>
+            </li>
+            <li class="menu-item" data-page="fitness">
+                <span class="menu-icon">💪</span>
+                <span class="menu-text">运动塑形</span>
+            </li>
+            <li class="menu-item" data-page="news">
+                <span class="menu-icon">📰</span>
+                <span class="menu-text">新闻资讯</span>
+            </li>
+            <li class="menu-item" data-page="viral">
+                <span class="menu-icon">🔥</span>
+                <span class="menu-text">爆款二创</span>
+            </li>
+            <li class="menu-item" data-page="spiritual">
+                <span class="menu-icon">🧘</span>
+                <span class="menu-text">修心修行功课</span>
+            </li>
+            <li class="menu-item" data-page="daily">
+                <span class="menu-icon">✨</span>
+                <span class="menu-text">每天感悟</span>
+            </li>
+        </ul>
+        <div class="sidebar-footer">
+            <span>🌙</span> 愿你被温柔以待
+        </div>
+    </nav>
+
+    <!-- 主内容区域 -->
+    <main class="main-content" id="mainContent">
+        <!-- 顶部导航栏 -->
+        <header class="top-bar">
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="top-bar-title" id="pageTitle">首页</div>
+            <button class="refresh-btn" id="refreshBtn">↻</button>
+        </header>
+
+        <!-- 页面内容容器 -->
+        <div class="page-container" id="pageContainer">
+            <!-- ========== 首页 ========== -->
+            <section class="page active" id="page-home">
+                <div class="home-welcome">
+                    <div class="welcome-time" id="welcomeTime">凌晨好</div>
+                    <div class="welcome-name">Easylumi <span class="sparkle">✨</span></div>
+                    <div class="welcome-slogan" id="welcomeSlogan">今天也是温柔坚持的一天 💪</div>
+                </div>
+                
+                <div class="home-decoration">
+                    <div class="deco-tag">「温柔坚持，复刻成长」</div>
+                    <div class="deco-bow">🎀</div>
+                </div>
+
+                <div class="home-brand">
+                    <h1>Easylumi 的工作台</h1>
+                    <p class="brand-slogan">「温柔坚持，复刻成长」</p>
+                    <p class="brand-sub">把每一天都过成想要的样子</p>
+                </div>
+
+                <!-- 名言卡片 -->
+                <div class="quote-card" id="quoteCard">
+                    <div class="quote-icon">🌟</div>
+                    <div class="quote-content">
+                        <p class="quote-text" id="quoteText">温柔的人，终会被温柔以待。</p>
+                        <p class="quote-en" id="quoteEn">The future belongs to those who believe in the beauty of their dreams.</p>
+                    </div>
+                </div>
+
+                <!-- 书摘卡片 -->
+                <div class="poem-card">
+                    <div class="poem-icon">📖</div>
+                    <div class="poem-content">
+                        <p class="poem-text" id="poemText">心似双丝网，中有千千结。</p>
+                        <p class="poem-source" id="poemSource">——《千秋岁》</p>
+                    </div>
+                    <button class="poem-refresh" id="poemRefresh">换一句</button>
+                </div>
+
+                <!-- 统计卡片 -->
+                <div class="stats-row">
+                    <div class="stat-card stat-green">
+                        <div class="stat-number" id="statDone">0</div>
+                        <div class="stat-label">今日完成</div>
+                    </div>
+                    <div class="stat-card stat-blue">
+                        <div class="stat-number" id="statTodo">7</div>
+                        <div class="stat-label">待办任务</div>
+                    </div>
+                    <div class="stat-card stat-orange">
+                        <div class="stat-number" id="statProgress">0%</div>
+                        <div class="stat-label">打卡进度</div>
+                    </div>
+                </div>
+
+                <!-- 日期显示 -->
+                <div class="date-display" id="dateDisplay"></div>
+            </section>
+
+            <!-- ========== 今日计划 ========== -->
+            <section class="page" id="page-plan">
+                <div class="section-header">
+                    <h2>📋 今日计划</h2>
+                    <p class="section-subtitle">每一天都是新的开始</p>
+                </div>
+
+                <!-- 日历 -->
+                <div class="calendar-card">
+                    <div class="calendar-header">
+                        <button class="cal-nav" id="calPrev">‹</button>
+                        <div class="cal-title" id="calTitle">2026年8月</div>
+                        <button class="cal-nav" id="calNext">›</button>
+                    </div>
+                    <div class="calendar-weekdays">
+                        <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
+                    </div>
+                    <div class="calendar-days" id="calendarDays"></div>
+                </div>
+
+                <!-- 选中日期的任务列表 -->
+                <div class="task-section">
+                    <div class="task-date-title" id="taskDateTitle">8月16日 任务清单</div>
+                    <div class="task-list" id="taskList">
+                        <!-- 动态生成 -->
+                    </div>
+                    <div class="task-add-row">
+                        <input type="text" class="task-add-input" id="taskAddInput" placeholder="添加新任务...">
+                        <button class="task-add-btn" id="taskAddBtn">+</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========== 运动塑形 ========== -->
+            <section class="page" id="page-fitness">
+                <div class="section-header">
+                    <h2>💪 运动塑形</h2>
+                    <p class="section-subtitle">坚持运动，遇见更好的自己</p>
+                </div>
+
+                <!-- 标签页 -->
+                <div class="fitness-tabs">
+                    <button class="fitness-tab active" data-tab="morning">Morning</button>
+                    <button class="fitness-tab" data-tab="night">Night</button>
+                    <button class="fitness-tab" data-tab="face">面部瑜伽</button>
+                    <button class="fitness-tab" data-tab="body">身材记录</button>
+                </div>
+
+                <!-- Morning -->
+                <div class="fitness-panel active" id="fitness-morning">
+                    <div class="fitness-section-title">🌅 晨间运动 <span class="fitness-count" id="morningCount">0 / 0</span></div>
+                    <div class="fitness-list" id="morningList"></div>
+                    <div class="fitness-add-row">
+                        <input type="text" class="fitness-add-input" id="morningAddInput" placeholder="新增晨间项目">
+                        <button class="fitness-add-btn" id="morningAddBtn">+</button>
+                    </div>
+                </div>
+
+                <!-- Night -->
+                <div class="fitness-panel" id="fitness-night">
+                    <div class="fitness-section-title">🌙 晚间运动 <span class="fitness-count" id="nightCount">0 / 0</span></div>
+                    <div class="fitness-list" id="nightList"></div>
+                    <div class="fitness-add-row">
+                        <input type="text" class="fitness-add-input" id="nightAddInput" placeholder="新增晚间项目">
+                        <button class="fitness-add-btn" id="nightAddBtn">+</button>
+                    </div>
+                </div>
+
+                <!-- 面部瑜伽 -->
+                <div class="fitness-panel" id="fitness-face">
+                    <div class="fitness-section-title">🧖 面部瑜伽 <span class="fitness-count" id="faceCount">0 / 0</span></div>
+                    <div class="fitness-list" id="faceList"></div>
+                    <div class="fitness-add-row">
+                        <input type="text" class="fitness-add-input" id="faceAddInput" placeholder="新增面部项目">
+                        <button class="fitness-add-btn" id="faceAddBtn">+</button>
+                    </div>
+                </div>
+
+                <!-- 身材记录 -->
+                <div class="fitness-panel" id="fitness-body">
+                    <div class="fitness-section-title">📏 身材记录</div>
+                    <div class="body-record-form">
+                        <div class="body-input-row">
+                            <label>体重 (kg)</label>
+                            <input type="number" id="bodyWeight" placeholder="--" step="0.1">
+                        </div>
+                        <div class="body-input-row">
+                            <label>腰围 (cm)</label>
+                            <input type="number" id="bodyWaist" placeholder="--" step="0.1">
+                        </div>
+                        <div class="body-input-row">
+                            <label>臀围 (cm)</label>
+                            <input type="number" id="bodyHip" placeholder="--" step="0.1">
+                        </div>
+                        <div class="body-input-row">
+                            <label>大腿围 (cm)</label>
+                            <input type="number" id="bodyThigh" placeholder="--" step="0.1">
+                        </div>
+                        <button class="body-save-btn" id="bodySaveBtn">保存记录</button>
+                    </div>
+                    <div class="body-history" id="bodyHistory"></div>
+                </div>
+            </section>
+
+            <!-- ========== 新闻资讯 ========== -->
+            <section class="page" id="page-news">
+                <div class="section-header">
+                    <h2>📰 新闻资讯</h2>
+                    <p class="section-subtitle">知天下事，开阔眼界</p>
+                </div>
+
+                <!-- 每日金句 -->
+                <div class="daily-quote-section">
+                    <div class="daily-quote-text" id="dailyQuoteText">博学之，审问之，慎思之，明辨之，笃行之。</div>
+                    <div class="daily-quote-source" id="dailyQuoteSource">——《中庸》</div>
+                    <div class="daily-quote-actions">
+                        <button class="dq-btn" id="dqRandom">🎲 随机抽取</button>
+                        <button class="dq-btn" id="dqFavorite">⭐ 收藏</button>
+                        <button class="dq-btn" id="dqFavorites">📁 收藏夹</button>
+                    </div>
+                </div>
+
+                <!-- 筛选标签 -->
+                <div class="news-filter">
+                    <button class="news-filter-tag active" data-filter="all">全部</button>
+                    <button class="news-filter-tag" data-filter="xuexi">学习强国</button>
+                    <button class="news-filter-tag" data-filter="rmrb">人民日报</button>
+                    <button class="news-filter-tag" data-filter="xinhua">新华社</button>
+                    <button class="news-filter-tag" data-filter="yanjie">眼界</button>
+                </div>
+
+                <!-- 新闻列表 -->
+                <div class="news-list" id="newsList"></div>
+                
+                <button class="news-refresh-btn" id="newsRefresh">🔄 换一批</button>
+            </section>
+
+            <!-- ========== 爆款二创 ========== -->
+            <section class="page" id="page-viral">
+                <div class="section-header">
+                    <h2>🔥 爆款二创</h2>
+                    <p class="section-subtitle">发现爆款逻辑，激发创作灵感</p>
+                </div>
+
+                <!-- 平台筛选 -->
+                <div class="viral-filter">
+                    <button class="viral-filter-btn active" data-platform="all">全部</button>
+                    <button class="viral-filter-btn" data-platform="douyin">抖音</button>
+                    <button class="viral-filter-btn" data-platform="xiaohongshu">小红书</button>
+                    <button class="viral-filter-btn" data-platform="weibo">微博</button>
+                    <button class="viral-filter-btn" data-platform="topic">我的选题库</button>
+                    <button class="viral-filter-btn" data-platform="douyinhot">抖音观点</button>
+                </div>
+
+                <div class="viral-list" id="viralList"></div>
+            </section>
+
+            <!-- ========== 修心修行功课 ========== -->
+            <section class="page" id="page-spiritual">
+                <div class="section-header">
+                    <h2>🧘 修心修行功课</h2>
+                    <p class="section-subtitle">静心修己，向内生长</p>
+                </div>
+
+                <!-- 今日黄历 -->
+                <div class="almanac-card">
+                    <div class="almanac-date" id="almanacDate">8月16日 周日</div>
+                    <div class="almanac-lunar" id="almanacLunar">农历 五月十六</div>
+                    <div class="almanac-yiji">
+                        <div class="yiji-box yiji-yi">
+                            <div class="yiji-title">宜</div>
+                            <div class="yiji-items" id="yiItems">立券 · 嫁娶 · 栽种 · 牧养 · 纳财</div>
+                        </div>
+                        <div class="yiji-box yiji-ji">
+                            <div class="yiji-title">忌</div>
+                            <div class="yiji-items" id="jiItems">开业 · 开凿 · 栽种 · 入宅 · 搬家</div>
+                        </div>
+                    </div>
+                    <div class="almanac-fortune" id="almanacFortune">
+                        <div class="fortune-row">🔮 八字幸运推算（壬水日主·双鱼座）</div>
+                        <div class="fortune-row">🎨 幸运色：薄荷绿</div>
+                        <div class="fortune-row">💍 幸运配饰：蓝纹玛瑙</div>
+                        <div class="fortune-row">🧭 幸运方向：正北（水位）</div>
+                    </div>
+                    <div class="almanac-tips" id="almanacTips">
+                        💰 今日财神方位：正北<br>
+                        🚶 出行建议：适合与朋友小聚、分享心得，贵人运较旺。
+                    </div>
+                    <div class="fortune-scores">
+                        <div class="fortune-score-item">
+                            <span class="score-label">事业</span>
+                            <div class="score-bar"><div class="score-fill" style="width:82%"></div></div>
+                            <span class="score-value">82</span>
+                        </div>
+                        <div class="fortune-score-item">
+                            <span class="score-label">健康</span>
+                            <div class="score-bar"><div class="score-fill" style="width:88%"></div></div>
+                            <span class="score-value">88</span>
+                        </div>
+                        <div class="fortune-score-item">
+                            <span class="score-label">财运</span>
+                            <div class="score-bar"><div class="score-fill" style="width:75%"></div></div>
+                            <span class="score-value">75</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 每日国学 -->
+                <div class="classics-section">
+                    <div class="classics-header">
+                        <span class="classics-icon">📖</span>
+                        <span class="classics-title">每日经文讲解</span>
+                    </div>
+                    <div class="classics-tabs">
+                        <button class="classics-tab active" data-classic="all">全部</button>
+                        <button class="classics-tab" data-classic="daodejing">道德经</button>
+                        <button class="classics-tab" data-classic="jingangjing">金刚经</button>
+                        <button class="classics-tab" data-classic="yijing">易经</button>
+                        <button class="classics-tab" data-classic="lunyu">论语</button>
+                        <button class="classics-tab" data-classic="guiguzi">鬼谷子</button>
+                    </div>
+                    <div class="classics-list" id="classicsList"></div>
+                </div>
+            </section>
+
+            <!-- ========== 每天感悟 ========== -->
+            <section class="page" id="page-daily">
+                <div class="section-header">
+                    <h2>✨ 每天感悟</h2>
+                    <p class="section-subtitle">三二一日记法，记录每一天的成长</p>
+                </div>
+
+                <!-- 新建感悟表单 -->
+                <div class="daily-form">
+                    <!-- 卡片A：感恩3件事 -->
+                    <div class="daily-card card-gratitude">
+                        <div class="daily-card-title">🌿 当天自己感恩的3件事情</div>
+                        <input type="text" class="daily-input" id="gratitude1" placeholder="第一件值得感恩的事...">
+                        <input type="text" class="daily-input" id="gratitude2" placeholder="第二件值得感恩的事...">
+                        <input type="text" class="daily-input" id="gratitude3" placeholder="第三件值得感恩的事...">
+                    </div>
+
+                    <!-- 卡片B：可改进2件事 -->
+                    <div class="daily-card card-improve">
+                        <div class="daily-card-title">🌻 记录2件可以让当天变得更好的事</div>
+                        <input type="text" class="daily-input" id="improve1" placeholder="第一件可以做得更好的事...">
+                        <input type="text" class="daily-input" id="improve2" placeholder="第二件可以做得更好的事...">
+                    </div>
+
+                    <!-- 卡片C：积极自我肯定 -->
+                    <div class="daily-card card-affirm">
+                        <div class="daily-card-title">💜 写下一句积极的自我肯定</div>
+                        <input type="text" class="daily-input" id="affirm1" placeholder="我值得被爱和尊重...">
+                    </div>
+
+                    <button class="daily-submit-btn" id="dailySubmit">保存今日感悟</button>
+                </div>
+
+                <!-- 历史感悟 -->
+                <div class="daily-history-header">
+                    <h3>📔 历史感悟</h3>
+                </div>
+                <div class="daily-list" id="dailyList"></div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 弹窗：收藏夹 -->
+    <div class="modal" id="favoritesModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>⭐ 我的收藏</h3>
+                <button class="modal-close" id="favoritesClose">×</button>
+            </div>
+            <div class="modal-body" id="favoritesList"></div>
+        </div>
+    </div>
+
+    <!-- 弹窗：日期任务详情 -->
+    <div class="modal" id="dateTasksModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="dateTasksTitle">任务详情</h3>
+                <button class="modal-close" id="dateTasksClose">×</button>
+            </div>
+            <div class="modal-body" id="dateTasksBody"></div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js').catch(() => {});
+    }
+    </script>
+</body>
+</html>

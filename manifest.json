@@ -1,0 +1,37 @@
+{
+  "name": "Easylumi 工作台",
+  "short_name": "Easylumi",
+  "description": "温柔坚持，复刻成长 - 女性成长口播创作工作台",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff5f7",
+  "theme_color": "#ff7090",
+  "lang": "zh-CN",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    { "name": "今日计划", "url": "./index.html?page=todo" },
+    { "name": "爆款二创", "url": "./index.html?page=hot" },
+    { "name": "每天感悟", "url": "./index.html?page=feel" }
+  ]
+}
