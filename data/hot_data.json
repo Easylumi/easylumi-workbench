@@ -1,0 +1,191 @@
+{
+  "date": "2026-08-17",
+  "update_time": "2026-08-17 11:16:08",
+  "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
+  "all_sources_failed": false,
+  "platforms": {
+    "baidu": {
+      "count": 0,
+      "items": []
+    },
+    "zhihu": {
+      "count": 0,
+      "items": []
+    },
+    "weibo": {
+      "count": 0,
+      "items": []
+    },
+    "bilibili": {
+      "count": 20,
+      "items": [
+        {
+          "title": "龙餐馆连线勇哥",
+          "hot": "1657700",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+        },
+        {
+          "title": "锐评GEN战胜T1",
+          "hot": "1492388",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "张雪德比斯比赛越野",
+          "hot": "674971",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "咕嘎版新宝岛",
+          "hot": "655485",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+        },
+        {
+          "title": "不同时代的老叟戏顽童",
+          "hot": "624737",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+        },
+        {
+          "title": "逆水寒盗墓笔记联动PV",
+          "hot": "623482",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "LGD JDG",
+          "hot": "619355",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "曝罗德里将加盟巴萨",
+          "hot": "557055",
+          "url": ""
+        },
+        {
+          "title": "从电影美学看奥德赛",
+          "hot": "545265",
+          "url": ""
+        },
+        {
+          "title": "重庆狼队 成都AG超玩会",
+          "hot": "537258",
+          "url": ""
+        },
+        {
+          "title": "WBG IG",
+          "hot": "536929",
+          "url": ""
+        },
+        {
+          "title": "英雄联盟炽燃利息最新bug",
+          "hot": "534535",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "阿森纳3-0曼城",
+          "hot": "529619",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "电影原型聊真实龙餐馆",
+          "hot": "526876",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
+        },
+        {
+          "title": "深度解读欢迎来龙餐馆",
+          "hot": "526535",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        }
+      ]
+    },
+    "xiaohongshu": {
+      "count": 0,
+      "items": []
+    },
+    "douyin": {
+      "count": 0,
+      "items": []
+    }
+  },
+  "ai_rewrite": [
+    {
+      "orig_title": "电影原型聊真实龙餐馆",
+      "new_title": "龙餐馆老板娘给女人的启示",
+      "track": "女性成长",
+      "adapt": "高",
+      "core_view": "人间烟火里藏着生存智慧",
+      "hook": "一个龙餐馆，藏着女人翻身的全部秘密",
+      "angle": "从电影中龙餐馆老板娘的角色切入，谈女性如何在困境中靠自己的双手和智慧闯出一片天",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "不同时代的老叟戏顽童",
+      "new_title": "会玩的女生，命都不会差",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "保持玩心是最高级的活法",
+      "hook": "看完这条视频，我决定做个会玩的女生",
+      "angle": "从不同时代老叟戏顽童的快乐切入，对比现代女性焦虑，倡导用游戏心态过生活",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "从电影美学看奥德赛",
+      "new_title": "像奥德赛一样活着有多酷",
+      "track": "读书分享",
+      "adapt": "中",
+      "core_view": "人生就是一场英雄之旅",
+      "hook": "每个女人都是一部史诗，只是你还没发现",
+      "angle": "借经典《奥德赛》的归家之旅比喻女性成长之路，建议女性读这本书找到自己的英雄叙事",
+      "platform": "小红书"
+    },
+    {
+      "orig_title": "锐评GEN战胜T1",
+      "new_title": "输赢之外，女人更该学这个",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "允许自己输，才能赢更多",
+      "hook": "GEN赢T1，但我看到了比输赢更重要的东西",
+      "angle": "以电竞强队胜负为引，讲述女性在职场中如何面对失败、从复盘到翻盘的心法",
+      "platform": "虎扑"
+    },
+    {
+      "orig_title": "阿森纳3-0曼城",
+      "new_title": "你的对手越强，你越要这样活",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "强敌是成就你的最好陪练",
+      "hook": "阿森纳能赢曼城，凭什么你不行",
+      "angle": "从阿森纳逆袭强者切入，鼓励处在职场弱势位的女性不惧强者、敢打敢拼",
+      "platform": "懂球帝"
+    },
+    {
+      "orig_title": "深度解读欢迎来龙餐馆",
+      "new_title": "龙餐馆的女人，从不认命",
+      "track": "情感关系",
+      "adapt": "高",
+      "core_view": "先谋生，再谋爱",
+      "hook": "为什么龙餐馆的女人，比很多恋爱脑活得爽",
+      "angle": "深度解读电影女性角色，对比现实恋爱脑女孩，强调自爱自立是幸福的前提",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "曝罗德里将加盟巴萨",
+      "new_title": "换赛道不丢人，是重生",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "适时跳槽是战略不是逃避",
+      "hook": "罗德里都要走，你还在一个地方死磕？",
+      "angle": "借球星转会传闻，聊女性职场中如何识别死局、勇敢换轨道实现跃迁",
+      "platform": "懂球帝"
+    },
+    {
+      "orig_title": "咕嘎版新宝岛",
+      "new_title": "别怕被笑，笑你的都输了",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "放下面子，才能活出里子",
+      "hook": "敢玩梗的女生，早就赢麻了",
+      "angle": "从咕嘎版新宝岛的搞笑模仿切入，讲女性如何摆脱羞耻感、大胆做自己反而收获喜爱",
+      "platform": "B站"
+    }
+  ],
+  "ai_status": "success"
+}

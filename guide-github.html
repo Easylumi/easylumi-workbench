@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 部署指南 · Easylumi</title>
+<style>
+:root {
+  --bg: #fff5f7;
+  --card: #fff;
+  --text: #2d2d2d;
+  --sub: #8a8a8a;
+  --accent: #f0a0b0;
+  --accent2: #a0d2c0;
+  --accent3: #c4a0d8;
+  --border: #f0e0e4;
+  --tag-bg: #fff0f3;
+  --shadow: 0 2px 16px rgba(0,0,0,0.06);
+  --radius: 18px;
+  --radius-sm: 10px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  display: flex; align-items: center; gap: 8px;
+}
+.subtitle {
+  color: var(--sub);
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+/* Progress */
+.progress-bar {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+.progress-dot {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+  transition: background 0.3s;
+}
+.progress-dot.done { background: var(--accent2); }
+.progress-dot.active { background: var(--accent); animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.5; } }
+
+/* Steps */
+.step {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+.step.done { opacity: 0.6; }
+.step-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.step-num {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.step.done .step-num { background: var(--accent2); }
+.step-title {
+  font-weight: 700;
+  font-size: 16px;
+}
+.step-body {
+  font-size: 14px;
+  color: #555;
+}
+.step-body ul { padding-left: 20px; margin: 8px 0; }
+.step-body li { margin: 6px 0; }
+.step-body strong { color: #d4788e; }
+.step-body code {
+  background: #fff0f3;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  word-break: break-all;
+}
+.step-body .highlight {
+  background: #fffbe6;
+  border-left: 3px solid #ffc107;
+  padding: 10px 12px;
+  border-radius: 0 8px 8px 0;
+  margin: 10px 0;
+  font-size: 13px;
+}
+.step-body .tips {
+  background: #f0f7f4;
+  border-left: 3px solid var(--accent2);
+  padding: 10px 12px;
+  border-radius: 0 8px 8px 0;
+  margin: 10px 0;
+  font-size: 13px;
+}
+.step-body .warn {
+  background: #fff0f3;
+  border-left: 3px solid var(--accent);
+  padding: 10px 12px;
+  border-radius: 0 8px 8px 0;
+  margin: 10px 0;
+  font-size: 13px;
+}
+/* Mock UI */
+.mock-ui {
+  background: #fafafc;
+  border: 1px solid #e8e8ec;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin: 12px 0;
+}
+.mock-titlebar {
+  background: #24292f;
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 12px;
+  display: flex;
+  gap: 8px;
+}
+.mock-titlebar span { opacity: 0.7; }
+.mock-body { padding: 14px; font-size: 13px; }
+.mock-field {
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 6px 0;
+  font-size: 13px;
+  color: #57606a;
+}
+.mock-field.fill { color: #24292f; font-weight: 500; }
+.mock-btn {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 2px 4px;
+}
+.mock-btn.green { background: #2da44e; color: #fff; }
+.mock-btn.gray { background: #f6f8fa; color: #24292f; border: 1px solid #d0d7de; }
+.mock-arrow { color: var(--accent); font-size: 20px; margin: 0 4px; font-weight: bold; }
+.mock-input {
+  width: 100%;
+  border: 2px dashed var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  color: var(--sub);
+  font-size: 13px;
+  background: #fafafa;
+}
+
+/* Code block */
+.code-block {
+  background: #1e1e2e;
+  color: #cdd6f4;
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  font-family: "SF Mono", "Cascadia Code", "Consolas", monospace;
+  font-size: 12px;
+  overflow-x: auto;
+  margin: 10px 0;
+  position: relative;
+  white-space: pre;
+  line-height: 1.5;
+}
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.copy-btn:hover { background: rgba(255,255,255,0.3); }
+.copy-btn.copied { background: #2da44e; }
+
+/* Done button */
+.done-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: var(--accent2);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: 0.2s;
+}
+.done-btn:hover { opacity: 0.9; }
+
+/* URL box */
+.url-box {
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-family: monospace;
+  font-size: 14px;
+  word-break: break-all;
+  margin: 8px 0;
+  color: #0969da;
+}
+</style>
+</head>
+<body>
+
+<h1>🚀 GitHub 部署指南</h1>
+<div class="subtitle">6 步完成 · 全自动每日更新 · iPhone 可加主屏幕</div>
+
+<div class="progress-bar" id="progressBar">
+  <div class="progress-dot" data-step="1"></div>
+  <div class="progress-dot" data-step="2"></div>
+  <div class="progress-dot" data-step="3"></div>
+  <div class="progress-dot" data-step="4"></div>
+  <div class="progress-dot" data-step="5"></div>
+  <div class="progress-dot" data-step="6"></div>
+</div>
+
+<!-- ===== Step 1 ===== -->
+<div class="step" data-step="1" id="step1">
+  <div class="step-header">
+    <div class="step-num">1</div>
+    <div class="step-title">注册/登录 GitHub 账号</div>
+  </div>
+  <div class="step-body">
+    <div class="tips">你已经有 GitHub 账号了，这步直接 ✅</div>
+  </div>
+  <button class="done-btn" onclick="markDone(1)">✅ 这步已经完成（我有账号了）</button>
+</div>
+
+<!-- ===== Step 2 ===== -->
+<div class="step" data-step="2" id="step2">
+  <div class="step-header">
+    <div class="step-num">2</div>
+    <div class="step-title">创建 GitHub 仓库</div>
+  </div>
+  <div class="step-body">
+    <p>访问 <strong>github.com/new</strong>，按下面填写：</p>
+
+    <div class="mock-ui">
+      <div class="mock-titlebar"><span>⚫ ⚫ ⚫</span> Create a new repository</div>
+      <div class="mock-body">
+        <div style="font-size:12px;color:#57606a;margin-bottom:4px;">Repository name *</div>
+        <div class="mock-field fill" style="font-size:16px;">easylumi-workbench</div>
+        <div style="font-size:12px;color:#57606a;margin:8px 0 4px;">Description (optional)</div>
+        <div class="mock-field">Easylumi 工作台</div>
+        <div style="margin:10px 0;">
+          <span style="background:#2da44e;color:#fff;padding:4px 10px;border-radius:4px;font-size:12px;margin-right:8px;">● Public</span>
+          <span style="color:#57606a;font-size:12px;">○ Private</span>
+        </div>
+        <div style="color:#57606a;font-size:12px;margin:8px 0;">☑ Add a README file</div>
+        <div style="text-align:right;margin-top:12px;">
+          <span class="mock-btn green">Create repository →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight">
+      <strong>⚠️ 重要：</strong>必须选 <strong>Public</strong>（公开），否则 GitHub Pages 用不了。
+    </div>
+  </div>
+  <button class="done-btn" onclick="markDone(2)">✅ 仓库创建好了</button>
+</div>
+
+<!-- ===== Step 3 ===== -->
+<div class="step" data-step="3" id="step3">
+  <div class="step-header">
+    <div class="step-num">3</div>
+    <div class="step-title">上传所有文件到仓库</div>
+  </div>
+  <div class="step-body">
+    <p>在仓库主页，点 <strong>「Add file」→「Upload files」</strong></p>
+
+    <div class="mock-ui">
+      <div class="mock-titlebar"><span>⚫ ⚫ ⚫</span> zhao-yixi-easylumi / easylumi-workbench</div>
+      <div class="mock-body" style="display:flex;align-items:center;gap:12px;">
+        <span class="mock-btn green" style="font-size:12px;">+ Add file ▼</span>
+        <span class="mock-btn gray" style="font-size:12px;">Code ▼</span>
+      </div>
+    </div>
+
+    <p style="margin-top:12px;">打开你电脑文件夹 <code>E:\workboddy\2026-08-01-10-59-13</code>，把下面这些文件和文件夹<strong>全部拖进上传框</strong>：</p>
+
+    <div class="tips">
+      📂 需要上传的：
+      <ul>
+        <li><code>index.html</code> — 主页面</li>
+        <li><code>manifest.json</code> — PWA 配置</li>
+        <li><code>sw.js</code> — 离线缓存</li>
+        <li><code>icons/</code> 文件夹（含3张图标）</li>
+        <li><code>backend/</code> 文件夹（含 fetch_hot.py + requirements.txt）</li>
+        <li><code>.github/</code> 文件夹（含 workflows/daily-hot.yml）</li>
+        <li><code>data/</code> 文件夹（含 hot_data.json）</li>
+      </ul>
+    </div>
+
+    <p>上传后，提交信息填 <strong>"初始上传 Easylumi 工作台"</strong>，点绿色 <strong>「Commit changes」</strong></p>
+  </div>
+  <button class="done-btn" onclick="markDone(3)">✅ 文件上传完成</button>
+</div>
+
+<!-- ===== Step 4 ===== -->
+<div class="step" data-step="4" id="step4">
+  <div class="step-header">
+    <div class="step-num">4</div>
+    <div class="step-title">配置 DeepSeek API Key（密钥）</div>
+  </div>
+  <div class="step-body">
+    <p>在仓库页面，点顶部 <strong>「Settings」</strong> → 左侧 <strong>「Secrets and variables」→「Actions」</strong></p>
+
+    <div class="highlight">
+      如果左侧菜单不显示，试试直接访问：<br>
+      <code>https://github.com/你的用户名/easylumi-workbench/settings/secrets/actions</code>
+    </div>
+
+    <p>点 <strong>「New repository secret」</strong>，添加：</p>
+
+    <table style="width:100%;border-collapse:collapse;margin:10px 0;">
+      <tr style="background:#f6f8fa;">
+        <td style="padding:8px 12px;font-weight:700;">Name</td>
+        <td style="padding:8px 12px;font-weight:700;">Secret（填什么）</td>
+      </tr>
+      <tr>
+        <td style="padding:8px 12px;"><code>DEEPSEEK_API_KEY</code></td>
+        <td style="padding:8px 12px;">你的 DeepSeek API Key（<code>sk-</code> 开头那串）</td>
+      </tr>
+    </table>
+
+    <div class="tips">
+      💡 只需要配这 <strong>1 个密钥</strong>。不需要 Token，不需要 Gist。
+    </div>
+  </div>
+  <button class="done-btn" onclick="markDone(4)">✅ 密钥配置完成</button>
+</div>
+
+<!-- ===== Step 5 ===== -->
+<div class="step" data-step="5" id="step5">
+  <div class="step-header">
+    <div class="step-num">5</div>
+    <div class="step-title">开启 GitHub Pages + 手动跑一次 Actions</div>
+  </div>
+  <div class="step-body">
+    <p><strong>① 开启 GitHub Pages：</strong></p>
+    <p>仓库 → <strong>Settings</strong> → 左侧 <strong>「Pages」</strong></p>
+    <ul>
+      <li>Source：选 <strong>「Deploy from a branch」</strong></li>
+      <li>Branch：选 <strong>「main」</strong>，文件夹选 <strong>「/(root)」</strong></li>
+      <li>点 <strong>「Save」</strong></li>
+      <li>等 1-2 分钟，页面顶部会出现网址：<br>
+        <div class="url-box">https://用户名.github.io/easylumi-workbench/</div>
+      </li>
+    </ul>
+
+    <p style="margin-top:14px;"><strong>② 手动跑一次 Actions（测试）：</strong></p>
+    <p>仓库 → 顶部 <strong>「Actions」</strong> → 左侧点 <strong>「Easylumi 每日热榜更新」</strong> → 右侧点 <strong>「Run workflow」→ 绿色「Run workflow」</strong></p>
+
+    <div class="mock-ui">
+      <div class="mock-titlebar"><span>⚫ ⚫ ⚫</span> Actions · Easylumi 每日热榜更新</div>
+      <div class="mock-body">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-weight:600;">This workflow has a workflow_dispatch event trigger.</span>
+          <span class="mock-btn green">Run workflow ▼</span>
+        </div>
+      </div>
+    </div>
+
+    <p>等 2-3 分钟跑完后，回到仓库主页，确认 <code>data/hot_data.json</code> 已更新。</p>
+  </div>
+  <button class="done-btn" onclick="markDone(5)">✅ Pages 开启 + Actions 跑完</button>
+</div>
+
+<!-- ===== Step 6 ===== -->
+<div class="step" data-step="6" id="step6">
+  <div class="step-header">
+    <div class="step-num">6</div>
+    <div class="step-title">iPhone 添加到主屏幕</div>
+  </div>
+  <div class="step-body">
+    <p>1. iPhone 用 <strong>Safari</strong> 打开你的 GitHub Pages 网址：</p>
+    <div class="url-box">https://你的用户名.github.io/easylumi-workbench/</div>
+
+    <p style="margin-top:8px;">2. 点 Safari 底部中间的 <strong>分享按钮</strong>（方框带箭头 ↑）</p>
+    <p>3. 往下滑，点 <strong>「添加到主屏幕」</strong></p>
+    <p>4. 点右上角 <strong>「添加」</strong></p>
+
+    <div class="tips">
+      🎉 完成！以后从 iPhone 桌面直接打开，就是独立 App 体验。<br>
+      GitHub Actions 每天自动 8:00 + 20:00 更新热榜数据。
+    </div>
+  </div>
+  <button class="done-btn" onclick="markDone(6)">🎉 全部完成！</button>
+</div>
+
+<script>
+// 进度追踪（localStorage）
+const TOTAL = 6;
+const STORAGE_KEY = 'easylumi_github_guide';
+
+function getProgress() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch { return []; }
+}
+
+function saveProgress(doneSteps) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(doneSteps));
+}
+
+function markDone(n) {
+  let done = getProgress();
+  if (!done.includes(n)) {
+    done.push(n);
+    saveProgress(done);
+  }
+  // 自动展开下一步
+  const next = n + 1;
+  if (next <= TOTAL) {
+    const el = document.getElementById('step' + next);
+    if (el) {
+      setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'center' }), 200);
+    }
+  }
+  renderAll();
+}
+
+function renderAll() {
+  const done = getProgress();
+  // 进度条
+  document.querySelectorAll('.progress-dot').forEach((dot, i) => {
+    dot.classList.remove('done', 'active');
+    if (done.includes(i + 1)) {
+      dot.classList.add('done');
+    } else if (i === done.length) {
+      dot.classList.add('active');
+    }
+  });
+  // 步骤状态
+  document.querySelectorAll('.step').forEach(step => {
+    const n = parseInt(step.dataset.step);
+    if (done.includes(n)) {
+      step.classList.add('done');
+      const btn = step.querySelector('.done-btn');
+      if (btn) btn.textContent = '✅ 已完成';
+    } else {
+      step.classList.remove('done');
+    }
+  });
+}
+
+// 代码复制
+document.querySelectorAll('.copy-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const code = btn.parentElement.textContent.replace('复制', '').trim();
+    navigator.clipboard.writeText(code).then(() => {
+      btn.textContent = '已复制!';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = '复制';
+        btn.classList.remove('copied');
+      }, 2000);
+    });
+  });
+});
+
+renderAll();
+</script>
+</body>
+</html>
