@@ -1,40 +1,40 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，你只需要完整。",
-      "en": "You don't need to be perfect, you need to be whole."
+      "text": "你不需要成为谁，只需要成为自己。慢一点，没关系。",
+      "en": "You don't need to become someone else, just be yourself. It's okay to take it slow."
     },
     {
-      "text": "温柔是力量，不是软弱。",
-      "en": "Gentleness is strength, not weakness."
+      "text": "真正的强大，是允许自己脆弱，然后继续向前。",
+      "en": "True strength is allowing yourself to be vulnerable, then moving forward anyway."
     },
     {
-      "text": "每一步都算数，哪怕走得很慢。",
-      "en": "Every step counts, even if you walk slowly."
+      "text": "你走过的路，每一步都算数。别急，花期不同而已。",
+      "en": "Every step you've taken counts. Don't rush—different flowers bloom at different times."
     }
   ],
   "poems": [
     {
+      "text": "人生如逆旅，我亦是行人。",
+      "source": "苏轼《临江仙·送钱穆父》"
+    },
+    {
       "text": "行到水穷处，坐看云起时。",
-      "source": "唐·王维《终南别业》"
+      "source": "王维《终南别业》"
     },
     {
       "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "宋·苏轼《定风波》"
-    },
-    {
-      "text": "山重水复疑无路，柳暗花明又一村。",
-      "source": "宋·陆游《游山西村》"
+      "source": "苏轼《定风波》"
     }
   ],
   "daily": [
     {
-      "text": "知止而后有定，定而后能静，静而后能安。",
-      "source": "《大学》"
-    },
-    {
       "text": "知人者智，自知者明。胜人者有力，自胜者强。",
       "source": "《道德经》第三十三章"
+    },
+    {
+      "text": "不患无位，患所以立。不患莫己知，求为可知也。",
+      "source": "《论语·里仁》"
     },
     {
       "text": "君子求诸己，小人求诸人。",
