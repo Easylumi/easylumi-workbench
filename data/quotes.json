@@ -1,30 +1,30 @@
 {
   "quotes": [
     {
-      "text": "你不需要成为谁，只需要成为自己。慢一点，没关系。",
-      "en": "You don't need to become someone else, just be yourself. It's okay to take it slow."
+      "text": "你不需要成为谁，只需要成为更完整的自己。",
+      "en": "You don't need to become someone else, just a more complete version of yourself."
     },
     {
-      "text": "真正的强大，是允许自己脆弱，然后继续向前。",
-      "en": "True strength is allowing yourself to be vulnerable, then moving forward anyway."
+      "text": "慢慢来，比较快。走得稳，比走得快更重要。",
+      "en": "Slow down, and you'll get there faster. Steady steps matter more than speed."
     },
     {
-      "text": "你走过的路，每一步都算数。别急，花期不同而已。",
-      "en": "Every step you've taken counts. Don't rush—different flowers bloom at different times."
+      "text": "世界偶尔吵闹，但你可以选择内心安静。",
+      "en": "The world may be loud, but you can always choose inner peace."
     }
   ],
   "poems": [
-    {
-      "text": "人生如逆旅，我亦是行人。",
-      "source": "苏轼《临江仙·送钱穆父》"
-    },
     {
       "text": "行到水穷处，坐看云起时。",
       "source": "王维《终南别业》"
     },
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
       "source": "苏轼《定风波》"
+    },
+    {
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "陆游《游山西村》"
     }
   ],
   "daily": [
@@ -33,12 +33,12 @@
       "source": "《道德经》第三十三章"
     },
     {
-      "text": "不患无位，患所以立。不患莫己知，求为可知也。",
-      "source": "《论语·里仁》"
+      "text": "不患人之不己知，患不知人也。",
+      "source": "《论语·学而》"
     },
     {
-      "text": "君子求诸己，小人求诸人。",
-      "source": "《论语·卫灵公》"
+      "text": "知止而后有定，定而后能静，静而后能安。",
+      "source": "《大学》"
     }
   ]
 }
