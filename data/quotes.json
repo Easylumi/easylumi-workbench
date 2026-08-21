@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不需要成为谁，只需要成为更完整的自己。",
-      "en": "You don't need to become someone else, just a more complete version of yourself."
+      "text": "你不需要很厉害才能开始，但你需要开始才能很厉害。",
+      "en": "You don't have to be great to start, but you have to start to be great."
     },
     {
-      "text": "慢慢来，比较快。走得稳，比走得快更重要。",
-      "en": "Slow down, and you'll get there faster. Steady steps matter more than speed."
+      "text": "温柔不是软弱，是你见过世界后依然选择善良的底气。",
+      "en": "Gentleness is not weakness; it's the strength to choose kindness after seeing the world."
     },
     {
-      "text": "世界偶尔吵闹，但你可以选择内心安静。",
-      "en": "The world may be loud, but you can always choose inner peace."
+      "text": "慢慢来，比较快。每一步都算数，哪怕走得慢一点。",
+      "en": "Slow down, and you'll get there faster. Every step counts, even if it's a little slower."
     }
   ],
   "poems": [
@@ -19,26 +19,26 @@
       "source": "王维《终南别业》"
     },
     {
-      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
       "source": "苏轼《定风波》"
     },
     {
-      "text": "山重水复疑无路，柳暗花明又一村。",
-      "source": "陆游《游山西村》"
+      "text": "问渠那得清如许？为有源头活水来。",
+      "source": "朱熹《观书有感》"
     }
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经》第三十三章"
-    },
-    {
-      "text": "不患人之不己知，患不知人也。",
-      "source": "《论语·学而》"
-    },
-    {
       "text": "知止而后有定，定而后能静，静而后能安。",
       "source": "《大学》"
+    },
+    {
+      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "source": "《道德经》"
+    },
+    {
+      "text": "不患无位，患所以立。不患莫己知，求为可知也。",
+      "source": "《论语·里仁》"
     }
   ]
 }
