@@ -5,12 +5,12 @@
       "en": "You don't have to be great to start, but you have to start to be great."
     },
     {
-      "text": "温柔不是软弱，是你见过世界后依然选择善良的底气。",
-      "en": "Gentleness is not weakness; it's the strength to choose kindness after seeing the world."
+      "text": "温柔是力量，不是软弱。它是在风暴中依然选择清醒的勇气。",
+      "en": "Gentleness is strength, not weakness. It's the courage to stay clear-eyed in the storm."
     },
     {
-      "text": "慢慢来，比较快。每一步都算数，哪怕走得慢一点。",
-      "en": "Slow down, and you'll get there faster. Every step counts, even if it's a little slower."
+      "text": "慢慢来，比较快。成长不是冲刺，是散步时捡到的贝壳。",
+      "en": "Slow down, you'll get there faster. Growth isn't a sprint; it's the shells you pick up on a walk."
     }
   ],
   "poems": [
@@ -19,26 +19,26 @@
       "source": "王维《终南别业》"
     },
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "苏轼《定风波》"
+      "text": "此情可待成追忆，只是当时已惘然。",
+      "source": "李商隐《锦瑟》"
     },
     {
-      "text": "问渠那得清如许？为有源头活水来。",
-      "source": "朱熹《观书有感》"
+      "text": "人生如逆旅，我亦是行人。",
+      "source": "苏轼《临江仙·送钱穆父》"
     }
   ],
   "daily": [
     {
-      "text": "知止而后有定，定而后能静，静而后能安。",
-      "source": "《大学》"
-    },
-    {
       "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经》"
+      "source": "《道德经》第三十三章"
     },
     {
       "text": "不患无位，患所以立。不患莫己知，求为可知也。",
       "source": "《论语·里仁》"
+    },
+    {
+      "text": "祸兮福之所倚，福兮祸之所伏。",
+      "source": "《道德经》第五十八章"
     }
   ]
 }
