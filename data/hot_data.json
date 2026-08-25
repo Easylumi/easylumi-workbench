@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-24",
-  "update_time": "2026-08-24 22:25:59",
+  "date": "2026-08-25",
+  "update_time": "2026-08-25 11:15:35",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "AI续作数码宝贝之全面战争",
-          "hot": "6162568",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "唐尚珺六级453分",
-          "hot": "1374365",
+          "title": "可控核聚变还要等多久",
+          "hot": "1638889",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "放假最后一天belike",
-          "hot": "1300520",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+          "title": "LPL季后赛最新赛程",
+          "hot": "497042",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "披哥一公全复盘",
-          "hot": "749150",
+          "title": "克莱加盟会为热火带来加强吗",
+          "hot": "414161",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
           "title": "鲁豫对话陈岚",
-          "hot": "699840",
+          "hot": "366933",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
         },
         {
-          "title": "四六级查分",
-          "hot": "698331",
+          "title": "富勒姆2-3切尔西",
+          "hot": "356945",
           "url": ""
         },
         {
-          "title": "锐评我们的少年时代2",
-          "hot": "693425",
+          "title": "Flandre感谢BLG队友",
+          "hot": "356737",
           "url": ""
         },
         {
-          "title": "Spirit夺冠名场面回顾",
-          "hot": "671457",
+          "title": "美国全面升级对伊制裁",
+          "hot": "356209",
           "url": ""
         },
         {
-          "title": "锐评披哥一公下看点",
-          "hot": "671071",
+          "title": "柯洁复盘王中王决赛对局",
+          "hot": "355931",
           "url": ""
         },
         {
-          "title": "韩国人评欧美风女团新歌",
-          "hot": "655267",
+          "title": "美日联手保日元有效吗",
+          "hot": "354170",
           "url": ""
         },
         {
-          "title": "钢琴奶奶Reaction战双音乐会",
-          "hot": "654745",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "美伊以冲突有何经济意义",
-          "hot": "653066",
+          "title": "荷兰弟赞达亚爆火的背后",
+          "hot": "340386",
           "url": ""
         },
         {
-          "title": "恐怖版PVZ新僵尸诡异清扫者",
-          "hot": "648122",
+          "title": "王传君与爱情公寓恩怨始末",
+          "hot": "339665",
           "url": ""
         },
         {
-          "title": "李道长速通生化危机",
-          "hot": "633813",
+          "title": "从学生到百万UP主的8年",
+          "hot": "335244",
+          "url": ""
+        },
+        {
+          "title": "为何立秋后北方仍然湿热",
+          "hot": "315182",
+          "url": ""
+        },
+        {
+          "title": "放假最后一天belike",
+          "hot": "315180",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         },
         {
-          "title": "赛考斯殷玉珍重逢",
-          "hot": "608981",
+          "title": "抓鱼被困水下15天后奇迹生还",
+          "hot": "315178",
           "url": ""
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
+      "orig_title": "从学生到百万UP主的8年",
+      "new_title": "我用8年证明普通女孩也能逆袭",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "长期主义是普通人的杠杆",
+      "hook": "8年前我也是一无所有，今天我想说点真心话。",
+      "angle": "以UP主成长故事为主线，拆解普通人打造个人品牌的5个关键节点",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "荷兰弟赞达亚爆火的背后",
+      "new_title": "赞达亚：真正的大女主从不靠运气",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "实力比流量更持久",
+      "hook": "她是蜘蛛侠女友，但她最牛的身份是自己。",
+      "angle": "从赞达亚的选片眼光和事业布局，解读女性如何掌握人生主动权",
+      "platform": "微博"
+    },
+    {
       "orig_title": "鲁豫对话陈岚",
-      "new_title": "鲁豫陈岚戳穿女性成长真相",
-      "track": "生活感悟",
+      "new_title": "鲁豫陈岚：女性对话最怕没脑子",
+      "track": "读书分享",
       "adapt": "高",
-      "core_view": "女性独立是最高级的清醒",
-      "hook": "鲁豫问她：后悔吗？她一句话让全场沉默…",
-      "angle": "从对话中提炼女性人生选择的底层逻辑与自我和解力量",
-      "platform": "微博"
+      "core_view": "思想交锋是最好的成长课",
+      "hook": "两个高智商女人的对话，比100集电视剧都精彩。",
+      "angle": "以对谈中的金句为素材，展开女性如何通过高质量对话提升认知边界",
+      "platform": "抖音"
     },
     {
-      "orig_title": "四六级查分",
-      "new_title": "四六级失败，才是人生标配？",
+      "orig_title": "王传君与爱情公寓恩怨始末",
+      "new_title": "王传君式清醒：告别烂剧本才能红",
       "track": "职场成长",
-      "adapt": "高",
-      "core_view": "不被分数定义你的价值",
-      "hook": "没考过四六级？恭喜你，人生才刚刚开始。",
-      "angle": "借查分热点打破唯成绩论，引导女性关注长期自我成长",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "唐尚珺六级453分",
-      "new_title": "35岁考六级，他戳破年龄焦虑",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "成长无年龄壁垒",
-      "hook": "35岁还在考六级，你凭什么说来不及？",
-      "angle": "借唐尚珺的坚持激励女性突破年龄焦虑与自我设限",
+      "adapt": "中",
+      "core_view": "拒绝消耗是最高级的自律",
+      "hook": "他亲手毁掉爆款角色，却活成了最想要的自己。",
+      "angle": "以王传君转型为例，讲述女性如何在职场中勇敢拒绝不适合自己的机会",
       "platform": "微博"
     },
     {
       "orig_title": "放假最后一天belike",
-      "new_title": "放假最后一天，请停止自我愧疚",
+      "new_title": "假期最后一天，才是真正的高光时刻",
       "track": "生活感悟",
       "adapt": "中",
-      "core_view": "休息不是罪，是充电",
-      "hook": "假期没进步？你不是懒，是在积攒爆发。",
-      "angle": "从假期结束的焦虑切入，谈女性如何与休息和解",
+      "core_view": "及时行乐不如及时蓄力",
+      "hook": "你今天的焦虑，都是昨天放纵欠下的债。",
+      "angle": "从节后综合症切入，给出女性高能量恢复的3个微习惯",
       "platform": "抖音"
     },
     {
-      "orig_title": "钢琴奶奶Reaction战双音乐会",
-      "new_title": "94岁钢琴奶奶，治好了我的年龄焦虑",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "热爱可抵岁月漫长",
-      "hook": "94岁还在追梦，你凭什么说太晚？",
-      "angle": "用奶奶的活力打破年龄限制，鼓励女性终身学习与热爱",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "韩国人评欧美风女团新歌",
-      "new_title": "女团被评，撕开女性审美绑架",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "美不设限，做自己就美",
-      "hook": "她们批评女团身材，我只看到女性的枷锁。",
-      "angle": "借审美争议讨论女性如何挣脱外界标准、拥抱多元自我",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "锐评披哥一公下看点",
-      "new_title": "披哥爆火，中年女性的翻身仗",
+      "orig_title": "柯洁复盘王中王决赛对局",
+      "new_title": "柯洁式复盘：高手都在偷偷做这件事",
       "track": "职场成长",
       "adapt": "中",
-      "core_view": "中年不是下坡，是翻盘",
-      "hook": "他们能翻红，你也能重启人生。",
-      "angle": "借哥哥们的舞台表现，激励女性直面中年职场与人生转折",
+      "core_view": "复盘力决定你的成长速度",
+      "hook": "输棋不丢人，不会复盘才可怕。",
+      "angle": "把棋手复盘方法论迁移到职场女性的目标管理和自我迭代上",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "可控核聚变还要等多久",
+      "new_title": "别等核聚变了，先聚变你自己",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "改变自己比等风来更快",
+      "hook": "世界在等能源革命，你在等什么？",
+      "angle": "用科技热点做引子，鼓励女性从微小行动开始自我升级，而不是等待外部条件",
       "platform": "微博"
     },
     {
-      "orig_title": "赛考斯殷玉珍重逢",
-      "new_title": "殷玉珍重逢：女人的坚韧太燃了",
-      "track": "情感关系",
+      "orig_title": "抓鱼被困水下15天后奇迹生还",
+      "new_title": "15天水下生还：她比你想的更坚韧",
+      "track": "生活感悟",
       "adapt": "中",
-      "core_view": "坚韧是女人最硬的底牌",
-      "hook": "她等了20年，只为证明女人不认命。",
-      "angle": "用殷玉珍的坚持与重逢，讲述女性在逆境中的韧性",
-      "platform": "抖音"
+      "core_view": "绝境中不放弃就有奇迹",
+      "hook": "她被困水下15天还能活，你有什么理由放弃？",
+      "angle": "以真实求生故事激励女性在低谷期保持信念，给出逆境自愈的心理学方法",
+      "platform": "微博"
     }
   ],
   "ai_status": "success"
