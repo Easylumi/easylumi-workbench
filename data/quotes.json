@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不需要立刻变得完美，只需要比昨天更了解自己一点。",
-      "en": "You don't need to be perfect right now, just know yourself a little better than yesterday."
+      "text": "你不需要变得完美，只需要比昨天更勇敢一点。",
+      "en": "You don't need to be perfect, just a little braver than yesterday."
     },
     {
-      "text": "温柔不是软弱，是你在看清世界残酷后，依然选择善待自己。",
-      "en": "Gentleness is not weakness—it's choosing to be kind to yourself after seeing how harsh the world can be."
+      "text": "温柔不是软弱，而是历经风雨后依然选择善良的坚韧。",
+      "en": "Gentleness is not weakness, but the resilience to choose kindness after storms."
     },
     {
-      "text": "慢慢来，你走的每一步都在为自己铺路，而不是为了取悦谁。",
-      "en": "Take your time. Every step you take is paving your own path, not performing for anyone else."
+      "text": "慢慢来，你走的每一步都算数，花期不同，但终会盛开。",
+      "en": "Take your time, every step counts. Different blooms, but all will blossom."
     }
   ],
   "poems": [
@@ -19,12 +19,12 @@
       "source": "唐·王维《终南别业》"
     },
     {
-      "text": "此心安处是吾乡。",
-      "source": "宋·苏轼《定风波·南海归赠王定国侍人寓娘》"
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "source": "宋·苏轼《定风波·莫听穿林打叶声》"
     },
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "宋·苏轼《定风波·莫听穿林打叶声》"
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "宋·陆游《游山西村》"
     }
   ],
   "daily": [
@@ -33,12 +33,12 @@
       "source": "《道德经》第三十三章"
     },
     {
-      "text": "不患无位，患所以立。不患莫己知，求为可知也。",
-      "source": "《论语·里仁》"
+      "text": "不患人之不己知，患不知人也。",
+      "source": "《论语·学而》"
     },
     {
-      "text": "至人之用心若镜，不将不迎，应而不藏，故能胜物而不伤。",
-      "source": "《庄子·应帝王》"
+      "text": "格物致知，诚意正心。修身齐家，而后知天下。",
+      "source": "《礼记·大学》"
     }
   ]
 }
