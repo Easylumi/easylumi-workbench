@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "update_time": "2026-08-26 11:34:51",
+  "update_time": "2026-08-26 22:26:56",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "殷玉珍赛考斯26年后种下新树",
-          "hot": "2672152",
-          "url": ""
-        },
-        {
-          "title": "加拿大宣布对美加征关税",
-          "hot": "1476320",
+          "title": "津巴布韦背后的黄金梦",
+          "hot": "5135192",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "台风沙德尔锁定华东路径",
-          "hot": "1053898",
+          "title": "西藏吉隆遭受泥石流灾害",
+          "hot": "2642408",
+          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+        },
+        {
+          "title": "中国人有自己的奥德赛",
+          "hot": "1281107",
           "url": ""
         },
         {
-          "title": "有兽焉",
-          "hot": "964188",
+          "title": "和平精英地铁逃生",
+          "hot": "1192900",
+          "url": ""
+        },
+        {
+          "title": "一饭封神同款卤肉饭测评",
+          "hot": "1097607",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
         },
         {
-          "title": "UP主实现盲人和聋人对话",
-          "hot": "798067",
-          "url": ""
+          "title": "Spirit 2-0 DENDELE",
+          "hot": "1097565",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
           "title": "无限大定档PV",
-          "hot": "797962",
+          "hot": "1097451",
           "url": ""
         },
         {
-          "title": "2026科隆展游戏预告汇总",
-          "hot": "797800",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "title": "米哈游新作源初之结解析",
+          "hot": "1096220",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
         },
         {
-          "title": "加拿大为何选择硬刚美国",
-          "hot": "794034",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "title": "川粤大厨巅峰对决",
+          "hot": "1070154",
+          "url": ""
         },
         {
-          "title": "美特勤局回应伊悬赏特朗普小儿子",
-          "hot": "783216",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "机器人1500米决赛再破人类纪录",
-          "hot": "755963",
+          "title": "机器人运动会街舞巅峰对决",
+          "hot": "923913",
           "url": ""
         },
         {
           "title": "米哈游新作源初之结首曝PV",
-          "hot": "740092",
+          "hot": "918341",
+          "url": ""
+        },
+        {
+          "title": "如何评价勇士休赛季签约",
+          "hot": "912413",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "巫师3狂猎旧时曲先导预告片",
-          "hot": "721574",
+          "title": "动物朋克最新实机PV",
+          "hot": "887291",
           "url": ""
         },
         {
-          "title": "巫师3重制版官宣预告",
-          "hot": "721544",
+          "title": "LKs深度揭秘影视飓风上班日常",
+          "hot": "887289",
           "url": ""
         },
         {
-          "title": "你的胆子真是肥嘟嘟的",
-          "hot": "721442",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "内娱养成系追星有多抽象",
-          "hot": "721154",
+          "title": "星布谷地连接测试PV",
+          "hot": "887270",
           "url": ""
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "殷玉珍赛考斯26年后种下新树",
-      "new_title": "26年只做一件事，她赢了",
+      "orig_title": "中国人有自己的奥德赛",
+      "new_title": "你的人生，就是一部奥德赛",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "长期主义是女性最强复利",
-      "hook": "26年，她把沙漠变成绿洲，你还觉得坚持没用吗？",
-      "angle": "用殷玉珍26年治沙的坚持，类比女性在职场中深耕一个领域的长期价值，破除速成焦虑。",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "UP主实现盲人和聋人对话",
-      "new_title": "最硬核的浪漫：让无声者听见",
-      "track": "生活感悟",
-      "adapt": "高",
-      "core_view": "科技的温度是爱的延伸",
-      "hook": "盲人和聋人第一次对话，看哭百万网友，这才是科技的意义。",
-      "angle": "从UP主的创造切入，探讨女性如何用共情力和创造力，为身边人搭建沟通的桥梁。",
+      "core_view": "成长是一场自我回归的旅程",
+      "hook": "你以为奥德赛是神话？不，那是每个女人的前半生。",
+      "angle": "将奥德赛的漂泊与回归类比女性在职场与自我间的找寻，输出韧性与内在驱动力",
       "platform": "B站"
     },
     {
-      "orig_title": "机器人1500米决赛再破人类纪录",
-      "new_title": "机器人都内卷，你还在躺平？",
+      "orig_title": "无限大定档PV",
+      "new_title": "你的潜力，无限大定档",
       "track": "职场成长",
       "adapt": "中",
-      "core_view": "别让AI定义你的不可替代",
-      "hook": "机器人跑得比人快，那你的核心竞争力还剩什么？",
-      "angle": "借机器人破纪录的冲击，引出女性在AI时代如何强化情感、审美、决策等不可替代的软实力。",
-      "platform": "科技媒体"
+      "core_view": "别给自己的人生设限",
+      "hook": "PV里的世界无限大，而你的人生，凭什么被定义？",
+      "angle": "借游戏定档引出女性面对年龄/身份焦虑，鼓励打破限制性信念",
+      "platform": "B站"
     },
     {
-      "orig_title": "内娱养成系追星有多抽象",
-      "new_title": "别把人生养成别人的附属品",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "先把自己养成大女主",
-      "hook": "你花几年追星，不如花几天养自己，值吗？",
-      "angle": "从追星文化中的“养成”心理，反讽女性在感情中过度付出、忽略自我成长的模式。",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "加拿大为何选择硬刚美国",
-      "new_title": "女人该学的‘硬刚’外交学",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "边界感是最大的底气",
-      "hook": "连国家都敢硬刚，你在关系里为什么总在让步？",
-      "angle": "用加拿大对美强硬的态度，类比女性在亲密关系中设立边界、敢于说“不”的重要性。",
-      "platform": "新闻"
-    },
-    {
-      "orig_title": "巫师3重制版官宣预告",
-      "new_title": "人生没有重制版，请活成杰洛特",
+      "orig_title": "机器人运动会街舞巅峰对决",
+      "new_title": "机器人都在拼，你还在躺？",
       "track": "生活感悟",
       "adapt": "中",
-      "core_view": "每个选择都算数，勇敢向前",
-      "hook": "游戏可以重制，但你的20岁、30岁能重来吗？",
-      "angle": "从游戏重制版切入，引发对女性人生中“后悔”与“选择”的思考，鼓励接纳不完美、继续闯关。",
-      "platform": "游戏资讯"
-    },
-    {
-      "orig_title": "你的胆子真是肥嘟嘟的",
-      "new_title": "你的胆子，配得上你的野心吗？",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "胆子是练出来的，不是天生的",
-      "hook": "别人说你胆子肥，你却在心里怂成鹌鹑？",
-      "angle": "用网络热梗自我调侃，引出女性在职场中如何从“假装勇敢”到“真正敢闯”的成长路径。",
+      "core_view": "热爱是跨越边界的原动力",
+      "hook": "机器人跳街舞燃爆全场，你却说人间不值得？",
+      "angle": "对比机器人的极致练习与人的惰性，唤醒对热爱事物的行动力",
       "platform": "抖音"
     },
     {
-      "orig_title": "有兽焉",
-      "new_title": "每个女人心里都住着一头兽",
+      "orig_title": "LKs深度揭秘影视飓风上班日常",
+      "new_title": "顶尖团队的一天，治愈你的拖延",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "优秀是一种习惯，不是天赋",
+      "hook": "看完影视飓风的上班日常，我撕掉了自己的拖延清单。",
+      "angle": "拆解高效能团队的工作节奏，输出可落地的职场自律与时间管理心法",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "和平精英地铁逃生",
+      "new_title": "感情里的‘地铁逃生’法则",
+      "track": "情感关系",
+      "adapt": "高",
+      "core_view": "及时止损是最高级的自律",
+      "hook": "游戏里知道跑毒，感情里却非要硬扛？",
+      "angle": "将游戏逃生机制映射到情感消耗场景，教女性识别关系中的‘毒圈’并果断撤离",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "一饭封神同款卤肉饭测评",
+      "new_title": "治愈你的，可能只是一碗卤肉饭",
       "track": "生活感悟",
       "adapt": "中",
-      "core_view": "释放野性，做不被驯服的自己",
-      "hook": "你心里那头野兽，被关了多少年？",
-      "angle": "借漫画IP的“兽”意象，鼓励女性正视内心的欲望、愤怒与野性，打破社会规训的“乖巧”标签。",
-      "platform": "漫画平台"
+      "core_view": "好好吃饭，是成年人最大的治愈",
+      "hook": "全网都在测这碗卤肉饭，我却吃出了人生的回甘。",
+      "angle": "从食物温度切入，强调独处时的自我关怀与平凡生活的仪式感",
+      "platform": "小红书"
+    },
+    {
+      "orig_title": "如何评价勇士休赛季签约",
+      "new_title": "聪明女人都懂的‘签约思维’",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "选对平台，比盲目努力更重要",
+      "hook": "勇士队休赛季的每一笔签约，都在教你做人生选择。",
+      "angle": "把球队引援策略转化为个人职业选择/合作伙伴筛选的底层逻辑",
+      "platform": "虎扑"
+    },
+    {
+      "orig_title": "川粤大厨巅峰对决",
+      "new_title": "你的性格，是哪道菜？",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "兼容差异，关系才能沸腾",
+      "hook": "川菜遇上粤菜，像极了感情里两个不同频的人。",
+      "angle": "用菜系碰撞比喻亲密关系中的性格差异，探讨如何求同存异、彼此成就",
+      "platform": "抖音"
     }
   ],
   "ai_status": "success"
