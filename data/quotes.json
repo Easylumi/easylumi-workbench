@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不需要变得完美，只需要比昨天更勇敢一点。",
-      "en": "You don't need to be perfect, just a little braver than yesterday."
+      "text": "你不需要一下子变得强大，只需要每天比昨天好一点点。",
+      "en": "You don't need to become strong overnight, just a little better than yesterday."
     },
     {
-      "text": "温柔不是软弱，而是历经风雨后依然选择善良的坚韧。",
-      "en": "Gentleness is not weakness, but the resilience to choose kindness after storms."
+      "text": "真正的温柔，是看透了生活的真相后，依然选择热爱它。",
+      "en": "True gentleness is seeing life's truth and still choosing to love it."
     },
     {
-      "text": "慢慢来，你走的每一步都算数，花期不同，但终会盛开。",
-      "en": "Take your time, every step counts. Different blooms, but all will blossom."
+      "text": "别怕走得慢，你是在为自己的人生扎根，而不是为别人的眼光赶路。",
+      "en": "Don't fear a slow pace—you're rooting your life, not racing for others' approval."
     }
   ],
   "poems": [
@@ -19,15 +19,19 @@
       "source": "唐·王维《终南别业》"
     },
     {
-      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
-      "source": "宋·苏轼《定风波·莫听穿林打叶声》"
+      "text": "此心安处是吾乡。",
+      "source": "宋·苏轼《定风波·南海归赠王定国侍人寓娘》"
     },
     {
-      "text": "山重水复疑无路，柳暗花明又一村。",
-      "source": "宋·陆游《游山西村》"
+      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
+      "source": "宋·苏轼《定风波·莫听穿林打叶声》"
     }
   ],
   "daily": [
+    {
+      "text": "知止而后有定，定而后能静，静而后能安。",
+      "source": "《礼记·大学》"
+    },
     {
       "text": "知人者智，自知者明。胜人者有力，自胜者强。",
       "source": "《道德经》第三十三章"
@@ -35,10 +39,6 @@
     {
       "text": "不患人之不己知，患不知人也。",
       "source": "《论语·学而》"
-    },
-    {
-      "text": "格物致知，诚意正心。修身齐家，而后知天下。",
-      "source": "《礼记·大学》"
     }
   ]
 }
