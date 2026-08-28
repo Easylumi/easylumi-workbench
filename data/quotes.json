@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不需要一下子变得强大，只需要每天比昨天好一点点。",
-      "en": "You don't need to become strong overnight, just a little better than yesterday."
+      "text": "你不需要立刻变得强大，只需要在今天比昨天更爱自己一点。",
+      "en": "You don't need to become strong overnight, just love yourself a little more today than yesterday."
     },
     {
-      "text": "真正的温柔，是看透了生活的真相后，依然选择热爱它。",
-      "en": "True gentleness is seeing life's truth and still choosing to love it."
+      "text": "慢下来，不是停滞，而是让灵魂跟上你的脚步。",
+      "en": "Slowing down isn't stopping; it's letting your soul catch up with your pace."
     },
     {
-      "text": "别怕走得慢，你是在为自己的人生扎根，而不是为别人的眼光赶路。",
-      "en": "Don't fear a slow pace—you're rooting your life, not racing for others' approval."
+      "text": "温柔不是软弱，是你在看清世界之后，依然选择柔软的勇气。",
+      "en": "Gentleness is not weakness; it's the courage to stay soft after seeing the world clearly."
     }
   ],
   "poems": [
@@ -23,22 +23,22 @@
       "source": "宋·苏轼《定风波·南海归赠王定国侍人寓娘》"
     },
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "宋·苏轼《定风波·莫听穿林打叶声》"
+      "text": "人生如逆旅，我亦是行人。",
+      "source": "宋·苏轼《临江仙·送钱穆父》"
     }
   ],
   "daily": [
-    {
-      "text": "知止而后有定，定而后能静，静而后能安。",
-      "source": "《礼记·大学》"
-    },
     {
       "text": "知人者智，自知者明。胜人者有力，自胜者强。",
       "source": "《道德经》第三十三章"
     },
     {
-      "text": "不患人之不己知，患不知人也。",
-      "source": "《论语·学而》"
+      "text": "君子求诸己，小人求诸人。",
+      "source": "《论语·卫灵公》"
+    },
+    {
+      "text": "不患无位，患所以立。不患莫己知，求为可知也。",
+      "source": "《论语·里仁》"
     }
   ]
 }
