@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "update_time": "2026-08-29 05:50:12",
+  "update_time": "2026-08-29 08:03:19",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "Monki让蔚蓝边际别唱歌了",
-          "hot": "363610",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
+          "title": "锐评开学最后一晚补作业方法",
+          "hot": "1310889",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         },
         {
-          "title": "动画演示吉隆泥石流灾害全程",
-          "hot": "262910",
-          "url": ""
-        },
-        {
-          "title": "美国为何突然出手救日元",
-          "hot": "261657",
+          "title": "世界周侃评美国血浆产业",
+          "hot": "719168",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
+          "title": "开学补作业现状",
+          "hot": "714284",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+        },
+        {
           "title": "西藏吉隆泥石流致5死558失联",
-          "hot": "259688",
+          "hot": "360330",
           "url": ""
         },
         {
           "title": "GTA6超长实机隐藏细节",
-          "hot": "259232",
+          "hot": "359596",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
         },
         {
-          "title": "进入大学后要知道的知识",
-          "hot": "257418",
+          "title": "IG战胜TT赛后数据",
+          "hot": "335455",
           "url": ""
         },
         {
           "title": "锐评披哥6一公",
-          "hot": "236580",
+          "hot": "331902",
           "url": ""
         },
         {
           "title": "为什么流行歌全成了BGM",
-          "hot": "224603",
+          "hot": "320000",
           "url": ""
         },
         {
-          "title": "世界周侃评美国血浆产业",
-          "hot": "213358",
+          "title": "为啥宠物猫都是小体型",
+          "hot": "318300",
           "url": ""
         },
         {
-          "title": "TT IG",
-          "hot": "213331",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+          "title": "发明可控核聚变能免军训吗",
+          "hot": "314123",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         },
         {
           "title": "中国男篮大胜卡塔尔",
-          "hot": "213305",
+          "hot": "307845",
+          "url": ""
+        },
+        {
+          "title": "吉隆泥石流灾害救援难在哪里",
+          "hot": "279630",
+          "url": ""
+        },
+        {
+          "title": "源初之结战斗系统讲解",
+          "hot": "279629",
           "url": ""
         },
         {
           "title": "黑神话钟馗剑法用错了吗",
-          "hot": "213176",
+          "hot": "279627",
           "url": ""
         },
         {
-          "title": "二次元虎哥的来时路",
-          "hot": "212791",
+          "title": "UP主国内首获塔科夫定制道具",
+          "hot": "279626",
           "url": ""
-        },
-        {
-          "title": "臣妾要自己私通自己",
-          "hot": "210692",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "GTA6的世界有多真实",
-          "hot": "204300",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
         }
       ]
     },
@@ -107,63 +107,83 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "进入大学后要知道的知识",
-      "new_title": "大学第一课：别让这5句话毁了你",
+      "orig_title": "锐评开学最后一晚补作业方法",
+      "new_title": "开学前夜，我用3小时逆袭",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "大学是职场预备役，认知先行",
-      "hook": "大学没人教你的潜规则，比课本重要100倍！",
-      "angle": "以学姐过来人身份，拆解大学里最容易被忽视的认知陷阱，类比职场生存法则。",
+      "core_view": "高效补救，方法比蛮干重要",
+      "hook": "别慌，最后一晚也能漂亮翻身",
+      "angle": "从补作业类比职场紧急项目救火",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "开学补作业现状",
+      "new_title": "你不是拖延，是没掌握节奏",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "告别拖延，掌控人生节奏感",
+      "hook": "补作业的你，像极了职场中的我",
+      "angle": "用补作业现象引出女性时间管理焦虑",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "IG战胜TT赛后数据",
+      "new_title": "赢不是运气，是复盘的力量",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "会复盘，普通女孩也能逆袭",
+      "hook": "IG赢在哪？答案惊到你",
+      "angle": "借战队胜利聊女性职场复盘思维",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "锐评披哥6一公",
+      "new_title": "别让标签，定义你的上限",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "打破标签，绽放多元自我",
+      "hook": "披哥舞台，照见你的隐藏面",
+      "angle": "从哥哥们突破形象谈女性自我设限",
       "platform": "微博"
     },
     {
       "orig_title": "为什么流行歌全成了BGM",
-      "new_title": "你的歌单，暴露了你的情感状态",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "从听歌习惯看情感需求变化",
-      "hook": "你有多久没完整听完一首歌了？这背后藏着秘密。",
-      "angle": "从流行歌变成背景音乐的现象，切入当代女性在快节奏情感中缺乏深度连接的痛点，引导自我觉察。",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "臣妾要自己私通自己",
-      "new_title": "女生最高级的活法：自己满足自己",
+      "new_title": "你的生活，别只做背景音",
       "track": "生活感悟",
       "adapt": "高",
-      "core_view": "自我圆满是女性顶级能力",
-      "hook": "别再等别人来爱你，你才是自己永远的靠山。",
-      "angle": "借宫斗梗反向解构，强调女性自我价值实现和情感自给自足的重要性，鼓励独立自信。",
+      "core_view": "把握当下，做生活的主角",
+      "hook": "歌成BGM，你的人生呢",
+      "angle": "从音乐边缘化映射女性存在感焦虑",
       "platform": "抖音"
     },
     {
-      "orig_title": "二次元虎哥的来时路",
-      "new_title": "从被嘲到逆袭：普通女孩的翻盘路",
-      "track": "职场成长",
+      "orig_title": "为啥宠物猫都是小体型",
+      "new_title": "小猫咪哲学：小而美也强大",
+      "track": "生活感悟",
       "adapt": "中",
-      "core_view": "热爱可抵岁月漫长，坚持终将闪光",
-      "hook": "那个被全网嘲笑的女孩，后来怎么样了？",
-      "angle": "提取虎哥坚持自我的精神内核，类比女性在职场或兴趣领域不被理解时，如何用热爱和坚持走出自己的路。",
-      "platform": "B站"
+      "core_view": "接纳自己，小身材大能量",
+      "hook": "猫咪小巧，却治愈你全部",
+      "angle": "用小体猫比喻女性不必追求外在强大",
+      "platform": "知乎"
     },
     {
-      "orig_title": "锐评披哥6一公",
-      "new_title": "姐姐们都在拼，你凭什么躺平",
+      "orig_title": "中国男篮大胜卡塔尔",
+      "new_title": "你的人生，也需要一场大胜",
       "track": "职场成长",
       "adapt": "中",
-      "core_view": "女性拼搏精神永不过时",
-      "hook": "看到她们还在拼，我瞬间不焦虑了，你呢？",
-      "angle": "从披哥舞台上的拼搏精神，延伸到30+女性在职场和生活中的持续奋斗，打破年龄焦虑。",
+      "core_view": "专注目标，胜利水到渠成",
+      "hook": "男篮赢了，你何时赢一次",
+      "angle": "借体育胜利激励女性职场破局",
       "platform": "微博"
     },
     {
-      "orig_title": "GTA6的世界有多真实",
-      "new_title": "人生如游戏，你要学会开挂",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "主动选择，掌握人生主动权",
-      "hook": "如果人生是款游戏，你的角色设定是什么？",
-      "angle": "借游戏高自由度概念，鼓励女性跳出社会设定的“剧本”，主动选择自己想要的生活模式和成长路径。",
+      "orig_title": "发明可控核聚变能免军训吗",
+      "new_title": "别想捷径，成长没有特效药",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "拒绝速成，踏实走好每一步",
+      "hook": "核聚变也免不了军训，你呢",
+      "angle": "用脑洞提问反驳女性成长捷径心态",
       "platform": "B站"
     }
   ],
