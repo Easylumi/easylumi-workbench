@@ -1,30 +1,30 @@
 {
   "quotes": [
     {
-      "text": "慢慢来，比较快。你不需要在一天内成为更好的自己，你只需要在今天比昨天多爱自己一点。",
-      "en": "Slow down, and you'll get there faster. You don't need to become a better self in one day—just love yourself a little more today than yesterday."
+      "text": "你不需要成为谁，只需要成为你自己。",
+      "en": "You don't need to become someone else, just be yourself."
     },
     {
-      "text": "你的感受很重要，它不是矫情，而是你灵魂的信号灯。允许自己休息，也是一种勇敢。",
-      "en": "Your feelings matter. They're not drama—they're the signal lights of your soul. Allowing yourself to rest is also a form of courage."
+      "text": "慢慢来，比较快。",
+      "en": "Slow down, and you'll get there faster."
     },
     {
-      "text": "不必急着向世界证明什么，你本身就是答案。温柔而坚定地活着，就是最好的反击。",
-      "en": "You don't have to prove anything to the world—you are the answer. Living gently and firmly is the best counterattack."
+      "text": "温柔是力量，不是软弱。",
+      "en": "Gentleness is strength, not weakness."
     }
   ],
   "poems": [
     {
       "text": "行到水穷处，坐看云起时。",
-      "source": "唐·王维《终南别业》"
+      "source": "王维《终南别业》"
     },
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "宋·苏轼《定风波·莫听穿林打叶声》"
+      "text": "此心安处是吾乡。",
+      "source": "苏轼《定风波·南海归赠王定国侍人寓娘》"
     },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
-      "source": "宋·陆游《游山西村》"
+      "source": "陆游《游山西村》"
     }
   ],
   "daily": [
@@ -33,12 +33,12 @@
       "source": "《道德经》第三十三章"
     },
     {
-      "text": "君子求诸己，小人求诸人。",
-      "source": "《论语·卫灵公》"
+      "text": "不患人之不己知，患不知人也。",
+      "source": "《论语·学而》"
     },
     {
-      "text": "祸兮福之所倚，福兮祸之所伏。",
-      "source": "《道德经》第五十八章"
+      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
+      "source": "曾国藩（据传）"
     }
   ]
 }
