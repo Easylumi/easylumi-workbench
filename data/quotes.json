@@ -1,19 +1,23 @@
 {
   "quotes": [
     {
-      "text": "你不需要成为谁，只需要成为你自己。",
+      "text": "你不需要成为谁，只需要成为自己。",
       "en": "You don't need to become someone else, just be yourself."
     },
     {
-      "text": "慢慢来，比较快。",
-      "en": "Slow down, and you'll get there faster."
+      "text": "温柔不是软弱，而是内心的强大。",
+      "en": "Gentleness is not weakness, but inner strength."
     },
     {
-      "text": "温柔是力量，不是软弱。",
-      "en": "Gentleness is strength, not weakness."
+      "text": "慢慢来，一切都会准时到达。",
+      "en": "Take your time, everything will arrive on time."
     }
   ],
   "poems": [
+    {
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "陆游《游山西村》"
+    },
     {
       "text": "行到水穷处，坐看云起时。",
       "source": "王维《终南别业》"
@@ -21,24 +25,20 @@
     {
       "text": "此心安处是吾乡。",
       "source": "苏轼《定风波·南海归赠王定国侍人寓娘》"
-    },
-    {
-      "text": "山重水复疑无路，柳暗花明又一村。",
-      "source": "陆游《游山西村》"
     }
   ],
   "daily": [
     {
       "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经》第三十三章"
+      "source": "《道德经》"
     },
     {
-      "text": "不患人之不己知，患不知人也。",
-      "source": "《论语·学而》"
+      "text": "博学之，审问之，慎思之，明辨之，笃行之。",
+      "source": "《礼记·中庸》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩（据传）"
+      "text": "不患无位，患所以立。不患莫己知，求为可知也。",
+      "source": "《论语·里仁》"
     }
   ]
 }
