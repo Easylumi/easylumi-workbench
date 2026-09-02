@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "update_time": "2026-09-02 10:16:33",
+  "update_time": "2026-09-02 23:59:19",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "丁俊晖横扫S奥沙利文",
-          "hot": "547990",
+          "title": "沙德尔急转弯带来超级暴雨",
+          "hot": "5050707",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "吉隆口岸受灾核心区搜救纪实",
-          "hot": "534590",
+          "title": "西藏吉隆泥石流21人遇难541人失联",
+          "hot": "3468250",
+          "url": ""
+        },
+        {
+          "title": "摸老师玩具测评节目效果拉满",
+          "hot": "791026",
+          "url": ""
+        },
+        {
+          "title": "HLE让二追三战胜T1",
+          "hot": "782416",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "杨瀚森",
-          "hot": "335953",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+          "title": "恩佐1.45亿欧转会成标王",
+          "hot": "754074",
+          "url": ""
         },
         {
-          "title": "动画MV和平假面",
-          "hot": "335071",
+          "title": "美国银行副总裁时代广场被刺身亡",
+          "hot": "748306",
+          "url": ""
+        },
+        {
+          "title": "大众集团宣布调查星宇校招事件",
+          "hot": "726079",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "九月哪些新规与你我息息相关",
-          "hot": "332282",
+          "title": "AI预测LPL哪些队能晋级S16",
+          "hot": "399722",
+          "url": ""
+        },
+        {
+          "title": "宁静再谈花少2",
+          "hot": "378557",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "杨鸣",
-          "hot": "327890",
+          "title": "非法菲佣背后的安全隐患",
+          "hot": "331004",
           "url": ""
         },
         {
-          "title": "罗永浩对话手工耿",
-          "hot": "309762",
+          "title": "9月单机游戏推荐",
+          "hot": "323679",
           "url": ""
         },
         {
-          "title": "殷玉珍赛考斯跨越山海的友谊",
-          "hot": "258377",
+          "title": "长沙TES.A 上海EDG.M",
+          "hot": "315791",
+          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+        },
+        {
+          "title": "DLSS5是游戏革命还是AI滤镜",
+          "hot": "277627",
           "url": ""
         },
         {
-          "title": "混乱版华强买瓜",
-          "hot": "230963",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "T1锁定S16名额",
-          "hot": "202637",
+          "title": "Knight获常规赛MVP",
+          "hot": "233439",
           "url": ""
         },
         {
-          "title": "花少2全网重新考古",
-          "hot": "202622",
-          "url": ""
-        },
-        {
-          "title": "当西西弗斯遇见孙悟空",
-          "hot": "202608",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "MMO游戏为什么没人做了",
-          "hot": "202337",
-          "url": ""
-        },
-        {
-          "title": "济南RW侠 成都AG超玩会",
-          "hot": "201991",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "德约科维奇时隔11年重返中网",
-          "hot": "200925",
+          "title": "深扒张雅琪中餐厅离谱操作",
+          "hot": "232727",
           "url": ""
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "花少2全网重新考古",
-      "new_title": "花少2教会我的事",
+      "orig_title": "宁静再谈花少2",
+      "new_title": "女人最高级的活法：不解释",
       "track": "情感关系",
       "adapt": "高",
-      "core_view": "人际关系是照妖镜",
-      "hook": "花少2被考古，我看到了人际关系的真相。",
-      "angle": "从综艺社交场折射女性相处的边界感与情绪价值",
+      "core_view": "不解释是最高级的自洽",
+      "hook": "宁静说：我懒得解释。这句话救了所有女人。",
+      "angle": "从宁静的‘不解释’引申到女性在关系中的自我保护与边界感",
       "platform": "微博"
     },
     {
-      "orig_title": "当西西弗斯遇见孙悟空",
-      "new_title": "不想上班就看这两个人",
+      "orig_title": "大众集团宣布调查星宇校招事件",
+      "new_title": "职场女孩：别把平台当能力",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "重复劳动也能有意义",
-      "hook": "西西弗斯和孙悟空，治好了我的职场倦怠。",
-      "angle": "用神话人物对比解读职场重复性工作的意义重构",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "罗永浩对话手工耿",
-      "new_title": "用热爱养活自己",
-      "track": "生活感悟",
-      "adapt": "高",
-      "core_view": "热爱是最高级的活法",
-      "hook": "罗永浩和手工耿告诉我们，热爱真的可以当饭吃。",
-      "angle": "从两位理想主义者的对话谈女性如何找到并坚持自己的热爱",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "九月哪些新规与你我息息相关",
-      "new_title": "九月新规，女性必修课",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "法律是女性的铠甲",
-      "hook": "九月新规，每一条都在保护你。",
-      "angle": "聚焦与女性权益相关的政策变化，提升法律意识与自我保护力",
-      "platform": "新闻"
-    },
-    {
-      "orig_title": "杨鸣",
-      "new_title": "不被定义的人生才精彩",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "破圈需要勇气和实力",
-      "hook": "从球场到解说台，杨鸣的转型太飒了。",
-      "angle": "借杨鸣跨界转型启发女性打破职业天花板，勇敢尝试新赛道",
+      "core_view": "平台光环≠个人能力",
+      "hook": "星宇校招翻车，给所有职场女性敲响警钟。",
+      "angle": "借大厂校招丑闻，谈女性在职场中如何建立不可替代性而非依赖平台",
       "platform": "微博"
     },
     {
-      "orig_title": "T1锁定S16名额",
-      "new_title": "人生就是逆风翻盘局",
+      "orig_title": "深扒张雅琪中餐厅离谱操作",
+      "new_title": "会哭的孩子有奶吃？清醒点",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "情绪价值不如专业价值",
+      "hook": "张雅琪在综艺里哭惨，但专业能力才是你的底牌。",
+      "angle": "从综艺名场面出发，对比‘卖惨’与‘专业’在职场中的真实价值",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "美国银行副总裁时代广场被刺身亡",
+      "new_title": "都市女性的安全感是自己给的",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "安全是最大的奢侈品",
+      "hook": "那个年薪千万的副总裁，可能没想过会倒在上班路上。",
+      "angle": "从突发事件切入，唤醒女性对日常安全与自我保护的重视，而非贩卖焦虑",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "AI预测LPL哪些队能晋级S16",
+      "new_title": "别让AI定义你的人生版本",
+      "track": "读书分享",
+      "adapt": "中",
+      "core_view": "人生没有固定剧本",
+      "hook": "AI连比赛都能预测，但你的未来它算不准。",
+      "angle": "从AI预测热点引申到‘不被算法定义’的女性成长观，推荐《纳瓦尔宝典》中的思维模型",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "非法菲佣背后的安全隐患",
+      "new_title": "断舍离：远离消耗你的关系",
       "track": "生活感悟",
       "adapt": "中",
-      "core_view": "绝境中不放弃就有希望",
-      "hook": "T1锁定S16，逆风翻盘的剧本谁不爱？",
-      "angle": "从电竞战队的绝地反击类比女性人生低谷期的自我救赎",
-      "platform": "抖音"
+      "core_view": "及时止损是最强能力",
+      "hook": "菲佣的悲剧，暴露了多少人‘不敢换人’的软肋。",
+      "angle": "用雇佣关系隐喻情感与职场中的‘沉没成本’，鼓励女性勇敢断舍离",
+      "platform": "新浪"
     },
     {
-      "orig_title": "殷玉珍赛考斯跨越山海的友谊",
-      "new_title": "跨越山海的女性力量",
-      "track": "情感关系",
+      "orig_title": "摸老师玩具测评节目效果拉满",
+      "new_title": "成年人的快乐是玩出来的",
+      "track": "生活感悟",
       "adapt": "中",
-      "core_view": "友谊无国界，互助有力量",
-      "hook": "两个女人的友谊，跨越了山海和国界。",
-      "angle": "借跨国友谊故事讲述女性互助的温暖与力量",
-      "platform": "新闻"
+      "core_view": "会玩才是顶级能力",
+      "hook": "摸老师玩个玩具都能爆火，你却连休息都觉得有罪？",
+      "angle": "借爆火测评视频，打破女性‘必须紧绷’的枷锁，提倡松弛感生活",
+      "platform": "抖音"
     },
     {
-      "orig_title": "丁俊晖横扫S奥沙利文",
-      "new_title": "赢下自己的人生赛点",
+      "orig_title": "HLE让二追三战胜T1",
+      "new_title": "逆风翻盘，才是人生常态",
       "track": "职场成长",
-      "adapt": "低",
-      "core_view": "专注自己，你也能横扫一切",
-      "hook": "丁俊晖横扫奥沙利文，你的人生也可以。",
-      "angle": "从丁俊晖的专注与沉稳引申女性在职场中的长期主义心态",
-      "platform": "抖音"
+      "adapt": "中",
+      "core_view": "绝境是最好的起点",
+      "hook": "让二追三，电竞圈的奇迹，也是你我逆袭的隐喻。",
+      "angle": "用电竞逆风局类比女性职业瓶颈期，提炼‘韧性思维’的实操方法",
+      "platform": "虎扑"
     }
   ],
   "ai_status": "success"
