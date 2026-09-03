@@ -1,30 +1,30 @@
 {
   "quotes": [
     {
-      "text": "你不需要变得完美，你只需要变得完整。",
-      "en": "You don't need to be perfect, you need to be whole."
+      "text": "你不需要用奔跑证明自己，慢慢走，每一步都算数。",
+      "en": "You don't have to run to prove yourself. Walking slowly, every step counts."
     },
     {
-      "text": "温柔不是软弱，是你在看清世界后依然选择拥抱自己。",
-      "en": "Gentleness is not weakness; it's choosing to embrace yourself after seeing the world clearly."
+      "text": "允许自己偶尔断电，人生不是轨道，是旷野。",
+      "en": "Allow yourself to unplug sometimes. Life is not a track, it's an open field."
     },
     {
-      "text": "慢慢来，你走的每一步都算数。",
-      "en": "Slow down, every step you take counts."
+      "text": "先安顿好自己，再温柔地拥抱世界。",
+      "en": "Settle yourself first, then gently embrace the world."
     }
   ],
   "poems": [
     {
       "text": "行到水穷处，坐看云起时。",
-      "source": "唐·王维《终南别业》"
+      "source": "王维《终南别业》"
     },
     {
       "text": "此心安处是吾乡。",
-      "source": "宋·苏轼《定风波·南海归赠王定国侍人寓娘》"
+      "source": "苏轼《定风波·南海归赠王定国侍人寓娘》"
     },
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "宋·苏轼《定风波·莫听穿林打叶声》"
+      "text": "若无闲事挂心头，便是人间好时节。",
+      "source": "无门慧开《颂古四十八首》"
     }
   ],
   "daily": [
@@ -33,12 +33,12 @@
       "source": "《道德经》第三十三章"
     },
     {
-      "text": "祸兮福之所倚，福兮祸之所伏。",
-      "source": "《道德经》第五十八章"
+      "text": "不患无位，患所以立。不患莫己知，求为可知也。",
+      "source": "《论语·里仁》"
     },
     {
-      "text": "不患人之不己知，患不知人也。",
-      "source": "《论语·学而》"
+      "text": "积行成习，积习成性，积性成命。",
+      "source": "《周易》坤卦文言（引申义）"
     }
   ]
 }
