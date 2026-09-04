@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不需要用奔跑证明自己，慢慢走，每一步都算数。",
-      "en": "You don't have to run to prove yourself. Walking slowly, every step counts."
+      "text": "你不需要很厉害才能开始，但你需要开始才能很厉害。",
+      "en": "You don't have to be great to start, but you have to start to be great."
     },
     {
-      "text": "允许自己偶尔断电，人生不是轨道，是旷野。",
-      "en": "Allow yourself to unplug sometimes. Life is not a track, it's an open field."
+      "text": "温柔地对待自己，世界也会对你温柔以待。",
+      "en": "Treat yourself gently, and the world will be gentle with you."
     },
     {
-      "text": "先安顿好自己，再温柔地拥抱世界。",
-      "en": "Settle yourself first, then gently embrace the world."
+      "text": "每一步都算数，哪怕你走得慢。",
+      "en": "Every step counts, even if you walk slowly."
     }
   ],
   "poems": [
@@ -23,8 +23,8 @@
       "source": "苏轼《定风波·南海归赠王定国侍人寓娘》"
     },
     {
-      "text": "若无闲事挂心头，便是人间好时节。",
-      "source": "无门慧开《颂古四十八首》"
+      "text": "人生如逆旅，我亦是行人。",
+      "source": "苏轼《临江仙·送钱穆父》"
     }
   ],
   "daily": [
@@ -33,12 +33,12 @@
       "source": "《道德经》第三十三章"
     },
     {
-      "text": "不患无位，患所以立。不患莫己知，求为可知也。",
-      "source": "《论语·里仁》"
+      "text": "君子求诸己，小人求诸人。",
+      "source": "《论语·卫灵公》"
     },
     {
-      "text": "积行成习，积习成性，积性成命。",
-      "source": "《周易》坤卦文言（引申义）"
+      "text": "不患无位，患所以立。",
+      "source": "《论语·里仁》"
     }
   ]
 }
