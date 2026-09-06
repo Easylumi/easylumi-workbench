@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-05",
-  "update_time": "2026-09-05 22:37:14",
+  "date": "2026-09-06",
+  "update_time": "2026-09-06 10:15:17",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "Falcons Spirit",
-          "hot": "7464214",
-          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
-        },
-        {
-          "title": "张雪机车德比斯第一回合季军",
-          "hot": "3063829",
+          "title": "Spirit和MOUZ会师决赛",
+          "hot": "1807776",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "民警冒险传回吉隆泥石流当日画面",
-          "hot": "938309",
+          "title": "郑钦文生涯第一次完成0-5逆转",
+          "hot": "1199485",
           "url": ""
         },
         {
-          "title": "IG战胜TES赛后数据",
-          "hot": "938306",
+          "title": "吉达联合2-1利雅得胜利",
+          "hot": "771340",
           "url": ""
         },
         {
-          "title": "本西蒙斯重返NBA",
-          "hot": "938301",
+          "title": "王聪争夺UFC女子蝇量级冠军",
+          "hot": "617478",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "走失男童在沙漠被找到",
-          "hot": "937983",
+          "title": "曼城1-0考文垂",
+          "hot": "613665",
           "url": ""
         },
         {
-          "title": "明日方舟仙术杯",
-          "hot": "937935",
-          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
-        },
-        {
-          "title": "王骁拆解韩国医美产业",
-          "hot": "937544",
+          "title": "人形机器人作战能力如何",
+          "hot": "605492",
           "url": ""
         },
         {
-          "title": "怎么看AI或解决七大数学难题之一",
-          "hot": "936580",
+          "title": "郑钦文逆转晋级美网16强",
+          "hot": "604907",
           "url": ""
         },
         {
-          "title": "长沙TES.A 广州TTG",
-          "hot": "936310",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+          "title": "GEN战胜HLE数据雷达图",
+          "hot": "602350",
+          "url": ""
+        },
+        {
+          "title": "财神窦占龙",
+          "hot": "564951",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "解析凡人修仙传190集",
+          "hot": "542315",
+          "url": ""
         },
         {
           "title": "TES IG",
-          "hot": "935974",
+          "hot": "542241",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "火影手游晓朱鼬技能全爆料",
-          "hot": "935302",
-          "url": ""
+          "title": "大学校徽应该怎么设计",
+          "hot": "542007",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
         },
         {
-          "title": "完整复盘花少二名场面",
-          "hot": "933847",
+          "title": "加斯利夺得意大利站杆位",
+          "hot": "539926",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "读博两年论文中了顶会",
-          "hot": "894775",
+          "title": "00后老师当班主任belike",
+          "hot": "539898",
           "url": ""
         },
         {
-          "title": "TES IG忍界大战",
-          "hot": "874021",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+          "title": "万字拆解DC电影超级少女",
+          "hot": "539848",
+          "url": ""
         }
       ]
     },
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "完整复盘花少二名场面",
-      "new_title": "花少2名场面，暴露人际真相",
-      "track": "情感关系",
+      "orig_title": "郑钦文生涯第一次完成0-5逆转",
+      "new_title": "0-5落后不认输，才叫女人",
+      "track": "职场成长",
       "adapt": "高",
-      "core_view": "高情商不是忍让，是清醒",
-      "hook": "花少2看了没？那场面，比宫斗剧还刺激！",
-      "angle": "从名场面剖析女性社交中的隐性攻击与自我保护策略",
+      "core_view": "绝境是翻盘的开始",
+      "hook": "比分0-5，全世界都觉得她输了，她却笑了。",
+      "angle": "用郑钦文绝地反击类比女性职场逆风局，谈韧性",
+      "platform": "体育"
+    },
+    {
+      "orig_title": "郑钦文逆转晋级美网16强",
+      "new_title": "她赢的不是球，是心态",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "心态决定人生胜负",
+      "hook": "郑钦文逆转那一刻，我才真正读懂一句话。",
+      "angle": "从逆转瞬间切入，讲女性在生活困境中如何稳住心态",
+      "platform": "体育"
+    },
+    {
+      "orig_title": "00后老师当班主任belike",
+      "new_title": "00后都当班主任了？你慌吗",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "年龄不是资本，成长才是",
+      "hook": "00后都开始管人了，你还在怕什么？",
+      "angle": "用00后职场新人的反差感，激励女性摆脱年龄焦虑，大胆成长",
       "platform": "微博"
     },
     {
-      "orig_title": "读博两年论文中了顶会",
-      "new_title": "读博中顶会，我做对了什么",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "高效能女性的时间管理秘籍",
-      "hook": "两年中顶会，她到底做对了哪件事？",
-      "angle": "拆解女博士科研高效背后的规划与自律，引申到职场女性成长",
-      "platform": "知乎"
-    },
-    {
-      "orig_title": "王骁拆解韩国医美产业",
-      "new_title": "韩国医美火爆，背后是焦虑？",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "真正的美，是接纳自我",
-      "hook": "韩国医美那么发达，却救不了她们的焦虑。",
-      "angle": "从医美产业现象反观女性容貌焦虑与自我价值认同",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "怎么看AI或解决七大数学难题之一",
-      "new_title": "AI都这么卷了，女性怎么办",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "AI时代，女性优势更凸显",
-      "hook": "AI都能解数学难题了，你的工作还安全吗？",
-      "angle": "探讨AI时代下女性不可替代的软实力与竞争力",
-      "platform": "澎湃新闻"
-    },
-    {
-      "orig_title": "IG战胜TES赛后数据",
-      "new_title": "IG夺冠背后：永不言弃的她力量",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "逆风翻盘，是给坚持者的奖赏",
-      "hook": "电竞逆风翻盘，像不像你人生的绝地反击？",
-      "angle": "借竞技体育的逆袭精神，鼓励女性在低谷中不放弃",
-      "platform": "虎扑"
-    },
-    {
-      "orig_title": "本西蒙斯重返NBA",
-      "new_title": "低谷重返巅峰，她也可以",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "低谷不可怕，重启需要勇气",
-      "hook": "被嘲笑了两年，他终于回来了。你呢？",
-      "angle": "借球星重返赛场的故事，谈女性如何走出职场或人生低谷",
-      "platform": "腾讯体育"
-    },
-    {
-      "orig_title": "民警冒险传回吉隆泥石流当日画面",
-      "new_title": "逆行者精神，平凡女性的力量",
-      "track": "生活感悟",
-      "adapt": "低",
-      "core_view": "平凡岗位，亦可伟大闪耀",
-      "hook": "哪有什么岁月静好，不过是有人替你负重前行。",
-      "angle": "从民警的坚守，致敬每一个在平凡生活中默默发光的女性",
-      "platform": "央视新闻"
-    },
-    {
-      "orig_title": "长沙TES.A 广州TTG",
-      "new_title": "TTG的韧性，是女性翻盘底色",
+      "orig_title": "王聪争夺UFC女子蝇量级冠军",
+      "new_title": "女人最强的时候，是不怕疼",
       "track": "情感关系",
-      "adapt": "低",
-      "core_view": "把逆境当阶梯，你就赢了",
-      "hook": "看TTG的比赛，我悟了关系的底层逻辑。",
-      "angle": "从团队竞技的协作与韧性，引申到女性如何处理复杂人际关系",
-      "platform": "斗鱼"
+      "adapt": "中",
+      "core_view": "为自己而战才高级",
+      "hook": "她脸上有疤，眼里有光，那一刻我懂了。",
+      "angle": "借女性格斗冠军的狠劲，谈女人在感情里也要有为自己而战的姿态",
+      "platform": "体育"
+    },
+    {
+      "orig_title": "解析凡人修仙传190集",
+      "new_title": "女人也要有凡人修仙的狠",
+      "track": "读书分享",
+      "adapt": "中",
+      "core_view": "普通人的逆袭靠坚持",
+      "hook": "一部修仙动画，却让我看哭了三次。",
+      "angle": "把修仙升级的孤独与坚持，类比女性个人成长的心路历程",
+      "platform": "动漫"
+    },
+    {
+      "orig_title": "大学校徽应该怎么设计",
+      "new_title": "你的圈子，决定你高度",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "平台比努力更重要",
+      "hook": "一个校徽都能吵上热搜，你还没看懂？",
+      "angle": "从校徽之争引申到女性选平台、选圈层的重要性",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "财神窦占龙",
+      "new_title": "女人最好的风水，是自己",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "靠自己才能真富贵",
+      "hook": "与其求财神，不如先成为自己的财神。",
+      "angle": "用财神热点聊女性经济独立与精神自足",
+      "platform": "短视频"
+    },
+    {
+      "orig_title": "人形机器人作战能力如何",
+      "new_title": "别怕被替代，你要不可替代",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "进化是女人的护城河",
+      "hook": "机器人都在进化了，你还在原地踏步？",
+      "angle": "借人形机器人话题，谈女性如何打造不可替代的成长力",
+      "platform": "科技"
     }
   ],
   "ai_status": "success"
