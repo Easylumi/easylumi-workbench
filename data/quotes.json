@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你比想象中更接近那个想要的自己，只是需要多一点耐心。",
-      "en": "You are closer to the person you want to be than you think—just be a little more patient."
+      "text": "你不需要很厉害才能开始，但你需要开始才能很厉害。",
+      "en": "You don't have to be great to start, but you have to start to be great."
     },
     {
-      "text": "温柔不是软弱，是你在看清生活之后，依然选择好好爱自己。",
-      "en": "Gentleness is not weakness; it's choosing to love yourself well after seeing life clearly."
+      "text": "温柔地对待自己，你正在努力成为更好的自己。",
+      "en": "Be gentle with yourself; you are doing the best you can to become a better you."
     },
     {
-      "text": "慢慢来，所有的不确定都是你重新定义自己的机会。",
-      "en": "Take it slow—every uncertainty is a chance to redefine yourself."
+      "text": "每一步都算数，即使走得慢，也是在向前。",
+      "en": "Every step counts, even if you walk slowly, you're still moving forward."
     }
   ],
   "poems": [
@@ -19,12 +19,12 @@
       "source": "王维《终南别业》"
     },
     {
-      "text": "此心安处是吾乡。",
-      "source": "苏轼《定风波·南海归赠王定国侍人寓娘》"
+      "text": "此情可待成追忆，只是当时已惘然。",
+      "source": "李商隐《锦瑟》"
     },
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "苏轼《定风波·莫听穿林打叶声》"
+      "text": "人生如逆旅，我亦是行人。",
+      "source": "苏轼《临江仙·送钱穆父》"
     }
   ],
   "daily": [
@@ -37,8 +37,8 @@
       "source": "《论语·学而》"
     },
     {
-      "text": "君子求诸己，小人求诸人。",
-      "source": "《论语·卫灵公》"
+      "text": "祸兮福之所倚，福兮祸之所伏。",
+      "source": "《道德经》第五十八章"
     }
   ]
 }
