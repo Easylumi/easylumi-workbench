@@ -1,19 +1,23 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，你只需要真实。",
-      "en": "You don't have to be perfect; you just have to be real."
+      "text": "你不必活成别人期待的样子，你只需要成为你自己，温柔而坚定。",
+      "en": "You don't have to live up to others' expectations; you just need to be yourself, gentle yet firm."
     },
     {
-      "text": "慢慢来，一切都来得及。",
-      "en": "Take your time; everything will come in its own time."
+      "text": "慢慢来，比较快。真正的成长，从允许自己按自己的节奏开始。",
+      "en": "Slow is smooth, smooth is fast. True growth begins when you allow yourself to move at your own pace."
     },
     {
-      "text": "你的存在，本身就是一种美好。",
-      "en": "Your existence itself is a kind of beauty."
+      "text": "把日子过成自己喜欢的样子，就是对自己最大的温柔。",
+      "en": "Living each day in a way you love is the greatest tenderness you can give yourself."
     }
   ],
   "poems": [
+    {
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
+    },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
@@ -21,16 +25,12 @@
     {
       "text": "行到水穷处，坐看云起时。",
       "source": "王维《终南别业》"
-    },
-    {
-      "text": "长风破浪会有时，直挂云帆济沧海。",
-      "source": "李白《行路难·其一》"
     }
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。",
-      "source": "《道德经》第三十三章"
+      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "source": "《道德经·第三十三章》"
     },
     {
       "text": "君子求诸己，小人求诸人。",
