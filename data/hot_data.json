@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-10",
-  "update_time": "2026-09-10 23:51:44",
+  "date": "2026-09-11",
+  "update_time": "2026-09-11 10:21:55",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "习近平对青岛货轮火灾作出指示",
-          "hot": "974040",
-          "url": ""
-        },
-        {
-          "title": "长征四号乙一箭六星发射成功",
-          "hot": "939438",
+          "title": "OpenAI或再推进数学七大难题",
+          "hot": "4016875",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "流浪地球望日首曝PV",
-          "hot": "887427",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/0ZVm0aB2HV.png"
+          "title": "iPhone Duo支架设计亮点",
+          "hot": "974194",
+          "url": ""
         },
         {
-          "title": "AL vs IG数据前瞻",
-          "hot": "841816",
+          "title": "曼联4-0大胜沙巴巴库",
+          "hot": "906838",
+          "url": ""
+        },
+        {
+          "title": "日本名古屋强降雨创历史纪录",
+          "hot": "405830",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "考研数学百日冲刺怎么学",
-          "hot": "738525",
+          "title": "服贸会里的拼好房",
+          "hot": "368277",
+          "url": ""
+        },
+        {
+          "title": "iPhone 18 Pro四款配色怎么选",
+          "hot": "363334",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "中科大迎新晚会 反卷的名义",
-          "hot": "728025",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "别这么说教师节版",
-          "hot": "710570",
-          "url": ""
-        },
-        {
-          "title": "DeepSeek V4.1 Flash",
-          "hot": "679706",
-          "url": ""
-        },
-        {
-          "title": "打工人视角看早春晴朗",
-          "hot": "678515",
-          "url": ""
-        },
-        {
-          "title": "时光代理人",
-          "hot": "675870",
-          "url": "https://i0.hdslb.com/bfs/legacy/039839518e3f44f695eec13cfa6b618da96e6cca.png"
-        },
-        {
-          "title": "星铁砂金戏浪角色PV",
-          "hot": "675869",
-          "url": ""
-        },
-        {
-          "title": "MIT用细菌搭出活体电路板",
-          "hot": "675868",
+          "title": "曼联欧冠能走多远",
+          "hot": "356953",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "苹果发布会reaction",
-          "hot": "675867",
+          "title": "Caps名人堂纪录片",
+          "hot": "329974",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
+        },
+        {
+          "title": "UP主创意手搓MJ热单",
+          "hot": "327020",
           "url": ""
         },
         {
-          "title": "揭秘服贸会仿生机械鱼",
-          "hot": "675865",
+          "title": "王者万象棋公测CG",
+          "hot": "320810",
+          "url": ""
+        },
+        {
+          "title": "曝LPL明年将取消涅槃赛制",
+          "hot": "320809",
+          "url": ""
+        },
+        {
+          "title": "IG能否战胜AL剑指银龙杯",
+          "hot": "320808",
           "url": ""
         },
         {
           "title": "杰哥不要但是回到过去",
-          "hot": "675861",
+          "hot": "320804",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+        },
+        {
+          "title": "直到坏蛋都变成糖果",
+          "hot": "320790",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+        },
+        {
+          "title": "洲彦祖返场小曲",
+          "hot": "320624",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "考研数学百日冲刺怎么学",
-      "new_title": "百日冲刺，女人别只会焦虑",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "最后百天拼的是心态不是天赋",
-      "hook": "考研最后一百天，我崩溃了三次才明白这件事",
-      "angle": "把备考冲刺类比为女性职场项目攻坚，讲时间管理和情绪管理",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "中科大迎新晚会 反卷的名义",
-      "new_title": "反卷不是躺平，是清醒地活",
-      "track": "生活感悟",
-      "adapt": "高",
-      "core_view": "真正的反卷是找到自己的节奏",
-      "hook": "中科大用一场晚会告诉所有人，卷不是唯一出路",
-      "angle": "从反卷话题切入，讲女性如何在职场和生活中拒绝无效内耗",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "打工人视角看早春晴朗",
-      "new_title": "打工人女孩，你值得早春晴朗",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "再忙也别弄丢感受生活的能力",
-      "hook": "每天加班到十点，我差点忘了春天是什么味道",
-      "angle": "借影视剧打工人视角，讲女性在忙碌中找回自我和生活热情",
-      "platform": "小红书"
-    },
-    {
-      "orig_title": "别这么说教师节版",
-      "new_title": "这些话，别再对女孩说了",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "语言暴力正在悄悄毁掉女孩自信",
-      "hook": "你听过最伤人的一句话是什么？我记了十年",
-      "angle": "借教师节版别这么说，延伸到日常生活中对女性的语言规训和标签",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "苹果发布会reaction",
-      "new_title": "苹果发布会教会我的成长真相",
+      "orig_title": "OpenAI或再推进数学七大难题",
+      "new_title": "AI都在攻数学难题了",
       "track": "职场成长",
       "adapt": "中",
-      "core_view": "迭代比完美更重要",
-      "hook": "苹果每年被骂，但每年都在变强，你也是",
-      "angle": "从苹果产品迭代逻辑切入，讲女性个人成长的迭代思维",
+      "core_view": "女性别给自己设限",
+      "hook": "AI都在挑战人类顶级数学难题了，你还在说我不行？",
+      "angle": "从AI突破数学难题切入，鼓励女性打破自我设限，勇敢挑战不可能",
       "platform": "微博"
     },
     {
-      "orig_title": "流浪地球望日首曝PV",
-      "new_title": "女孩，做自己的流浪地球",
+      "orig_title": "iPhone Duo支架设计亮点",
+      "new_title": "一个支架教会我的事",
       "track": "生活感悟",
       "adapt": "中",
-      "core_view": "人生没有既定轨道只有旷野",
-      "hook": "流浪地球3要来了，但我更想聊聊女孩的流浪人生",
-      "angle": "借科幻IP热度，讲女性打破人生轨道、探索旷野的勇气",
-      "platform": "B站"
+      "core_view": "好的支撑才能走更远",
+      "hook": "一个手机支架的设计，让我想通了女性成长最大的秘密",
+      "angle": "从支架\"支撑\"功能隐喻女性需要建立自己的支持系统，而非一味硬撑",
+      "platform": "微博"
     },
     {
-      "orig_title": "时光代理人",
-      "new_title": "如果能回到过去，你想改变什么",
+      "orig_title": "曼联4-0大胜沙巴巴库",
+      "new_title": "4比0背后藏着翻身逻辑",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "低谷后爆发靠的是蓄力",
+      "hook": "曼联4比0大胜，但我看到的是每个女人都该懂的翻身逻辑",
+      "angle": "从曼联触底反弹切入，讲女性在职场低谷期如何蓄力逆袭",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "日本名古屋强降雨创历史纪录",
+      "new_title": "暴雨教会我允许自己崩溃",
       "track": "情感关系",
       "adapt": "中",
-      "core_view": "接纳过去才是真正的成长",
-      "hook": "时光代理人更新了，我却看哭在弹幕里",
-      "angle": "借动漫时光穿越设定，讲女性与过去和解、停止后悔内耗",
+      "core_view": "允许情绪暴雨才能重建",
+      "hook": "名古屋暴雨破历史纪录，我却想跟你说：允许自己崩溃一次",
+      "angle": "以极端天气类比女性情绪积压，鼓励正视情绪而非永远坚强",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "服贸会里的拼好房",
+      "new_title": "拼好房让我看清婚姻真相",
+      "track": "情感关系",
+      "adapt": "高",
+      "core_view": "关系本质是资源重组",
+      "hook": "服贸会出了个拼好房，我突然看懂了婚姻的底层逻辑",
+      "angle": "从\"拼好房\"概念切入，探讨现代女性在亲密关系中的资源意识与独立",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "iPhone 18 Pro四款配色怎么选",
+      "new_title": "选配色和选人生一个道理",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "选择没有对错只有适合",
+      "hook": "iPhone18 Pro四个配色你纠结了吗？选人生也一样",
+      "angle": "从选手机配色切入，讲女性面对人生选择时不必追求最优解，适合自己就好",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "Caps名人堂纪录片",
+      "new_title": "名人堂选手教我的坚持",
+      "track": "读书分享",
+      "adapt": "中",
+      "core_view": "热爱可抵岁月漫长",
+      "hook": "Caps进名人堂的纪录片，我看哭了，因为看到了每个追梦女人的影子",
+      "angle": "从电竞选手坚持梦想切入，分享女性如何在自己赛道长期主义深耕",
       "platform": "B站"
     },
     {
-      "orig_title": "DeepSeek V4.1 Flash",
-      "new_title": "AI时代，女孩更要学会这件事",
-      "track": "读书分享",
+      "orig_title": "曝LPL明年将取消涅槃赛制",
+      "new_title": "涅槃赛制取消我想说",
+      "track": "职场成长",
       "adapt": "中",
-      "core_view": "会用工具的女人永远不被淘汰",
-      "hook": "DeepSeek又更新了，但我想聊的不是技术",
-      "angle": "从AI工具迭代切入，讲女性持续学习和读书提升认知的重要性",
-      "platform": "抖音"
+      "core_view": "别等涅槃日常就要重生",
+      "hook": "LPL要取消涅槃赛制了，但女人的涅槃不该等规则给你机会",
+      "angle": "从赛制取消切入，鼓励女性不要等\"涅槃时刻\"，在日常中主动重塑自己",
+      "platform": "微博"
     }
   ],
   "ai_status": "success"
