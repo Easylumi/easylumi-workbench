@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-14",
-  "update_time": "2026-09-14 10:44:33",
+  "date": "2026-09-15",
+  "update_time": "2026-09-15 01:43:52",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "曼联0-1十人曼城",
-          "hot": "1674547",
+          "title": "今年最后一次长庚伴月",
+          "hot": "723342",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "徐静雨在库里中国行投篮19中0",
-          "hot": "907587",
+          "title": "全球首发三角洲二周年彩蛋解密",
+          "hot": "594096",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "Breathe赛后泪洒现场",
-          "hot": "886009",
+          "title": "IG如何能挺进世界赛",
+          "hot": "276899",
           "url": ""
         },
         {
-          "title": "多车队宣布永久退出China GT",
-          "hot": "671337",
+          "title": "LPL总决赛AL赛事语音",
+          "hot": "269185",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "英雄联盟十五周年小曲",
-          "hot": "423354",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+          "title": "复盘ChinaGT事故与辟谣",
+          "hot": "257805",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "手把手教学百万英镑牛排套餐",
-          "hot": "394225",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "title": "张本煜大战刘旸教主",
+          "hot": "224588",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
         },
         {
-          "title": "开学后的家长群belike",
-          "hot": "376269",
+          "title": "亚运会王者荣耀国家队名单公布",
+          "hot": "224563",
           "url": ""
         },
         {
-          "title": "莱万特2-4巴萨",
-          "hot": "356998",
+          "title": "上5休1上5休3上3休7上3休1",
+          "hot": "224523",
           "url": ""
         },
         {
-          "title": "南太行野线徒步乱象调查",
-          "hot": "326073",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "title": "花少2暖气事件",
+          "hot": "224277",
+          "url": ""
         },
         {
-          "title": "英超承认哈兰德进球有效是误判",
-          "hot": "297612",
+          "title": "LPL季后赛全位置数据",
+          "hot": "207838",
           "url": ""
         },
         {
           "title": "一部手机看金砖国家合作前景",
-          "hot": "297611",
+          "hot": "207773",
           "url": ""
         },
         {
-          "title": "UP主探店勇哥餐厅",
-          "hot": "297609",
+          "title": "未来五年扩招医学本科和硕士",
+          "hot": "207648",
           "url": ""
         },
         {
-          "title": "探访野生狗奶原产地",
-          "hot": "297608",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "探店硅谷CEO的宝藏川菜馆",
-          "hot": "297607",
+          "title": "开学后的家长群belike",
+          "hot": "207379",
           "url": ""
         },
         {
           "title": "秦牧",
-          "hot": "297606",
+          "hot": "205070",
           "url": "https://i0.hdslb.com/bfs/legacy/8905e6d0b01e3baa124094084315fa9624a175cc.png"
+        },
+        {
+          "title": "AI短片人生反悔局",
+          "hot": "189386",
+          "url": ""
         }
       ]
     },
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "曼联0-1十人曼城",
-      "new_title": "少一个人也能赢你",
-      "track": "情感关系",
+      "orig_title": "上5休1上5休3上3休7上3休1",
+      "new_title": "调休式假期，女人最该断舍离",
+      "track": "生活感悟",
       "adapt": "高",
-      "core_view": "离开消耗你的人才能赢",
-      "hook": "曼联输给十人曼城，你却还在将就那个不爱你的人？",
-      "angle": "用曼联以多打少仍输球，类比女人在感情里占尽优势却依然卑微讨好",
+      "core_view": "别让调休打乱你的生活节奏",
+      "hook": "上5休1再上5，你的生活被谁偷走了？",
+      "angle": "从调休乱象切入，聊女性如何拒绝被外界节奏裹挟，建立自己的能量管理秩序",
       "platform": "微博"
     },
     {
-      "orig_title": "徐静雨在库里中国行投篮19中0",
-      "new_title": "19投0中他还在投",
-      "track": "职场成长",
+      "orig_title": "花少2暖气事件",
+      "new_title": "花少2重提：讨好型人格有多累",
+      "track": "情感关系",
       "adapt": "高",
-      "core_view": "不怕出丑才能破局重生",
-      "hook": "19投0中，全网嘲笑他，但我看到了女人最缺的东西。",
-      "angle": "从徐静雨被群嘲仍坚持出手，切入女性职场中害怕犯错、不敢争取的痛点",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "Breathe赛后泪洒现场",
-      "new_title": "他哭了你也哭了",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "允许自己哭是最高级的勇敢",
-      "hook": "一个电竞选手赛后哭了，为什么全网女生都在转发？",
-      "angle": "从电竞选手公开落泪，探讨女性被教育'不许哭'的成长创伤与情绪释放",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "多车队宣布永久退出China GT",
-      "new_title": "他们退赛你该退圈",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "及时止损是顶级自律",
-      "hook": "多个车队永久退赛，你那份消耗你的工作为什么不退？",
-      "angle": "从车队集体退赛切入，讲女性在烂工作、烂圈子里的及时止损力",
+      "core_view": "讨好换不来尊重，边界才是",
+      "hook": "你有没有在关系里，活成了花少2的隐形人？",
+      "angle": "借花少2经典名场面，剖析女性在群体关系中的讨好模式与自我觉醒",
       "platform": "微博"
     },
     {
       "orig_title": "开学后的家长群belike",
-      "new_title": "家长群里的隐形攀比",
+      "new_title": "家长群里的妈妈们，别丢了自己",
       "track": "生活感悟",
       "adapt": "高",
-      "core_view": "别让孩子活成你的面子",
-      "hook": "开学三天，家长群炸了，攀比链顶端永远是这几种妈妈。",
-      "angle": "从家长群攀比现象，切入女性把自我价值绑定在孩子身上的集体焦虑",
+      "core_view": "妈妈的身份之外，你还是你",
+      "hook": "开学三天，你在家长群里丢了自己吗？",
+      "angle": "从家长群焦虑切入，聊女性在母职身份中的自我迷失与重建",
       "platform": "抖音"
     },
     {
-      "orig_title": "南太行野线徒步乱象调查",
-      "new_title": "跟风徒步差点没命",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "别用命去换朋友圈素材",
-      "hook": "南太行徒步乱象曝光，多少女人在拿命换一张精修图？",
-      "angle": "从野线徒步乱象，切入女性为社交媒体人设透支安全与健康的盲目跟风",
+      "orig_title": "未来五年扩招医学本科和硕士",
+      "new_title": "医学扩招，女性转行新风口？",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "政策风口是女性转型的跳板",
+      "hook": "五年扩招医学，30+女性还能上车吗？",
+      "angle": "从医学扩招政策切入，分析女性职业转型的窗口期与行动策略",
       "platform": "微博"
     },
     {
-      "orig_title": "英超承认哈兰德进球有效是误判",
-      "new_title": "裁判承认错了又怎样",
+      "orig_title": "AI短片人生反悔局",
+      "new_title": "如果人生能反悔，你最想改哪步",
       "track": "情感关系",
       "adapt": "高",
-      "core_view": "迟来的公平不是公平",
-      "hook": "英超承认误判了，但比分改不了，像极了他道歉但伤害还在。",
-      "angle": "从英超事后承认误判但结果无法更改，类比感情中迟来的道歉毫无意义",
+      "core_view": "不反悔的人生才真正属于你",
+      "hook": "AI拍出了人生反悔局，你敢看吗？",
+      "angle": "借AI反悔局话题，引导女性接纳过去选择，把遗憾转化为成长力量",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "今年最后一次长庚伴月",
+      "new_title": "最后一次长庚伴月，像极了爱情",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "有些美好错过就是一辈子",
+      "hook": "今年最后一次长庚伴月，你错过了吗？",
+      "angle": "用天象浪漫意象类比情感中的错过与珍惜，引发女性共鸣",
       "platform": "微博"
     },
     {
       "orig_title": "一部手机看金砖国家合作前景",
-      "new_title": "你的格局决定你的结局",
-      "track": "读书分享",
+      "new_title": "金砖扩员，女性出海新机遇",
+      "track": "职场成长",
       "adapt": "中",
-      "core_view": "看世界的宽度决定人生的高度",
-      "hook": "一部手机看懂金砖合作，女人最该投资的是你的认知半径。",
-      "angle": "从金砖国家合作切入，推荐提升宏观思维的书单，讲女性认知升级",
+      "core_view": "全球化退潮时，女性逆向出海",
+      "hook": "金砖合作升级，你的职业plan B在哪？",
+      "angle": "从金砖合作切入，聊女性如何抓住国际化职业新机会",
       "platform": "微博"
+    },
+    {
+      "orig_title": "张本煜大战刘旸教主",
+      "new_title": "张本煜刘旸对决，像极了职场内卷",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "高手过招，拼的是心态不是蛮力",
+      "hook": "张本煜大战刘旸，你站谁？我看懂了内卷真相",
+      "angle": "借喜剧对决类比职场竞争，聊女性如何在内卷中保持清醒与松弛",
+      "platform": "抖音"
     }
   ],
   "ai_status": "success"
