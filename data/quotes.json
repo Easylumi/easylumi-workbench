@@ -1,44 +1,44 @@
 {
   "quotes": [
     {
-      "text": "你不需要活成别人眼中的风景，你只需成为自己心里的光。",
-      "en": "You don't need to be a scenery in others' eyes; just be the light in your own heart."
+      "text": "你不需要完美，你只需要真实。",
+      "en": "You don't have to be perfect; you just have to be real."
     },
     {
-      "text": "慢慢来，比较快。温柔地坚持，胜过用力地逞强。",
-      "en": "Slow is smooth, smooth is fast. Gentle persistence beats forceful bravado."
+      "text": "慢慢来，但不要停。",
+      "en": "Take your time, but don't stop."
     },
     {
-      "text": "真正的强大，是允许自己脆弱，然后依然选择向前。",
-      "en": "True strength is allowing yourself to be vulnerable, and still choosing to move forward."
+      "text": "温柔地对待自己，就像对待你最爱的人。",
+      "en": "Be gentle with yourself, as you would with the one you love most."
     }
   ],
   "poems": [
     {
-      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
-      "source": "苏轼《定风波·莫听穿林打叶声》"
+      "text": "行到水穷处，坐看云起时。",
+      "source": "王维《终南别业》"
     },
     {
-      "text": "苔花如米小，也学牡丹开。",
-      "source": "袁枚《苔》"
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "陆游《游山西村》"
     },
     {
-      "text": "草木有本心，何求美人折。",
-      "source": "张九龄《感遇·其一》"
+      "text": "采菊东篱下，悠然见南山。",
+      "source": "陶渊明《饮酒·其五》"
     }
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经·第三十三章》"
+      "text": "知人者智，自知者明。",
+      "source": "《道德经》"
     },
     {
       "text": "君子求诸己，小人求诸人。",
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "行有不得者，皆反求诸己。",
-      "source": "《孟子·离娄上》"
+      "text": "万物皆备于我矣，反身而诚，乐莫大焉。",
+      "source": "《孟子·尽心上》"
     }
   ]
 }
