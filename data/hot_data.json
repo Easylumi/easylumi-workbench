@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "update_time": "2026-09-16 00:17:29",
+  "update_time": "2026-09-16 10:42:40",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "UP主点评HYROX选手赛场失禁",
-          "hot": "996993",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "曝Claude Opus 5.2开启灰测",
-          "hot": "377330",
+          "title": "王楚钦回应三战亚运",
+          "hot": "1235433",
           "url": ""
         },
         {
-          "title": "为什么要开通平陆运河",
-          "hot": "313717",
+          "title": "平陆运河全线通航",
+          "hot": "391630",
+          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+        },
+        {
+          "title": "马德里讨论F1赛道修改方案",
+          "hot": "354850",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "基层干部下班当外卖员排名前15%",
+          "hot": "354634",
           "url": ""
         },
         {
-          "title": "我国成功发射一箭10星",
-          "hot": "308103",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "美债收益率破5%市场反应如何",
-          "hot": "294753",
+          "title": "我国火箭单次海上发射载荷重量创新高",
+          "hot": "354196",
           "url": ""
         },
         {
-          "title": "中华娘能飞",
-          "hot": "294090",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+          "title": "漫威金刚狼获IGN6分",
+          "hot": "351673",
+          "url": ""
         },
         {
-          "title": "日本梅毒疫情有多严重",
-          "hot": "293120",
+          "title": "莫雷加德如何击败卡尔德拉诺‌",
+          "hot": "322930",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "亚运会三大球前瞻",
+          "hot": "284240",
+          "url": ""
+        },
+        {
+          "title": "vivo开发者大会",
+          "hot": "",
           "url": ""
         },
         {
           "title": "复盘花少3赖雨濛被嘘事件",
-          "hot": "290189",
+          "hot": "270520",
           "url": ""
         },
         {
-          "title": "UP主实测Claude Opus5.2",
-          "hot": "285285",
+          "title": "英联杯利物浦3-1热刺",
+          "hot": "252210",
           "url": ""
         },
         {
-          "title": "亚运会三大球前瞻",
-          "hot": "188339",
+          "title": "艾因4-0利雅得胜利",
+          "hot": "251226",
+          "url": ""
+        },
+        {
+          "title": "上海海港6-4拉查武里",
+          "hot": "247527",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "国家卫健委主任喊你多喝白开水",
-          "hot": "188338",
-          "url": ""
+          "title": "庞清方终于打回NCAA了",
+          "hot": "242694",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "AI短片人生反悔局",
-          "hot": "188336",
-          "url": ""
-        },
-        {
-          "title": "火影手游晓北角都技能全爆料",
-          "hot": "188336",
-          "url": ""
-        },
-        {
-          "title": "有用版PVZ新植物怕死樱桃",
-          "hot": "188334",
-          "url": ""
-        },
-        {
-          "title": "奶龙vs肥嘟嘟版琵琶曲",
-          "hot": "188329",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+          "title": "伊莫公测新手攻略",
+          "hot": "241399",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         }
       ]
     },
@@ -107,93 +107,83 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "UP主点评HYROX选手赛场失禁",
-      "new_title": "赛场失禁被群嘲？女人别怕丢脸",
-      "track": "生活感悟",
+      "orig_title": "王楚钦回应三战亚运",
+      "new_title": "三次备战，王楚钦教会我的事",
+      "track": "职场成长",
       "adapt": "高",
-      "core_view": "敢于出丑才是真正的强大",
-      "hook": "你有多久没拼到狼狈不堪了？",
-      "angle": "从运动员拼尽全力的狼狈，切入女性在职场和生活中怕丢脸的自我设限",
-      "platform": "B站"
+      "core_view": "重复不是消耗，是蓄力",
+      "hook": "你有没有被说过'你怎么又在做同一件事'？",
+      "angle": "从运动员三次备战亚运切入，讲女性职场中反复打磨同一件事的价值",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "基层干部下班当外卖员排名前15%",
+      "new_title": "下班后送外卖的基层干部",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "真正的底气，是随时能重新开始",
+      "hook": "一个基层干部，下班后跑去送外卖，结果冲进了前15%。",
+      "angle": "从基层干部跨界送外卖切入，讲女性副业与第二曲线的勇气",
+      "platform": "抖音"
     },
     {
       "orig_title": "复盘花少3赖雨濛被嘘事件",
-      "new_title": "被全场嘘的那晚她做对了什么",
+      "new_title": "被全网嘘过的女孩后来怎样了",
       "track": "情感关系",
       "adapt": "高",
-      "core_view": "被讨厌时稳住自己就是赢",
-      "hook": "所有人都在嘘她，她却没垮掉。",
-      "angle": "从综艺被嘘事件切入女性在关系中被否定时如何稳住内核",
+      "core_view": "被讨厌不可怕，可怕的是你信了",
+      "hook": "当年被全网嘘的那个女孩，你知道她后来怎么了吗？",
+      "angle": "从赖雨濛被嘘事件切入，讲女性如何面对群体否定与自我重建",
       "platform": "微博"
     },
     {
-      "orig_title": "国家卫健委主任喊你多喝白开水",
-      "new_title": "主任喊你喝白开水，藏着大智慧",
+      "orig_title": "我国火箭单次海上发射载荷重量创新高",
+      "new_title": "火箭海上发射，跟你有啥关系",
       "track": "生活感悟",
-      "adapt": "高",
-      "core_view": "最简单的习惯养最贵的自己",
-      "hook": "最高级的自律，其实是喝白开水。",
-      "angle": "从喝白开水的号召切入女性极简自律与低成本养自己的生活方式",
+      "adapt": "中",
+      "core_view": "所有的突破，都从离开舒适区开始",
+      "hook": "火箭从海上发射，这件事跟普通女生有什么关系？",
+      "angle": "从海上发射突破切入，比喻女性离开舒适区才能突破上限",
       "platform": "抖音"
     },
     {
-      "orig_title": "AI短片人生反悔局",
-      "new_title": "如果人生能反悔，你最想改哪步",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "别等反悔局，现在就为自己活",
-      "hook": "假如人生有反悔键，你按不按？",
-      "angle": "从AI反悔局短片切入女性对婚姻、职业选择的遗憾与和解",
-      "platform": "B站"
+      "orig_title": "平陆运河全线通航",
+      "new_title": "一条运河修了千年，急什么",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "慢一点没关系，方向对就行",
+      "hook": "平陆运河全线通航了，但我想聊的不是工程。",
+      "angle": "从运河千年修建切入，讲女性成长不必焦虑速度，方向比快慢重要",
+      "platform": "微博"
     },
     {
-      "orig_title": "AI短片人生反悔局",
-      "new_title": "看完人生反悔局，我放下了执念",
+      "orig_title": "莫雷加德如何击败卡尔德拉诺",
+      "new_title": "赢的人，都做对了这一件事",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "赢的关键，是找到对手的节奏盲区",
+      "hook": "莫雷加德赢球的方式，藏着一个职场真相。",
+      "angle": "从比赛战术切入，讲女性职场中差异化竞争比硬拼更有效",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "漫威金刚狼获IGN6分",
+      "new_title": "6分的金刚狼，凭什么还在打",
       "track": "读书分享",
       "adapt": "中",
-      "core_view": "每段弯路都是必经的成长",
-      "hook": "这本书和这个短片，治好了我的后悔。",
-      "angle": "借反悔局短片引出《人生只有一件事》等书籍，聊女性放下执念",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "UP主实测Claude Opus5.2",
-      "new_title": "AI越强，普通女孩越该学这件事",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "会用AI的人正在悄悄拉开差距",
-      "hook": "AI都能写方案了，你还在熬夜加班？",
-      "angle": "从AI实测能力切入女性职场如何用工具提升不可替代性",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "曝Claude Opus 5.2开启灰测",
-      "new_title": "AI迭代这么快，女人别只焦虑",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "焦虑没用，学会驾驭才是出路",
-      "hook": "又一版AI来了，你是慌还是用？",
-      "angle": "从AI快速迭代切入女性面对技术焦虑时的行动策略",
+      "core_view": "评分定义不了你，坚持才可以",
+      "hook": "金刚狼只拿了6分，但他还在打。你呢？",
+      "angle": "从低分评价切入，讲女性不被外界评分定义、坚持自我叙事",
       "platform": "微博"
     },
     {
-      "orig_title": "日本梅毒疫情有多严重",
-      "new_title": "日本梅毒爆发，女孩请守住底线",
+      "orig_title": "庞清方终于打回NCAA了",
+      "new_title": "被淘汰后，他打回了NCAA",
       "track": "情感关系",
-      "adapt": "高",
-      "core_view": "爱自己从守住身体边界开始",
-      "hook": "日本梅毒失控，这事和每个女孩有关。",
-      "angle": "从日本疫情切入女性在亲密关系中的自我保护与边界感",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "我国成功发射一箭10星",
-      "new_title": "一箭十星背后，藏着女性的野心",
-      "track": "生活感悟",
       "adapt": "中",
-      "core_view": "你的目标也可以一次发射十颗",
-      "hook": "一箭能发十颗星，你为什么只敢定一个目标？",
-      "angle": "从一箭十星切入女性多线成长、同时经营事业与自我的可能",
+      "core_view": "低谷不是终点，是重新出发的起点",
+      "hook": "被淘汰的人，还有资格谈梦想吗？庞清方说可以。",
+      "angle": "从庞清方重返NCAA切入，讲女性在感情或人生低谷后重建自我",
       "platform": "抖音"
     }
   ],
