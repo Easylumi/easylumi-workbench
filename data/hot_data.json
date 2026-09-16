@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-16",
-  "update_time": "2026-09-16 10:42:40",
+  "date": "2026-09-17",
+  "update_time": "2026-09-17 00:10:30",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "王楚钦回应三战亚运",
-          "hot": "1235433",
-          "url": ""
+          "title": "iPhone18 Pro性能分析",
+          "hot": "18959482",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "平陆运河全线通航",
-          "hot": "391630",
+          "title": "维斯塔潘百人卡丁车大赛",
+          "hot": "3274275",
           "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
         },
         {
-          "title": "马德里讨论F1赛道修改方案",
-          "hot": "354850",
+          "title": "2026无畏契约全球冠军赛主题曲",
+          "hot": "3235836",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "DDR5内存颗粒价格达到历史峰值",
+          "hot": "3180751",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "基层干部下班当外卖员排名前15%",
-          "hot": "354634",
+          "title": "一条视频梳理梅姨拐卖儿童案",
+          "hot": "2984728",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "U23国足逆转朝鲜",
+          "hot": "1860000",
+          "url": ""
+        },
+        {
+          "title": "平陆运河为何称得上世纪工程",
+          "hot": "1819496",
+          "url": ""
+        },
+        {
+          "title": "伊莫PC端公测PV",
+          "hot": "1188450",
+          "url": ""
+        },
+        {
+          "title": "如何看模型训练师发出AI风险警告",
+          "hot": "1011775",
+          "url": ""
+        },
+        {
+          "title": "钟文泽评测iPhone 18 Pro",
+          "hot": "974432",
           "url": ""
         },
         {
           "title": "我国火箭单次海上发射载荷重量创新高",
-          "hot": "354196",
+          "hot": "973826",
           "url": ""
         },
         {
-          "title": "漫威金刚狼获IGN6分",
-          "hot": "351673",
+          "title": "平陆运河开通带来哪些新机遇",
+          "hot": "973067",
           "url": ""
         },
         {
-          "title": "莫雷加德如何击败卡尔德拉诺‌",
-          "hot": "322930",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "亚运会三大球前瞻",
-          "hot": "284240",
+          "title": "985本硕重读本科开学报道篇",
+          "hot": "969988",
           "url": ""
         },
         {
-          "title": "vivo开发者大会",
-          "hot": "",
+          "title": "胡塞如何逼急沙特王爷",
+          "hot": "964771",
           "url": ""
         },
         {
-          "title": "复盘花少3赖雨濛被嘘事件",
-          "hot": "270520",
+          "title": "AI短片老秦",
+          "hot": "918715",
           "url": ""
-        },
-        {
-          "title": "英联杯利物浦3-1热刺",
-          "hot": "252210",
-          "url": ""
-        },
-        {
-          "title": "艾因4-0利雅得胜利",
-          "hot": "251226",
-          "url": ""
-        },
-        {
-          "title": "上海海港6-4拉查武里",
-          "hot": "247527",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "庞清方终于打回NCAA了",
-          "hot": "242694",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "伊莫公测新手攻略",
-          "hot": "241399",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         }
       ]
     },
@@ -107,83 +107,83 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "王楚钦回应三战亚运",
-      "new_title": "三次备战，王楚钦教会我的事",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "重复不是消耗，是蓄力",
-      "hook": "你有没有被说过'你怎么又在做同一件事'？",
-      "angle": "从运动员三次备战亚运切入，讲女性职场中反复打磨同一件事的价值",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "基层干部下班当外卖员排名前15%",
-      "new_title": "下班后送外卖的基层干部",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "真正的底气，是随时能重新开始",
-      "hook": "一个基层干部，下班后跑去送外卖，结果冲进了前15%。",
-      "angle": "从基层干部跨界送外卖切入，讲女性副业与第二曲线的勇气",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "复盘花少3赖雨濛被嘘事件",
-      "new_title": "被全网嘘过的女孩后来怎样了",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "被讨厌不可怕，可怕的是你信了",
-      "hook": "当年被全网嘘的那个女孩，你知道她后来怎么了吗？",
-      "angle": "从赖雨濛被嘘事件切入，讲女性如何面对群体否定与自我重建",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "我国火箭单次海上发射载荷重量创新高",
-      "new_title": "火箭海上发射，跟你有啥关系",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "所有的突破，都从离开舒适区开始",
-      "hook": "火箭从海上发射，这件事跟普通女生有什么关系？",
-      "angle": "从海上发射突破切入，比喻女性离开舒适区才能突破上限",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "平陆运河全线通航",
-      "new_title": "一条运河修了千年，急什么",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "慢一点没关系，方向对就行",
-      "hook": "平陆运河全线通航了，但我想聊的不是工程。",
-      "angle": "从运河千年修建切入，讲女性成长不必焦虑速度，方向比快慢重要",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "莫雷加德如何击败卡尔德拉诺",
-      "new_title": "赢的人，都做对了这一件事",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "赢的关键，是找到对手的节奏盲区",
-      "hook": "莫雷加德赢球的方式，藏着一个职场真相。",
-      "angle": "从比赛战术切入，讲女性职场中差异化竞争比硬拼更有效",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "漫威金刚狼获IGN6分",
-      "new_title": "6分的金刚狼，凭什么还在打",
+      "orig_title": "985本硕重读本科开学报道篇",
+      "new_title": "985本硕重读本科，她疯了吗",
       "track": "读书分享",
-      "adapt": "中",
-      "core_view": "评分定义不了你，坚持才可以",
-      "hook": "金刚狼只拿了6分，但他还在打。你呢？",
-      "angle": "从低分评价切入，讲女性不被外界评分定义、坚持自我叙事",
+      "adapt": "高",
+      "core_view": "学历不是枷锁，勇气才是底气",
+      "hook": "你敢信吗？985本硕毕业，她又去读本科了",
+      "angle": "从学历焦虑切入，讲女性终身学习和重启人生的勇气",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "如何看模型训练师发出AI风险警告",
+      "new_title": "AI时代，普通女生最大的危机",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "不可替代才是女性职场护城河",
+      "hook": "连AI训练师都怕了，你还在做可替代的工作吗",
+      "angle": "从AI替代焦虑切入，讲女性如何打造不可替代的职场竞争力",
       "platform": "微博"
     },
     {
-      "orig_title": "庞清方终于打回NCAA了",
-      "new_title": "被淘汰后，他打回了NCAA",
+      "orig_title": "一条视频梳理梅姨拐卖儿童案",
+      "new_title": "梅姨案背后，母亲们的20年",
       "track": "情感关系",
+      "adapt": "高",
+      "core_view": "女性的坚韧是最沉默的力量",
+      "hook": "她们找了孩子20年，你知道她们经历了什么吗",
+      "angle": "从被拐家庭的母亲视角切入，讲女性在绝境中的力量与守护",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "U23国足逆转朝鲜",
+      "new_title": "逆风翻盘，女生更该学这招",
+      "track": "励志成长",
+      "adapt": "高",
+      "core_view": "不到最后一刻别认输",
+      "hook": "0比1落后还能逆转？女生逆袭也是这个逻辑",
+      "angle": "从体育逆转切入，类比女性在职场和生活中的逆风翻盘心态",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "DDR5内存颗粒价格达到历史峰值",
+      "new_title": "内存涨价，暴露了你的消费观",
+      "track": "生活感悟",
       "adapt": "中",
-      "core_view": "低谷不是终点，是重新出发的起点",
-      "hook": "被淘汰的人，还有资格谈梦想吗？庞清方说可以。",
-      "angle": "从庞清方重返NCAA切入，讲女性在感情或人生低谷后重建自我",
+      "core_view": "理性消费是女性最好的自律",
+      "hook": "内存涨到历史最高，你还在冲动消费吗",
+      "angle": "从涨价现象切入，聊女性如何建立理性消费和财务独立意识",
+      "platform": "科技媒体"
+    },
+    {
+      "orig_title": "钟文泽评测iPhone 18 Pro",
+      "new_title": "你追的不是新手机，是焦虑",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "别用消费填补内心空虚",
+      "hook": "每年换新iPhone的女生，到底在追什么",
+      "angle": "从数码评测热度切入，聊女性消费主义陷阱与自我价值认同",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "平陆运河为何称得上世纪工程",
+      "new_title": "世纪工程背后，藏着女性智慧",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "长期主义才是真正的远见",
+      "hook": "一条运河修了几十年，你的职业规划有几年",
+      "angle": "从世纪工程的长期主义切入，讲女性职业规划的耐心与格局",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "维斯塔潘百人卡丁车大赛",
+      "new_title": "百人赛车，女生也能上赛道",
+      "track": "励志成长",
+      "adapt": "中",
+      "core_view": "别让性别定义你的赛道",
+      "hook": "100个人赛车道，凭什么女生不能赢",
+      "angle": "从赛车竞技切入，讲女性打破性别偏见、勇敢进入男性主导领域",
       "platform": "抖音"
     }
   ],
