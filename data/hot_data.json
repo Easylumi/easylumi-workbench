@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "update_time": "2026-09-17 00:10:30",
+  "update_time": "2026-09-17 10:46:37",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "iPhone18 Pro性能分析",
-          "hot": "18959482",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "维斯塔潘百人卡丁车大赛",
-          "hot": "3274275",
-          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
-        },
-        {
-          "title": "2026无畏契约全球冠军赛主题曲",
-          "hot": "3235836",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "DDR5内存颗粒价格达到历史峰值",
-          "hot": "3180751",
+          "title": "我国成功发射卫星互联网低轨25组卫星",
+          "hot": "1476270",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "一条视频梳理梅姨拐卖儿童案",
-          "hot": "2984728",
+          "title": "TES冒泡赛前紧急更换教练",
+          "hot": "1457740",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "中国科技进步引外媒关注",
+          "hot": "1445544",
+          "url": ""
+        },
+        {
+          "title": "美联储宣布加息25个基点",
+          "hot": "1432515",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "维斯塔潘35分钟超越100人",
+          "hot": "1260894",
+          "url": ""
+        },
+        {
+          "title": "名古屋亚运住宿争议",
+          "hot": "1214981",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "U23国足逆转朝鲜",
-          "hot": "1860000",
+          "title": "兰香如故的长剧魅力",
+          "hot": "713412",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "iPhone18 Pro系列全面测评",
+          "hot": "636454",
           "url": ""
         },
         {
-          "title": "平陆运河为何称得上世纪工程",
-          "hot": "1819496",
+          "title": "曼联2-3遭布莱顿逆转",
+          "hot": "602423",
           "url": ""
         },
         {
-          "title": "伊莫PC端公测PV",
-          "hot": "1188450",
-          "url": ""
-        },
-        {
-          "title": "如何看模型训练师发出AI风险警告",
-          "hot": "1011775",
-          "url": ""
-        },
-        {
-          "title": "钟文泽评测iPhone 18 Pro",
-          "hot": "974432",
+          "title": "体育应该成为主科吗",
+          "hot": "547999",
           "url": ""
         },
         {
           "title": "我国火箭单次海上发射载荷重量创新高",
-          "hot": "973826",
+          "hot": "547998",
           "url": ""
         },
         {
-          "title": "平陆运河开通带来哪些新机遇",
-          "hot": "973067",
+          "title": "平陆运河为何称得上世纪工程",
+          "hot": "547996",
           "url": ""
         },
         {
-          "title": "985本硕重读本科开学报道篇",
-          "hot": "969988",
+          "title": "伊莫PC端公测PV",
+          "hot": "547995",
           "url": ""
         },
         {
-          "title": "胡塞如何逼急沙特王爷",
-          "hot": "964771",
+          "title": "原神薇斯纳角色PV",
+          "hot": "547994",
           "url": ""
         },
         {
-          "title": "AI短片老秦",
-          "hot": "918715",
-          "url": ""
+          "title": "复盘AL二番战如何战胜BLG",
+          "hot": "547994",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         }
       ]
     },
@@ -107,83 +107,83 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "985本硕重读本科开学报道篇",
-      "new_title": "985本硕重读本科，她疯了吗",
+      "orig_title": "我国成功发射卫星互联网低轨25组卫星",
+      "new_title": "你的人生也需要一次精准发射",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "找准轨道比盲目努力更重要",
+      "hook": "卫星发射失败99次才成功，你凭什么一次就放弃？",
+      "angle": "从卫星组网类比女性职业规划——先定位再发力",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "TES冒泡赛前紧急更换教练",
+      "new_title": "临阵换帅，是勇气还是逃避？",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "敢于换赛道的人从不认输",
+      "hook": "大赛前换教练被全网骂，但我看到了女性最缺的勇气",
+      "angle": "从电竞换帅切入女性职场转型的沉没成本困境",
+      "platform": "虎扑"
+    },
+    {
+      "orig_title": "中国科技进步引外媒关注",
+      "new_title": "被看见之前，你熬过了多少夜",
+      "track": "励志/生活感悟",
+      "adapt": "高",
+      "core_view": "所有爆发都是沉默的厚积薄发",
+      "hook": "外媒惊叹中国科技，我只看到背后那群不被看见的女人",
+      "angle": "从国家科技逆袭类比女性成长中的长期主义",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "美联储宣布加息25个基点",
+      "new_title": "男人加息，女人加什么？",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "女人最该增值的是自己",
+      "hook": "美联储又加息了，你还在为那个不回消息的人内耗？",
+      "angle": "从经济加息类比女性情感中的自我价值投资",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "维斯塔潘35分钟超越100人",
+      "new_title": "35分钟超100人，你也可以",
+      "track": "励志/职场成长",
+      "adapt": "高",
+      "core_view": "逆袭靠的不是运气是策略",
+      "hook": "从最后一名到第一，他只用了35分钟，你呢？",
+      "angle": "从赛车逆袭拆解女性职场弯道超车方法论",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "名古屋亚运住宿争议",
+      "new_title": "连住的地方都没有，谈什么梦想",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "安全感是女性成长的底线",
+      "hook": "亚运选手没地方住，多少女人在婚姻里也没安全感？",
+      "angle": "从住宿争议切入女性独立空间与精神安全感",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "兰香如故的长剧魅力",
+      "new_title": "慢下来的人，才配拥有深度",
       "track": "读书分享",
       "adapt": "高",
-      "core_view": "学历不是枷锁，勇气才是底气",
-      "hook": "你敢信吗？985本硕毕业，她又去读本科了",
-      "angle": "从学历焦虑切入，讲女性终身学习和重启人生的勇气",
-      "platform": "抖音"
+      "core_view": "长期主义才是女性顶级魅力",
+      "hook": "所有人都在刷短视频，我却靠一部长剧找回了自己",
+      "angle": "从长剧魅力谈女性在碎片时代如何深度成长",
+      "platform": "小红书"
     },
     {
-      "orig_title": "如何看模型训练师发出AI风险警告",
-      "new_title": "AI时代，普通女生最大的危机",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "不可替代才是女性职场护城河",
-      "hook": "连AI训练师都怕了，你还在做可替代的工作吗",
-      "angle": "从AI替代焦虑切入，讲女性如何打造不可替代的职场竞争力",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "一条视频梳理梅姨拐卖儿童案",
-      "new_title": "梅姨案背后，母亲们的20年",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "女性的坚韧是最沉默的力量",
-      "hook": "她们找了孩子20年，你知道她们经历了什么吗",
-      "angle": "从被拐家庭的母亲视角切入，讲女性在绝境中的力量与守护",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "U23国足逆转朝鲜",
-      "new_title": "逆风翻盘，女生更该学这招",
-      "track": "励志成长",
-      "adapt": "高",
-      "core_view": "不到最后一刻别认输",
-      "hook": "0比1落后还能逆转？女生逆袭也是这个逻辑",
-      "angle": "从体育逆转切入，类比女性在职场和生活中的逆风翻盘心态",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "DDR5内存颗粒价格达到历史峰值",
-      "new_title": "内存涨价，暴露了你的消费观",
+      "orig_title": "体育应该成为主科吗",
+      "new_title": "你的人生主科选对了吗？",
       "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "理性消费是女性最好的自律",
-      "hook": "内存涨到历史最高，你还在冲动消费吗",
-      "angle": "从涨价现象切入，聊女性如何建立理性消费和财务独立意识",
-      "platform": "科技媒体"
-    },
-    {
-      "orig_title": "钟文泽评测iPhone 18 Pro",
-      "new_title": "你追的不是新手机，是焦虑",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "别用消费填补内心空虚",
-      "hook": "每年换新iPhone的女生，到底在追什么",
-      "angle": "从数码评测热度切入，聊女性消费主义陷阱与自我价值认同",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "平陆运河为何称得上世纪工程",
-      "new_title": "世纪工程背后，藏着女性智慧",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "长期主义才是真正的远见",
-      "hook": "一条运河修了几十年，你的职业规划有几年",
-      "angle": "从世纪工程的长期主义切入，讲女性职业规划的耐心与格局",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "维斯塔潘百人卡丁车大赛",
-      "new_title": "百人赛车，女生也能上赛道",
-      "track": "励志成长",
-      "adapt": "中",
-      "core_view": "别让性别定义你的赛道",
-      "hook": "100个人赛车道，凭什么女生不能赢",
-      "angle": "从赛车竞技切入，讲女性打破性别偏见、勇敢进入男性主导领域",
+      "adapt": "高",
+      "core_view": "女性要把自己当主科来培养",
+      "hook": "体育该不该成主科吵翻了，但没人问你的人生主科是什么",
+      "angle": "从教育争议延伸到女性自我教育的优先级排序",
       "platform": "抖音"
     }
   ],
