@@ -1,35 +1,35 @@
 {
   "quotes": [
     {
-      "text": "你不必完美，你只需要真实。",
-      "en": "You don't have to be perfect; you just need to be real."
+      "text": "你不需要完美，你只需要真实地向前走。",
+      "en": "You don't need to be perfect, you just need to move forward authentically."
     },
     {
-      "text": "慢慢来，比较快。",
-      "en": "Slow down, and you'll get there faster."
+      "text": "温柔地对待自己，就像你对待你最爱的人一样。",
+      "en": "Be gentle with yourself, just as you would be with the one you love most."
     },
     {
-      "text": "温柔地对待自己，就像对待一位老朋友。",
-      "en": "Be gentle with yourself, as you would with an old friend."
+      "text": "成长不是变得坚硬，而是变得柔软而有力量。",
+      "en": "Growth is not about becoming hard, but about becoming soft yet strong."
     }
   ],
   "poems": [
-    {
-      "text": "行到水穷处，坐看云起时。",
-      "source": "王维《终南别业》"
-    },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
     },
     {
-      "text": "回首向来萧瑟处，归去，也无风雨也无晴。",
-      "source": "苏轼《定风波》"
+      "text": "长风破浪会有时，直挂云帆济沧海。",
+      "source": "李白《行路难·其一》"
+    },
+    {
+      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
     }
   ],
   "daily": [
     {
-      "text": "知足者富，强行者有志。",
+      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
       "source": "《道德经·第三十三章》"
     },
     {
@@ -37,8 +37,8 @@
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾胡治兵语录》"
+      "text": "行有不得者，皆反求诸己。",
+      "source": "《孟子·离娄上》"
     }
   ]
 }
