@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "update_time": "2026-09-18 00:16:13",
+  "update_time": "2026-09-18 10:33:22",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "TES IG",
-          "hot": "4631595",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+          "title": "勿忘九一八",
+          "hot": "3295184",
+          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
         },
         {
           "title": "九一八事变爆发95周年",
-          "hot": "2320062",
+          "hot": "3036196",
+          "url": ""
+        },
+        {
+          "title": "宁德时代日赚超2亿合理吗",
+          "hot": "1331358",
+          "url": ""
+        },
+        {
+          "title": "iPhone18新机验机教程",
+          "hot": "875878",
+          "url": ""
+        },
+        {
+          "title": "李大霄评美股高开",
+          "hot": "845824",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "南医大学生坠亡事件谣言为何汹涌",
-          "hot": "1389790",
+          "title": "拍短剧成为横店落地签",
+          "hot": "773450",
+          "url": ""
+        },
+        {
+          "title": "GTA6专辑6首新歌试听",
+          "hot": "712726",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "苹果折叠屏优缺点分析",
-          "hot": "1138143",
+          "title": "TES战胜IG战术复盘",
+          "hot": "645282",
           "url": ""
         },
         {
-          "title": "生命奇观",
-          "hot": "1103063",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
-        },
-        {
-          "title": "TES对战IG表现如何",
-          "hot": "1029630",
+          "title": "AppleWatchSeries12",
+          "hot": "601110",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "价值100万美金的终极谜题",
-          "hot": "938517",
-          "url": ""
-        },
-        {
-          "title": "如何看赵雷演唱会求婚风波",
-          "hot": "937107",
-          "url": ""
-        },
-        {
-          "title": "刘旸林宇辉聊梅姨案幕后细节",
-          "hot": "893133",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
-        },
-        {
-          "title": "为什么所有App都能借钱给你",
-          "hot": "869732",
-          "url": ""
+          "title": "TES IG",
+          "hot": "601103",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
           "title": "我国成功发射天仪51和52卫星",
-          "hot": "869731",
+          "hot": "601056",
           "url": ""
         },
         {
           "title": "平陆运河为何称得上世纪工程",
-          "hot": "869730",
+          "hot": "600890",
           "url": ""
         },
         {
-          "title": "原神薇斯纳综合测评",
-          "hot": "869657",
+          "title": "如何看赵雷演唱会求婚风波",
+          "hot": "600407",
           "url": ""
         },
         {
-          "title": "琵琶曲但是沈腾VS马丽",
-          "hot": "869022",
+          "title": "我只是想煮一个鸡蛋",
+          "hot": "596525",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         },
         {
-          "title": "原神沃雅妮莎综合测评",
-          "hot": "868299",
-          "url": ""
+          "title": "琵琶曲但是沈腾VS马丽",
+          "hot": "596395",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         }
       ]
     },
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
+      "orig_title": "我只是想煮一个鸡蛋",
+      "new_title": "你只是想煮个鸡蛋，却哭了",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "压垮你的不是大事，是小事",
+      "hook": "你有没有因为一件小事，突然就崩溃了？",
+      "angle": "从日常微小崩溃切入，讲女性情绪积压与自我和解",
+      "platform": "抖音"
+    },
+    {
       "orig_title": "如何看赵雷演唱会求婚风波",
-      "new_title": "演唱会求婚被骂，女生别再自我感动",
+      "new_title": "演唱会被求婚，女生该感动吗",
       "track": "情感关系",
       "adapt": "高",
-      "core_view": "公开场合的情感绑架不是浪漫",
-      "hook": "在几万人面前求婚，到底是浪漫还是道德绑架？",
-      "angle": "从女生视角聊'被围观式求婚'的压力与边界感",
+      "core_view": "公开求婚是浪漫还是绑架",
+      "hook": "如果你的男友在万人面前求婚，你什么反应？",
+      "angle": "从求婚风波切入，探讨亲密关系中的边界感与尊重",
       "platform": "微博"
     },
     {
-      "orig_title": "为什么所有App都能借钱给你",
-      "new_title": "所有App都想借钱给你，女生更要清醒",
+      "orig_title": "宁德时代日赚超2亿合理吗",
+      "new_title": "日赚2亿的公司，女生该去吗",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "消费主义陷阱正在收割年轻女性",
-      "hook": "你有没有发现，连修图软件都在劝你借钱？",
-      "angle": "从女性消费陷阱切入，聊财务独立才是真正的底气",
-      "platform": "知乎"
+      "core_view": "选公司看利润，更要看你的位置",
+      "hook": "一家公司日赚2亿，和你月薪五千有什么关系？",
+      "angle": "从企业暴利切入，讲女性择业时如何判断平台与个人红利",
+      "platform": "今日头条"
     },
     {
-      "orig_title": "南医大学生坠亡事件谣言为何汹涌",
-      "new_title": "谣言比真相跑得快，女生请停止内耗",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "信息过载时代，保持独立思考是自保",
-      "hook": "一条未经证实的消息，为什么能让全网女生破防？",
-      "angle": "从谣言传播聊女性情绪容易被带节奏的底层原因",
-      "platform": "微博"
+      "orig_title": "拍短剧成为横店落地签",
+      "new_title": "短剧爆火，普通女生的机会来了",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "风口面前，行动比观望值钱",
+      "hook": "横店现在最缺的不是演员，是敢开始的人。",
+      "angle": "从短剧风口切入，鼓励女性抓住低门槛副业与转型机会",
+      "platform": "抖音"
     },
     {
       "orig_title": "九一八事变爆发95周年",
-      "new_title": "九一八95年：女性力量从未缺席",
+      "new_title": "95年前的今天，女性在做什么",
       "track": "读书分享",
       "adapt": "中",
-      "core_view": "历史中的女性觉醒值得被看见",
-      "hook": "95年前的今天，有一群女性做出了不一样的选择。",
-      "angle": "借历史节点分享抗战中女性觉醒的故事与书单",
+      "core_view": "记住历史，是为了看清来路",
+      "hook": "95年前的今天，有一群女性做出了同样的选择。",
+      "angle": "从历史事件切入，分享抗战中的女性故事与成长力量",
       "platform": "微博"
     },
     {
-      "orig_title": "刘旸林宇辉聊梅姨案幕后细节",
-      "new_title": "梅姨案背后，那些不放弃的女性",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "女性的坚韧是黑暗里最亮的光",
-      "hook": "孩子被拐多年，是什么支撑一位母亲熬过每一天？",
-      "angle": "从梅姨案聊女性在家庭创伤中的承受力与重建力",
-      "platform": "微博"
+      "orig_title": "李大霄评美股高开",
+      "new_title": "美股涨了，女生该学理财吗",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "经济独立从看懂钱开始",
+      "hook": "别人聊美股，你只会说‘我不懂钱’？",
+      "angle": "从财经热点切入，聊女性理财意识觉醒与经济独立",
+      "platform": "今日头条"
     },
     {
-      "orig_title": "价值100万美金的终极谜题",
-      "new_title": "100万美金的谜题，藏着女性破局思维",
+      "orig_title": "TES战胜IG战术复盘",
+      "new_title": "TES赢IG，女生也能看懂的成长课",
       "track": "职场成长",
       "adapt": "中",
-      "core_view": "解题思维比答案本身更值钱",
-      "hook": "一道悬赏100万美金的题，为什么普通人也能学到东西？",
-      "angle": "借谜题聊女性职场中'重构问题'的能力",
-      "platform": "微博"
+      "core_view": "逆风翻盘靠的是策略不是运气",
+      "hook": "一场电竞比赛，藏着女性职场逆袭的底层逻辑。",
+      "angle": "从电竞战术切入，类比职场中的资源分配与翻盘思维",
+      "platform": "虎扑"
     },
     {
-      "orig_title": "平陆运河为何称得上世纪工程",
-      "new_title": "世纪工程背后，是长期主义的胜利",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "真正厉害的人都懂得慢慢来",
-      "hook": "一条运河修了上百年，你急什么？",
-      "angle": "从世纪工程聊女性成长中的长期主义心态",
-      "platform": "知乎"
-    },
-    {
-      "orig_title": "生命奇观",
-      "new_title": "看完生命奇观，我不再焦虑年龄",
-      "track": "生活感悟",
-      "adapt": "高",
-      "core_view": "每个阶段的生命都有独特的美",
-      "hook": "当你觉得自己'来不及了'，看看大自然怎么说。",
-      "angle": "借自然纪录片聊女性对抗年龄焦虑的心态调整",
-      "platform": "抖音"
+      "orig_title": "琵琶曲但是沈腾VS马丽",
+      "new_title": "沈腾马丽合作，为什么让人上头",
+      "track": "情感关系",
+      "adapt": "低",
+      "core_view": "好的关系是彼此成就",
+      "hook": "沈腾和马丽一合体，为什么全网都在喊‘在一起’？",
+      "angle": "从搭档默契切入，聊女性在关系中如何找到对的人",
+      "platform": "B站"
     }
   ],
   "ai_status": "success"
