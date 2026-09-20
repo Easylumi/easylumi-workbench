@@ -1,44 +1,44 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，你只需要真实地向前走。",
-      "en": "You don't need to be perfect; you just need to move forward authentically."
+      "text": "你不需要变得完美，你只需要开始。",
+      "en": "You don't have to be perfect, you just have to start."
     },
     {
-      "text": "温柔地对待自己，就像你对待你最爱的人那样。",
-      "en": "Be gentle with yourself, just as you would be with the one you love most."
+      "text": "温柔地对待自己，就像对待你最爱的人一样。",
+      "en": "Treat yourself with the same tenderness you'd offer to someone you love."
     },
     {
-      "text": "慢慢来，比较快。每一步都算数。",
-      "en": "Slow is smooth, smooth is fast. Every step counts."
+      "text": "慢慢来，你正在成为你应该成为的人。",
+      "en": "Take your time. You are becoming exactly who you are meant to be."
     }
   ],
   "poems": [
     {
-      "text": "行到水穷处，坐看云起时。",
-      "source": "王维《终南别业》"
+      "text": "草木有本心，何求美人折。",
+      "source": "张九龄《感遇·其一》"
     },
     {
-      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
       "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
-      "text": "众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。",
-      "source": "辛弃疾《青玉案·元夕》"
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "陆游《游山西村》"
     }
   ],
   "daily": [
-    {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经·第三十三章》"
-    },
     {
       "text": "君子求诸己，小人求诸人。",
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "我们听到的一切都是一个观点，不是事实；我们看见的一切都是一个视角，不是真相。",
-      "source": "马可·奥勒留《沉思录》"
+      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "source": "《道德经·第三十三章》"
+    },
+    {
+      "text": "行有不得者，皆反求诸己。",
+      "source": "《孟子·离娄上》"
     }
   ]
 }
