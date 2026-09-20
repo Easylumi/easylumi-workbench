@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-19",
-  "update_time": "2026-09-19 23:23:21",
+  "date": "2026-09-20",
+  "update_time": "2026-09-20 10:44:02",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "IG JDG",
-          "hot": "13699931",
+          "title": "DeepSeek明确节假日计费规则",
+          "hot": "1684594",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "解析IG战胜JDG的战术发挥",
+          "hot": "1031890",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
           "title": "LPL S16出征仪式",
-          "hot": "6727940",
+          "hot": "917349",
           "url": ""
         },
         {
           "title": "中秋和国庆的请假难度belike",
-          "hot": "3754179",
+          "hot": "547066",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "我的青春结婚了",
-          "hot": "3170061",
+          "title": "科学家将人脑细胞植入鼠脑",
+          "hot": "522413",
           "url": ""
         },
         {
-          "title": "西贝回应被曝倒闭",
-          "hot": "2232789",
+          "title": "巴萨3-1逆转塞维利亚",
+          "hot": "445315",
+          "url": ""
+        },
+        {
+          "title": "重温1990年北京亚运村美食",
+          "hot": "387795",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "央视起底速成医师产业链",
+          "hot": "381002",
+          "url": ""
+        },
+        {
+          "title": "我的青春结婚了",
+          "hot": "376366",
+          "url": ""
+        },
+        {
+          "title": "凡人第192集逐帧解析",
+          "hot": "359053",
+          "url": ""
+        },
+        {
+          "title": "IG JDG",
+          "hot": "359052",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "沙特首都遭空袭",
+          "hot": "359050",
           "url": ""
         },
         {
           "title": "艾热张睿齐天夯爆了",
-          "hot": "2222078",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "阿云嘎张彬彬天后故事感满满",
-          "hot": "2190704",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "中国代表团亮相亚运会开幕式",
-          "hot": "1869999",
-          "url": ""
-        },
-        {
-          "title": "央视起底速成医师产业链",
-          "hot": "1690096",
-          "url": ""
-        },
-        {
-          "title": "中国科研团队钻研茶叶蛋做法",
-          "hot": "1510193",
-          "url": ""
-        },
-        {
-          "title": "沙特首都遭空袭",
-          "hot": "1507937",
+          "hot": "359049",
           "url": ""
         },
         {
           "title": "AI重做黑神话经典大战",
-          "hot": "1488090",
+          "hot": "359048",
           "url": ""
         },
         {
-          "title": "开学各省刻板印象belike",
-          "hot": "1440906",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "亚细亚洛天依中式梦核",
-          "hot": "1426340",
-          "url": ""
-        },
-        {
-          "title": "中国男篮为何会大比分溃败",
-          "hot": "1401522",
+          "title": "阿云嘎张彬彬天后故事感满满",
+          "hot": "359047",
           "url": ""
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "IG JDG",
-      "new_title": "感情就像打比赛，别只会防守",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "好的关系是双向进攻不是单方防守",
-      "hook": "你在感情里是不是永远在防守？",
-      "angle": "用电竞攻防比喻女性在关系中的被动困境",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "LPL S16出征仪式",
-      "new_title": "30岁重新出发，晚吗？",
+      "orig_title": "DeepSeek明确节假日计费规则",
+      "new_title": "AI都明码标价了，你的付出呢？",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "人生没有出征太晚只有不敢上场",
-      "hook": "所有人都说来不及了，你信了吗？",
-      "angle": "借出征仪式切入女性职业转型的勇气话题",
+      "core_view": "别让你的价值被免费消耗",
+      "hook": "连AI节假日都涨价了，你还在免费加班？",
+      "angle": "从AI计费规则切入女性职场定价权与自我价值认知",
       "platform": "微博"
     },
     {
       "orig_title": "中秋和国庆的请假难度belike",
-      "new_title": "请假都不敢，还谈什么边界感",
+      "new_title": "请假都不敢，你还在怕什么？",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "不敢请假的人永远活在别人期待里",
-      "hook": "你上一次理直气壮请假是什么时候？",
-      "angle": "从请假羞耻切入女性职场边界感缺失",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "我的青春结婚了",
-      "new_title": "他的青春结婚了，你呢？",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "别把别人的婚礼当成自己的遗憾",
-      "hook": "你追的那个人结婚了，你哭了吗？",
-      "angle": "从追星结婚话题切入女性情感投射与自我成长",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "西贝回应被曝倒闭",
-      "new_title": "35岁被裁员，天塌了吗？",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "没有铁饭碗只有铁能力",
-      "hook": "你以为稳定的工作，说没就没了。",
-      "angle": "借企业倒闭新闻切入女性职业安全感焦虑",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "中国代表团亮相亚运会开幕式",
-      "new_title": "你的人生，也该有一次入场",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "每个女人都值得站上自己的主场",
-      "hook": "你有多久没有为自己骄傲过了？",
-      "angle": "从运动员入场仪式切入女性自我价值认同",
-      "platform": "微博"
+      "core_view": "不敢请假是配得感缺失",
+      "hook": "请个假比表白还难，你在怕什么？",
+      "angle": "从请假羞耻切入女性配得感与边界感建立",
+      "platform": "抖音"
     },
     {
       "orig_title": "央视起底速成医师产业链",
-      "new_title": "速成的东西，最后都反噬你",
-      "track": "读书分享",
-      "adapt": "中",
-      "core_view": "成长没有捷径速成是最贵的代价",
-      "hook": "三天学会xxx，你信过这种鬼话吗？",
-      "angle": "从速成乱象切入女性知识焦虑与深度成长",
+      "new_title": "速成的东西，毁掉的是你",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "人生没有速成，成长也是",
+      "hook": "三天速成医师？你的人生也能速成吗？",
+      "angle": "从速成乱象切入女性拒绝捷径焦虑、深耕自我成长",
+      "platform": "央视新闻"
+    },
+    {
+      "orig_title": "我的青春结婚了",
+      "new_title": "她的青春结婚了，你呢？",
+      "track": "情感关系",
+      "adapt": "高",
+      "core_view": "别把青春活成别人的注脚",
+      "hook": "追了十年的偶像结婚了，你哭什么？",
+      "angle": "从偶像结婚话题切入女性自我青春叙事与独立人生",
       "platform": "微博"
     },
     {
-      "orig_title": "开学各省刻板印象belike",
-      "new_title": "别让标签定义你的人生",
-      "track": "生活感悟",
-      "adapt": "高",
-      "core_view": "被贴标签不可怕可怕的是你信了",
-      "hook": "你是不是也被贴过这样的标签？",
-      "angle": "从地域刻板印象切入女性被定义的社会困境",
+      "orig_title": "科学家将人脑细胞植入鼠脑",
+      "new_title": "你的大脑，正在被谁操控？",
+      "track": "读书分享",
+      "adapt": "中",
+      "core_view": "认知升级是女性最好的投资",
+      "hook": "人脑细胞植入鼠脑，你的大脑被谁植入？",
+      "angle": "从脑科学热点切入女性认知独立与信息茧房觉醒",
       "platform": "微博"
+    },
+    {
+      "orig_title": "重温1990年北京亚运村美食",
+      "new_title": "1990年的她们，比你敢活",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "每个时代女性都有自己的战场",
+      "hook": "1990年的女人都在拼什么？看完泪目",
+      "angle": "从年代美食记忆切入女性代际成长与时代选择",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "阿云嘎张彬彬天后故事感满满",
+      "new_title": "有故事的女人，从不解释",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "故事感是女人最高级的魅力",
+      "hook": "为什么有故事的女人，反而更迷人？",
+      "angle": "从舞台故事感切入女性经历沉淀与情感成熟魅力",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "艾热张睿齐天夯爆了",
+      "new_title": "炸场的女人，从不低调",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "高调做事是女性该有的姿态",
+      "hook": "为什么她一开口就炸场？因为她不装了",
+      "angle": "从舞台爆发力切入女性释放能量与拒绝收敛自我",
+      "platform": "抖音"
     }
   ],
   "ai_status": "success"
