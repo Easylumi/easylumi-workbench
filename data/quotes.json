@@ -1,44 +1,44 @@
 {
   "quotes": [
     {
-      "text": "你不需要变得完美，你只需要开始。",
-      "en": "You don't have to be perfect, you just have to start."
+      "text": "你不需要活成别人期待的样子，你只需要成为你自己，温柔而坚定。",
+      "en": "You don't need to live up to others' expectations; you just need to be yourself, gentle and firm."
     },
     {
-      "text": "温柔地对待自己，就像对待你最爱的人一样。",
-      "en": "Treat yourself with the same tenderness you'd offer to someone you love."
+      "text": "慢慢来，一切都会好起来的，你值得被这个世界温柔以待。",
+      "en": "Take your time, everything will be okay. You deserve to be treated gently by the world."
     },
     {
-      "text": "慢慢来，你正在成为你应该成为的人。",
-      "en": "Take your time. You are becoming exactly who you are meant to be."
+      "text": "你的存在本身就是一种美好，不必刻意证明什么。",
+      "en": "Your existence itself is a kind of beauty; there's no need to prove anything."
     }
   ],
   "poems": [
     {
-      "text": "草木有本心，何求美人折。",
-      "source": "张九龄《感遇·其一》"
-    },
-    {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "苏轼《定风波·莫听穿林打叶声》"
+      "text": "人生如逆旅，我亦是行人。",
+      "source": "苏轼《临江仙·送钱穆父》"
     },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
+    },
+    {
+      "text": "行到水穷处，坐看云起时。",
+      "source": "王维《终南别业》"
     }
   ],
   "daily": [
+    {
+      "text": "知人者智，自知者明。",
+      "source": "《道德经》"
+    },
     {
       "text": "君子求诸己，小人求诸人。",
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经·第三十三章》"
-    },
-    {
-      "text": "行有不得者，皆反求诸己。",
-      "source": "《孟子·离娄上》"
+      "text": "万物并育而不相害，道并行而不相悖。",
+      "source": "《中庸》"
     }
   ]
 }
