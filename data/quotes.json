@@ -1,19 +1,23 @@
 {
   "quotes": [
     {
-      "text": "你不需要活成别人的答案，你本身就是自己的光。",
-      "en": "You don't need to live up to anyone's answer; you are your own light."
+      "text": "你不需要活成别人眼中的标准答案，你只需要成为自己心里的那束光。",
+      "en": "You don't need to live up to anyone else's standard answer; you just need to become the light in your own heart."
     },
     {
-      "text": "慢慢来，你走的每一步都算数。",
-      "en": "Take your time; every step you take counts."
+      "text": "成长是一场和自己的温柔和解，不急，不慌，你自有你的节奏。",
+      "en": "Growth is a gentle reconciliation with yourself—no rush, no panic; you have your own rhythm."
     },
     {
-      "text": "允许自己偶尔脆弱，但别忘了你比想象中更坚韧。",
-      "en": "Allow yourself to be fragile sometimes, but don't forget you are stronger than you think."
+      "text": "把日子过成自己喜欢的样子，就是对自己最大的不辜负。",
+      "en": "Living your days in a way you truly love is the greatest way to honor yourself."
     }
   ],
   "poems": [
+    {
+      "text": "行到水穷处，坐看云起时。",
+      "source": "王维《终南别业》"
+    },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
@@ -21,10 +25,6 @@
     {
       "text": "长风破浪会有时，直挂云帆济沧海。",
       "source": "李白《行路难·其一》"
-    },
-    {
-      "text": "沉舟侧畔千帆过，病树前头万木春。",
-      "source": "刘禹锡《酬乐天扬州初逢席上见赠》"
     }
   ],
   "daily": [
@@ -33,12 +33,12 @@
       "source": "《道德经·第三十三章》"
     },
     {
-      "text": "君子求诸己，小人求诸人。",
-      "source": "《论语·卫灵公》"
+      "text": "博学之，审问之，慎思之，明辨之，笃行之。",
+      "source": "《礼记·中庸》"
     },
     {
-      "text": "行有不得者，皆反求诸己。",
-      "source": "《孟子·离娄上》"
+      "text": "不怨天，不尤人，下学而上达。",
+      "source": "《论语·宪问》"
     }
   ]
 }
