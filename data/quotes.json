@@ -1,30 +1,30 @@
 {
   "quotes": [
     {
-      "text": "你不需要活成别人眼中的标准答案，你只需要成为自己心里的那束光。",
-      "en": "You don't need to live up to anyone else's standard answer; you just need to become the light in your own heart."
+      "text": "你不需要活成别人眼中的完美，你只需要活成自己心里的完整。",
+      "en": "You don't need to be perfect in others' eyes; you just need to be whole in your own heart."
     },
     {
-      "text": "成长是一场和自己的温柔和解，不急，不慌，你自有你的节奏。",
-      "en": "Growth is a gentle reconciliation with yourself—no rush, no panic; you have your own rhythm."
+      "text": "慢慢来，比较快。真正的成长，从接纳自己的节奏开始。",
+      "en": "Slow is smooth, smooth is fast. True growth begins when you accept your own pace."
     },
     {
-      "text": "把日子过成自己喜欢的样子，就是对自己最大的不辜负。",
-      "en": "Living your days in a way you truly love is the greatest way to honor yourself."
+      "text": "温柔不是妥协，而是看清生活后，依然选择用柔软的方式拥抱它。",
+      "en": "Tenderness is not surrender; it's choosing to embrace life softly after seeing it clearly."
     }
   ],
   "poems": [
     {
-      "text": "行到水穷处，坐看云起时。",
-      "source": "王维《终南别业》"
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
     },
     {
-      "text": "长风破浪会有时，直挂云帆济沧海。",
-      "source": "李白《行路难·其一》"
+      "text": "行到水穷处，坐看云起时。",
+      "source": "王维《终南别业》"
     }
   ],
   "daily": [
@@ -33,12 +33,12 @@
       "source": "《道德经·第三十三章》"
     },
     {
-      "text": "博学之，审问之，慎思之，明辨之，笃行之。",
-      "source": "《礼记·中庸》"
+      "text": "君子求诸己，小人求诸人。",
+      "source": "《论语·卫灵公》"
     },
     {
-      "text": "不怨天，不尤人，下学而上达。",
-      "source": "《论语·宪问》"
+      "text": "万物皆备于我矣。反身而诚，乐莫大焉。",
+      "source": "《孟子·尽心上》"
     }
   ]
 }
