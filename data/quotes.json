@@ -1,30 +1,30 @@
 {
   "quotes": [
     {
-      "text": "你不需要活成别人眼中的样子，你只需要活成自己心里的光。",
-      "en": "You don't need to live up to others' expectations; you just need to shine your own light."
+      "text": "你不需要活成别人期待的样子，你只需要成为你自己，温柔而坚定。",
+      "en": "You don't need to live up to others' expectations; you just need to be yourself, gentle and firm."
     },
     {
-      "text": "慢慢来，比较快。每一步都算数，每一刻都珍贵。",
-      "en": "Slow is smooth, smooth is fast. Every step counts, every moment matters."
+      "text": "成长是一场和自己的比赛，慢一点也没关系，只要不停下脚步。",
+      "en": "Growth is a race with yourself. It's okay to go slow, as long as you don't stop."
     },
     {
-      "text": "温柔不是软弱，而是在看清生活真相后，依然选择热爱。",
-      "en": "Tenderness is not weakness; it is choosing to love after seeing life as it is."
+      "text": "真正的强大，是允许自己脆弱，然后依然选择向前。",
+      "en": "True strength is allowing yourself to be vulnerable, and still choosing to move forward."
     }
   ],
   "poems": [
     {
-      "text": "行到水穷处，坐看云起时。",
-      "source": "王维《终南别业》"
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
     },
     {
-      "text": "回首向来萧瑟处，归去，也无风雨也无晴。",
-      "source": "苏轼《定风波·莫听穿林打叶声》"
+      "text": "千磨万击还坚劲，任尔东西南北风。",
+      "source": "郑燮《竹石》"
     }
   ],
   "daily": [
@@ -33,12 +33,12 @@
       "source": "《道德经·第三十三章》"
     },
     {
-      "text": "君子求诸己，小人求诸人。",
-      "source": "《论语·卫灵公》"
+      "text": "博学之，审问之，慎思之，明辨之，笃行之。",
+      "source": "《礼记·中庸》"
     },
     {
-      "text": "万物皆有裂痕，那是光照进来的地方。",
-      "source": "莱昂纳德·科恩《颂歌》"
+      "text": "君子求诸己，小人求诸人。",
+      "source": "《论语·卫灵公》"
     }
   ]
 }
