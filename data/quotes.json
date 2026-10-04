@@ -1,30 +1,30 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，你只需要真实地向前走。",
-      "en": "You don't need to be perfect; you just need to move forward authentically."
+      "text": "你不必活成别人眼中的风景，你本身就是一片值得驻足的原野。",
+      "en": "You don't have to become a scenery in others' eyes; you are a field worth lingering on in your own right."
     },
     {
-      "text": "温柔地对待自己，就像对待一位正在成长的朋友。",
-      "en": "Be gentle with yourself, as you would with a friend who is still growing."
+      "text": "慢慢来，不是停滞，而是让根扎得更深，让花开得更久。",
+      "en": "Taking your time is not standing still; it's letting roots go deeper and blossoms last longer."
     },
     {
-      "text": "慢一点也没关系，你走的每一步都算数。",
-      "en": "It's okay to go slow—every step you take counts."
+      "text": "真正的强大，是允许自己偶尔脆弱，然后依然选择向前走。",
+      "en": "True strength is allowing yourself to be fragile sometimes, and still choosing to move forward."
     }
   ],
   "poems": [
+    {
+      "text": "草木有本心，何求美人折。",
+      "source": "张九龄《感遇十二首·其一》"
+    },
     {
       "text": "行到水穷处，坐看云起时。",
       "source": "王维《终南别业》"
     },
     {
-      "text": "山重水复疑无路，柳暗花明又一村。",
-      "source": "陆游《游山西村》"
-    },
-    {
-      "text": "回首向来萧瑟处，归去，也无风雨也无晴。",
-      "source": "苏轼《定风波》"
+      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
     }
   ],
   "daily": [
@@ -38,7 +38,7 @@
     },
     {
       "text": "万物并育而不相害，道并行而不相悖。",
-      "source": "《中庸》第三十章"
+      "source": "《礼记·中庸》"
     }
   ]
 }
