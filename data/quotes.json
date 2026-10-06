@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，你只需要真实地向前走。",
-      "en": "You don't need to be perfect; you just need to move forward authentically."
+      "text": "你不需要活成别人眼中的标准答案，你只需要活成自己心里的那道光。",
+      "en": "You don't need to live up to others' standard answers; you just need to be the light in your own heart."
     },
     {
-      "text": "温柔地对待自己，就像对待一位正在成长的朋友。",
-      "en": "Be gentle with yourself, as you would with a friend who is growing."
+      "text": "慢慢来，比较快。真正的成长，从来不是一蹴而就的冲刺，而是日复一日的温柔坚持。",
+      "en": "Slow is smooth, smooth is fast. Real growth is never a sprint, but a gentle perseverance day after day."
     },
     {
-      "text": "慢一点也没关系，只要方向是对的。",
-      "en": "It's okay to go slowly, as long as you're heading in the right direction."
+      "text": "允许自己偶尔脆弱，但永远不要放弃自我修复的能力。你比想象中更坚韧。",
+      "en": "Allow yourself to be vulnerable sometimes, but never give up your ability to heal. You are stronger than you think."
     }
   ],
   "poems": [
@@ -19,26 +19,26 @@
       "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
-      "text": "山重水复疑无路，柳暗花明又一村。",
-      "source": "陆游《游山西村》"
-    },
-    {
       "text": "长风破浪会有时，直挂云帆济沧海。",
       "source": "李白《行路难·其一》"
+    },
+    {
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "陆游《游山西村》"
     }
   ],
   "daily": [
     {
       "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经》第三十三章"
+      "source": "《道德经·第三十三章》"
     },
     {
-      "text": "不患无位，患所以立。不患莫己知，求为可知也。",
-      "source": "《论语·里仁》"
+      "text": "君子求诸己，小人求诸人。",
+      "source": "《论语·卫灵公》"
     },
     {
-      "text": "吾生也有涯，而知也无涯。",
-      "source": "《庄子·养生主》"
+      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
+      "source": "曾国藩《曾胡治兵语录》"
     }
   ]
 }
