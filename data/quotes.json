@@ -1,30 +1,30 @@
 {
   "quotes": [
     {
-      "text": "你不需要活成别人眼中的完美，你只需要活成自己心里的踏实。",
-      "en": "You don't need to be perfect in others' eyes; you just need to be at peace in your own heart."
+      "text": "你不需要完美，你只需要真实地活着。",
+      "en": "You don't need to be perfect; you just need to live authentically."
     },
     {
-      "text": "慢慢来，比较快。真正的成长，从来不是一场冲刺。",
-      "en": "Slow is smooth, smooth is fast. Real growth is never a sprint."
+      "text": "慢一点也没关系，只要方向是对的。",
+      "en": "It's okay to go slow, as long as you're heading in the right direction."
     },
     {
-      "text": "把日子过成自己的，而不是过成别人期待的。",
-      "en": "Live your life for yourself, not for the expectations of others."
+      "text": "温柔地对待自己，你已经在很努力地生活了。",
+      "en": "Be gentle with yourself; you're already trying your best to live."
     }
   ],
   "poems": [
     {
-      "text": "草木有本心，何求美人折。",
-      "source": "张九龄《感遇十二首·其一》"
+      "text": "人生如逆旅，我亦是行人。",
+      "source": "苏轼《临江仙·送钱穆父》"
+    },
+    {
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "陆游《游山西村》"
     },
     {
       "text": "行到水穷处，坐看云起时。",
       "source": "王维《终南别业》"
-    },
-    {
-      "text": "此心安处是吾乡。",
-      "source": "苏轼《定风波·南海归赠王定国侍人寓娘》"
     }
   ],
   "daily": [
@@ -37,8 +37,8 @@
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾胡治兵语录》"
+      "text": "万物并育而不相害，道并行而不相悖。",
+      "source": "《礼记·中庸》"
     }
   ]
 }
