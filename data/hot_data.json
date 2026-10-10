@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "update_time": "2026-10-10 01:58:44",
+  "update_time": "2026-10-10 11:42:03",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "山海君解析S16主题曲彩蛋",
-          "hot": "3144496",
+          "title": "利雅得胜利3-0迪里耶",
+          "hot": "2387155",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "AMD上调显卡指导价格",
-          "hot": "753029",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "史上最大现金收购案始末",
-          "hot": "518761",
-          "url": ""
-        },
-        {
-          "title": "重庆狼队 南通Hero久竞",
-          "hot": "499455",
+          "title": "绿龙2-0猎鹰挺进四强",
+          "hot": "1507357",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "怎么看OpenAI数学论文撤稿",
-          "hot": "469322",
+          "title": "donk面对猎鹰发挥如何",
+          "hot": "1126627",
+          "url": ""
+        },
+        {
+          "title": "杜兰特中国赛砍15分",
+          "hot": "1010905",
+          "url": ""
+        },
+        {
+          "title": "张雪机车葡萄牙站排位赛摔车",
+          "hot": "697688",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "韩立",
+          "hot": "687094",
+          "url": "https://i0.hdslb.com/bfs/legacy/647bba88c37449d0f5a2c69f1dff1373caf20797.png"
+        },
+        {
+          "title": "玛格丽特汉密尔顿去世",
+          "hot": "651431",
+          "url": ""
+        },
+        {
+          "title": "UP主博士毕业2年后挑战考研",
+          "hot": "575315",
+          "url": ""
         },
         {
           "title": "联大一般性辩论有何看点",
-          "hot": "465450",
+          "hot": "563726",
           "url": ""
         },
         {
-          "title": "S16有自己的AI短剧",
-          "hot": "465240",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "韩媒曝韩国队后辈不满孙兴慜",
-          "hot": "464549",
+          "title": "通过一条河看懂美国中期选举",
+          "hot": "545560",
           "url": ""
         },
         {
-          "title": "詹姆斯首秀恩比德8失误",
-          "hot": "461079",
-          "url": ""
-        },
-        {
-          "title": "T1 PRX",
-          "hot": "437893",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "西班牙首相提前大选原因几何",
-          "hot": "414427",
-          "url": ""
-        },
-        {
-          "title": "北京JDG 深圳DYG",
-          "hot": "414072",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "狼队战胜Hero赛后数据",
-          "hot": "411024",
+          "title": "英雄联盟S16主题曲MV",
+          "hot": "542954",
           "url": ""
         },
         {
           "title": "长假出行体系发生了什么变化",
-          "hot": "391003",
+          "hot": "533326",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
         },
         {
-          "title": "为什么要消灭清道夫",
-          "hot": "389503",
+          "title": "如何应对超强厄尔尼诺",
+          "hot": "529308",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "EDG为什么要玩双先锋",
+          "hot": "528358",
+          "url": ""
+        },
+        {
+          "title": "怎么看OpenAI数学论文撤稿",
+          "hot": "525811",
           "url": ""
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "史上最大现金收购案始末",
-      "new_title": "史上最大收购案，藏着女性最狠的成长法则",
+      "orig_title": "UP主博士毕业2年后挑战考研",
+      "new_title": "博士毕业再考研，她图什么？",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "敢于出价的人，才配拥有定价权",
-      "hook": "史上最大现金收购案，背后是一个女人都该懂的道理",
-      "angle": "从收购案的博弈逻辑切入，讲女性在职场中如何为自己定价、敢于争取",
-      "platform": "今日头条"
+      "core_view": "真正的成长是敢推翻自己重来",
+      "hook": "博士毕业两年，她又坐回了考研考场，为什么？",
+      "angle": "从学历焦虑切入，聊女性为什么总在证明自己",
+      "platform": "B站"
     },
     {
-      "orig_title": "怎么看OpenAI数学论文撤稿",
-      "new_title": "OpenAI撤稿：越厉害的人越敢承认失败",
-      "track": "生活感悟",
+      "orig_title": "玛格丽特汉密尔顿去世",
+      "new_title": "她写的代码，救了阿波罗13号",
+      "track": "读书分享",
       "adapt": "高",
-      "core_view": "承认失败，才是最高级的成长",
-      "hook": "OpenAI都撤稿了，你还在为犯错焦虑什么",
-      "angle": "借OpenAI撤稿事件，讲女性如何放下完美主义、允许自己试错",
-      "platform": "知乎"
-    },
-    {
-      "orig_title": "韩媒曝韩国队后辈不满孙兴慜",
-      "new_title": "后辈不满孙兴慜：关系里最怕这种内耗",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "不敢表达不满，关系只会烂在沉默里",
-      "hook": "韩国队内讧曝光，这种关系内耗你也正在经历",
-      "angle": "从团队内讧切入，讲亲密关系和职场关系中的隐性攻击与沟通困境",
+      "core_view": "女性被低估的贡献值得被记住",
+      "hook": "你用的软件里，藏着一个女人的救命代码",
+      "angle": "从被忽视的女性科学家切入，聊女性职场隐形贡献",
       "platform": "微博"
     },
     {
       "orig_title": "长假出行体系发生了什么变化",
-      "new_title": "长假出行变了，女人的活法也该变了",
+      "new_title": "长假出行变了，女人也变了",
       "track": "生活感悟",
       "adapt": "高",
-      "core_view": "别挤在别人的路上，走自己的节奏",
-      "hook": "长假出行体系变了，你还在用老方式过人生吗",
-      "angle": "从出行方式变化引申到女性生活方式的选择，鼓励跳出从众焦虑",
+      "core_view": "女性正在重新定义自己的生活半径",
+      "hook": "今年长假，我发现身边女人都不回老家了",
+      "angle": "从出行方式变化聊女性独立意识的觉醒",
       "platform": "抖音"
     },
     {
-      "orig_title": "西班牙首相提前大选原因几何",
-      "new_title": "西班牙首相提前大选，女人也该学会这招",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "主动出击，永远比被动等待更有胜算",
-      "hook": "西班牙首相突然提前大选，这招职场女性必须学会",
-      "angle": "从政治博弈中的主动出击，类比女性在职场中要掌握节奏主动权",
-      "platform": "今日头条"
+      "orig_title": "韩立",
+      "new_title": "韩立教会女人的三件事",
+      "track": "读书分享",
+      "adapt": "高",
+      "core_view": "普通女孩也能靠自己逆天改命",
+      "hook": "一个资质平平的凡人，凭什么活到最后？",
+      "angle": "从凡人修仙传聊普通女性的长期主义成长",
+      "platform": "抖音"
     },
     {
-      "orig_title": "AMD上调显卡指导价格",
-      "new_title": "AMD都涨价了，你的价值凭什么不涨",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "你的价值，由你自己定价",
-      "hook": "AMD显卡都涨价了，你还在免费付出吗",
-      "angle": "从显卡涨价切入，讲女性在职场和关系中如何建立自己的价值锚点",
+      "orig_title": "如何应对超强厄尔尼诺",
+      "new_title": "厄尔尼诺来了，你的情绪呢？",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "学会应对情绪风暴才是成年人的底气",
+      "hook": "天气越来越极端，你的情绪是不是也是？",
+      "angle": "用极端天气比喻女性情绪管理，聊自我调节",
       "platform": "微博"
     },
     {
-      "orig_title": "山海君解析S16主题曲彩蛋",
-      "new_title": "S16主题曲彩蛋，藏着一个女性成长真相",
-      "track": "读书分享",
+      "orig_title": "英雄联盟S16主题曲MV",
+      "new_title": "S16主题曲，唱的是女人的人生",
+      "track": "生活感悟",
       "adapt": "中",
-      "core_view": "细节里藏着格局，读懂的人才走得远",
-      "hook": "S16主题曲的彩蛋，看懂的人都在悄悄成长",
-      "angle": "借解析彩蛋的视角，讲女性如何培养洞察力，从细节中读出人生信号",
+      "core_view": "每个人都是自己人生的主角",
+      "hook": "听完S16主题曲，我哭的不是游戏是人生",
+      "angle": "从电竞主题曲聊女性在自己赛道上的坚持",
       "platform": "B站"
     },
     {
-      "orig_title": "T1 PRX",
-      "new_title": "T1对战PRX：女人最该学的是这种翻盘力",
-      "track": "励志",
+      "orig_title": "EDG为什么要玩双先锋",
+      "new_title": "EDG双先锋，像极了女人的双线作战",
+      "track": "职场成长",
       "adapt": "中",
-      "core_view": "逆风局不慌，才是真正的实力",
-      "hook": "T1对战PRX打出翻盘局，女人的人生也需要这种能力",
-      "angle": "从电竞赛事逆风翻盘切入，讲女性面对人生低谷时的心态与策略",
-      "platform": "虎扑"
+      "core_view": "女人要学会双线布局才能赢",
+      "hook": "EDG靠双先锋翻盘，女人靠什么翻盘？",
+      "angle": "用电竞战术类比女性职场双线发展策略",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "怎么看OpenAI数学论文撤稿",
+      "new_title": "AI撤稿了，你还在假装完美吗？",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "允许自己犯错才是真正的成长",
+      "hook": "连OpenAI都撤稿了，你凭什么不允许自己失败？",
+      "angle": "从AI撤稿聊女性完美主义焦虑与自我接纳",
+      "platform": "知乎"
     }
   ],
   "ai_status": "success"
