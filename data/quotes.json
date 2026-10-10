@@ -1,26 +1,26 @@
 {
   "quotes": [
     {
-      "text": "你不需要活成别人眼中的完美，你只需要活成自己心里的踏实。",
-      "en": "You don't need to be perfect in others' eyes; you just need to be at peace in your own heart."
+      "text": "你不需要完美，你只需要真实地往前走。",
+      "en": "You don't need to be perfect; you just need to move forward authentically."
     },
     {
-      "text": "慢慢来，不是妥协，而是把每一步都走成自己的节奏。",
-      "en": "Taking your time isn't a compromise; it's walking every step to your own rhythm."
+      "text": "成长不是变成别人，而是越来越像自己。",
+      "en": "Growth is not about becoming someone else, but becoming more and more yourself."
     },
     {
-      "text": "温柔不是软弱，是看清生活后，依然选择好好待自己。",
-      "en": "Gentleness isn't weakness; it's choosing to treat yourself well after seeing life clearly."
+      "text": "温柔地对待自己，是你给世界最好的礼物。",
+      "en": "Being gentle with yourself is the best gift you can give to the world."
     }
   ],
   "poems": [
     {
-      "text": "此心安处是吾乡。",
-      "source": "苏轼《定风波·南海归赠王定国侍人寓娘》"
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "陆游《游山西村》"
     },
     {
-      "text": "行到水穷处，坐看云起时。",
-      "source": "王维《终南别业》"
+      "text": "长风破浪会有时，直挂云帆济沧海。",
+      "source": "李白《行路难·其一》"
     },
     {
       "text": "莫听穿林打叶声，何妨吟啸且徐行。",
@@ -30,15 +30,15 @@
   "daily": [
     {
       "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经》第三十三章"
+      "source": "《道德经·第三十三章》"
     },
     {
-      "text": "君子求诸己，小人求诸人。",
-      "source": "《论语·卫灵公》"
+      "text": "博学之，审问之，慎思之，明辨之，笃行之。",
+      "source": "《礼记·中庸》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩（后世归纳其修身思想）"
+      "text": "穷则独善其身，达则兼善天下。",
+      "source": "《孟子·尽心上》"
     }
   ]
 }
