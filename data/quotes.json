@@ -1,30 +1,30 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，你只需要真实地往前走。",
-      "en": "You don't need to be perfect; you just need to move forward authentically."
+      "text": "你不需要活成别人眼中的标准答案，你只需要活成自己心里的那束光。",
+      "en": "You don't need to live up to others' standards; you just need to be the light in your own heart."
     },
     {
-      "text": "成长不是变成别人，而是越来越像自己。",
-      "en": "Growth is not about becoming someone else, but becoming more and more yourself."
+      "text": "慢慢来，比较快。真正的成长，从来不是一蹴而就的奇迹，而是日复一日的温柔坚持。",
+      "en": "Slow is smooth, smooth is fast. True growth is never a miracle overnight, but a gentle persistence day by day."
     },
     {
-      "text": "温柔地对待自己，是你给世界最好的礼物。",
-      "en": "Being gentle with yourself is the best gift you can give to the world."
+      "text": "允许自己偶尔脆弱，但别忘了你比想象中更坚韧。温柔和力量，从来不是反义词。",
+      "en": "Allow yourself to be vulnerable sometimes, but remember you are stronger than you think. Tenderness and strength are never opposites."
     }
   ],
   "poems": [
     {
-      "text": "山重水复疑无路，柳暗花明又一村。",
-      "source": "陆游《游山西村》"
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
       "text": "长风破浪会有时，直挂云帆济沧海。",
       "source": "李白《行路难·其一》"
     },
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "苏轼《定风波·莫听穿林打叶声》"
+      "text": "千磨万击还坚劲，任尔东西南北风。",
+      "source": "郑燮《竹石》"
     }
   ],
   "daily": [
@@ -37,8 +37,8 @@
       "source": "《礼记·中庸》"
     },
     {
-      "text": "穷则独善其身，达则兼善天下。",
-      "source": "《孟子·尽心上》"
+      "text": "君子求诸己，小人求诸人。",
+      "source": "《论语·卫灵公》"
     }
   ]
 }
