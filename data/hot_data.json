@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-11",
-  "update_time": "2026-10-11 11:15:02",
+  "date": "2026-10-12",
+  "update_time": "2026-10-12 01:21:03",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "秦牧",
-          "hot": "6652965",
-          "url": "https://i0.hdslb.com/bfs/legacy/8905e6d0b01e3baa124094084315fa9624a175cc.png"
-        },
-        {
-          "title": "外媒称5090显卡或将停产",
-          "hot": "3033361",
+          "title": "大学生如何应对父母催谈恋爱",
+          "hot": "4800581",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "MOUZ战胜Spirit挺进决赛",
-          "hot": "2474767",
+          "title": "成都AG超玩会 长沙TES.A",
+          "hot": "3772247",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "迈阿密国际4-0华盛顿联",
-          "hot": "2300118",
+          "title": "杭州商K大面积关停的背后",
+          "hot": "1376922",
           "url": ""
         },
         {
-          "title": "盘点乾隆爆火全网名场面",
-          "hot": "2214936",
+          "title": "G2 T1",
+          "hot": "1339505",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "欣小萌王骁重走奥德赛回家路",
+          "hot": "685916",
           "url": ""
         },
         {
-          "title": "俄罗斯不明肺炎为何引发关注",
-          "hot": "1495935",
+          "title": "郑钦文中网夺冠",
+          "hot": "634476",
           "url": ""
         },
         {
-          "title": "沙特机场遇袭致12死309伤",
-          "hot": "1032853",
+          "title": "德比斯提前夺得年度亚军",
+          "hot": "617961",
           "url": ""
         },
         {
-          "title": "OpenAI解决四维挂谷猜想了吗",
-          "hot": "950380",
+          "title": "回顾郑钦文中网夺冠之路",
+          "hot": "607117",
           "url": ""
         },
         {
-          "title": "非常中国但丁是啥梗",
-          "hot": "928001",
+          "title": "S16中韩战队评级",
+          "hot": "597066",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "白宫新发言人曾在中国工作",
-          "hot": "916708",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "title": "广州TTG 上海EDG.M",
+          "hot": "484115",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "我们能否阻止下一场疫情",
-          "hot": "914447",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "title": "华晨宇火星演唱会2.0有多夯",
+          "hot": "452057",
+          "url": ""
         },
         {
-          "title": "雨爱司凤版MV",
-          "hot": "571935",
+          "title": "沪 人 修 仙 传",
+          "hot": "446572",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         },
         {
-          "title": "UP主科普猫的睡眠模式",
-          "hot": "563330",
+          "title": "大水理论是什么梗",
+          "hot": "444705",
           "url": ""
         },
         {
-          "title": "怎么看国乒教练王皓遭辱骂事件",
-          "hot": "542002",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "title": "多地将重回高温",
+          "hot": "438337",
+          "url": ""
         },
         {
-          "title": "美国公布了六代机哪些新消息",
-          "hot": "533065",
+          "title": "6小时看完民国悬疑新剧",
+          "hot": "436842",
           "url": ""
         }
       ]
@@ -107,83 +107,83 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "秦牧",
-      "new_title": "秦牧教会我的女性成长真相",
-      "track": "读书分享",
-      "adapt": "高",
-      "core_view": "读秦牧，学会温柔而坚定地活",
-      "hook": "你听过秦牧吗？他写透了普通人的挣扎",
-      "angle": "从秦牧散文中的小人物出发，讲女性如何在琐碎中保持精神独立",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "外媒称5090显卡或将停产",
-      "new_title": "显卡停产教我的职场生存法则",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "别做随时可被替代的‘5090’",
-      "hook": "5090停产了，你的岗位还稳吗？",
-      "angle": "借显卡停产类比职场：再强的人也可能被替代，女性要提前布局第二曲线",
-      "platform": "推特"
-    },
-    {
-      "orig_title": "MOUZ战胜Spirit挺进决赛",
-      "new_title": "从MOUZ逆袭看女性翻盘思维",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "不被看好时，才是翻盘开始",
-      "hook": "MOUZ赢了，你的人生也能让二追三",
-      "angle": "借电竞逆袭故事，讲女性在职场和情感中如何逆风翻盘",
-      "platform": "虎扑"
-    },
-    {
-      "orig_title": "迈阿密国际4-0华盛顿联",
-      "new_title": "4-0大胜背后，女人该学的狠劲",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "狠一点，你才能赢回自己",
-      "hook": "迈阿密4-0，我看懂了女人的狠",
-      "angle": "从大胜比赛切入，讲女性在生活里要敢于‘大比分’爱自己",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "盘点乾隆爆火全网名场面",
-      "new_title": "乾隆的‘十全’人设害了多少女人",
+      "orig_title": "大学生如何应对父母催谈恋爱",
+      "new_title": "父母催婚，其实是催你认命",
       "track": "情感关系",
       "adapt": "高",
-      "core_view": "别被完美人设绑架一生",
-      "hook": "乾隆十全老人？我看到了控制欲",
-      "angle": "借乾隆人设崩塌，讲女性在亲密关系中识别‘完美伴侣’陷阱",
+      "core_view": "别为父母的焦虑买单",
+      "hook": "你妈催你谈恋爱，不是怕你孤独，是怕你失控。",
+      "angle": "从代际控制欲切入，区分关心与干涉",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "杭州商K大面积关停的背后",
+      "new_title": "商K关停，多少女人突然醒了",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "靠青春换的资源最不稳定",
+      "hook": "杭州商K一夜关停，最慌的不是老板，是那些把青春当筹码的女孩。",
+      "angle": "从灰色经济崩塌切入女性独立经济能力",
       "platform": "抖音"
     },
     {
-      "orig_title": "俄罗斯不明肺炎为何引发关注",
-      "new_title": "不明肺炎刷屏，女人该有的清醒",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "外界越乱，越要稳住自己",
-      "hook": "俄罗斯不明肺炎，你慌了吗？",
-      "angle": "从疫情焦虑切入，讲女性如何在信息洪流中保持情绪稳定和独立判断",
+      "orig_title": "郑钦文中网夺冠",
+      "new_title": "郑钦文夺冠：女孩别太乖",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "攻击性才是女性顶级魅力",
+      "hook": "郑钦文拿下中网冠军那一刻，我看到了女孩最该有的样子。",
+      "angle": "从竞技体育切入女性野心与攻击性正名",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "回顾郑钦文中网夺冠之路",
+      "new_title": "从没人看好到夺冠她做对了什么",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "闷声努力是最高级的反击",
+      "hook": "所有人都说她不行的时候，她只做了一件事。",
+      "angle": "从逆袭路径切入低谷期女性的坚持策略",
       "platform": "微博"
     },
     {
-      "orig_title": "白宫新发言人曾在中国工作",
-      "new_title": "她曾在中国工作，如今白宫发言",
-      "track": "职场成长",
+      "orig_title": "欣小萌王骁重走奥德赛回家路",
+      "new_title": "重走回家路：女人也需要一场出走",
+      "track": "生活感悟",
       "adapt": "高",
-      "core_view": "跨界经历才是你的王牌",
-      "hook": "白宫新发言人，曾在中国工作过",
-      "angle": "借白宫发言人履历，讲女性如何把跨领域经验变成职场升维武器",
-      "platform": "推特"
+      "core_view": "找回自己比回家更重要",
+      "hook": "她重走奥德赛回家路，我却看到了女人最缺的一场出走。",
+      "angle": "从旅行叙事切入女性自我探索与精神归途",
+      "platform": "B站"
     },
     {
-      "orig_title": "怎么看国乒教练王皓遭辱骂事件",
-      "new_title": "王皓被骂上热搜，女人别忍了",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "面对网暴和指责，学会反击",
-      "hook": "王皓被骂，我劝你别当‘情绪垃圾桶’",
-      "angle": "从王皓被辱骂事件切入，讲女性在亲密关系和职场中如何设立情绪边界",
+      "orig_title": "大水理论是什么梗",
+      "new_title": "大水理论：你的付出为何总被稀释",
+      "track": "读书分享",
+      "adapt": "中",
+      "core_view": "没有稀缺性就没有议价权",
+      "hook": "大水理论火了，但没人告诉你它在感情里同样致命。",
+      "angle": "从经济梗切入女性在关系中避免廉价化",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "多地将重回高温",
+      "new_title": "天又热了，你的情绪也在发烫吗",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "情绪中暑比高温更可怕",
+      "hook": "天气一回高温，我就想起去年那个情绪崩溃的自己。",
+      "angle": "从天气变化切入女性情绪管理与自我关怀",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "华晨宇火星演唱会2.0有多夯",
+      "new_title": "演唱会2.0：女人也该给自己升级",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "人生需要一次版本迭代",
+      "hook": "华晨宇演唱会都2.0了，你还在用1.0的自己硬撑吗？",
+      "angle": "从演唱会升级切入女性自我迭代与重启勇气",
       "platform": "微博"
     }
   ],
