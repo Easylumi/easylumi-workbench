@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不需要跑得很快，但请一直在自己的路上。",
-      "en": "You don't have to run fast, but please keep walking your own path."
+      "text": "你不必完美，只需真实地向前走。",
+      "en": "You don't have to be perfect; just keep moving forward authentically."
     },
     {
-      "text": "真正的强大，是允许自己慢慢来。",
-      "en": "True strength is allowing yourself to take your time."
+      "text": "慢慢来，你并不落后，你只是在自己的时区里。",
+      "en": "Take your time; you're not behind, you're just in your own time zone."
     },
     {
-      "text": "你不是在变老，你是在变成更完整的自己。",
-      "en": "You are not getting older; you are becoming more whole."
+      "text": "允许自己休息，也是一种前进。",
+      "en": "Allowing yourself to rest is also a form of progress."
     }
   ],
   "poems": [
@@ -19,26 +19,26 @@
       "source": "王维《终南别业》"
     },
     {
-      "text": "莫道桑榆晚，为霞尚满天。",
-      "source": "刘禹锡《酬乐天咏老见示》"
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "陆游《游山西村》"
     },
     {
-      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
-      "source": "苏轼《定风波·莫听穿林打叶声》"
+      "text": "长风破浪会有时，直挂云帆济沧海。",
+      "source": "李白《行路难·其一》"
     }
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明；胜人者有力，自胜者强。",
+      "text": "知人者智，自知者明。",
       "source": "《道德经》第三十三章"
     },
     {
-      "text": "君子求诸己，小人求诸人。",
-      "source": "《论语·卫灵公》"
+      "text": "不患无位，患所以立。",
+      "source": "《论语·里仁》"
     },
     {
-      "text": "不积跬步，无以至千里；不积小流，无以成江海。",
-      "source": "《荀子·劝学》"
+      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
+      "source": "曾国藩《曾胡治兵语录》"
     }
   ]
 }
