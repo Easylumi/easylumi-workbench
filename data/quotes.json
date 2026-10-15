@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不必完美，只需真实地向前走。",
-      "en": "You don't have to be perfect; just keep moving forward authentically."
+      "text": "你不需要跑得最快，你只需要跑得足够久。",
+      "en": "You don't have to be the fastest; you just have to run long enough."
     },
     {
-      "text": "慢慢来，你并不落后，你只是在自己的时区里。",
-      "en": "Take your time; you're not behind, you're just in your own time zone."
+      "text": "温柔地对待自己，就像对待一位正在经历风雨的朋友。",
+      "en": "Be gentle with yourself, as you would be with a friend going through a storm."
     },
     {
-      "text": "允许自己休息，也是一种前进。",
-      "en": "Allowing yourself to rest is also a form of progress."
+      "text": "慢慢来，你并不落后，你只是在走属于自己的节奏。",
+      "en": "Take your time. You're not behind; you're just moving to your own rhythm."
     }
   ],
   "poems": [
@@ -19,26 +19,26 @@
       "source": "王维《终南别业》"
     },
     {
-      "text": "山重水复疑无路，柳暗花明又一村。",
-      "source": "陆游《游山西村》"
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
-      "text": "长风破浪会有时，直挂云帆济沧海。",
-      "source": "李白《行路难·其一》"
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "陆游《游山西村》"
     }
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。",
+      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
       "source": "《道德经》第三十三章"
     },
     {
-      "text": "不患无位，患所以立。",
-      "source": "《论语·里仁》"
+      "text": "不患人之不己知，患不知人也。",
+      "source": "《论语·学而》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾胡治兵语录》"
+      "text": "万物并育而不相害，道并行而不相悖。",
+      "source": "《礼记·中庸》"
     }
   ]
 }
