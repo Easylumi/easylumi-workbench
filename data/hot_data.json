@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "update_time": "2026-10-17 00:06:31",
+  "update_time": "2026-10-17 10:26:33",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "大范围雨雪将至",
-          "hot": "4004001",
+          "title": "特斯拉Roadster是如何飞起来的",
+          "hot": "1983055",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "重庆狼队 深圳DYG",
-          "hot": "1881799",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "美国重申六代机2028年首飞",
-          "hot": "1810965",
+          "title": "德玛西亚杯决赛数据前瞻",
+          "hot": "1055860",
           "url": ""
         },
         {
-          "title": "S16入围赛首日有多离谱",
-          "hot": "1415215",
+          "title": "花小龙带宋亚东自律的一天",
+          "hot": "782830",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "塞尔达传说时之笛上手前瞻",
-          "hot": "1035165",
+          "title": "垃圾焚烧供需失衡该如何破局",
+          "hot": "780242",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "星际客机为何被NASA寄予厚望",
+          "hot": "524189",
           "url": ""
         },
         {
-          "title": "英伟达美国官网下架RTX5090",
-          "hot": "999017",
+          "title": "OpenAI宣布优化Codex",
+          "hot": "514623",
+          "url": ""
+        },
+        {
+          "title": "瓜摊招聘",
+          "hot": "471195",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+        },
+        {
+          "title": "徐艺洋回应孩子争议",
+          "hot": "465315",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "北京WB 南通Hero久竞",
-          "hot": "782387",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "G2 100T",
-          "hot": "760212",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "天下足球 飞翔的罗宾",
-          "hot": "749673",
+          "title": "FUR C9",
+          "hot": "452382",
           "url": ""
         },
         {
-          "title": "真人演绎扫码免费领陷阱",
-          "hot": "568057",
+          "title": "G2告别上海冠军赛",
+          "hot": "344192",
           "url": ""
         },
         {
           "title": "李秀满新女团成员盛艾敬争议",
-          "hot": "568056",
+          "hot": "343992",
           "url": ""
         },
         {
-          "title": "中朝新鸭绿江大桥正式开通",
-          "hot": "568054",
+          "title": "KC MVK",
+          "hot": "343418",
           "url": ""
         },
         {
-          "title": "VIT LOUD",
-          "hot": "568053",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "HAHA河东勋入驻B站",
-          "hot": "568052",
+          "title": "两万字运动番大盘点",
+          "hot": "204278",
           "url": ""
         },
         {
-          "title": "驻日美军到底有多无法无天",
-          "hot": "568051",
-          "url": ""
+          "title": "恶意不息1.0版本职业系统前瞻",
+          "hot": "204276",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "磁悬浮为何没在中国普及",
+          "hot": "204274",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         }
       ]
     },
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "大范围雨雪将至",
-      "new_title": "雨雪天暴露你的情感模式",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "极端天气是关系的照妖镜",
-      "hook": "一场雨雪，就能看出他到底爱不爱你",
-      "angle": "从天气变化切入，聊亲密关系中谁在主动付出",
+      "orig_title": "特斯拉Roadster是如何飞起来的",
+      "new_title": "那些看起来开挂的女人",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "所有爆发都是长期蓄力",
+      "hook": "你有没有发现，身边总有人突然就起飞了？",
+      "angle": "从特斯拉Roadster的爆发力切入，讲女性职场中的厚积薄发",
       "platform": "微博"
     },
     {
-      "orig_title": "真人演绎扫码免费领陷阱",
-      "new_title": "免费的东西最贵，女生必看",
+      "orig_title": "花小龙带宋亚东自律的一天",
+      "new_title": "自律的女人有多可怕",
       "track": "生活感悟",
       "adapt": "高",
-      "core_view": "贪小便宜是成长路上最贵的学费",
-      "hook": "扫码免费领？我差点被骗走全部积蓄",
-      "angle": "用真实骗局案例，讲女性独立防骗与自我保护意识",
+      "core_view": "自律是女性最高级的底气",
+      "hook": "你以为的自律，其实是在给自己攒命。",
+      "angle": "借运动员自律日常，讲普通女性如何用自律翻盘",
       "platform": "抖音"
     },
     {
-      "orig_title": "李秀满新女团成员盛艾敬争议",
-      "new_title": "被全网骂的女生做错了什么",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "女性被审视时如何稳住自己",
-      "hook": "她还没出道，就被骂上了热搜第一",
-      "angle": "从女团争议聊女性在职场中被放大审视的困境与破局",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "天下足球 飞翔的罗宾",
-      "new_title": "30岁以后，我学会了飞翔",
-      "track": "励志/生活感悟",
-      "adapt": "中",
-      "core_view": "女人的黄金期从不怕晚",
-      "hook": "所有人都说他老了，他却飞得更高",
-      "angle": "借体育老将逆袭故事，激励女性打破年龄焦虑",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "英伟达美国官网下架RTX5090",
-      "new_title": "被下架的那一刻才懂稀缺",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "你的不可替代性才是底气",
-      "hook": "最抢手的东西，说下架就下架了",
-      "angle": "从产品下架聊职场中打造个人稀缺价值",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "驻日美军到底有多无法无天",
-      "new_title": "没有边界感的人有多可怕",
+      "orig_title": "垃圾焚烧供需失衡该如何破局",
+      "new_title": "婚姻里的供需失衡",
       "track": "情感关系",
       "adapt": "中",
-      "core_view": "没有边界的关系就是灾难",
-      "hook": "那些无法无天的人，从来不觉得自己越界了",
-      "angle": "从国际事件切入，聊亲密关系中的边界感与底线",
+      "core_view": "关系失衡时先修复自己",
+      "hook": "为什么你付出越多，他越不珍惜？",
+      "angle": "把焚烧供需失衡类比亲密关系中的情绪价值失衡",
       "platform": "知乎"
     },
     {
-      "orig_title": "HAHA河东勋入驻B站",
-      "new_title": "中年转型，她也可以很酷",
+      "orig_title": "星际客机为何被NASA寄予厚望",
+      "new_title": "被低估的女人在蓄力",
       "track": "职场成长",
-      "adapt": "中",
-      "core_view": "勇敢转型的人永远年轻",
-      "hook": "40岁的他，跑去年轻人地盘重新开始",
-      "angle": "借艺人跨界入驻，聊女性中年转行与重启人生",
-      "platform": "B站"
+      "adapt": "高",
+      "core_view": "被寄予厚望前先信自己",
+      "hook": "没人看好你的时候，恰恰是你最值钱的时候。",
+      "angle": "从星际客机被寄予厚望切入，讲女性职场不被看好时的自我托举",
+      "platform": "微博"
     },
     {
-      "orig_title": "中朝新鸭绿江大桥正式开通",
-      "new_title": "一座桥教会我的关系真相",
+      "orig_title": "徐艺洋回应孩子争议",
+      "new_title": "女人别活在别人嘴里",
       "track": "情感关系",
-      "adapt": "低",
-      "core_view": "好的关系是双向奔赴的桥",
-      "hook": "断了几年的桥，终于通了",
-      "angle": "用大桥开通比喻关系修复，聊复合与和解的底层逻辑",
+      "adapt": "高",
+      "core_view": "你的人生无需向谁交代",
+      "hook": "她一句话回应争议，我却看到了女人的清醒。",
+      "angle": "借明星回应争议，讲女性如何摆脱外界评判活出自我",
       "platform": "微博"
+    },
+    {
+      "orig_title": "李秀满新女团成员盛艾敬争议",
+      "new_title": "被争议的女孩后来怎样",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "争议是成长的入场券",
+      "hook": "越被议论的女孩，往往越有后劲。",
+      "angle": "从新女团争议切入，讲女性面对质疑时的心态成长",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "磁悬浮为何没在中国普及",
+      "new_title": "为什么好女孩没人追",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "优秀不是关系里的问题",
+      "hook": "磁悬浮没普及，不是因为它不好。",
+      "angle": "用磁悬浮叫好不叫座类比优秀女性在婚恋中的错配困境",
+      "platform": "知乎"
+    },
+    {
+      "orig_title": "两万字运动番大盘点",
+      "new_title": "读书让我戒掉了内耗",
+      "track": "读书分享",
+      "adapt": "中",
+      "core_view": "深度输入治愈精神内耗",
+      "hook": "我用两万字笔记，治好了自己的焦虑。",
+      "angle": "借长篇盘点切入，讲女性如何通过深度阅读和整理重建秩序感",
+      "platform": "B站"
     }
   ],
   "ai_status": "success"
