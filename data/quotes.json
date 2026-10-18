@@ -1,19 +1,23 @@
 {
   "quotes": [
     {
-      "text": "你不必追赶别人的节奏，你的花期自有时节。",
-      "en": "You don't have to chase anyone else's rhythm; your season to bloom has its own time."
+      "text": "你不必活成别人期待的样子，你只需要活成自己舒服的样子。",
+      "en": "You don't have to live up to others' expectations; just live in a way that feels right for you."
     },
     {
-      "text": "温柔不是退让，是看清生活之后，依然选择好好待自己。",
-      "en": "Gentleness is not giving in; it's choosing to treat yourself well after seeing life clearly."
+      "text": "慢慢来，不是停滞，而是给成长留出呼吸的空间。",
+      "en": "Taking it slow isn't standing still; it's giving growth room to breathe."
     },
     {
-      "text": "慢一点没关系，你走的每一步，都在把你送回自己身边。",
-      "en": "It's okay to go slow—every step you take is bringing you back to yourself."
+      "text": "真正的强大，是允许自己偶尔脆弱，然后温柔地把自己扶起来。",
+      "en": "True strength is allowing yourself to be vulnerable sometimes, then gently picking yourself back up."
     }
   ],
   "poems": [
+    {
+      "text": "行到水穷处，坐看云起时。",
+      "source": "王维《终南别业》"
+    },
     {
       "text": "莫听穿林打叶声，何妨吟啸且徐行。",
       "source": "苏轼《定风波·莫听穿林打叶声》"
@@ -21,10 +25,6 @@
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
-    },
-    {
-      "text": "行到水穷处，坐看云起时。",
-      "source": "王维《终南别业》"
     }
   ],
   "daily": [
@@ -38,7 +38,7 @@
     },
     {
       "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾胡治兵语录》"
+      "source": "曾国藩《曾国藩家书》"
     }
   ]
 }
