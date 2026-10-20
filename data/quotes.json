@@ -1,30 +1,30 @@
 {
   "quotes": [
     {
-      "text": "你不必活成别人期待的样子，你只需要活成自己舒服的样子。",
-      "en": "You don't have to live up to others' expectations; just live in a way that feels right for you."
+      "text": "你不需要完美，你只需要真实地向前走。",
+      "en": "You don't need to be perfect; you just need to move forward authentically."
     },
     {
-      "text": "慢慢来，不是停滞，而是给成长留出呼吸的空间。",
-      "en": "Taking it slow isn't standing still; it's giving growth room to breathe."
+      "text": "温柔是一种力量，它让你在风雨中依然选择善良。",
+      "en": "Gentleness is a strength that lets you choose kindness even in the storm."
     },
     {
-      "text": "真正的强大，是允许自己偶尔脆弱，然后温柔地把自己扶起来。",
-      "en": "True strength is allowing yourself to be vulnerable sometimes, then gently picking yourself back up."
+      "text": "慢一点没关系，你正在成为自己的路上。",
+      "en": "It's okay to go slow; you are on the way to becoming yourself."
     }
   ],
   "poems": [
     {
-      "text": "行到水穷处，坐看云起时。",
-      "source": "王维《终南别业》"
-    },
-    {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
       "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
+    },
+    {
+      "text": "行到水穷处，坐看云起时。",
+      "source": "王维《终南别业》"
     }
   ],
   "daily": [
@@ -38,7 +38,7 @@
     },
     {
       "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾国藩家书》"
+      "source": "曾国藩《曾胡治兵语录》"
     }
   ]
 }
