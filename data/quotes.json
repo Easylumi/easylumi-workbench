@@ -1,21 +1,21 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，你只需要真实地向前走。",
-      "en": "You don't need to be perfect; you just need to move forward authentically."
+      "text": "你不需要完美，只需要真实地向前走。",
+      "en": "You don't need to be perfect, just real enough to keep moving forward."
     },
     {
-      "text": "温柔是一种力量，它让你在风雨中依然选择善良。",
-      "en": "Gentleness is a strength that lets you choose kindness even in the storm."
+      "text": "慢慢来，比较快。温柔地对待自己，也是一种力量。",
+      "en": "Slow down, and you'll go faster. Being gentle with yourself is a kind of strength too."
     },
     {
-      "text": "慢一点没关系，你正在成为自己的路上。",
-      "en": "It's okay to go slow; you are on the way to becoming yourself."
+      "text": "每一个认真生活的日子，都在悄悄为你铺路。",
+      "en": "Every day you live with intention is quietly paving the way for you."
     }
   ],
   "poems": [
     {
-      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
       "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
@@ -29,7 +29,7 @@
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。",
+      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
       "source": "《道德经》第三十三章"
     },
     {
@@ -37,8 +37,8 @@
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾胡治兵语录》"
+      "text": "物有本末，事有终始，知所先后，则近道矣。",
+      "source": "《大学》"
     }
   ]
 }
