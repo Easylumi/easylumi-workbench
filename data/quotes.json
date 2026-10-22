@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，只需要真实地向前走。",
-      "en": "You don't need to be perfect, just real enough to keep moving forward."
+      "text": "你不需要完美，你只需要真实地站在自己这边。",
+      "en": "You don't need to be perfect; you just need to stand by yourself authentically."
     },
     {
-      "text": "慢慢来，比较快。温柔地对待自己，也是一种力量。",
-      "en": "Slow down, and you'll go faster. Being gentle with yourself is a kind of strength too."
+      "text": "慢慢来，不是所有花都在春天开。",
+      "en": "Take your time—not all flowers bloom in spring."
     },
     {
-      "text": "每一个认真生活的日子，都在悄悄为你铺路。",
-      "en": "Every day you live with intention is quietly paving the way for you."
+      "text": "温柔不是退让，是看清之后依然选择善良。",
+      "en": "Gentleness is not giving in; it's choosing kindness after seeing clearly."
     }
   ],
   "poems": [
@@ -29,12 +29,12 @@
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经》第三十三章"
-    },
-    {
       "text": "君子求诸己，小人求诸人。",
       "source": "《论语·卫灵公》"
+    },
+    {
+      "text": "知人者智，自知者明。",
+      "source": "《道德经》第三十三章"
     },
     {
       "text": "物有本末，事有终始，知所先后，则近道矣。",
