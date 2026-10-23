@@ -1,21 +1,21 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，你只需要真实地站在自己这边。",
-      "en": "You don't need to be perfect; you just need to stand by yourself authentically."
+      "text": "你不需要完美，你只需要真实地活着，温柔地对待自己。",
+      "en": "You don't need to be perfect; you just need to live authentically and treat yourself gently."
     },
     {
-      "text": "慢慢来，不是所有花都在春天开。",
-      "en": "Take your time—not all flowers bloom in spring."
+      "text": "慢一点也没关系，只要方向是对的，每一步都算数。",
+      "en": "It's okay to go slow. As long as you're heading the right way, every step counts."
     },
     {
-      "text": "温柔不是退让，是看清之后依然选择善良。",
-      "en": "Gentleness is not giving in; it's choosing kindness after seeing clearly."
+      "text": "把日子过成自己的，不必向任何人证明什么。",
+      "en": "Live your life on your own terms; you don't owe anyone an explanation."
     }
   ],
   "poems": [
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
       "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
@@ -29,16 +29,16 @@
   ],
   "daily": [
     {
+      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "source": "《道德经》第三十三章"
+    },
+    {
       "text": "君子求诸己，小人求诸人。",
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "知人者智，自知者明。",
-      "source": "《道德经》第三十三章"
-    },
-    {
-      "text": "物有本末，事有终始，知所先后，则近道矣。",
-      "source": "《大学》"
+      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
+      "source": "曾国藩《曾文正公全集·杂著》"
     }
   ]
 }
