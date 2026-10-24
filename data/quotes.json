@@ -1,26 +1,26 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，你只需要真实地站在自己的位置上，就已经足够有力量。",
-      "en": "You don't need to be perfect. You just need to stand authentically in your own place—that alone is powerful enough."
+      "text": "你不需要完美，你只需要真实地向前走。",
+      "en": "You don't need to be perfect; you just need to move forward authentically."
     },
     {
-      "text": "慢慢来，不是所有花都在春天开放，但每一朵都有自己的季节。",
-      "en": "Take your time. Not all flowers bloom in spring, but every flower has its own season."
+      "text": "温柔地对待自己，是你能给世界最好的礼物。",
+      "en": "Being gentle with yourself is the best gift you can give to the world."
     },
     {
-      "text": "温柔不是软弱，是你看过生活的棱角后，依然选择用柔软的方式对待自己。",
-      "en": "Gentleness is not weakness. It's choosing to treat yourself softly after seeing life's sharp edges."
+      "text": "慢一点没关系，只要方向是对的。",
+      "en": "It's okay to go slow, as long as you're heading in the right direction."
     }
   ],
   "poems": [
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "苏轼《定风波·莫听穿林打叶声》"
-    },
-    {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
+    },
+    {
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
       "text": "行到水穷处，坐看云起时。",
@@ -29,7 +29,7 @@
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "text": "知人者智，自知者明。",
       "source": "《道德经》第三十三章"
     },
     {
@@ -37,8 +37,8 @@
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾文正公全集·家书》"
+      "text": "天行健，君子以自强不息。",
+      "source": "《周易·乾卦》"
     }
   ]
 }
