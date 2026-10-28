@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不必追赶所有的潮水，找到自己的节奏，慢慢来也是一种抵达。",
-      "en": "You don't have to chase every tide. Find your own rhythm—taking it slow is also a way to arrive."
+      "text": "你不需要完美才开始，你只需要开始才慢慢靠近完美。",
+      "en": "You don't have to be perfect to start; you just need to start to get closer to perfect."
     },
     {
-      "text": "真正的强大，是允许自己偶尔脆弱，然后温柔地把自己扶起来。",
-      "en": "True strength is allowing yourself to be vulnerable sometimes, then gently lifting yourself back up."
+      "text": "温柔不是退让，而是你有了底气之后，依然选择好好说话。",
+      "en": "Gentleness is not giving in; it's choosing to speak kindly even when you have the power not to."
     },
     {
-      "text": "把日子过成自己喜欢的样子，就是对生活最体面的回应。",
-      "en": "Living each day in a way you truly like is the most dignified response to life."
+      "text": "慢一点没关系，你走的每一步，都在把你带向更清醒的自己。",
+      "en": "It's okay to go slow; every step you take is leading you to a clearer version of yourself."
     }
   ],
   "poems": [
@@ -29,7 +29,7 @@
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "text": "知人者智，自知者明。",
       "source": "《道德经》第三十三章"
     },
     {
@@ -37,8 +37,8 @@
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "物有本末，事有终始，知所先后，则近道矣。",
-      "source": "《大学》"
+      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
+      "source": "曾国藩《曾文正公全集》"
     }
   ]
 }
