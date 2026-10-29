@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美才开始，你只需要开始才慢慢靠近完美。",
-      "en": "You don't have to be perfect to start; you just need to start to get closer to perfect."
+      "text": "你不必追赶别人的节奏，你的花期自有它的季节。",
+      "en": "You don't have to chase anyone else's rhythm—your season of blooming has its own time."
     },
     {
-      "text": "温柔不是退让，而是你有了底气之后，依然选择好好说话。",
-      "en": "Gentleness is not giving in; it's choosing to speak kindly even when you have the power not to."
+      "text": "温柔不是退让，而是你见过风浪之后，依然选择好好说话。",
+      "en": "Gentleness is not giving in—it's choosing to speak kindly even after you've weathered the storm."
     },
     {
-      "text": "慢一点没关系，你走的每一步，都在把你带向更清醒的自己。",
-      "en": "It's okay to go slow; every step you take is leading you to a clearer version of yourself."
+      "text": "把自己照顾好，不是自私，是你对这个世界最踏实的贡献。",
+      "en": "Taking care of yourself isn't selfish—it's the most grounded contribution you can make to the world."
     }
   ],
   "poems": [
@@ -29,7 +29,7 @@
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。",
+      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
       "source": "《道德经》第三十三章"
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾文正公全集》"
+      "source": "曾国藩《曾文正公全集·家书》"
     }
   ]
 }
