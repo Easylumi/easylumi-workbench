@@ -1,44 +1,44 @@
 {
   "quotes": [
     {
-      "text": "你不必追赶别人的节奏，你的花期自有它的季节。",
-      "en": "You don't have to chase anyone else's rhythm—your season of blooming has its own time."
+      "text": "你不必追赶别人的节奏，你有自己的时区。",
+      "en": "You don't have to chase someone else's rhythm; you have your own time zone."
     },
     {
-      "text": "温柔不是退让，而是你见过风浪之后，依然选择好好说话。",
-      "en": "Gentleness is not giving in—it's choosing to speak kindly even after you've weathered the storm."
+      "text": "慢慢来，比较快。",
+      "en": "Slow is smooth, smooth is fast."
     },
     {
-      "text": "把自己照顾好，不是自私，是你对这个世界最踏实的贡献。",
-      "en": "Taking care of yourself isn't selfish—it's the most grounded contribution you can make to the world."
+      "text": "允许自己休息，也是一种前进。",
+      "en": "Allowing yourself to rest is also a form of progress."
     }
   ],
   "poems": [
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "苏轼《定风波·莫听穿林打叶声》"
+      "text": "行到水穷处，坐看云起时。",
+      "source": "王维《终南别业》"
     },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
     },
     {
-      "text": "行到水穷处，坐看云起时。",
-      "source": "王维《终南别业》"
+      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
+      "source": "苏轼《定风波》"
     }
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经》第三十三章"
+      "text": "知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。",
+      "source": "《大学》"
     },
     {
       "text": "君子求诸己，小人求诸人。",
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾文正公全集·家书》"
+      "text": "上善若水，水善利万物而不争。",
+      "source": "《道德经》"
     }
   ]
 }
