@@ -1,44 +1,44 @@
 {
   "quotes": [
     {
-      "text": "你不必追赶别人的节奏，你有自己的时区。",
-      "en": "You don't have to chase someone else's rhythm; you have your own time zone."
+      "text": "你不必非要长成玫瑰，你乐意的话，可以做茉莉、做雏菊、做无名小花，做千千万万。",
+      "en": "You don't have to grow into a rose. If you like, you can be jasmine, a daisy, a nameless little flower—be thousands of things."
     },
     {
-      "text": "慢慢来，比较快。",
-      "en": "Slow is smooth, smooth is fast."
+      "text": "慢一点也没关系，只要方向是对的，每一步都算数。",
+      "en": "It's okay to go slowly. As long as you're heading the right way, every step counts."
     },
     {
-      "text": "允许自己休息，也是一种前进。",
-      "en": "Allowing yourself to rest is also a form of progress."
+      "text": "先把自己照顾好，再去爱这个世界；你安稳了，日子才会跟着安稳。",
+      "en": "Take good care of yourself first, then go love the world. When you're steady, your days will be steady too."
     }
   ],
   "poems": [
     {
-      "text": "行到水穷处，坐看云起时。",
-      "source": "王维《终南别业》"
+      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
     },
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
-      "source": "苏轼《定风波》"
+      "text": "行到水穷处，坐看云起时。",
+      "source": "王维《终南别业》"
     }
   ],
   "daily": [
     {
-      "text": "知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。",
-      "source": "《大学》"
+      "text": "知人者智，自知者明。",
+      "source": "《道德经》第三十三章"
     },
     {
       "text": "君子求诸己，小人求诸人。",
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "上善若水，水善利万物而不争。",
-      "source": "《道德经》"
+      "text": "不积跬步，无以至千里；不积小流，无以成江海。",
+      "source": "《荀子·劝学》"
     }
   ]
 }
