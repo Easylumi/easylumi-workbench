@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不必非要长成玫瑰，你乐意的话，可以做茉莉、做雏菊、做无名小花，做千千万万。",
-      "en": "You don't have to grow into a rose. If you like, you can be jasmine, a daisy, a nameless little flower—be thousands of things."
+      "text": "你不必追赶别人的节奏，你的时区里，一切准时。",
+      "en": "You don't have to chase anyone else's rhythm. In your own time zone, everything is on time."
     },
     {
-      "text": "慢一点也没关系，只要方向是对的，每一步都算数。",
-      "en": "It's okay to go slowly. As long as you're heading the right way, every step counts."
+      "text": "允许自己慢慢来，温柔地对待那个正在努力的自己。",
+      "en": "Allow yourself to take your time, and be gentle with the self that is trying so hard."
     },
     {
-      "text": "先把自己照顾好，再去爱这个世界；你安稳了，日子才会跟着安稳。",
-      "en": "Take good care of yourself first, then go love the world. When you're steady, your days will be steady too."
+      "text": "真正的成长，不是变得坚硬，而是越来越能安放自己的柔软。",
+      "en": "True growth isn't about becoming harder—it's about getting better at holding your own softness."
     }
   ],
   "poems": [
@@ -29,7 +29,7 @@
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。",
+      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
       "source": "《道德经》第三十三章"
     },
     {
@@ -37,8 +37,8 @@
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "不积跬步，无以至千里；不积小流，无以成江海。",
-      "source": "《荀子·劝学》"
+      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
+      "source": "曾国藩《曾胡治兵语录》"
     }
   ]
 }
