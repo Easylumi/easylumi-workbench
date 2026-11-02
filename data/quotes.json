@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不必追赶别人的节奏，你的时区里，一切准时。",
-      "en": "You don't have to chase anyone else's rhythm. In your own time zone, everything is on time."
+      "text": "你不需要跑得很快，只要一直在自己的路上，就已经很了不起了。",
+      "en": "You don't need to run fast; just staying on your own path is already remarkable."
     },
     {
-      "text": "允许自己慢慢来，温柔地对待那个正在努力的自己。",
-      "en": "Allow yourself to take your time, and be gentle with the self that is trying so hard."
+      "text": "允许自己慢一点，温柔的人往往走得更远。",
+      "en": "Allow yourself to go slower; gentle people often go further."
     },
     {
-      "text": "真正的成长，不是变得坚硬，而是越来越能安放自己的柔软。",
-      "en": "True growth isn't about becoming harder—it's about getting better at holding your own softness."
+      "text": "把日子过成自己喜欢的样子，就是最踏实的治愈。",
+      "en": "Living each day the way you like is the most grounded kind of healing."
     }
   ],
   "poems": [
@@ -29,16 +29,16 @@
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经》第三十三章"
+      "text": "知人者智，自知者明。",
+      "source": "《老子》第三十三章"
     },
     {
       "text": "君子求诸己，小人求诸人。",
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾胡治兵语录》"
+      "text": "博学之，审问之，慎思之，明辨之，笃行之。",
+      "source": "《礼记·中庸》"
     }
   ]
 }
