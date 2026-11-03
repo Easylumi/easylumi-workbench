@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "update_time": "2026-11-03 05:24:53",
+  "update_time": "2026-11-03 12:49:44",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "DeepSeek Harness入驻B站",
-          "hot": "1249488",
+          "title": "力箭二号遥二火箭发射成功",
+          "hot": "1529152",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "北京JDG 重庆狼队",
-          "hot": "632360",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "RTX5080 24GB或将延期发布",
-          "hot": "434360",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "BLG晋级八强赛事语音",
-          "hot": "424402",
+          "title": "摸鱼事务所偷跑卫戍协议",
+          "hot": "1497301",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
         },
         {
-          "title": "AI攻破困扰化学界50年难题",
-          "hot": "230668",
+          "title": "西伯利亚棕熊泛滥后续来了",
+          "hot": "1459074",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "Gumayusi被线杀TOP100",
+          "hot": "1363765",
           "url": ""
         },
         {
-          "title": "伦德伯格狂砍37分有多夸张",
-          "hot": "216121",
+          "title": "听说威尼斯闹蟹灾了",
+          "hot": "1107383",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "央视农业科普烧心原理",
+          "hot": "734649",
           "url": ""
         },
         {
-          "title": "巴西专家如何看卢拉逆转",
-          "hot": "205069",
-          "url": ""
+          "title": "王俊杰NCAA18分13板",
+          "hot": "688129",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "BLG八强结算珍贵录像",
-          "hot": "200218",
+          "title": "白小纯青稚Trouble Maker",
+          "hot": "676134",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         },
         {
-          "title": "AI时代数学该何去何从",
-          "hot": "181415",
+          "title": "沈逸三妹解读中国载人登月方案",
+          "hot": "629943",
           "url": ""
         },
         {
-          "title": "NAVI复仇猎鹰",
-          "hot": "179697",
-          "url": ""
-        },
-        {
-          "title": "影之刃零72小时销量突破400万",
-          "hot": "179696",
+          "title": "凯恩的金球之路",
+          "hot": "607441",
           "url": ""
         },
         {
           "title": "漠叔带大佐专业户演员去日本",
-          "hot": "179694",
+          "hot": "607440",
           "url": ""
         },
         {
-          "title": "假如世界举办绷住大赛",
-          "hot": "179693",
-          "url": ""
+          "title": "和平精英职业选手青稚白小纯",
+          "hot": "607438",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "在大山支教的真实一天",
-          "hot": "179692",
+          "title": "影之刃零72小时销量突破400万",
+          "hot": "607437",
           "url": ""
         },
         {
           "title": "如何看美国飞机坠毁9人遇难",
-          "hot": "179691",
+          "hot": "607436",
+          "url": ""
+        },
+        {
+          "title": "高中生手绘600张动画演示数学",
+          "hot": "607435",
           "url": ""
         }
       ]
@@ -107,83 +107,83 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "AI攻破困扰化学界50年难题",
-      "new_title": "AI都能解50年难题，你还在内耗？",
-      "track": "生活感悟",
+      "orig_title": "力箭二号遥二火箭发射成功",
+      "new_title": "火箭都能二飞，你怕什么重来",
+      "track": "职场成长",
       "adapt": "高",
-      "core_view": "别用内耗浪费时间，行动才有答案",
-      "hook": "AI攻破了50年难题，而你还在为一件小事纠结三天？",
-      "angle": "用AI突破映射女性停止精神内耗、立刻行动",
+      "core_view": "允许自己失败后再发射一次",
+      "hook": "火箭第二次发射成功了，你的人生为什么不敢第二次？",
+      "angle": "用火箭遥二成功类比女性职场复出与二次创业",
       "platform": "微博"
     },
     {
-      "orig_title": "在大山支教的真实一天",
-      "new_title": "支教女孩的一天，治愈了我的焦虑",
-      "track": "生活感悟",
+      "orig_title": "高中生手绘600张动画演示数学",
+      "new_title": "600张手绘，笨功夫才是捷径",
+      "track": "读书分享",
       "adapt": "高",
-      "core_view": "真正的成长是找到自己的价值感",
-      "hook": "看完大山支教女孩的一天，我突然不焦虑了。",
-      "angle": "从支教女性视角切入，谈女性如何摆脱比较焦虑",
+      "core_view": "慢一点的热爱才走得远",
+      "hook": "一个高中生画了600张图，狠狠打了速成党的脸。",
+      "angle": "从长期主义切入，谈女性学习与自我投资",
       "platform": "抖音"
     },
     {
-      "orig_title": "DeepSeek Harness入驻B站",
-      "new_title": "AI都来抢饭碗，女人更该学这招",
+      "orig_title": "听说威尼斯闹蟹灾了",
+      "new_title": "威尼斯闹蟹灾，你也在被螃蟹拖住吗",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "别让小事泛滥成灾",
+      "hook": "威尼斯被螃蟹占领了，你的生活是不是也被小事占满了？",
+      "angle": "用蟹灾比喻情绪与琐事失控，讲边界感与断舍离",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "西伯利亚棕熊泛滥后续来了",
+      "new_title": "棕熊泛滥后续，边界感有多重要",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "没有边界的关系会泛滥成灾",
+      "hook": "棕熊泛滥成灾的后续，藏着你人际关系出问题的真相。",
+      "angle": "借棕熊泛滥讲亲密关系中的边界与分寸",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "央视农业科普烧心原理",
+      "new_title": "总烧心？可能是你在为别人内耗",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "情绪烧心比胃烧心更伤身",
+      "hook": "央视科普烧心原理，我却看到了女人的内耗病根。",
+      "angle": "从身体烧心延伸到情绪内耗，讲女性自我关怀",
+      "platform": "央视"
+    },
+    {
+      "orig_title": "沈逸三妹解读中国载人登月方案",
+      "new_title": "登月都要分三步，你急什么",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "会用AI的女人，职场永远有底牌",
-      "hook": "AI都入驻B站了，你还在靠加班证明自己？",
-      "angle": "借AI工具入驻热点，讲女性职场工具力升级",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "AI时代数学该何去何从",
-      "new_title": "AI时代，女人最该补的是这种能力",
-      "track": "读书分享",
-      "adapt": "中",
-      "core_view": "底层思维能力才是女人的长期主义",
-      "hook": "AI时代最值钱的不是技能，是这种底层能力。",
-      "angle": "从数学思维谈女性读书提升逻辑与决策力",
-      "platform": "知乎"
-    },
-    {
-      "orig_title": "假如世界举办绷住大赛",
-      "new_title": "成年女人的绷住，都是硬撑",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "别再绷了，允许自己脆弱才是强大",
-      "hook": "如果有个绷住大赛，第一名一定是中国女人。",
-      "angle": "用绷住大赛梗切入女性情绪压抑与自我和解",
+      "core_view": "大目标要拆成小步骤",
+      "hook": "载人登月都分阶段推进，你的目标凭什么一步到位？",
+      "angle": "用登月方案类比女性职业规划与目标拆解",
       "platform": "抖音"
     },
     {
       "orig_title": "漠叔带大佐专业户演员去日本",
-      "new_title": "被标签困住的女人，都该看看这期",
+      "new_title": "敢去面对，才是真正的翻篇",
       "track": "情感关系",
       "adapt": "中",
-      "core_view": "撕掉别人给的标签，你才能活成自己",
-      "hook": "一个演员被角色困了半辈子，像不像被标签困住的你？",
-      "angle": "从演员被定型谈女性被贴标签后的自我突围",
-      "platform": "B站"
+      "core_view": "直面过去才能真正放下",
+      "hook": "他带演员去了日本，我才懂什么叫真正的和解。",
+      "angle": "从直面历史与心结切入，谈女性如何与过去和解",
+      "platform": "抖音"
     },
     {
-      "orig_title": "影之刃零72小时销量突破400万",
-      "new_title": "72小时400万，热爱从不辜负坚持",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "长期坚持的人，终会被世界看见",
-      "hook": "72小时卖爆400万，背后是没人看见的十年。",
-      "angle": "借游戏爆卖谈女性长期主义与坚持的意义",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "如何看美国飞机坠毁9人遇难",
-      "new_title": "意外面前，女人最该想明白这件事",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "把今天过好，就是对生命最大的尊重",
-      "hook": "一场意外9条命，你还打算把想做的事拖到明年？",
-      "angle": "从意外事件谈女性珍惜当下、减少人生遗憾",
+      "orig_title": "凯恩的金球之路",
+      "new_title": "凯恩的金球路，熬出来的光",
+      "track": "励志成长",
+      "adapt": "高",
+      "core_view": "坚持到被看见的那一天",
+      "hook": "凯恩走了这么多年才摸到金球，你慌什么？",
+      "angle": "用凯恩多年坚持讲女性长期主义与耐心成长",
       "platform": "微博"
     }
   ],
