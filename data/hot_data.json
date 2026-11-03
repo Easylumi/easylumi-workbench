@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "update_time": "2026-11-03 12:49:44",
+  "date": "2026-11-04",
+  "update_time": "2026-11-04 03:04:14",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "力箭二号遥二火箭发射成功",
-          "hot": "1529152",
+          "title": "刘延东同志遗体在京火化",
+          "hot": "730184",
+          "url": ""
+        },
+        {
+          "title": "美坠机事故9名遇难者身份确认",
+          "hot": "721037",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "摸鱼事务所偷跑卫戍协议",
-          "hot": "1497301",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
+          "title": "暴雨暴雪来了",
+          "hot": "667750",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "西伯利亚棕熊泛滥后续来了",
-          "hot": "1459074",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "Gumayusi被线杀TOP100",
-          "hot": "1363765",
+          "title": "全球显卡价格大对账",
+          "hot": "625070",
           "url": ""
         },
         {
-          "title": "听说威尼斯闹蟹灾了",
-          "hot": "1107383",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "央视农业科普烧心原理",
-          "hot": "734649",
+          "title": "亚历山大砍43分",
+          "hot": "319005",
           "url": ""
         },
         {
-          "title": "王俊杰NCAA18分13板",
-          "hot": "688129",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "白小纯青稚Trouble Maker",
-          "hot": "676134",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "沈逸三妹解读中国载人登月方案",
-          "hot": "629943",
+          "title": "在影之刃零拍高燃武侠大片",
+          "hot": "318959",
           "url": ""
         },
         {
-          "title": "凯恩的金球之路",
-          "hot": "607441",
+          "title": "咻咻满cos花木兰翻唱KPL主题曲",
+          "hot": "318642",
           "url": ""
         },
         {
-          "title": "漠叔带大佐专业户演员去日本",
-          "hot": "607440",
+          "title": "Leo级大会员吴磊入驻B站",
+          "hot": "309713",
+          "url": ""
+        },
+        {
+          "title": "iPad mini 8超详细开箱验机",
+          "hot": "307010",
+          "url": ""
+        },
+        {
+          "title": "iPad mini 8评测",
+          "hot": "249135",
           "url": ""
         },
         {
           "title": "和平精英职业选手青稚白小纯",
-          "hot": "607438",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "hot": "248559",
+          "url": ""
         },
         {
           "title": "影之刃零72小时销量突破400万",
-          "hot": "607437",
+          "hot": "247502",
           "url": ""
         },
         {
-          "title": "如何看美国飞机坠毁9人遇难",
-          "hot": "607436",
+          "title": "王楚钦3-0林德",
+          "hot": "210275",
           "url": ""
         },
         {
-          "title": "高中生手绘600张动画演示数学",
-          "hot": "607435",
+          "title": "DeepSeek为什么要开源",
+          "hot": "209427",
+          "url": ""
+        },
+        {
+          "title": "陶哲轩AI抗癌药思维实验后续",
+          "hot": "207721",
           "url": ""
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "力箭二号遥二火箭发射成功",
-      "new_title": "火箭都能二飞，你怕什么重来",
-      "track": "职场成长",
+      "orig_title": "暴雨暴雪来了",
+      "new_title": "天气越恶劣，女人越要狠",
+      "track": "生活感悟",
       "adapt": "高",
-      "core_view": "允许自己失败后再发射一次",
-      "hook": "火箭第二次发射成功了，你的人生为什么不敢第二次？",
-      "angle": "用火箭遥二成功类比女性职场复出与二次创业",
-      "platform": "微博"
+      "core_view": "情绪稳定是女人顶级的自律",
+      "hook": "暴雨暴雪来袭，你还在为烂人烂事内耗吗？",
+      "angle": "借极端天气切入女性情绪管理：外面狂风暴雨，你内心必须晴空万里",
+      "platform": "微博热搜"
     },
     {
-      "orig_title": "高中生手绘600张动画演示数学",
-      "new_title": "600张手绘，笨功夫才是捷径",
+      "orig_title": "全球显卡价格大对账",
+      "new_title": "女人也要学会给自己算账",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "会算账的女人从不吃亏",
+      "hook": "显卡都在对账了，你的人生账本算清楚了吗？",
+      "angle": "借“对账”热词切入女性价值盘点：时间账、情绪账、成长账三笔账算明白",
+      "platform": "微博热搜"
+    },
+    {
+      "orig_title": "亚历山大砍43分",
+      "new_title": "43分背后是没人看见的凌晨",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "所有高光都是苦熬出来的",
+      "hook": "他砍下43分，你只看到高光没看到凌晨四点",
+      "angle": "借球星爆发切入女性职场厚积薄发：别羡慕别人的结果，先问问自己付出了多少",
+      "platform": "微博热搜"
+    },
+    {
+      "orig_title": "咻咻满cos花木兰翻唱KPL主题曲",
+      "new_title": "每个女人心里都住着花木兰",
+      "track": "情感关系",
+      "adapt": "高",
+      "core_view": "温柔和强大从不矛盾",
+      "hook": "她cos花木兰翻唱炸场，女人何必活成别人期待的样子？",
+      "angle": "借花木兰形象切入女性自我认同：不用做公主，做自己的将军",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "Leo级大会员吴磊入驻B站",
+      "new_title": "吴磊入驻B站给女人的启示",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "选对平台比埋头努力重要",
+      "hook": "吴磊入驻B站，你看懂背后的职场选择逻辑了吗？",
+      "angle": "借明星入驻平台切入女性职业选择：站对赛道，努力才值钱",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "影之刃零72小时销量突破400万",
+      "new_title": "72小时400万靠的不是运气",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "长期主义者终会赢一次大的",
+      "hook": "72小时卖爆400万，凭什么？答案扎心又真实",
+      "angle": "借爆款游戏切入女性长期主义成长：熬得住寂寞，才接得住爆发",
+      "platform": "微博热搜"
+    },
+    {
+      "orig_title": "DeepSeek为什么要开源",
+      "new_title": "开源思维是女人最高级的活法",
       "track": "读书分享",
-      "adapt": "高",
-      "core_view": "慢一点的热爱才走得远",
-      "hook": "一个高中生画了600张图，狠狠打了速成党的脸。",
-      "angle": "从长期主义切入，谈女性学习与自我投资",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "听说威尼斯闹蟹灾了",
-      "new_title": "威尼斯闹蟹灾，你也在被螃蟹拖住吗",
-      "track": "生活感悟",
       "adapt": "中",
-      "core_view": "别让小事泛滥成灾",
-      "hook": "威尼斯被螃蟹占领了，你的生活是不是也被小事占满了？",
-      "angle": "用蟹灾比喻情绪与琐事失控，讲边界感与断舍离",
-      "platform": "微博"
+      "core_view": "敢分享的人成长最快",
+      "hook": "DeepSeek为什么开源？这个逻辑女人更该懂",
+      "angle": "借开源概念切入女性成长：打开自己、分享认知，才能获得更大回报",
+      "platform": "知乎热榜"
     },
     {
-      "orig_title": "西伯利亚棕熊泛滥后续来了",
-      "new_title": "棕熊泛滥后续，边界感有多重要",
-      "track": "情感关系",
+      "orig_title": "陶哲轩AI抗癌药思维实验后续",
+      "new_title": "顶级大脑教女人的思维方式",
+      "track": "读书分享",
       "adapt": "中",
-      "core_view": "没有边界的关系会泛滥成灾",
-      "hook": "棕熊泛滥成灾的后续，藏着你人际关系出问题的真相。",
-      "angle": "借棕熊泛滥讲亲密关系中的边界与分寸",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "央视农业科普烧心原理",
-      "new_title": "总烧心？可能是你在为别人内耗",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "情绪烧心比胃烧心更伤身",
-      "hook": "央视科普烧心原理，我却看到了女人的内耗病根。",
-      "angle": "从身体烧心延伸到情绪内耗，讲女性自我关怀",
-      "platform": "央视"
-    },
-    {
-      "orig_title": "沈逸三妹解读中国载人登月方案",
-      "new_title": "登月都要分三步，你急什么",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "大目标要拆成小步骤",
-      "hook": "载人登月都分阶段推进，你的目标凭什么一步到位？",
-      "angle": "用登月方案类比女性职业规划与目标拆解",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "漠叔带大佐专业户演员去日本",
-      "new_title": "敢去面对，才是真正的翻篇",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "直面过去才能真正放下",
-      "hook": "他带演员去了日本，我才懂什么叫真正的和解。",
-      "angle": "从直面历史与心结切入，谈女性如何与过去和解",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "凯恩的金球之路",
-      "new_title": "凯恩的金球路，熬出来的光",
-      "track": "励志成长",
-      "adapt": "高",
-      "core_view": "坚持到被看见的那一天",
-      "hook": "凯恩走了这么多年才摸到金球，你慌什么？",
-      "angle": "用凯恩多年坚持讲女性长期主义与耐心成长",
-      "platform": "微博"
+      "core_view": "换一种思维就换一种人生",
+      "hook": "陶哲轩的思维实验，藏着女人破局的关键",
+      "angle": "借数学家思维实验切入女性认知升级：普通人靠努力，高手靠思维模型",
+      "platform": "知乎热榜"
     }
   ],
   "ai_status": "success"
