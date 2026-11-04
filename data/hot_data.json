@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "update_time": "2026-11-04 03:04:14",
+  "update_time": "2026-11-04 12:15:53",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "刘延东同志遗体在京火化",
-          "hot": "730184",
-          "url": ""
-        },
-        {
-          "title": "美坠机事故9名遇难者身份确认",
-          "hot": "721037",
+          "title": "TES IG",
+          "hot": "55444919",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "暴雨暴雪来了",
-          "hot": "667750",
+          "title": "冲撞致对手离世门将精神崩溃",
+          "hot": "2676605",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "全球显卡价格大对账",
-          "hot": "625070",
+          "title": "美媒预计民主党将夺回众议院多数席位",
+          "hot": "2333344",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "IG四强的概率现在是百分之百",
+          "hot": "1782585",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "攻克NS方程问题的AI将发布",
+          "hot": "788439",
           "url": ""
         },
         {
-          "title": "亚历山大砍43分",
-          "hot": "319005",
+          "title": "马竞0-2拜仁",
+          "hot": "773427",
           "url": ""
         },
         {
-          "title": "在影之刃零拍高燃武侠大片",
-          "hot": "318959",
+          "title": "IG 3-1 TES赛后数据图",
+          "hot": "769088",
           "url": ""
         },
         {
-          "title": "咻咻满cos花木兰翻唱KPL主题曲",
-          "hot": "318642",
+          "title": "巴萨3-0阿斯顿维拉",
+          "hot": "749782",
           "url": ""
         },
         {
-          "title": "Leo级大会员吴磊入驻B站",
-          "hot": "309713",
-          "url": ""
+          "title": "babybay官宣离队G2",
+          "hot": "739225",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "iPad mini 8超详细开箱验机",
-          "hot": "307010",
-          "url": ""
-        },
-        {
-          "title": "iPad mini 8评测",
-          "hot": "249135",
-          "url": ""
+          "title": "TheShy赛后拥抱369",
+          "hot": "739224",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
           "title": "和平精英职业选手青稚白小纯",
-          "hot": "248559",
+          "hot": "739222",
           "url": ""
         },
         {
-          "title": "影之刃零72小时销量突破400万",
-          "hot": "247502",
+          "title": "亚连新皮肤碎片兑换",
+          "hot": "739221",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "如何在纽北证明中国人更会玩车",
+          "hot": "739220",
           "url": ""
         },
         {
-          "title": "王楚钦3-0林德",
-          "hot": "210275",
-          "url": ""
+          "title": "异人之下 终局测试直播",
+          "hot": "739219",
+          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
         },
         {
-          "title": "DeepSeek为什么要开源",
-          "hot": "209427",
-          "url": ""
-        },
-        {
-          "title": "陶哲轩AI抗癌药思维实验后续",
-          "hot": "207721",
+          "title": "漠叔带大佐专业户演员去日本",
+          "hot": "739218",
           "url": ""
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "暴雨暴雪来了",
-      "new_title": "天气越恶劣，女人越要狠",
+      "orig_title": "TES IG",
+      "new_title": "TES和IG教会我的事",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "团队信任比个人能力更重要",
+      "hook": "你有没有发现，赢的团队都有这个共同点？",
+      "angle": "从电竞团队配合切入女性职场协作与信任",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "冲撞致对手离世门将精神崩溃",
+      "new_title": "意外之后，如何重新站起来",
       "track": "生活感悟",
       "adapt": "高",
-      "core_view": "情绪稳定是女人顶级的自律",
-      "hook": "暴雨暴雪来袭，你还在为烂人烂事内耗吗？",
-      "angle": "借极端天气切入女性情绪管理：外面狂风暴雨，你内心必须晴空万里",
-      "platform": "微博热搜"
+      "core_view": "允许自己崩溃，也是种勇气",
+      "hook": "她崩溃那天，反而开始了真正的成长。",
+      "angle": "从门将精神崩溃切入女性如何面对人生失控",
+      "platform": "微博"
     },
     {
-      "orig_title": "全球显卡价格大对账",
-      "new_title": "女人也要学会给自己算账",
-      "track": "职场成长",
+      "orig_title": "IG四强的概率现在是百分之百",
+      "new_title": "把不可能变成百分之百",
+      "track": "励志成长",
       "adapt": "高",
-      "core_view": "会算账的女人从不吃亏",
-      "hook": "显卡都在对账了，你的人生账本算清楚了吗？",
-      "angle": "借“对账”热词切入女性价值盘点：时间账、情绪账、成长账三笔账算明白",
-      "platform": "微博热搜"
+      "core_view": "信念感决定你的上限",
+      "hook": "当所有人说不可能，她只做了一件事。",
+      "angle": "从百分百概率切入女性如何建立必胜信念",
+      "platform": "微博"
     },
     {
-      "orig_title": "亚历山大砍43分",
-      "new_title": "43分背后是没人看见的凌晨",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "所有高光都是苦熬出来的",
-      "hook": "他砍下43分，你只看到高光没看到凌晨四点",
-      "angle": "借球星爆发切入女性职场厚积薄发：别羡慕别人的结果，先问问自己付出了多少",
-      "platform": "微博热搜"
-    },
-    {
-      "orig_title": "咻咻满cos花木兰翻唱KPL主题曲",
-      "new_title": "每个女人心里都住着花木兰",
+      "orig_title": "TheShy赛后拥抱369",
+      "new_title": "对手的拥抱最有力量",
       "track": "情感关系",
       "adapt": "高",
-      "core_view": "温柔和强大从不矛盾",
-      "hook": "她cos花木兰翻唱炸场，女人何必活成别人期待的样子？",
-      "angle": "借花木兰形象切入女性自我认同：不用做公主，做自己的将军",
-      "platform": "B站"
+      "core_view": "真正的强者懂得欣赏对手",
+      "hook": "那个拥抱，比赢更让人记住。",
+      "angle": "从赛后拥抱切入女性如何与竞争者和解共处",
+      "platform": "微博"
     },
     {
-      "orig_title": "Leo级大会员吴磊入驻B站",
-      "new_title": "吴磊入驻B站给女人的启示",
+      "orig_title": "攻克NS方程问题的AI将发布",
+      "new_title": "AI时代女人该学什么",
       "track": "职场成长",
       "adapt": "中",
-      "core_view": "选对平台比埋头努力重要",
-      "hook": "吴磊入驻B站，你看懂背后的职场选择逻辑了吗？",
-      "angle": "借明星入驻平台切入女性职业选择：站对赛道，努力才值钱",
-      "platform": "B站"
+      "core_view": "不可替代的是你的感受力",
+      "hook": "AI能解方程，但有一样它永远学不会。",
+      "angle": "从AI攻克难题切入女性不可替代的核心能力",
+      "platform": "微博"
     },
     {
-      "orig_title": "影之刃零72小时销量突破400万",
-      "new_title": "72小时400万靠的不是运气",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "长期主义者终会赢一次大的",
-      "hook": "72小时卖爆400万，凭什么？答案扎心又真实",
-      "angle": "借爆款游戏切入女性长期主义成长：熬得住寂寞，才接得住爆发",
-      "platform": "微博热搜"
+      "orig_title": "如何在纽北证明中国人更会玩车",
+      "new_title": "被质疑时，用结果说话",
+      "track": "励志成长",
+      "adapt": "高",
+      "core_view": "实力是最好的反击",
+      "hook": "别人说你不行时，你只需做这一件事。",
+      "angle": "从证明中国人会玩车切入女性如何回应偏见",
+      "platform": "微博"
     },
     {
-      "orig_title": "DeepSeek为什么要开源",
-      "new_title": "开源思维是女人最高级的活法",
-      "track": "读书分享",
+      "orig_title": "漠叔带大佐专业户演员去日本",
+      "new_title": "走出去，世界才属于你",
+      "track": "生活感悟",
       "adapt": "中",
-      "core_view": "敢分享的人成长最快",
-      "hook": "DeepSeek为什么开源？这个逻辑女人更该懂",
-      "angle": "借开源概念切入女性成长：打开自己、分享认知，才能获得更大回报",
-      "platform": "知乎热榜"
+      "core_view": "见识决定你的格局",
+      "hook": "她第一次出国后，整个人都变了。",
+      "angle": "从带演员出国切入女性拓宽视野改变人生",
+      "platform": "微博"
     },
     {
-      "orig_title": "陶哲轩AI抗癌药思维实验后续",
-      "new_title": "顶级大脑教女人的思维方式",
-      "track": "读书分享",
+      "orig_title": "和平精英职业选手青稚白小纯",
+      "new_title": "女孩也能打成职业选手",
+      "track": "励志成长",
       "adapt": "中",
-      "core_view": "换一种思维就换一种人生",
-      "hook": "陶哲轩的思维实验，藏着女人破局的关键",
-      "angle": "借数学家思维实验切入女性认知升级：普通人靠努力，高手靠思维模型",
-      "platform": "知乎热榜"
+      "core_view": "热爱不分性别，坚持就有路",
+      "hook": "谁说女孩子打不好游戏？她打成了职业。",
+      "angle": "从女性职业选手切入女性打破性别偏见",
+      "platform": "微博"
     }
   ],
   "ai_status": "success"
