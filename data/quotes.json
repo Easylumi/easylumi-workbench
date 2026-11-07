@@ -1,26 +1,26 @@
 {
   "quotes": [
     {
-      "text": "你不需要跑得很快，只要不停下脚步，就已经在成为更好的自己。",
-      "en": "You don't need to run fast; just don't stop, and you're already becoming a better you."
+      "text": "你不必追赶别人的节奏，按自己的步调走，每一步都算数。",
+      "en": "You don't have to chase someone else's rhythm. Walk at your own pace—every step counts."
     },
     {
-      "text": "温柔是一种力量，它让你在看清生活真相后，依然选择热爱它。",
-      "en": "Gentleness is a power that lets you still choose to love life after seeing its truth clearly."
+      "text": "真正的强大，是允许自己偶尔脆弱，然后温柔地把自己扶起来。",
+      "en": "True strength is allowing yourself to be vulnerable sometimes, then gently lifting yourself back up."
     },
     {
-      "text": "允许自己慢慢来，那些看似不起波澜的日复一日，终会在某天让你看到坚持的意义。",
-      "en": "Allow yourself to take your time; those seemingly uneventful days will one day show you the meaning of persistence."
+      "text": "生活不会一直顺利，但你可以一直对自己保持耐心。",
+      "en": "Life won't always go smoothly, but you can always be patient with yourself."
     }
   ],
   "poems": [
     {
-      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
-      "source": "苏轼《定风波·莫听穿林打叶声》"
-    },
-    {
       "text": "行到水穷处，坐看云起时。",
       "source": "王维《终南别业》"
+    },
+    {
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
@@ -29,12 +29,12 @@
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《老子》第三十三章"
-    },
-    {
       "text": "君子求诸己，小人求诸人。",
       "source": "《论语·卫灵公》"
+    },
+    {
+      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "source": "《道德经》第三十三章"
     },
     {
       "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
