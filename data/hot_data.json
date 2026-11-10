@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "update_time": "2026-11-10 05:56:33",
+  "update_time": "2026-11-10 13:29:47",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "央视披露花坛藏尸案细节",
-          "hot": "332768",
+          "title": "BLG赛事语音 终于赢了T1",
+          "hot": "3694395",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "杨瀚森新赛季进步有多大",
-          "hot": "207340",
+          "title": "锐评BLG打破T1对LPL胜率神话",
+          "hot": "3570828",
+          "url": ""
+        },
+        {
+          "title": "木鱼水心深挖征服",
+          "hot": "1979176",
+          "url": ""
+        },
+        {
+          "title": "AI长片 汤症",
+          "hot": "1867600",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "刘老师锐评纯稚悬崖对谈",
-          "hot": "206190",
-          "url": ""
+          "title": "文班亚马40分11篮板",
+          "hot": "1680045",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "回看30岁Faker的来时路",
-          "hot": "205603",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+          "title": "怎么看菲奖得主论文AI率被质疑",
+          "hot": "793125",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "Knight带你去纽约",
-          "hot": "201001",
-          "url": ""
-        },
-        {
-          "title": "复盘半决赛多兰VN操作",
-          "hot": "168995",
-          "url": ""
-        },
-        {
-          "title": "细节复盘BLG被抢龙真相",
-          "hot": "168766",
-          "url": ""
-        },
-        {
-          "title": "塞尔达传说时之笛游戏评测",
-          "hot": "164028",
-          "url": ""
-        },
-        {
-          "title": "ON在S16的进步有多大",
-          "hot": "159157",
-          "url": ""
-        },
-        {
-          "title": "现场见证大连英博18分奇迹",
-          "hot": "127581",
-          "url": ""
-        },
-        {
-          "title": "十二年鬼畜热梗合集",
-          "hot": "127580",
+          "title": "灭建国的爸爸叫什么",
+          "hot": "706324",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         },
         {
-          "title": "火柴人VS动画师",
-          "hot": "127578",
+          "title": "体坛女王仙剑三美W红毯合体",
+          "hot": "637998",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "杜兰特23分率队拿下掘金",
+          "hot": "629027",
           "url": ""
         },
         {
-          "title": "Bin说T1比GEN强",
-          "hot": "127577",
+          "title": "深度分析后会友期为什么动人",
+          "hot": "608268",
+          "url": ""
+        },
+        {
+          "title": "记者探访花坛藏尸案现场",
+          "hot": "608261",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "用AI原创68分钟科幻长片",
+          "hot": "608254",
           "url": ""
         },
         {
           "title": "王传君安利鲁豫参加浪姐",
-          "hot": "127576",
+          "hot": "608240",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
         },
         {
-          "title": "在MC里还原梵高星空",
-          "hot": "127572",
+          "title": "让九个AI大模型玩造桥",
+          "hot": "608193",
+          "url": ""
+        },
+        {
+          "title": "NCT DREAM新歌MV",
+          "hot": "608103",
           "url": ""
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "央视披露花坛藏尸案细节",
-      "new_title": "花坛藏尸案给女人的警示",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "识人不清是最大隐患",
-      "hook": "央视披露的这起案子，每个女人都该看",
-      "angle": "从案件细节切入亲密关系中的危险信号识别",
-      "platform": "央视"
-    },
-    {
-      "orig_title": "回看30岁Faker的来时路",
-      "new_title": "30岁Faker给女人的启示",
+      "orig_title": "BLG赛事语音 终于赢了T1",
+      "new_title": "等了这么多年，终于赢了",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "坚持十年才配谈天赋",
-      "hook": "30岁还在被质疑？看看Faker怎么走过来的",
-      "angle": "用Faker十年职业生涯切入女性职场长期主义",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "刘老师锐评纯稚悬崖对谈",
-      "new_title": "悬崖对谈戳中了谁的心",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "逃避沟通才是关系杀手",
-      "hook": "那场悬崖对谈，说出了多少女人的委屈",
-      "angle": "借对谈内容切入亲密关系中的沟通困境",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "ON在S16的进步有多大",
-      "new_title": "从被骂到封神她做对了啥",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "熬过低谷才有翻盘机会",
-      "hook": "被全网骂的那个人，后来怎么样了",
-      "angle": "用选手逆袭故事切入女性职场低谷期自救",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "现场见证大连英博18分奇迹",
-      "new_title": "18分奇迹背后的普通人",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "相信奇迹的人才配拥有",
-      "hook": "18分奇迹现场，我看到了普通人的光",
-      "angle": "从草根逆袭切入普通女性的信念感与行动力",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "王传君安利鲁豫参加浪姐",
-      "new_title": "鲁豫被安利浪姐说明了啥",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "女人任何年纪都能重启",
-      "hook": "王传君一句话，戳中了多少中年女人",
-      "angle": "从鲁豫被安利浪姐切入女性年龄焦虑与重新出发",
+      "core_view": "熬过低谷，才配得上赢",
+      "hook": "你有没有为一件事，熬到想放弃？",
+      "angle": "从BLG多年陪跑到逆袭，讲女性职场长期主义与坚持",
       "platform": "微博"
     },
     {
-      "orig_title": "在MC里还原梵高星空",
-      "new_title": "她用方块还原了梵高星空",
-      "track": "读书分享",
-      "adapt": "中",
-      "core_view": "热爱可抵岁月漫长",
-      "hook": "有人在游戏里还原了梵高星空，我哭了",
-      "angle": "从梵高坚持创作切入女性如何守护自己的热爱",
-      "platform": "B站"
+      "orig_title": "锐评BLG打破T1对LPL胜率神话",
+      "new_title": "打破神话的人，从不信命",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "所谓神话，都是可以打破的",
+      "hook": "别人说你不行的那一刻，别认。",
+      "angle": "从打破胜率神话切入，讲女性打破职场天花板与标签",
+      "platform": "哔哩哔哩"
     },
     {
-      "orig_title": "十二年鬼畜热梗合集",
-      "new_title": "十二年热梗里藏着我们的青春",
+      "orig_title": "木鱼水心深挖征服",
+      "new_title": "真正厉害的人都在深挖",
+      "track": "读书分享",
+      "adapt": "高",
+      "core_view": "深度，是这个时代的稀缺品",
+      "hook": "为什么你读了很多书，却没长进？",
+      "angle": "借深挖内容创作，讲女性如何做深度阅读与自我沉淀",
+      "platform": "哔哩哔哩"
+    },
+    {
+      "orig_title": "AI长片 汤症",
+      "new_title": "AI都能拍电影了，你呢",
       "track": "生活感悟",
-      "adapt": "低",
-      "core_view": "回望过去才懂成长的意义",
-      "hook": "十二年热梗合集，看哭的不止我一个",
-      "angle": "用热梗变迁切入女性成长中的时代记忆与自我和解",
-      "platform": "B站"
+      "adapt": "中",
+      "core_view": "时代变了，别停留在原地",
+      "hook": "AI都开始拍电影了，你还在内耗吗？",
+      "angle": "从AI长片切入，讲女性面对变化的焦虑与行动力",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "文班亚马40分11篮板",
+      "new_title": "天赋之外，是死磕自己",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "天赋决定起点，努力决定上限",
+      "hook": "比你优秀的人，比你还拼。",
+      "angle": "从天赋型选手表现，讲女性如何把优势变成实力",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "怎么看菲奖得主论文AI率被质疑",
+      "new_title": "被质疑时，你慌了吗",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "被质疑不可怕，自我怀疑才可怕",
+      "hook": "被质疑的那一刻，你是怎么做的？",
+      "angle": "从诺奖得主被质疑，讲女性面对否定时的内核稳定",
+      "platform": "知乎"
+    },
+    {
+      "orig_title": "体坛女王仙剑三美W红毯合体",
+      "new_title": "姐姐们合体，气场全开",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "成熟女人的美，是岁月给的",
+      "hook": "为什么有些女人越活越高级？",
+      "angle": "从姐姐合体红毯，讲女性成长中的自我经营与闺蜜关系",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "深度分析后会友期为什么动人",
+      "new_title": "为什么真诚最打动人",
+      "track": "情感关系",
+      "adapt": "高",
+      "core_view": "真诚，是最高级的情商",
+      "hook": "为什么有些人，一开口就让人想亲近？",
+      "angle": "从动人内容切入，讲女性在关系中的真诚与边界感",
+      "platform": "哔哩哔哩"
     }
   ],
   "ai_status": "success"
