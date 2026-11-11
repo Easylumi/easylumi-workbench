@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "update_time": "2026-11-11 03:19:34",
+  "update_time": "2026-11-11 12:00:07",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "LPL为何能在S赛BO5战胜T1",
-          "hot": "2574211",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+          "title": "BLG为何能打破T1的不败神话",
+          "hot": "8148550",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "英伟达商城重新上架5090显卡",
-          "hot": "939185",
+          "title": "空军77周年微电影明日之翼",
+          "hot": "1645676",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
           "title": "浪浪山小妖怪金鸡最佳动画片",
-          "hot": "569133",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "Smoggy官宣离队EDG",
-          "hot": "484916",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "NBA球星哈登新赛季下滑了吗",
-          "hot": "310404",
+          "hot": "517120",
           "url": ""
         },
         {
-          "title": "大范围雨雪逼近广东",
-          "hot": "285583",
+          "title": "塔图姆布朗上演NBA后会友期",
+          "hot": "513218",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "人民空军成立77周年",
+          "hot": "508959",
           "url": ""
         },
         {
-          "title": "UP主邀请全网侦探破解不可能犯罪",
-          "hot": "282931",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
+          "title": "塔图姆单臂隔扣詹姆斯",
+          "hot": "497254",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "万字拆解GTA全系列",
-          "hot": "255461",
+          "title": "央视曝短视频摆拍乱象",
+          "hot": "471021",
+          "url": ""
+        },
+        {
+          "title": "ON萨勒芬妮大招为何这么远",
+          "hot": "460899",
+          "url": ""
+        },
+        {
+          "title": "CS2传奇之路群像回顾",
+          "hot": "369726",
+          "url": ""
+        },
+        {
+          "title": "369说ZUIAN一定会成功",
+          "hot": "350612",
           "url": ""
         },
         {
           "title": "慢放看多兰VN操作到底如何",
-          "hot": "241778",
+          "hot": "350611",
           "url": ""
         },
         {
-          "title": "中方移交美军援华抗日飞行员遗骸",
-          "hot": "219893",
+          "title": "Smoggy官宣离队EDG",
+          "hot": "350609",
           "url": ""
         },
         {
-          "title": "AI长片 汤症",
-          "hot": "219892",
+          "title": "Knight带你去纽约",
+          "hot": "350608",
           "url": ""
         },
         {
-          "title": "AI科幻电影 孤鲸",
-          "hot": "219890",
+          "title": "A2O SOUL出道主打曲",
+          "hot": "350607",
           "url": ""
         },
         {
-          "title": "火柴人VS动画师",
-          "hot": "219889",
-          "url": ""
-        },
-        {
-          "title": "三家国产AI预测BLG夺冠",
-          "hot": "219888",
-          "url": ""
-        },
-        {
-          "title": "王力宏王心凌首次同台合唱爱你",
-          "hot": "219887",
+          "title": "宣传片回顾LPL对阵T1来时路",
+          "hot": "350606",
           "url": ""
         }
       ]
@@ -107,83 +107,83 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "LPL为何能在S赛BO5战胜T1",
-      "new_title": "为什么你总在关键时刻输？",
+      "orig_title": "BLG为何能打破T1的不败神话",
+      "new_title": "打破神话的从来不是运气",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "赢家都赢在心态不是技术",
-      "hook": "你知道为什么有些人越到关键时刻越猛吗？",
-      "angle": "从LPL打破心魔切入女性职场中的'关键战役恐惧症'",
+      "core_view": "弱者等机会，强者造机会",
+      "hook": "为什么别人能打破神话，你却在原地等？",
+      "angle": "从挑战不败神话切入，讲女性如何在职场打破资历壁垒",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "空军77周年微电影明日之翼",
+      "new_title": "你的明日之翼藏在今天",
+      "track": "励志成长",
+      "adapt": "高",
+      "core_view": "今天的坚持是明天的翅膀",
+      "hook": "你有没有想过，今天的努力在救未来的你？",
+      "angle": "借微电影意象讲女性自我成长的长期主义",
       "platform": "微博"
     },
     {
       "orig_title": "浪浪山小妖怪金鸡最佳动画片",
-      "new_title": "小妖怪拿奖：普通人也能赢",
+      "new_title": "小妖怪也能拿最佳女主角",
       "track": "生活感悟",
       "adapt": "高",
-      "core_view": "不被看好的小人物也能逆袭",
-      "hook": "一个没人看好的小妖怪，凭什么拿了大奖？",
-      "angle": "从小妖怪逆袭切入女性自我价值认同与'配得感'",
+      "core_view": "不被看好的人也能赢一次",
+      "hook": "没人看好你的时候，恰恰是你翻盘的开始。",
+      "angle": "从黑马逆袭切入，讲普通女性的自我认可",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "塔图姆布朗上演NBA后会友期",
+      "new_title": "分开后我们才真正成熟",
+      "track": "情感关系",
+      "adapt": "高",
+      "core_view": "告别不是失败，是成长",
+      "hook": "有些人分开，反而成了更好的自己。",
+      "angle": "从队友后重逢切入，讲女性如何体面告别一段关系",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "塔图姆单臂隔扣詹姆斯",
+      "new_title": "敢于隔扣人生的天花板",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "敢挑战权威才有破局机会",
+      "hook": "你不敢越级的那一步，正是别人起飞的地方。",
+      "angle": "从隔扣权威切入，讲女性职场如何敢向上争取",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "央视曝短视频摆拍乱象",
+      "new_title": "别再演别人的人生了",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "真实比精致更有力量",
+      "hook": "你刷到的完美生活，可能全是演的。",
+      "angle": "从摆拍乱象切入，讲女性拒绝人设焦虑、活出真实",
+      "platform": "央视"
+    },
+    {
+      "orig_title": "369说ZUIAN一定会成功",
+      "new_title": "被相信的人真的会成功",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "一句相信能托住一个人",
+      "hook": "你身边有没有一个人，无条件相信你会成功？",
+      "angle": "从队友力挺切入，讲女性关系中的支持型伴侣",
       "platform": "微博"
     },
     {
       "orig_title": "Smoggy官宣离队EDG",
-      "new_title": "离开不是认输，是重新开始",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "离开错的关系才是真正的勇敢",
-      "hook": "她官宣离开那天，评论区都在说可惜。",
-      "angle": "从选手离队切入女性离开消耗性关系/工作的勇气",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "大范围雨雪逼近广东",
-      "new_title": "广东下雪了，你还好吗？",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "生活总有突如其来的冷与暖",
-      "hook": "广东都要下雪了，你那边还好吗？",
-      "angle": "从极端天气切入女性情绪低谷时的自我照顾与疗愈",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "UP主邀请全网侦探破解不可能犯罪",
-      "new_title": "你的人生剧本，谁在破案？",
-      "track": "读书分享",
-      "adapt": "中",
-      "core_view": "学会做自己人生的侦探",
-      "hook": "如果全网侦探来查你的人生，会查出什么？",
-      "angle": "从破案热潮切入女性复盘思维与自我觉察类书籍推荐",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "中方移交美军援华抗日飞行员遗骸",
-      "new_title": "那些被记住的人教会我们什么",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "被记住是爱最深的形式",
-      "hook": "跨越八十年的寻找，只为带他回家。",
-      "angle": "从遗骸归国切入女性在关系中对'被看见被记住'的渴望",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "三家国产AI预测BLG夺冠",
-      "new_title": "连AI都在赌，你敢赌自己吗",
+      "new_title": "离开也是一种勇敢选择",
       "track": "职场成长",
       "adapt": "中",
-      "core_view": "相信自己是最大的竞争力",
-      "hook": "三家AI都预测夺冠，可没人预测你会赢。",
-      "angle": "从AI预测切入女性在职场中缺乏自我下注的勇气",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "王力宏王心凌首次同台合唱爱你",
-      "new_title": "那首《爱你》你还敢唱吗",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "敢重新去爱才是真正的成长",
-      "hook": "当《爱你》前奏响起，多少人哭了？",
-      "angle": "从经典合唱切入女性经历感情创伤后重新拥抱爱的勇气",
+      "core_view": "主动离开是高级的清醒",
+      "hook": "敢辞职的女人，都经历过一次自我救赎。",
+      "angle": "从选手离队切入，讲女性何时该果断离开消耗自己的平台",
       "platform": "微博"
     }
   ],
