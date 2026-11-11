@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不必追赶别人的花期，你有自己的四季。",
-      "en": "You don't have to chase someone else's blooming season—you have your own four seasons."
+      "text": "你不需要跑得比谁快，只需要跑过昨天的自己。",
+      "en": "You don't need to outrun anyone; just outrun the you from yesterday."
     },
     {
-      "text": "慢慢来，不是停滞，是把根扎得更深。",
-      "en": "Taking your time isn't standing still—it's growing your roots deeper."
+      "text": "允许自己慢慢来，是一种温柔的勇敢。",
+      "en": "Allowing yourself to go slowly is a gentle kind of courage."
     },
     {
-      "text": "允许自己偶尔不发光，星星也需要白天休息。",
-      "en": "Allow yourself to not shine sometimes—even stars rest during the day."
+      "text": "真正的成长，是学会在不确定里，依然好好吃饭、好好睡觉。",
+      "en": "True growth is learning to eat well and sleep well even amid uncertainty."
     }
   ],
   "poems": [
@@ -29,7 +29,7 @@
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "text": "知人者智，自知者明。",
       "source": "《道德经》第三十三章"
     },
     {
@@ -37,8 +37,8 @@
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾胡治兵语录》"
+      "text": "不积跬步，无以至千里；不积小流，无以成江海。",
+      "source": "《荀子·劝学》"
     }
   ]
 }
