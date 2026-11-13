@@ -1,36 +1,36 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，你只需要真实地向前走。",
-      "en": "You don't need to be perfect; you just need to move forward authentically."
+      "text": "你不需要活成别人的答案，你只需要活成自己的光。",
+      "en": "You don't need to live as someone else's answer; you only need to live as your own light."
     },
     {
-      "text": "温柔不是软弱，而是你选择用善意对待这个世界。",
-      "en": "Gentleness is not weakness; it's your choice to treat the world with kindness."
+      "text": "慢慢来，比较快。真正的成长，从不喧哗。",
+      "en": "Slow down, and you'll get there faster. True growth is never loud."
     },
     {
-      "text": "成长是一场和自己的对话，慢一点也没关系。",
-      "en": "Growth is a conversation with yourself—it's okay to take it slow."
+      "text": "把日子过成自己的，比过成别人羡慕的，重要得多。",
+      "en": "Living your life on your own terms matters far more than living one others envy."
     }
   ],
   "poems": [
     {
-      "text": "采菊东篱下，悠然见南山。",
-      "source": "陶渊明《饮酒·其五》"
+      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
+    },
+    {
+      "text": "山重水复疑无路，柳暗花明又一村。",
+      "source": "陆游《游山西村》"
     },
     {
       "text": "行到水穷处，坐看云起时。",
       "source": "王维《终南别业》"
-    },
-    {
-      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
-      "source": "苏轼《定风波·莫听穿林打叶声》"
     }
   ],
   "daily": [
     {
       "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《道德经》第三十三章"
+      "source": "《老子》第三十三章"
     },
     {
       "text": "君子求诸己，小人求诸人。",
