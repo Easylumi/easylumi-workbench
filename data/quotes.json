@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不需要活成别人的答案，你只需要活成自己的光。",
-      "en": "You don't need to live as someone else's answer; you only need to live as your own light."
+      "text": "你不需要跑得很快，只要不停下来，就已经在成为自己的路上。",
+      "en": "You don't have to run fast; as long as you don't stop, you're already on the path to becoming yourself."
     },
     {
-      "text": "慢慢来，比较快。真正的成长，从不喧哗。",
-      "en": "Slow down, and you'll get there faster. True growth is never loud."
+      "text": "温柔不是软弱，是看清生活之后，依然选择好好爱它。",
+      "en": "Gentleness is not weakness; it's choosing to love life well after seeing it clearly."
     },
     {
-      "text": "把日子过成自己的，比过成别人羡慕的，重要得多。",
-      "en": "Living your life on your own terms matters far more than living one others envy."
+      "text": "把自己活成一道光，黑暗自然会退到身后。",
+      "en": "Live as a light, and darkness will naturally fall behind you."
     }
   ],
   "poems": [
@@ -23,22 +23,22 @@
       "source": "陆游《游山西村》"
     },
     {
-      "text": "行到水穷处，坐看云起时。",
-      "source": "王维《终南别业》"
+      "text": "长风破浪会有时，直挂云帆济沧海。",
+      "source": "李白《行路难·其一》"
     }
   ],
   "daily": [
     {
       "text": "知人者智，自知者明。胜人者有力，自胜者强。",
-      "source": "《老子》第三十三章"
+      "source": "《道德经》第三十三章"
     },
     {
-      "text": "君子求诸己，小人求诸人。",
-      "source": "《论语·卫灵公》"
+      "text": "不患人之不己知，患不知人也。",
+      "source": "《论语·学而》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾胡治兵语录》"
+      "text": "天行健，君子以自强不息。",
+      "source": "《周易·乾卦》"
     }
   ]
 }
