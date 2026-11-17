@@ -1,30 +1,30 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美，只需要真实地向前走。",
-      "en": "You don't need to be perfect, just real and moving forward."
+      "text": "你不需要完美才开始，开始了才会慢慢靠近完美。",
+      "en": "You don't have to be perfect to start; you just need to start to get closer to perfect."
     },
     {
-      "text": "慢一点也没关系，只要方向是对的。",
-      "en": "It's okay to go slow, as long as you're heading in the right direction."
+      "text": "成长不是变成别人眼中的厉害，而是越来越像你自己。",
+      "en": "Growth is not about becoming impressive in others' eyes, but about becoming more and more like yourself."
     },
     {
-      "text": "允许自己休息，也是成长的一部分。",
-      "en": "Allowing yourself to rest is part of growing, too."
+      "text": "允许自己慢一点，只要方向是对的，每一步都算数。",
+      "en": "Allow yourself to go a little slower. As long as the direction is right, every step counts."
     }
   ],
   "poems": [
     {
-      "text": "行到水穷处，坐看云起时。",
-      "source": "王维《终南别业》"
+      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
+      "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
       "text": "山重水复疑无路，柳暗花明又一村。",
       "source": "陆游《游山西村》"
     },
     {
-      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
-      "source": "苏轼《定风波·莫听穿林打叶声》"
+      "text": "千淘万漉虽辛苦，吹尽狂沙始到金。",
+      "source": "刘禹锡《浪淘沙九首·其八》"
     }
   ],
   "daily": [
