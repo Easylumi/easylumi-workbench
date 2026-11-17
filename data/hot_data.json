@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-17",
-  "update_time": "2026-11-17 13:56:38",
+  "date": "2026-11-18",
+  "update_time": "2026-11-18 04:28:52",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -21,77 +21,77 @@
       "items": [
         {
           "title": "外交部谈中俄美元首会晤",
-          "hot": "3678508",
+          "hot": "",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "APEC紫藏着中国红和深圳蓝",
-          "hot": "3620205",
+          "title": "在APEC感受跨越山海的情谊",
+          "hot": "2314659",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "印尼驻华大使用中文歌祝福APEC",
-          "hot": "3589959",
+          "title": "BLG夺冠赛事语音",
+          "hot": "2536957",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "BLG现场观战76人vs篮网",
-          "hot": "3369214",
+          "title": "3分钟看懂APEC与你我的关系",
+          "hot": "291526",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "看深圳APEC藏着哪些巧思",
-          "hot": "788664",
-          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+          "title": "我的S16预测成绩单",
+          "hot": "186807",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "Bin冠军皮肤格温票数反超武器",
-          "hot": "783911",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "GEN官宣Canyon与Kiin离队",
-          "hot": "774065",
+          "title": "7天大会员怎么看不浪费",
+          "hot": "186808",
           "url": ""
         },
         {
-          "title": "杨瀚森连送3次助攻",
-          "hot": "714936",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "BLG成员获赠专属篮网球衣",
-          "hot": "709175",
+          "title": "国足2-2巴林",
+          "hot": "186805",
           "url": ""
         },
         {
-          "title": "考研区年更UP主大牙考研上线了",
-          "hot": "540753",
-          "url": ""
-        },
-        {
-          "title": "韩网单曲 Chovy的根号4",
-          "hot": "540752",
+          "title": "非凡之爱蜘蛛侠真人版",
+          "hot": "186804",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         },
         {
-          "title": "后会友期真人秀剧本边界在哪",
-          "hot": "540750",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "title": "新任007为何是帕丁森",
+          "hot": "186799",
+          "url": ""
         },
         {
-          "title": "食贫道闯关东吃饭故事上新",
-          "hot": "540749",
+          "title": "算了嘛警官盛嘉成版",
+          "hot": "186775",
+          "url": ""
+        },
+        {
+          "title": "后会友期 谁在按剧本演戏",
+          "hot": "185277",
+          "url": ""
+        },
+        {
+          "title": "40款2026新游大锐评",
+          "hot": "185115",
           "url": ""
         },
         {
           "title": "根本没有这样的长尾夹",
-          "hot": "540748",
+          "hot": "184498",
+          "url": ""
+        },
+        {
+          "title": "Knight对位Chovy优势在哪",
+          "hot": "182331",
           "url": ""
         },
         {
           "title": "非凡之爱演绎经典漫画父与子",
-          "hot": "540747",
+          "hot": "176512",
           "url": ""
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "后会友期真人秀剧本边界在哪",
-      "new_title": "真人秀都有剧本，你的感情呢",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "别在关系里演剧本丢了真心",
-      "hook": "连真人秀都在按剧本演，你的感情是不是也在演戏？",
-      "angle": "从真人秀剧本争议切入，聊女性在亲密关系中迷失真实自我的困境",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "考研区年更UP主大牙考研上线了",
-      "new_title": "她一年只更新一次，却赢了",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "慢节奏的坚持也是赢",
-      "hook": "一个年更博主凭什么让全网等她？",
-      "angle": "从年更UP主的坚持切入，聊女性长期主义与不被节奏绑架的成长",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "食贫道闯关东吃饭故事上新",
-      "new_title": "会好好吃饭的女人不会差",
+      "orig_title": "算了嘛警官盛嘉成版",
+      "new_title": "算了嘛，是女人最高级的清醒",
       "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "认真吃饭是最高级的自爱",
-      "hook": "你有多久没有好好为自己做一顿饭了？",
-      "angle": "从美食故事切入，聊女性用烟火气治愈内耗的生活态度",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "印尼驻华大使用中文歌祝福APEC",
-      "new_title": "大使唱中文歌，你还在怕开口",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "敢开口的人先拿到机会",
-      "hook": "一个外国大使都敢唱中文歌，你怕什么？",
-      "angle": "从大使勇敢表达切入，聊女性职场中打破完美主义、敢于发声",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "根本没有这样的长尾夹",
-      "new_title": "别再追那个不存在的完美",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "放过不存在的完美才自由",
-      "hook": "你追的那个完美，根本不存在。",
-      "angle": "从长尾夹梗切入，聊女性对完美执念的自我和解",
+      "adapt": "高",
+      "core_view": "及时止损是成年女性的必修课",
+      "hook": "你还在为不值得的人和事内耗吗？",
+      "angle": "把'算了嘛'解读为女性情绪断舍离的智慧",
       "platform": "抖音"
     },
     {
-      "orig_title": "非凡之爱演绎经典漫画父与子",
-      "new_title": "你和父亲的关系决定你爱谁",
+      "orig_title": "后会友期 谁在按剧本演戏",
+      "new_title": "有些关系，散场才是体面",
       "track": "情感关系",
       "adapt": "高",
-      "core_view": "原生父女关系影响亲密选择",
-      "hook": "你为什么总爱上同一类人？答案在父亲身上。",
-      "angle": "从父与子经典漫画切入，聊父女关系如何塑造女性择偶模式",
-      "platform": "微博"
+      "core_view": "成年人要学会识别表演式关系",
+      "hook": "你有没有发现，有人一直在演你？",
+      "angle": "借'谁在按剧本演戏'谈女性识别消耗型关系",
+      "platform": "抖音"
     },
     {
-      "orig_title": "GEN官宣Canyon与Kiin离队",
-      "new_title": "战队换人如换血，你也该换圈",
+      "orig_title": "3分钟看懂APEC与你我的关系",
+      "new_title": "大时代里，普通女孩怎么借势",
       "track": "职场成长",
       "adapt": "中",
-      "core_view": "敢离开错的圈子才是成长",
-      "hook": "顶级战队都在换人，你还在死守消耗你的圈子？",
-      "angle": "从电竞战队人员变动切入，聊女性果断离开消耗性环境的勇气",
+      "core_view": "看懂趋势才能抓住个人机会",
+      "hook": "别觉得国际新闻离你很远，它正在改你的工资",
+      "angle": "把宏观热点翻译成女性职场借势方法论",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "在APEC感受跨越山海的情谊",
+      "new_title": "跨越山海的从来不是情谊，是勇气",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "女性要敢为自己跨越山海",
+      "hook": "你有多久没为自己勇敢一次了？",
+      "angle": "从'跨越山海'引申女性突破舒适圈的故事",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "BLG夺冠赛事语音",
+      "new_title": "冠军语音里，藏着普通人的逆袭",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "团队信任是逆袭的底层逻辑",
+      "hook": "听完成功者的语音，我哭了",
+      "angle": "从夺冠团队协作拆解女性职场合作力",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "国足2-2巴林",
+      "new_title": "2比2的平局，教会我接受不完美",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "允许自己平局，也是一种赢",
+      "hook": "你是不是也总逼自己必须赢？",
+      "angle": "用平局谈女性与自己和解的心态建设",
+      "platform": "抖音"
+    },
+    {
+      "orig_title": "新任007为何是帕丁森",
+      "new_title": "被质疑的人，最后都赢在哪",
+      "track": "读书分享",
+      "adapt": "中",
+      "core_view": "扛住质疑的人自带主角光环",
+      "hook": "全世界都说不配，他偏要证明",
+      "angle": "借选角争议谈女性被否定时的自我建设",
       "platform": "微博"
     },
     {
-      "orig_title": "看深圳APEC藏着哪些巧思",
-      "new_title": "深圳蓝里藏着女人的破局力",
+      "orig_title": "7天大会员怎么看不浪费",
+      "new_title": "别让7天会员，浪费你的时间",
       "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "细节里的用心就是破局力",
-      "hook": "一场国际会议藏着女性逆袭的底层逻辑。",
-      "angle": "从APEC城市细节巧思切入，聊女性在细节处经营自我的智慧",
-      "platform": "微博"
+      "adapt": "低",
+      "core_view": "会算账的女人更会过日子",
+      "hook": "你以为在省钱，其实在浪费命",
+      "angle": "从会员薅羊毛谈女性时间成本意识",
+      "platform": "抖音"
     }
   ],
   "ai_status": "success"
