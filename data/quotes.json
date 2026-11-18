@@ -1,16 +1,16 @@
 {
   "quotes": [
     {
-      "text": "你不需要完美才开始，开始了才会慢慢靠近完美。",
-      "en": "You don't have to be perfect to start; you just need to start to get closer to perfect."
+      "text": "你不需要成为别人眼中的完美，只需要成为自己心里的踏实。",
+      "en": "You don't need to be perfect in others' eyes; you just need to be at peace in your own heart."
     },
     {
-      "text": "成长不是变成别人眼中的厉害，而是越来越像你自己。",
-      "en": "Growth is not about becoming impressive in others' eyes, but about becoming more and more like yourself."
+      "text": "慢慢来，比较快。真正的成长，从不喧哗。",
+      "en": "Take your time—it's actually faster. Real growth is never loud."
     },
     {
-      "text": "允许自己慢一点，只要方向是对的，每一步都算数。",
-      "en": "Allow yourself to go a little slower. As long as the direction is right, every step counts."
+      "text": "温柔不是软弱，是看清生活之后，依然选择好好待它。",
+      "en": "Gentleness is not weakness; it's choosing to treat life well after seeing it clearly."
     }
   ],
   "poems": [
@@ -23,13 +23,13 @@
       "source": "陆游《游山西村》"
     },
     {
-      "text": "千淘万漉虽辛苦，吹尽狂沙始到金。",
-      "source": "刘禹锡《浪淘沙九首·其八》"
+      "text": "行到水穷处，坐看云起时。",
+      "source": "王维《终南别业》"
     }
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。",
+      "text": "知人者智，自知者明；胜人者有力，自胜者强。",
       "source": "《道德经》第三十三章"
     },
     {
@@ -37,8 +37,8 @@
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "不积跬步，无以至千里；不积小流，无以成江海。",
-      "source": "《荀子·劝学》"
+      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
+      "source": "曾国藩（传为曾国藩语，多见于《曾国藩家书》相关记述）"
     }
   ]
 }
