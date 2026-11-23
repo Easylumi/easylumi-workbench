@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "update_time": "2026-11-23 03:03:11",
+  "update_time": "2026-11-23 13:02:03",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "Tim最爱的杭州美食是啥",
-          "hot": "4284688",
+          "title": "KPL十周年系列故事",
+          "hot": "2157653",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "蔡琴和鲁豫聊告别演出",
+          "hot": "2089362",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "27国考今起可打印准考证",
+          "hot": "1394048",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "BLG 属于我们的冠军记忆",
-          "hot": "3895087",
+          "title": "GTA6哪台主机表现好",
+          "hot": "1384170",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "灵笼",
-          "hot": "1388032",
+          "title": "世界周刊APEC全球时刻",
+          "hot": "1242101",
+          "url": ""
+        },
+        {
+          "title": "英雄联盟历史荣誉TOP50都有谁",
+          "hot": "1180569",
+          "url": ""
+        },
+        {
+          "title": "镇魂街第五季超长预告",
+          "hot": "1113775",
           "url": "https://i0.hdslb.com/bfs/legacy/cc76c9df4fe9a176b2872c4dab2ba151becc8194.png"
         },
         {
-          "title": "凡人修仙传",
-          "hot": "1206645",
+          "title": "爱上她的理由第二季新PV",
+          "hot": "1099440",
           "url": "https://i0.hdslb.com/bfs/legacy/cc76c9df4fe9a176b2872c4dab2ba151becc8194.png"
         },
         {
-          "title": "英伟达被查市值接近腰斩",
-          "hot": "1048840",
+          "title": "我国海军多型装备将公开展示",
+          "hot": "821612",
+          "url": ""
+        },
+        {
+          "title": "挑战用gta视角逛商场",
+          "hot": "793764",
           "url": ""
         },
         {
           "title": "雾山五行",
-          "hot": "825073",
+          "hot": "784201",
           "url": "https://i0.hdslb.com/bfs/legacy/cc76c9df4fe9a176b2872c4dab2ba151becc8194.png"
         },
         {
-          "title": "人类数学协会抵制AI证黎曼猜想",
-          "hot": "667409",
-          "url": ""
+          "title": "黎曼猜想究竟是什么",
+          "hot": "758350",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "传统欧美3A游戏面临瓶颈了吗",
-          "hot": "452057",
-          "url": ""
-        },
-        {
-          "title": "主播糟蹋千斤苹果仅赔6000元",
-          "hot": "422888",
+          "title": "AI证明黎曼猜想到底得出什么结论",
+          "hot": "758341",
           "url": ""
         },
         {
           "title": "蓝溪镇",
-          "hot": "373223",
+          "hot": "758333",
           "url": "https://i0.hdslb.com/bfs/legacy/cc76c9df4fe9a176b2872c4dab2ba151becc8194.png"
         },
         {
-          "title": "用AI续写关谷悠悠婚礼",
-          "hot": "373222",
-          "url": ""
-        },
-        {
-          "title": "鸣潮年度篇章实机演示",
-          "hot": "373220",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
-        },
-        {
-          "title": "GTA6的角色设定有哪些不足",
-          "hot": "373219",
-          "url": ""
-        },
-        {
-          "title": "GTA6里NPC的生活有多真实",
-          "hot": "373218",
-          "url": ""
-        },
-        {
           "title": "芒果台造梗方面有多权威",
-          "hot": "373218",
+          "hot": "753861",
           "url": ""
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "英伟达被查市值接近腰斩",
-      "new_title": "市值腰斩，女人该学到什么",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "别把平台当本事",
-      "hook": "英伟达都能腰斩，你还在把公司当铁饭碗？",
-      "angle": "从科技巨头暴跌切入女性职场安全感与个人核心竞争力",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "主播糟蹋千斤苹果仅赔6000元",
-      "new_title": "糟蹋千斤苹果只赔六千",
-      "track": "生活感悟",
-      "adapt": "高",
-      "core_view": "不尊重别人的人走不远",
-      "hook": "千斤苹果被糟蹋，赔偿六千，这事没那么简单",
-      "angle": "从浪费与轻慢切入女性如何建立边界感与尊重他人",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "人类数学协会抵制AI证黎曼猜想",
-      "new_title": "AI抢饭碗，你慌了吗",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "被替代的是重复不是人",
-      "hook": "AI都能证黎曼猜想了，你还在焦虑什么？",
-      "angle": "从AI冲击学术切入女性如何打造不可替代的软实力",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "传统欧美3A游戏面临瓶颈了吗",
-      "new_title": "3A游戏瓶颈，像极了你",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "瓶颈期是升级前兆",
-      "hook": "3A大作都瓶颈了，你卡住了怕什么",
-      "angle": "从游戏行业瓶颈切入女性成长中的停滞期与破局心态",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "GTA6里NPC的生活有多真实",
-      "new_title": "NPC式人生，你过了多久",
+      "orig_title": "蔡琴和鲁豫聊告别演出",
+      "new_title": "蔡琴一句话让所有女人破防",
       "track": "情感关系",
       "adapt": "高",
-      "core_view": "别在关系里当NPC",
-      "hook": "GTA6的NPC太真实，真实到像极了你",
-      "angle": "从游戏NPC切入女性在感情中失去自我、活成配角的困境",
-      "platform": "B站"
+      "core_view": "告别是为了体面活好当下",
+      "hook": "蔡琴说这场唱完就告别，我瞬间懂了女人的清醒。",
+      "angle": "从蔡琴谈告别演出切入女性如何体面地放下和转身",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "27国考今起可打印准考证",
+      "new_title": "考公女孩最后30天怎么翻盘",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "最后冲刺拼的是心态不是题量",
+      "hook": "准考证能打印了，姐妹们剩下的日子别慌。",
+      "angle": "借国考节点讲女性备考期的心态管理与效率策略",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "我国海军多型装备将公开展示",
+      "new_title": "女人真正的底气从来不是男人",
+      "track": "励志成长",
+      "adapt": "中",
+      "core_view": "实力才是最硬的底牌",
+      "hook": "海军装备一亮相，我想到女人最大的安全感。",
+      "angle": "借大国重器类比女性自我投资才是真底气",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "KPL十周年系列故事",
+      "new_title": "十年坚持的人后来都怎样了",
+      "track": "读书分享",
+      "adapt": "中",
+      "core_view": "长期主义是普通人最好的路",
+      "hook": "KPL十年了，我想到坚持十年的那个女人。",
+      "angle": "用电竞十年坚持讲女性长期深耕一件事的价值",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "黎曼猜想究竟是什么",
+      "new_title": "越难懂的题越该换个活法",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "想不通的事先放下再出发",
+      "hook": "黎曼猜想没人解得开，像极了你卡住的人生。",
+      "angle": "借百年难题讲女性如何与解不开的困惑和解",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "英雄联盟历史荣誉TOP50都有谁",
+      "new_title": "被记住的女人都做对了什么",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "被记住靠价值不靠讨好",
+      "hook": "TOP50名单一出，我看清了女人被记住的真相。",
+      "angle": "从荣誉排名切入女性在关系里如何建立不可替代性",
+      "platform": "微博"
     },
     {
       "orig_title": "芒果台造梗方面有多权威",
-      "new_title": "会造梗的女人有多吃香",
-      "track": "职场成长",
+      "new_title": "会自嘲的女人才最不好惹",
+      "track": "生活感悟",
       "adapt": "中",
-      "core_view": "幽默感是高级竞争力",
-      "hook": "芒果台造梗封神，女人会造梗有多赚？",
-      "angle": "从造梗能力切入女性幽默感与职场社交魅力的关系",
+      "core_view": "幽默是女人的高级铠甲",
+      "hook": "芒果台造梗有一手，会玩梗的女人更有一手。",
+      "angle": "借造梗文化讲女性用幽默化解生活压力的智慧",
       "platform": "微博"
     },
     {
-      "orig_title": "BLG 属于我们的冠军记忆",
-      "new_title": "冠军记忆，女人的高光时刻",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "你的高光要自己造",
-      "hook": "BLG的冠军记忆，你的冠军记忆在哪？",
-      "angle": "从电竞夺冠切入女性如何主动创造属于自己的高光时刻",
-      "platform": "B站"
-    },
-    {
-      "orig_title": "用AI续写关谷悠悠婚礼",
-      "new_title": "AI续写婚礼，遗憾怎么补",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "遗憾要靠自己和解",
-      "hook": "AI能续写婚礼，却续不了你的遗憾",
-      "angle": "从AI补剧情切入女性如何面对感情中的未完成与遗憾",
-      "platform": "抖音"
+      "orig_title": "世界周刊APEC全球时刻",
+      "new_title": "大时代里普通女人怎么站位",
+      "track": "职场成长",
+      "adapt": "低",
+      "core_view": "看清大势才能选对方向",
+      "hook": "APEC刷屏，普通人该关心的其实是这件事。",
+      "angle": "借全球经济议题讲女性职业选择的趋势判断",
+      "platform": "微博"
     }
   ],
   "ai_status": "success"
