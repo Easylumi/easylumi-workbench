@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "update_time": "2026-11-25 05:55:42",
+  "update_time": "2026-11-25 14:23:22",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "神舟二十四号载人飞船今日发射",
-          "hot": "313172",
-          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
-        },
-        {
-          "title": "Claude称证明计算机理论重大猜想",
-          "hot": "287948",
+          "title": "神舟二十四号发射成功",
+          "hot": "7009792",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "胖东来洗发水再陷假洋牌争议",
-          "hot": "211474",
-          "url": ""
+          "title": "OpenAI发布九篇数学论文",
+          "hot": "6495360",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
         },
         {
-          "title": "三大厂停产DDR4被诉垄断",
-          "hot": "210227",
+          "title": "管泽元对话BLG深扒夺冠幕后",
+          "hot": "5462172",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
+        },
+        {
+          "title": "美国两州起诉SpaceX",
+          "hot": "937463",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "BLG夺冠了我们就这么笑",
-          "hot": "208435",
+          "title": "雷霆本赛季伤病状况有多严重",
+          "hot": "450295",
           "url": ""
         },
         {
-          "title": "陈吉宁被查",
-          "hot": "207783",
+          "title": "魔方动作新游狩首曝实机",
+          "hot": "436514",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "终末地新干员小刻EP",
+          "hot": "412744",
           "url": ""
         },
         {
-          "title": "英伟达为何非黄仁勋不可",
-          "hot": "206283",
+          "title": "盘点GTA6里60个隐藏细节",
+          "hot": "374357",
           "url": ""
         },
         {
           "title": "大肥鱼把开源变成超能力",
-          "hot": "198175",
+          "hot": "366140",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+        },
+        {
+          "title": "秋冬高血压有多危险",
+          "hot": "353332",
+          "url": ""
+        },
+        {
+          "title": "绝区零挽昼角色展示",
+          "hot": "340969",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "S1mple队伍为何大比分落败",
+          "hot": "325298",
+          "url": ""
+        },
+        {
+          "title": "魔方新游狩试玩测评",
+          "hot": "325297",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "蓝色星原涂山小玉PV",
+          "hot": "325295",
+          "url": ""
         },
         {
           "title": "刘晓艳单曲考过就是烂奇迹",
-          "hot": "192313",
+          "hot": "325294",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "T1预告Zeus回归",
-          "hot": "188187",
-          "url": ""
-        },
-        {
-          "title": "英雄联盟历史荣誉TOP50都有谁",
-          "hot": "188186",
-          "url": ""
-        },
-        {
-          "title": "终末地小刻干员叙事",
-          "hot": "188182",
-          "url": ""
-        },
-        {
-          "title": "GTA6哪台主机表现好",
-          "hot": "188178",
-          "url": ""
-        },
-        {
-          "title": "战争中伊朗究竟是什么样子",
-          "hot": "188125",
-          "url": ""
-        },
-        {
-          "title": "AI证明黎曼猜想将如何影响数学界",
-          "hot": "187955",
-          "url": ""
         }
       ]
     },
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "神舟二十四号载人飞船今日发射",
-      "new_title": "神舟发射：你的梦想还在地面",
+      "orig_title": "神舟二十四号发射成功",
+      "new_title": "女人的上限，从来不是性别",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "别人的征途是星辰你却在原地",
-      "hook": "神舟二十四号今天发射了，而你还在纠结要不要辞职",
-      "angle": "用航天员的长期主义对比女性职场中的短期焦虑，鼓励延迟满足",
+      "core_view": "别给自己设限，你也能一飞冲天",
+      "hook": "神舟二十四号又上天了，你知道背后有多少女性吗？",
+      "angle": "从航天女性科研者切入，谈女性打破职业天花板",
       "platform": "微博"
     },
     {
-      "orig_title": "英伟达为何非黄仁勋不可",
-      "new_title": "为什么偏偏是你不可替代",
-      "track": "职场成长",
+      "orig_title": "OpenAI发布九篇数学论文",
+      "new_title": "AI都开始写论文了，你还焦虑什么",
+      "track": "读书分享",
       "adapt": "高",
-      "core_view": "不可替代才是女性最大底气",
-      "hook": "英伟达离不开黄仁勋，可你的公司离得开你吗",
-      "angle": "借英伟达离不开黄仁勋，谈女性如何打造职场不可替代性",
+      "core_view": "工具在进化，会学习的人永远不慌",
+      "hook": "AI一口气发了九篇论文，你却还在为读书焦虑？",
+      "angle": "以AI颠覆知识获取方式切入，谈女性终身学习的松弛感",
       "platform": "微博"
     },
     {
-      "orig_title": "大肥鱼把开源变成超能力",
-      "new_title": "把热爱变成你的超能力",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "普通人也能把热爱变成护城河",
-      "hook": "一个普通人把开源变成超能力，你也可以",
-      "angle": "从大肥鱼把开源变超能力切入，讲女性如何把兴趣做成个人品牌",
+      "orig_title": "管泽元对话BLG深扒夺冠幕后",
+      "new_title": "所有高光背后，都是熬出来的",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "别羡慕别人的高光，先熬过无人问津",
+      "hook": "夺冠幕后曝光，我看到的却是每个女孩该懂的道理",
+      "angle": "从冠军幕后训练的枯燥切入，谈女性职场厚积薄发",
       "platform": "B站"
     },
     {
-      "orig_title": "刘晓艳单曲考过就是烂奇迹",
-      "new_title": "考过就是奇迹，别嘲笑努力",
-      "track": "读书分享",
+      "orig_title": "美国两州起诉SpaceX",
+      "new_title": "敢硬刚的女人，运气都不会差",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "敢于说不，是成年人最高级的底气",
+      "hook": "两个州敢起诉巨头，你为什么不敢对烂人说不？",
+      "angle": "从硬刚巨头切入，谈女性在关系中守住边界感",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "雷霆本赛季伤病状况有多严重",
+      "new_title": "带伤硬撑，从来不是勇敢",
+      "track": "生活感悟",
       "adapt": "高",
-      "core_view": "每一次上岸都值得被尊重",
-      "hook": "刘晓艳说考过就是烂奇迹，多少女孩被这句话戳中",
-      "angle": "从刘晓艳的考试金句切入，聊女性备考路上的自我怀疑与坚持",
+      "core_view": "学会休息，才配拥有更长的赛场",
+      "hook": "一支球队被伤病拖垮，像极了硬撑的你",
+      "angle": "从球队伤病崩盘切入，谈女性别把透支当努力",
+      "platform": "虎扑"
+    },
+    {
+      "orig_title": "秋冬高血压有多危险",
+      "new_title": "三十岁后，健康才是最大的底气",
+      "track": "生活感悟",
+      "adapt": "高",
+      "core_view": "身体垮了，所有成长都是空谈",
+      "hook": "秋冬高血压高发，别让你的拼命变成催命",
+      "angle": "从季节健康风险切入，谈女性自我照顾的重要性",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "刘晓艳单曲考过就是烂奇迹",
+      "new_title": "考过就是奇迹，别笑普通人的努力",
+      "track": "读书分享",
+      "adapt": "很高",
+      "core_view": "普通人的努力，本身就值得被尊重",
+      "hook": "有人说考过是烂奇迹，可普通人哪有容易二字？",
+      "angle": "从嘲讽努力切入，谈女性别被精英叙事绑架",
       "platform": "抖音"
     },
     {
-      "orig_title": "胖东来洗发水再陷假洋牌争议",
-      "new_title": "别再为假洋牌交智商税",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "消费清醒是女性必修课",
-      "hook": "胖东来洗发水翻车，你还在为假洋牌买单吗",
-      "angle": "借假洋牌争议讲女性消费主义陷阱与理性消费觉醒",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "战争中伊朗究竟是什么样子",
-      "new_title": "战争里的女人教会我的事",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "和平年代更要珍惜自我成长",
-      "hook": "看到战争中的伊朗女性，你还有什么好抱怨的",
-      "angle": "从战乱中伊朗女性的处境反观当下女性的成长自由与珍惜",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "AI证明黎曼猜想将如何影响数学界",
-      "new_title": "AI都证明了你还不敢开始",
-      "track": "读书分享",
-      "adapt": "中",
-      "core_view": "工具再强也替代不了你的行动",
-      "hook": "AI都要证明黎曼猜想了，你还在等什么完美时机",
-      "angle": "借AI攻克数学难题谈女性成长中的完美主义与行动力",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "Claude称证明计算机理论重大猜想",
-      "new_title": "AI越强，女人越要会这件事",
+      "orig_title": "大肥鱼把开源变成超能力",
+      "new_title": "把热爱变成超能力，你也可以",
       "track": "职场成长",
-      "adapt": "高",
-      "core_view": "会用AI才是女性的新竞争力",
-      "hook": "Claude又证明了重大猜想，你还在手动加班吗",
-      "angle": "从AI接连突破理论猜想切入，讲女性如何借AI工具提升职场效率",
-      "platform": "微博"
+      "adapt": "中",
+      "core_view": "深耕一件事，普通人也能开挂",
+      "hook": "一个普通人把开源玩成超能力，你缺的是什么？",
+      "angle": "从普通人逆袭切入，谈女性找到自己的长期主义",
+      "platform": "B站"
     }
   ],
   "ai_status": "success"
