@@ -1,21 +1,21 @@
 {
   "quotes": [
     {
-      "text": "你不需要跑得很快，只要不停下来，就已经在成为更好的自己。",
-      "en": "You don't need to run fast; as long as you don't stop, you're already becoming a better version of yourself."
+      "text": "你不需要完美，你只需要真实地向前走。",
+      "en": "You don't need to be perfect; you just need to move forward authentically."
     },
     {
-      "text": "温柔不是软弱，而是一种清醒的选择——在看清生活之后，依然愿意好好爱它。",
-      "en": "Gentleness is not weakness; it's a clear-eyed choice—to keep loving life after seeing it clearly."
+      "text": "温柔不是软弱，而是你选择用柔软的方式与世界交手。",
+      "en": "Gentleness is not weakness; it's choosing to engage with the world in a soft way."
     },
     {
-      "text": "允许自己慢慢来，那些看似绕远的路，都在悄悄把你带向更开阔的地方。",
-      "en": "Allow yourself to take your time; even the detours are quietly leading you somewhere more open."
+      "text": "慢慢来，比较快。你的节奏，就是最好的节奏。",
+      "en": "Slow down, it's actually faster. Your pace is the best pace."
     }
   ],
   "poems": [
     {
-      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
+      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
       "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
@@ -29,16 +29,16 @@
   ],
   "daily": [
     {
+      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "source": "《道德经》第三十三章"
+    },
+    {
       "text": "君子求诸己，小人求诸人。",
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "知人者智，自知者明；胜人者有力，自胜者强。",
-      "source": "《道德经》第三十三章"
-    },
-    {
-      "text": "博学之，审问之，慎思之，明辨之，笃行之。",
-      "source": "《礼记·中庸》"
+      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
+      "source": "曾国藩《曾胡治兵语录》"
     }
   ]
 }
