@@ -5,17 +5,17 @@
       "en": "You don't need to be perfect; you just need to move forward authentically."
     },
     {
-      "text": "温柔不是软弱，而是你选择用柔软的方式与世界交手。",
-      "en": "Gentleness is not weakness; it's choosing to engage with the world in a soft way."
+      "text": "慢慢来，比较快，你的节奏就是最好的节奏。",
+      "en": "Take your time—it's faster. Your own rhythm is the best rhythm."
     },
     {
-      "text": "慢慢来，比较快。你的节奏，就是最好的节奏。",
-      "en": "Slow down, it's actually faster. Your pace is the best pace."
+      "text": "温柔地对待自己，就像对待一位正在成长的朋友。",
+      "en": "Be gentle with yourself, as you would with a friend who is growing."
     }
   ],
   "poems": [
     {
-      "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "text": "莫听穿林打叶声，何妨吟啸且徐行。",
       "source": "苏轼《定风波·莫听穿林打叶声》"
     },
     {
@@ -29,7 +29,7 @@
   ],
   "daily": [
     {
-      "text": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "text": "知人者智，自知者明。",
       "source": "《道德经》第三十三章"
     },
     {
@@ -37,8 +37,8 @@
       "source": "《论语·卫灵公》"
     },
     {
-      "text": "物来顺应，未来不迎，当时不杂，既过不恋。",
-      "source": "曾国藩《曾胡治兵语录》"
+      "text": "天行健，君子以自强不息。",
+      "source": "《周易·乾卦》"
     }
   ]
 }
