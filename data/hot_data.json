@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "update_time": "2026-11-26 05:04:11",
+  "update_time": "2026-11-26 14:15:00",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "神舟二十四号发射成功",
-          "hot": "896042",
+          "title": "神舟二十四号飞船发射全记录",
+          "hot": "4236910",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "爱情公寓导演韦正来B站了",
-          "hot": "825389",
+          "title": "蓝色星原公测版本PV",
+          "hot": "3874632",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "我国将出现至少两轮大范围升温",
-          "hot": "505309",
+          "title": "Zeus称BLG夺冠看得很过瘾",
+          "hot": "1094173",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "俄货船在芬兰湾遭袭",
+          "hot": "548862",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "Heroic FaZe",
+          "hot": "548431",
+          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
+        },
+        {
+          "title": "AI证明黎曼猜想代码大幅简化",
+          "hot": "540832",
+          "url": ""
+        },
+        {
+          "title": "詹姆斯创NBA最老三双记录",
+          "hot": "501087",
+          "url": ""
+        },
+        {
+          "title": "人生至少有一串烧烤属于云南",
+          "hot": "446397",
+          "url": "https://i0.hdslb.com/bfs/legacy/68107970fb977195a2b1401c087a0e77aa2ce23f.png"
+        },
+        {
+          "title": "央视专访巨人之旅冠军赵家驹",
+          "hot": "372653",
+          "url": ""
+        },
+        {
+          "title": "从零做出你的第一个AI项目",
+          "hot": "189611",
+          "url": ""
         },
         {
           "title": "中国空间站 从住标间到三室一厅",
-          "hot": "363448",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "RTX5070跌幅有多猛",
-          "hot": "340526",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "新加坡Major s1mple三连败出局",
-          "hot": "265701",
+          "hot": "189610",
           "url": ""
         },
         {
-          "title": "谷歌挂出6篇AI生成数学论文",
-          "hot": "222795",
+          "title": "中国空间站内部有何玄机",
+          "hot": "189608",
           "url": ""
         },
         {
-          "title": "NBA国王队新秀阿卡夫实力如何",
-          "hot": "216686",
+          "title": "FIFA官网撰文介绍赵松源",
+          "hot": "189607",
           "url": ""
         },
         {
-          "title": "GLM5.4到底有多能打",
-          "hot": "141772",
+          "title": "欧冠葡萄牙体育2-2曼联",
+          "hot": "189606",
           "url": ""
         },
         {
-          "title": "BLG赛前宣传片是怎么拍的",
-          "hot": "119466",
+          "title": "爱情公寓导演韦正来B站了",
+          "hot": "189605",
           "url": ""
-        },
-        {
-          "title": "T1官宣Zeus回归",
-          "hot": "78340",
-          "url": ""
-        },
-        {
-          "title": "GTA6到底有多少种结局",
-          "hot": "30449",
-          "url": ""
-        },
-        {
-          "title": "TES选手新赛季何去何从",
-          "hot": "30448",
-          "url": ""
-        },
-        {
-          "title": "盘点Zeus在HLE的高光名场面",
-          "hot": "30446",
-          "url": ""
-        },
-        {
-          "title": "大肥鱼挑战AI类魂BOSS",
-          "hot": "30445",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         }
       ]
     },
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "神舟二十四号发射成功",
-      "new_title": "神舟升空，女人的天花板在哪",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "女性突破不设限",
-      "hook": "神舟二十四号升空那一刻，我想到了你。",
-      "angle": "用航天突破类比女性职场天花板，鼓励打破自我设限",
-      "platform": "微博"
-    },
-    {
       "orig_title": "中国空间站 从住标间到三室一厅",
-      "new_title": "从标间到三室一厅，女人的成长也是",
+      "new_title": "从标间到三室一厅，你的人生呢",
       "track": "生活感悟",
       "adapt": "高",
-      "core_view": "成长是逐步升级的过程",
-      "hook": "空间站都升级了，你还在原地踏步吗？",
-      "angle": "用空间站升级类比女性生活进阶，强调积累与耐心",
+      "core_view": "人生升级靠一步步迭代",
+      "hook": "空间站都从标间换三室一厅了，你的生活升级了吗？",
+      "angle": "用空间站迭代类比女性自我成长的阶段性升级",
       "platform": "微博"
     },
     {
-      "orig_title": "我国将出现至少两轮大范围升温",
-      "new_title": "天气升温了，你的感情升温了吗",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "感情也需要主动升温",
-      "hook": "全国升温，你的关系却还在冰点？",
-      "angle": "借天气升温切入亲密关系冷淡问题，给出升温方法",
-      "platform": "微博"
+      "orig_title": "央视专访巨人之旅冠军赵家驹",
+      "new_title": "冠军背后，是没人看见的孤独",
+      "track": "励志成长",
+      "adapt": "高",
+      "core_view": "所有高光都来自暗处坚持",
+      "hook": "你以为冠军靠天赋？他跑的是没人愿意跑的路。",
+      "angle": "从冠军专访切入女性如何熬过无人问津的低谷期",
+      "platform": "央视"
     },
     {
       "orig_title": "爱情公寓导演韦正来B站了",
-      "new_title": "爱情公寓导演来了，你的青春呢",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "回望青春是为了看清成长",
-      "hook": "韦正来B站了，你的青春还剩多少？",
-      "angle": "借情怀回忆杀引发女性对青春与自我成长的反思",
+      "new_title": "爱情公寓教会我的爱情真相",
+      "track": "情感关系",
+      "adapt": "高",
+      "core_view": "好的爱情是彼此成就不是消耗",
+      "hook": "重温爱情公寓，我才看懂曾小贤为什么选胡一菲。",
+      "angle": "借经典剧重聚热点聊女性择偶与关系边界",
       "platform": "B站"
     },
     {
-      "orig_title": "谷歌挂出6篇AI生成数学论文",
-      "new_title": "AI都能写论文了，女人还怕被替代吗",
+      "orig_title": "从零做出你的第一个AI项目",
+      "new_title": "零基础做AI，女人别怕起步晚",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "不可替代的是人的温度",
-      "hook": "AI写完6篇论文，你还在焦虑被淘汰？",
-      "angle": "从AI冲击切入女性职场焦虑，强调软实力不可替代",
+      "core_view": "开始永远比完美更重要",
+      "hook": "30岁零基础学AI，我用三个月打了所有人的脸。",
+      "angle": "从AI入门热点切入女性职场技能焦虑与破局",
+      "platform": "B站"
+    },
+    {
+      "orig_title": "詹姆斯创NBA最老三双记录",
+      "new_title": "39岁还在破纪录，你凭什么躺平",
+      "track": "励志成长",
+      "adapt": "中",
+      "core_view": "年龄从来不是放弃的借口",
+      "hook": "他39岁创最老纪录，你25岁就说来不及了？",
+      "angle": "用老将破纪录激励女性打破年龄焦虑",
       "platform": "微博"
     },
     {
-      "orig_title": "RTX5070跌幅有多猛",
-      "new_title": "显卡都跌了，你的自我价值别跌",
+      "orig_title": "人生至少有一串烧烤属于云南",
+      "new_title": "人生至少有一次为自己而活",
       "track": "生活感悟",
       "adapt": "中",
-      "core_view": "价值不靠价格定义",
-      "hook": "5070跌得猛，你的自我价值也在跌吗？",
-      "angle": "用显卡贬值类比女性自我价值焦虑，倡导内在定价",
-      "platform": "微博"
+      "core_view": "别把人生浪费在讨好别人上",
+      "hook": "一串烧烤的快乐，提醒我人生该为自己活一次。",
+      "angle": "从云南烧烤烟火气切入女性取悦自己的生活哲学",
+      "platform": "抖音"
     },
     {
-      "orig_title": "T1官宣Zeus回归",
-      "new_title": "Zeus回归了，你该回归自己了",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "回归自我才是终点",
-      "hook": "Zeus都回归了，你还在为谁流浪？",
-      "angle": "借选手回归话题切入女性在关系中迷失自我的问题",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "GTA6到底有多少种结局",
-      "new_title": "人生没有多结局，女人只能选一条",
+      "orig_title": "AI证明黎曼猜想代码大幅简化",
+      "new_title": "AI都在进化，你还在原地内耗",
       "track": "读书分享",
       "adapt": "中",
-      "core_view": "选择即命运，读书给底气",
-      "hook": "GTA6有无数结局，你的人生只有一次。",
-      "angle": "从游戏多结局切入女性人生选择焦虑，用读书给出确定性",
+      "core_view": "持续学习是女人最大的底气",
+      "hook": "AI都学会证明猜想了，你还在为烂人内耗？",
+      "angle": "借AI突破热点聊女性终身学习与认知升级书单",
       "platform": "微博"
+    },
+    {
+      "orig_title": "神舟二十四号飞船发射全记录",
+      "new_title": "神舟升空那刻，我想起自己的梦",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "别忘了你也曾仰望星空",
+      "hook": "看神舟发射直播，我突然哭了，因为想起了自己。",
+      "angle": "从航天发射热血瞬间切入女性重拾初心与梦想",
+      "platform": "央视"
     }
   ],
   "ai_status": "success"
