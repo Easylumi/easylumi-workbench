@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-26",
-  "update_time": "2026-11-26 14:15:00",
+  "date": "2026-11-27",
+  "update_time": "2026-11-27 04:56:29",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "神舟二十四号飞船发射全记录",
-          "hot": "4236910",
+          "title": "黎曼猜想1700万行证明变7.6万行",
+          "hot": "473482",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "蓝色星原公测版本PV",
-          "hot": "3874632",
+          "title": "联合国气候谈判失败",
+          "hot": "319212",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "Zeus称BLG夺冠看得很过瘾",
-          "hot": "1094173",
+          "title": "中国男篮爆冷不敌沙特",
+          "hot": "288290",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "俄货船在芬兰湾遭袭",
-          "hot": "548862",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
-        },
-        {
-          "title": "Heroic FaZe",
-          "hot": "548431",
-          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
-        },
-        {
-          "title": "AI证明黎曼猜想代码大幅简化",
-          "hot": "540832",
+          "title": "U17国足8球大胜斐济后出线",
+          "hot": "172616",
           "url": ""
         },
         {
-          "title": "詹姆斯创NBA最老三双记录",
-          "hot": "501087",
+          "title": "41岁詹姆斯为何还能连续砍分",
+          "hot": "170320",
           "url": ""
         },
         {
-          "title": "人生至少有一串烧烤属于云南",
-          "hot": "446397",
-          "url": "https://i0.hdslb.com/bfs/legacy/68107970fb977195a2b1401c087a0e77aa2ce23f.png"
+          "title": "UP主追热点belike",
+          "hot": "169474",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         },
         {
-          "title": "央视专访巨人之旅冠军赵家驹",
-          "hot": "372653",
+          "title": "美军就地引爆万磅铅炸药有何影响",
+          "hot": "166814",
           "url": ""
         },
         {
-          "title": "从零做出你的第一个AI项目",
-          "hot": "189611",
+          "title": "中国男篮周琦肘击对手遭驱逐",
+          "hot": "165833",
           "url": ""
         },
         {
-          "title": "中国空间站 从住标间到三室一厅",
-          "hot": "189610",
+          "title": "FaZe提前告别新加坡Major",
+          "hot": "164429",
           "url": ""
         },
         {
-          "title": "中国空间站内部有何玄机",
-          "hot": "189608",
+          "title": "Zeus回归T1能否影响LPL格局",
+          "hot": "161236",
           "url": ""
         },
         {
-          "title": "FIFA官网撰文介绍赵松源",
-          "hot": "189607",
+          "title": "大肥鱼挑战AI类魂BOSS",
+          "hot": "161128",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
+        },
+        {
+          "title": "终末地小刻新角色攻略",
+          "hot": "160909",
           "url": ""
         },
         {
-          "title": "欧冠葡萄牙体育2-2曼联",
-          "hot": "189606",
+          "title": "为什么刀塔里没有投降键",
+          "hot": "160393",
           "url": ""
         },
         {
-          "title": "爱情公寓导演韦正来B站了",
-          "hot": "189605",
+          "title": "AG官宣Jinggg加入",
+          "hot": "159473",
+          "url": ""
+        },
+        {
+          "title": "当你和学人精朋友上后会友期",
+          "hot": "143348",
           "url": ""
         }
       ]
@@ -107,84 +107,84 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "中国空间站 从住标间到三室一厅",
-      "new_title": "从标间到三室一厅，你的人生呢",
+      "orig_title": "41岁詹姆斯为何还能连续砍分",
+      "new_title": "41岁还能巅峰？女人别急着认输",
       "track": "生活感悟",
       "adapt": "高",
-      "core_view": "人生升级靠一步步迭代",
-      "hook": "空间站都从标间换三室一厅了，你的生活升级了吗？",
-      "angle": "用空间站迭代类比女性自我成长的阶段性升级",
+      "core_view": "年龄不是下坡路的借口",
+      "hook": "41岁的詹姆斯还在砍分，你凭什么说自己老了？",
+      "angle": "用詹姆斯的自律与坚持，切入女性对抗年龄焦虑的自我管理",
       "platform": "微博"
     },
     {
-      "orig_title": "央视专访巨人之旅冠军赵家驹",
-      "new_title": "冠军背后，是没人看见的孤独",
-      "track": "励志成长",
+      "orig_title": "黎曼猜想1700万行证明变7.6万行",
+      "new_title": "1700万行删到7.6万，人生也该做减法",
+      "track": "读书分享",
       "adapt": "高",
-      "core_view": "所有高光都来自暗处坚持",
-      "hook": "你以为冠军靠天赋？他跑的是没人愿意跑的路。",
-      "angle": "从冠军专访切入女性如何熬过无人问津的低谷期",
-      "platform": "央视"
+      "core_view": "把复杂问题简单化才是高手",
+      "hook": "1700万行证明被砍到7.6万，你的人生是不是也该删一删？",
+      "angle": "以数学证明的精简，类比女性成长中的断舍离与聚焦核心",
+      "platform": "B站"
     },
     {
-      "orig_title": "爱情公寓导演韦正来B站了",
-      "new_title": "爱情公寓教会我的爱情真相",
+      "orig_title": "联合国气候谈判失败",
+      "new_title": "谈判都失败了，你还在等谁拯救你",
+      "track": "情感关系",
+      "adapt": "中",
+      "core_view": "别把人生主动权交给别人",
+      "hook": "连联合国谈判都能谈崩，你还指望谁来改变你的生活？",
+      "angle": "从气候谈判失败切入女性不要等待被拯救、要主动掌控人生",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "当你和学人精朋友上后会友期",
+      "new_title": "被学人精模仿？恭喜你活成了标杆",
       "track": "情感关系",
       "adapt": "高",
-      "core_view": "好的爱情是彼此成就不是消耗",
-      "hook": "重温爱情公寓，我才看懂曾小贤为什么选胡一菲。",
-      "angle": "借经典剧重聚热点聊女性择偶与关系边界",
-      "platform": "B站"
+      "core_view": "被模仿是因为你足够优秀",
+      "hook": "朋友什么都学你，你烦不烦？先别急，听我说完。",
+      "angle": "从学人精现象切入女性友谊中的嫉妒与自我价值认同",
+      "platform": "小红书"
     },
     {
-      "orig_title": "从零做出你的第一个AI项目",
-      "new_title": "零基础做AI，女人别怕起步晚",
+      "orig_title": "为什么刀塔里没有投降键",
+      "new_title": "人生没有投降键，女人更要有韧劲",
       "track": "职场成长",
       "adapt": "高",
-      "core_view": "开始永远比完美更重要",
-      "hook": "30岁零基础学AI，我用三个月打了所有人的脸。",
-      "angle": "从AI入门热点切入女性职场技能焦虑与破局",
+      "core_view": "不投降的人才有翻盘机会",
+      "hook": "刀塔里没有投降键，你的人生凭什么轻易喊放弃？",
+      "angle": "用游戏没有投降机制切入女性职场逆境中的坚持与翻盘",
       "platform": "B站"
     },
     {
-      "orig_title": "詹姆斯创NBA最老三双记录",
-      "new_title": "39岁还在破纪录，你凭什么躺平",
-      "track": "励志成长",
+      "orig_title": "中国男篮爆冷不敌沙特",
+      "new_title": "爆冷输球告诉你：轻敌才是最大敌人",
+      "track": "职场成长",
       "adapt": "中",
-      "core_view": "年龄从来不是放弃的借口",
-      "hook": "他39岁创最老纪录，你25岁就说来不及了？",
-      "angle": "用老将破纪录激励女性打破年龄焦虑",
+      "core_view": "越怕输越要稳住基本功",
+      "hook": "男篮爆冷输给沙特，你职场翻车是不是也栽在同一件事？",
+      "angle": "从爆冷失利切入女性职场中轻视对手、忽视基本功的教训",
       "platform": "微博"
     },
     {
-      "orig_title": "人生至少有一串烧烤属于云南",
-      "new_title": "人生至少有一次为自己而活",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "别把人生浪费在讨好别人上",
-      "hook": "一串烧烤的快乐，提醒我人生该为自己活一次。",
-      "angle": "从云南烧烤烟火气切入女性取悦自己的生活哲学",
-      "platform": "抖音"
-    },
-    {
-      "orig_title": "AI证明黎曼猜想代码大幅简化",
-      "new_title": "AI都在进化，你还在原地内耗",
-      "track": "读书分享",
-      "adapt": "中",
-      "core_view": "持续学习是女人最大的底气",
-      "hook": "AI都学会证明猜想了，你还在为烂人内耗？",
-      "angle": "借AI突破热点聊女性终身学习与认知升级书单",
+      "orig_title": "中国男篮周琦肘击对手遭驱逐",
+      "new_title": "情绪失控那一刻，你就输了",
+      "track": "情感关系",
+      "adapt": "高",
+      "core_view": "管不住情绪就管不住人生",
+      "hook": "周琦一肘被驱逐，你上一次情绪失控付出了什么代价？",
+      "angle": "从赛场肘击切入女性在亲密关系和职场中的情绪管理",
       "platform": "微博"
     },
     {
-      "orig_title": "神舟二十四号飞船发射全记录",
-      "new_title": "神舟升空那刻，我想起自己的梦",
+      "orig_title": "U17国足8球大胜斐济后出线",
+      "new_title": "8球大胜背后：赢要赢得漂亮",
       "track": "生活感悟",
       "adapt": "中",
-      "core_view": "别忘了你也曾仰望星空",
-      "hook": "看神舟发射直播，我突然哭了，因为想起了自己。",
-      "angle": "从航天发射热血瞬间切入女性重拾初心与梦想",
-      "platform": "央视"
+      "core_view": "全力以赴才是对自己最好的交代",
+      "hook": "U17国足8球大胜，你上一次全力以赴是什么时候？",
+      "angle": "从大胜切入女性做事要不留余力、活出酣畅淋漓的状态",
+      "platform": "微博"
     }
   ],
   "ai_status": "success"
