@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-27",
-  "update_time": "2026-11-27 14:04:15",
+  "date": "2026-11-28",
+  "update_time": "2026-11-28 04:41:48",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,79 +20,79 @@
       "count": 20,
       "items": [
         {
-          "title": "罗小黑无限给小白家长送礼",
-          "hot": "14016685",
-          "url": "https://i0.hdslb.com/bfs/legacy/2a11184e74d59c2c11103cc790e7be84df31d216.png"
-        },
-        {
-          "title": "今起电视不得播放开机广告",
-          "hot": "6217876",
-          "url": ""
-        },
-        {
-          "title": "欢迎来龙餐馆B站上线",
-          "hot": "3382049",
+          "title": "内存涨价预期大幅下调",
+          "hot": "582392",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "李大霄称稳市曙光或已出现",
-          "hot": "1927472",
+          "title": "法国驻华大使亲自下场演短剧",
+          "hot": "452957",
           "url": ""
         },
         {
-          "title": "吴磊兑现多年前的环岛承诺",
-          "hot": "1624850",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "title": "守护解放西再现尾随男",
+          "hot": "397599",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
         },
         {
-          "title": "许飞无罪释放是什么梗",
-          "hot": "976665",
+          "title": "丝之歌DLC定档预告",
+          "hot": "373796",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
+        },
+        {
+          "title": "宇树机器人上线全身实时遥操功能",
+          "hot": "335855",
           "url": ""
         },
         {
-          "title": "IVL秋季赛",
-          "hot": "860433",
-          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
-        },
-        {
-          "title": "非凡之爱但是局外人",
-          "hot": "762230",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
-        },
-        {
-          "title": "厉娜许飞不同频的原因何在",
-          "hot": "758463",
+          "title": "GTA6前三章观感符合预期吗",
+          "hot": "335776",
           "url": ""
         },
         {
-          "title": "2026广州车展开幕",
-          "hot": "730976",
-          "url": "https://i0.hdslb.com/bfs/activity-plat/static/20251027/aafcb8031fd171c428daaa9b45867226/VaxAnHMq6w.gif"
-        },
-        {
-          "title": "绝区零挽昼动画短片",
-          "hot": "730975",
+          "title": "赖冠霖和赵昭仪聊花少前后",
+          "hot": "335467",
           "url": ""
         },
         {
-          "title": "华山最险栈道有多刺激",
-          "hot": "730973",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "title": "鉴定AI在物理领域的新成就",
+          "hot": "334773",
+          "url": ""
         },
         {
-          "title": "WBG官宣Elk离队",
-          "hot": "730972",
+          "title": "男篮不敌沙特是用人问题吗",
+          "hot": "310047",
+          "url": ""
+        },
+        {
+          "title": "小寒潮来了",
+          "hot": "292761",
+          "url": ""
+        },
+        {
+          "title": "下一个是谁7大决战",
+          "hot": "292270",
+          "url": ""
+        },
+        {
+          "title": "LVG晋级Major第二阶段",
+          "hot": "235051",
           "url": ""
         },
         {
           "title": "后会友期名场面画地为牢来了",
-          "hot": "730971",
+          "hot": "235042",
           "url": ""
         },
         {
-          "title": "WBG官宣Zika离队",
-          "hot": "730971",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+          "title": "中国男篮爆冷不敌沙特",
+          "hot": "235005",
+          "url": ""
+        },
+        {
+          "title": "厉娜许飞不同频的原因何在",
+          "hot": "234804",
+          "url": ""
         }
       ]
     },
@@ -107,83 +107,83 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "罗小黑无限给小白家长送礼",
-      "new_title": "会送礼的人，早看透了关系",
-      "track": "情感关系",
-      "adapt": "中",
-      "core_view": "送礼是关系的温度计",
-      "hook": "为什么有些人送礼，能送到你心坎里？",
-      "angle": "从动画角色送礼切入成年人关系经营中的分寸感",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "今起电视不得播放开机广告",
-      "new_title": "被偷走的时间，该要回来了",
+      "orig_title": "守护解放西再现尾随男",
+      "new_title": "被尾随别忍！女生必学三招",
       "track": "生活感悟",
       "adapt": "高",
-      "core_view": "别让碎片时间被无声消耗",
-      "hook": "你每天被偷走多少分钟，自己都不知道。",
-      "angle": "从开机广告取消切入女性时间管理与注意力保护",
+      "core_view": "安全边界要自己先立起来",
+      "hook": "被陌生人尾随，你还敢回头吗？",
+      "angle": "从社会新闻切入女性自我保护与边界感教育",
       "platform": "微博"
     },
     {
-      "orig_title": "李大霄称稳市曙光或已出现",
-      "new_title": "低谷期，才是你的翻盘期",
-      "track": "职场成长",
-      "adapt": "高",
-      "core_view": "熬过低谷的人自带曙光",
-      "hook": "所有人都劝你放弃的时候，曙光其实快来了。",
-      "angle": "借股市回暖比喻女性职场与人生的周期低谷",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "吴磊兑现多年前的环岛承诺",
-      "new_title": "说到做到的人，运气不会差",
-      "track": "励志/生活感悟",
-      "adapt": "高",
-      "core_view": "兑现承诺是最好的自我投资",
-      "hook": "多年前随口一句承诺，他真的做到了。",
-      "angle": "从明星兑现承诺切入女性对自己的承诺兑现力",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "许飞无罪释放是什么梗",
-      "new_title": "被误解时，沉默是最狠的反击",
+      "orig_title": "赖冠霖和赵昭仪聊花少前后",
+      "new_title": "旅行后看清一个人值不值",
       "track": "情感关系",
-      "adapt": "中",
-      "core_view": "不解释是最高级的体面",
-      "hook": "被冤枉的时候，你会拼命解释吗？",
-      "angle": "从争议梗切入女性面对误解与舆论时的情绪管理",
+      "adapt": "高",
+      "core_view": "旅行是关系的照妖镜",
+      "hook": "想知道他爱不爱你，出去玩一趟",
+      "angle": "借明星旅行话题聊亲密关系中的真实磨合",
       "platform": "微博"
     },
     {
       "orig_title": "厉娜许飞不同频的原因何在",
-      "new_title": "不同频的人，注定走不远",
+      "new_title": "不同频的关系趁早放手",
       "track": "情感关系",
       "adapt": "高",
-      "core_view": "频率不同不必强融",
-      "hook": "为什么曾经那么好的人，后来无话可说？",
-      "angle": "从两人关系不同频切入女性友情与亲密关系的断舍离",
+      "core_view": "频率不对等是消耗不是缘分",
+      "hook": "为什么你越努力越孤独？",
+      "angle": "从昔日好友不同频聊女性友情与关系断舍离",
       "platform": "微博"
     },
     {
-      "orig_title": "非凡之爱但是局外人",
-      "new_title": "爱得再深，也别做局外人",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "先做自己人生的主角",
-      "hook": "你有没有在一段关系里，活成了局外人？",
-      "angle": "从话题切入女性在感情中失去自我主体性的觉醒",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "华山最险栈道有多刺激",
-      "new_title": "敢走险路的人，才配看风景",
-      "track": "励志/生活感悟",
+      "orig_title": "中国男篮爆冷不敌沙特",
+      "new_title": "爆冷输球教会我的事",
+      "track": "职场成长",
       "adapt": "中",
-      "core_view": "舒适区外才有真风景",
-      "hook": "最险的那条路，往往通向最好的风景。",
-      "angle": "从险道体验切入女性突破舒适区的勇气成长",
+      "core_view": "优势不等于胜势别轻敌",
+      "hook": "稳赢的局面为什么会翻车？",
+      "angle": "借体育爆冷谈职场中轻视对手的代价",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "内存涨价预期大幅下调",
+      "new_title": "涨价潮里的女性消费清醒",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "别为焦虑买单要为自己花钱",
+      "hook": "涨价消息一出，你慌了吗？",
+      "angle": "从经济信号聊女性理性消费与财务底气",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "小寒潮来了",
+      "new_title": "寒潮来了先给心加件衣",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "照顾情绪和照顾身体一样重要",
+      "hook": "天冷了，你只记得加衣服吗？",
+      "angle": "借节气寒潮聊女性情绪保暖与自我关怀",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "鉴定AI在物理领域的新成就",
+      "new_title": "AI再强也替代不了你的独特",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "不可替代性来自人的温度",
+      "hook": "AI都能做物理了，你还慌什么？",
+      "angle": "从AI突破聊女性职场核心竞争力与不可替代性",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "后会友期名场面画地为牢来了",
+      "new_title": "画地为牢的从来是你自己",
+      "track": "读书分享",
+      "adapt": "中",
+      "core_view": "困住你的不是别人是认知",
+      "hook": "你有没有给自己画过一个圈？",
+      "angle": "借名场面聊女性如何打破自我设限的牢笼",
       "platform": "微博"
     }
   ],
