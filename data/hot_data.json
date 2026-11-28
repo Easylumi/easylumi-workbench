@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "update_time": "2026-11-28 04:41:48",
+  "update_time": "2026-11-28 13:45:45",
   "track": "女性成长、励志、口播（涵盖情感关系、职场成长、读书分享、生活感悟四个方向）",
   "all_sources_failed": false,
   "platforms": {
@@ -20,78 +20,78 @@
       "count": 20,
       "items": [
         {
-          "title": "内存涨价预期大幅下调",
-          "hot": "582392",
+          "title": "拉宏桑即将走出哈萨克斯坦",
+          "hot": "3833370",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "李在明称严打韩国高考作弊",
+          "hot": "1835426",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "国考政治理论冲刺最后35题",
+          "hot": "1120206",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221118/eaf2dd702d7cc14d8d9511190245d057/UF7B1wVKT2.png"
+        },
+        {
+          "title": "歼35A落地珠海将首次静态展示",
+          "hot": "1093605",
           "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
         },
         {
-          "title": "法国驻华大使亲自下场演短剧",
-          "hot": "452957",
+          "title": "G2官宣BrokenBlade离队",
+          "hot": "944744",
           "url": ""
         },
         {
-          "title": "守护解放西再现尾随男",
-          "hot": "397599",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/OBQYPHMTcv.png"
-        },
-        {
-          "title": "丝之歌DLC定档预告",
-          "hot": "373796",
-          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221213/eaf2dd702d7cc14d8d9511190245d057/lrx9rnKo24.png"
-        },
-        {
-          "title": "宇树机器人上线全身实时遥操功能",
-          "hot": "335855",
+          "title": "7.9分的DC泥面人值得看吗",
+          "hot": "896025",
           "url": ""
         },
         {
-          "title": "GTA6前三章观感符合预期吗",
-          "hot": "335776",
+          "title": "挑战在罪恶都市做好人好事",
+          "hot": "836360",
           "url": ""
         },
         {
-          "title": "赖冠霖和赵昭仪聊花少前后",
-          "hot": "335467",
+          "title": "起底后会友期节目组的叙事诡计",
+          "hot": "814627",
           "url": ""
         },
         {
-          "title": "鉴定AI在物理领域的新成就",
-          "hot": "334773",
-          "url": ""
+          "title": "LOL 休赛期一起跳舞",
+          "hot": "553885",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20221117/eaf2dd702d7cc14d8d9511190245d057/EeuqbMwao9.png"
         },
         {
-          "title": "男篮不敌沙特是用人问题吗",
-          "hot": "310047",
-          "url": ""
-        },
-        {
-          "title": "小寒潮来了",
-          "hot": "292761",
+          "title": "OpenAI反诉苹果窃取商业秘密",
+          "hot": "448170",
           "url": ""
         },
         {
           "title": "下一个是谁7大决战",
-          "hot": "292270",
-          "url": ""
-        },
-        {
-          "title": "LVG晋级Major第二阶段",
-          "hot": "235051",
+          "hot": "448158",
           "url": ""
         },
         {
           "title": "后会友期名场面画地为牢来了",
-          "hot": "235042",
+          "hot": "448124",
           "url": ""
+        },
+        {
+          "title": "国乙爱的缄默法则首曝PV",
+          "hot": "448041",
+          "url": "http://i0.hdslb.com/bfs/activity-plat/static/20240304/fbb6ffcfd09815bd66290b6b7bde1196/0ZVm0aB2HV.png"
+        },
+        {
+          "title": "罗小黑无限给小白家长送礼",
+          "hot": "447900",
+          "url": "https://i0.hdslb.com/bfs/legacy/2a11184e74d59c2c11103cc790e7be84df31d216.png"
         },
         {
           "title": "中国男篮爆冷不敌沙特",
-          "hot": "235005",
-          "url": ""
-        },
-        {
-          "title": "厉娜许飞不同频的原因何在",
-          "hot": "234804",
+          "hot": "447548",
           "url": ""
         }
       ]
@@ -107,83 +107,83 @@
   },
   "ai_rewrite": [
     {
-      "orig_title": "守护解放西再现尾随男",
-      "new_title": "被尾随别忍！女生必学三招",
-      "track": "生活感悟",
+      "orig_title": "李在明称严打韩国高考作弊",
+      "new_title": "韩国高考作弊有多疯",
+      "track": "职场成长",
       "adapt": "高",
-      "core_view": "安全边界要自己先立起来",
-      "hook": "被陌生人尾随，你还敢回头吗？",
-      "angle": "从社会新闻切入女性自我保护与边界感教育",
+      "core_view": "规则面前人人平等才是公平",
+      "hook": "你敢信吗？韩国高考作弊居然这么猖狂",
+      "angle": "从韩国严打作弊切入，谈女性在职场中如何守住底线、不靠捷径赢",
       "platform": "微博"
     },
     {
-      "orig_title": "赖冠霖和赵昭仪聊花少前后",
-      "new_title": "旅行后看清一个人值不值",
+      "orig_title": "国考政治理论冲刺最后35题",
+      "new_title": "考公冲刺期的女人有多狠",
+      "track": "职场成长",
+      "adapt": "高",
+      "core_view": "拼命备考的女人都在自救",
+      "hook": "凌晨五点还在刷题的女人，图什么",
+      "angle": "从国考冲刺切入，讲女性为改变命运拼尽全力的底层韧性",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "起底后会友期节目组的叙事诡计",
+      "new_title": "别再被叙事诡计骗了",
       "track": "情感关系",
       "adapt": "高",
-      "core_view": "旅行是关系的照妖镜",
-      "hook": "想知道他爱不爱你，出去玩一趟",
-      "angle": "借明星旅行话题聊亲密关系中的真实磨合",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "厉娜许飞不同频的原因何在",
-      "new_title": "不同频的关系趁早放手",
-      "track": "情感关系",
-      "adapt": "高",
-      "core_view": "频率不对等是消耗不是缘分",
-      "hook": "为什么你越努力越孤独？",
-      "angle": "从昔日好友不同频聊女性友情与关系断舍离",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "中国男篮爆冷不敌沙特",
-      "new_title": "爆冷输球教会我的事",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "优势不等于胜势别轻敌",
-      "hook": "稳赢的局面为什么会翻车？",
-      "angle": "借体育爆冷谈职场中轻视对手的代价",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "内存涨价预期大幅下调",
-      "new_title": "涨价潮里的女性消费清醒",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "别为焦虑买单要为自己花钱",
-      "hook": "涨价消息一出，你慌了吗？",
-      "angle": "从经济信号聊女性理性消费与财务底气",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "小寒潮来了",
-      "new_title": "寒潮来了先给心加件衣",
-      "track": "生活感悟",
-      "adapt": "中",
-      "core_view": "照顾情绪和照顾身体一样重要",
-      "hook": "天冷了，你只记得加衣服吗？",
-      "angle": "借节气寒潮聊女性情绪保暖与自我关怀",
-      "platform": "微博"
-    },
-    {
-      "orig_title": "鉴定AI在物理领域的新成就",
-      "new_title": "AI再强也替代不了你的独特",
-      "track": "职场成长",
-      "adapt": "中",
-      "core_view": "不可替代性来自人的温度",
-      "hook": "AI都能做物理了，你还慌什么？",
-      "angle": "从AI突破聊女性职场核心竞争力与不可替代性",
+      "core_view": "看清被剪辑的人生才清醒",
+      "hook": "你以为的真相，可能是别人剪出来的",
+      "angle": "从综艺叙事诡计切入，谈亲密关系中如何识别被操控的叙事",
       "platform": "微博"
     },
     {
       "orig_title": "后会友期名场面画地为牢来了",
-      "new_title": "画地为牢的从来是你自己",
+      "new_title": "画地为牢的女人醒醒吧",
+      "track": "情感关系",
+      "adapt": "高",
+      "core_view": "困住你的从来不是别人",
+      "hook": "多少女人亲手给自己画了个牢",
+      "angle": "从画地为牢名场面切入，讲女性在感情中自我设限的困境",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "罗小黑无限给小白家长送礼",
+      "new_title": "送礼背后藏着人情真相",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "人情往来的分寸感最见格局",
+      "hook": "送礼这件事，藏着成年人的体面",
+      "angle": "从动画送礼情节切入，谈女性在人情社会中如何把握分寸与边界",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "7.9分的DC泥面人值得看吗",
+      "new_title": "泥面人凭什么打动女人",
       "track": "读书分享",
       "adapt": "中",
-      "core_view": "困住你的不是别人是认知",
-      "hook": "你有没有给自己画过一个圈？",
-      "angle": "借名场面聊女性如何打破自我设限的牢笼",
+      "core_view": "不完美的人生也值得被看见",
+      "hook": "一个7.9分的反派，为什么让人破防",
+      "angle": "从泥面人角色切入，延伸到女性如何接纳自己不完美的一面",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "OpenAI反诉苹果窃取商业秘密",
+      "new_title": "顶级公司都在抢的东西",
+      "track": "职场成长",
+      "adapt": "中",
+      "core_view": "你的核心竞争力才是底牌",
+      "hook": "两家巨头撕破脸，抢的到底是什么",
+      "angle": "从商业机密之争切入，谈女性职场中要守住自己的不可替代性",
+      "platform": "微博"
+    },
+    {
+      "orig_title": "中国男篮爆冷不敌沙特",
+      "new_title": "爆冷输球教会女人的事",
+      "track": "生活感悟",
+      "adapt": "中",
+      "core_view": "输一场不代表输一辈子",
+      "hook": "爆冷输球后，最该学的不是复盘",
+      "angle": "从爆冷失利切入，谈女性如何面对人生中的意外失败与翻盘",
       "platform": "微博"
     }
   ],
